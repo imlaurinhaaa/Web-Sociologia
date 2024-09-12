@@ -11,3 +11,13 @@
   html {
     overflow-x: hidden; 
   }
+
+  body{
+    background-color: #ffffffff;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e30613;
+  }
