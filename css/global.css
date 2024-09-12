@@ -1,23 +1,68 @@
 * {
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    text-decoration: none; 
-    border: none;
-    outline: none; 
-    scroll-behavior: smooth; 
-  }
-  
-  html {
-    overflow-x: hidden; 
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
 
-  body{
-    background-color: #ffffffff;
-  }
+html {
+  overflow-x: hidden;
+}
 
-  header{
+body {
+  background-color: #ffffffff;
+}
+
+.sociologia-header {
+  display: flex;
+  color: #ffffffff;
+  justify-content: space-between;
+  background-color: #e30613;
+  padding: 1rem 0;
+
+
+}
+
+.header-nav {
+  margin: 0 35px;
+}
+
+.logo-header{
+    margin: 0 30px;
     display: flex;
-    justify-content: space-between;
-    background-color: #e30613;
-  }
+    height: 50px;
+    box-sizing: border-box;
+}
+
+#sesi-logo{
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.header-nav .nav-list{
+    list-style: none;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.header-nav{
+    margin: 0 15px;
+    
+}
+
+.header-nav .nav-link{
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: 6px;
+    color: #ffffffff;
+
+}
+
+.header-nav .nav-link:hover {
+    color: #878787;
+}
