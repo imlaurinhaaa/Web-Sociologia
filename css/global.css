@@ -169,13 +169,6 @@ body {
   color: white;
 }
 
-.senai {
-  width: 20%;
-  display: inline-block;
-  text-align: center;
-  padding: 30px 0 20px 0;
-}
-
 .sesi {
   width: 20%;
   display: inline-block;
@@ -192,14 +185,48 @@ body {
   color: #878787;
 }
 
-.icones {
+.footer {
+  background-color: #9A1915;
+  color: white;
+  margin-top: 25%;
+}
+
+.footer .icones {
   background-color: #e30613;
 }
 
-
-.imagem-icones {
-  margin-left: 43%;
+.senai {
+  width: 20%;
   display: inline-block;
+  text-align: center;
+  padding: 30px 0 20px 0;
+  margin-left: 24%;
+  margin-right: 5%;
+}
+
+.senai h3 {
+  text-align: left;
+}
+
+.senai p {
+  text-align: left;
+}
+
+.sesi h3 {
+  text-align: left;
+}
+
+.sesi p {
+  text-align: left;
+}
+
+.footer .icones img {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.icones {
+  text-align: center;
 }
 
 .footer-text {
