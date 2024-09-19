@@ -32,13 +32,12 @@ body {
   padding: 1rem 0;
 }
 
-
-
 .header-nav .nav-list {
+  padding: 20px;
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0 35px;
+  margin: 0 50px;
 }
 
 .nav-link {
@@ -49,17 +48,33 @@ body {
   color: #ffffffff;
 }
 
+.header-nav .nav-link:hover {
+  color: #878787;
+}
+
 .logo-header {
-  margin: 0 30px;
+  margin: 0 40px;
   display: flex;
   justify-content: space-between;
   background-color: #e30613;
   height: 50px;
 }
+.vertical-line{
+  height: 50px;
+  width: 3px;
+  background-color: #ffff;
+  margin: 0 20px;
+}
 
-#sesi-logo {
-  margin-left: 20px;
-  margin-right: 30px;
+#sesi-logo{
+  margin: 0 40px;
+}
+
+
+
+#line-header{
+  height: 10px;
+  width: 5px
 }
 
 #line {
@@ -188,9 +203,7 @@ body {
   margin-left: 31%;
 }
 
-.header-nav .nav-link:hover {
-  color: #878787;
-}
+
 
 .icones {
   background-color: #e30613;
