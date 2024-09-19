@@ -79,7 +79,69 @@ body {
   .icones {
     background-color: #e30613;
   }
+  .topics-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 
+  .case-sobre {
+    width: 150px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+
+  .case-carreiras {
+    width: 150px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+
+  .case-dicas {
+    width: 150px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+
+  .case-simulados {
+    width: 150px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+
+  .case-noticias {
+    width: 150px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+
+  .case-video-aulas {
+    width: 150px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+
+  .case-sobre {
+    width: 150px;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+    text-align: center;
+  }
+=======
   .imagem-icones {
     margin-left: 43%;
     display: inline-block;
