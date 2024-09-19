@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -21,8 +21,6 @@ body {
   font-weight: 50;
   font-style: normal;
 }
-
-
 
 .sociologia-header {
   display: flex;
@@ -59,28 +57,20 @@ body {
   background-color: #e30613;
   height: 50px;
 }
-.vertical-line{
+.vertical-line {
   height: 50px;
   width: 3px;
   background-color: #ffff;
   margin: 0 20px;
 }
 
-#sesi-logo{
+#sesi-logo {
   margin: 0 40px;
 }
 
-
-
-#line-header{
-  height: 10px;
-  width: 5px
-}
-
-#line {
+/* #line {
   height: ;
-
-}
+} */
 
 .section-img {
   align-items: center;
@@ -93,7 +83,7 @@ body {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  border: 5px solid #9A1915;
+  border: 5px solid #9a1915;
 }
 
 .img {
@@ -105,7 +95,6 @@ body {
   height: 50px;
   box-sizing: border-box;
 }
-
 
 .icones {
   background-color: #e30613;
@@ -121,58 +110,58 @@ body {
 .case-sobre {
   width: 150px;
   border-radius: 40px 40px 40px 40px;
-  border: 1px solid #D9D9D9;
-  background-color: #D9D9D9;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
   text-align: center;
 }
 
 .case-carreiras {
   width: 150px;
   border-radius: 40px 40px 40px 40px;
-  border: 1px solid #D9D9D9;
-  background-color: #D9D9D9;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
   text-align: center;
 }
 
 .case-dicas {
   width: 150px;
   border-radius: 40px 40px 40px 40px;
-  border: 1px solid #D9D9D9;
-  background-color: #D9D9D9;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
   text-align: center;
 }
 
 .case-simulados {
   width: 150px;
   border-radius: 40px 40px 40px 40px;
-  border: 1px solid #D9D9D9;
-  background-color: #D9D9D9;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
   text-align: center;
 }
 
 .case-noticias {
   width: 150px;
   border-radius: 40px 40px 40px 40px;
-  border: 1px solid #D9D9D9;
-  background-color: #D9D9D9;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
   text-align: center;
 }
 
 .case-video-aulas {
   width: 150px;
   border-radius: 40px 40px 40px 40px;
-  border: 1px solid #D9D9D9;
-  background-color: #D9D9D9;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
   text-align: center;
 }
 
-  .case-sobre {
-    width: 150px;
-    border-radius: 40px 40px 40px 40px;
-    border: 1px solid #D9D9D9;
-    background-color: #D9D9D9;
-    text-align: center;
-  }
+.case-sobre {
+  width: 150px;
+  border-radius: 40px 40px 40px 40px;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
+  text-align: center;
+}
 
 .imagem-icones {
   margin-left: 43%;
@@ -180,7 +169,7 @@ body {
 }
 
 .footer-text {
-  background-color: #9A1915;
+  background-color: #9a1915;
   color: white;
 }
 
@@ -196,10 +185,8 @@ body {
   margin-left: 31%;
 }
 
-
-
 .footer {
-  background-color: #9A1915;
+  background-color: #9a1915;
   color: white;
   margin-top: 25%;
 }
@@ -243,6 +230,6 @@ body {
 }
 
 .footer-text {
-  background-color: #9A1915;
+  background-color: #9a1915;
   color: white;
 }
