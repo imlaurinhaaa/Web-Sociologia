@@ -1,63 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/global.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
     <title>Sociologia</title>
-</head>
-
-<body>
+  </head>
+  <body>
+    
     <header class="sociologia-header">
-        <nav class="header-nav">
-            <div id="logo-header">
-                <img id="logo-site" src="img/SESI.png.jpeg" alt="logo-header SESI">
-                <img id="logo-site" src="img/SENAI.png.jpeg" alt="logo-header SENAI">
-            </div>
+        <div class="logo-header">
+            <img id="sesi-logo" src="img/SESI.png" alt="logo-header SESI">
+            <img id="senai-logo" src="img/SENAI.png" alt="logo-header SENAI">
+        </div>
 
+        <nav class="header-nav">
             <ul class="nav-list">
-                <li class="nav-list"><a href="">Home</a></li>
-                <li class="nav-list"><a href="">Sobre</a></li>
-                <li class="nav-list"><a href="">Cadastra-se</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Cadastra-se</a></li>
             </ul>
         </nav>
-
+      
+        <ul class="nav-list">
+          <li class="nav-list"><a href="">Home</a></li>
+          <li class="nav-list"><a href="">Sobre</a></li>
+          <li class="nav-list"><a href="">Cadastra-se</a></li>
+        </ul>
+      </nav>
     </header>
-    <div class="page-banner">
-        <img class="marco-aurelio" src="./img/Sociologo.jfif" alt="imagem de Marco Aurélio">
-        <h1 class="page-title">VESTIBULAR 2024 - <br>SOCIOLOGIA</h1>
-    </div>
-    <div class="abas">
-        <nav class="abas-links">
-            <nav class="links"> <a href="index.html">SOBRE</a></nav>
-            <nav class="links"> <a href="pages-abas/carreiras.html">CARREIRAS</a></nav>
-            <nav class="links"> <a href="pages-abas/dicas.html">DICAS</a></nav>
-            <nav class="links"> <a href="pages-abas/simulados.html">SIMULADOS</a></nav>
-            <nav class="links"> <a href="pages-abas/notícias.html">NOTÍCIAS</a></nav>
-            <nav class="links"> <a href="pages-abas/video-aula.html">VÍDEO-AULAS</a></nav>
-        </nav>
-    </div>
+  
+    <main class="main-content">
+      <section class="section-img">
+        <div class="img">
+          <a href="./pages-topicos/cultura.html">
+            <img
+              src="./img/cultura.img.jpeg"
+              alt="imagem de cultura"
+              class="img-content"
+            />
+          </a>
+          <p class="img-text">Cultura</p>
+        </div>
+        <div class="img">
+            <a href="./pages-topicos/cidadania.html">
+          <img
+            src="./img/cidadania.jpeg"
+            alt="imagem de cidadania"
+            class="img-content"
+          />
+        </a>
+          <p class="img-text">Cidadania</p>
+        </div>
+        <div class="img">
+            <a href="./pages-topicos/movimentos_sociais.html">
+          <img
+            src="./img/movimentos_sociais.png"
+            alt="imagem de movimentos sociais"
+            class="img-content"
+          />
+        </a>
+          <p class="img-text">Movimentos sociais</p>
+        </div>
+        <div class="img">
+            <a href="./pages-topicos/politica.html">
+          <img
+            src="./img/politica.jpeg"
+            alt="imagem de politica"
+            class="img-content"
+          />
+        </a>
+          <p class="img-text">Politica</p>
+        </div>
+        <div class="img">
+            <a href="./pages-topicos/revolução.html">
+          <img
+            src="./img/revolucao.jpeg"
+            alt="imagem de revolução"
+            class="img-content"
+          />
+        </a>
+          <p class="img-text">Revolução</p>
+        </div>
+        <div class="img">
+            <a href="./pages-topicos/sociedade_contemporanea.html">
+          <img
+            src="./img/sociedade_contemporanea.jpeg"
+            alt="imagem de sociedade contemporânea"
+            class="img-content"
+          />
+        </a>
+          <p class="img-text">Sociedade contemporânea</p>
+        </div>
+        <div class="img">
+            <a href="./pages-topicos/teorias.html">
+          <img
+            src="./img/teorias_sociologicas.jpeg"
+            alt="imagem de teorias sociológicas"
+            class="img-content"
+          />
+        </a>
+          <p class="img-text">Teorias sociológicas</p>
+        </div>
+      </section>
+    </main>
+  
     <footer class="footer">
-        <div class="icones">
-            <img src="img/facebook.png" alt="facebook">
-            <img src="img/instagram.png" alt="instagram">
-            <img src="img/whatsapp.png" alt="whatsapp">
-            <img src="img/youtube.png" alt="youtube">
-            <img src="img/linkedin.png" alt="linkedin">
-        </div>
-        <div class="endereço">
-            <h3>EDIFÍCIO REDE SENAI valinhos</h3>
-            <p>R. Artur Fernandes Querido, 55 - Vila Santo<br>Antonio, Valinhos - SP, 13270-530</p>
+      <div class="icones">
+        <img src="img/facebook.png" alt="facebook" />
+        <img src="img/instagram.png" alt="instagram" />
+        <img src="img/whatsapp.png" alt="whatsapp" />
+        <img src="img/youtube.png" alt="youtube" />
+        <img src="img/linkedin.png" alt="linkedin" />
+      </div>
+      <div class="endereço">
+        <h3>EDIFÍCIO REDE SENAI valinhos</h3>
+        <p>
+          R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+          SP, 13270-530
+        </p>
 
-            <h3>EDIFÍCIO REDE sesi valinhos</h3>
-            <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br>Paulo, Valinhos - SP, 13273-450</p>
-        </div>
+        <h3>EDIFÍCIO REDE sesi valinhos</h3>
+        <p>
+          Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP,
+          13273-450
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
+
