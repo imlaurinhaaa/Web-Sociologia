@@ -50,6 +50,7 @@ body {
     height: 200px;
     border: 5px solid #9A1915;
   }
+
 .header-nav .nav-list {
   padding: 20px;
   list-style: none;
@@ -90,6 +91,35 @@ body {
 
 #sesi-logo {
   margin: 0 40px;
+}
+
+.banner{
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    filter: brightness(0.6);
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: left;
+  z-index: 3;
+  color: white;
 }
 
 #line {
@@ -269,7 +299,7 @@ body {
 
 .icones {
   text-align: center;
-
+}
 .footer-text {
   background-color: #9a1915;
   color: white;

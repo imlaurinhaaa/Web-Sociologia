@@ -3,5 +3,6 @@
         "linkedin",
         "whatsapp",
         "youtube"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
