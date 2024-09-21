@@ -161,7 +161,7 @@ h1 {
 .header-nav .nav-list{
     list-style: none;
     display: flex;
-   justify-content: center;
+    justify-content: center;
   }
 
 .img-content {
@@ -399,13 +399,33 @@ h1 {
 
 .img {
   width: 25%;
-  margin-bottom: 20px; 
-
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .img-revolucao, .img-sociedadeContemporanea, .img-teorias {
-  width: 30%;
   margin-bottom: 20px;
-  margin-top: 400px;
-  justify-items: baseline;
+  margin-top: 300px;
+}
+
+.img-revolucao p, .img-sociedadeContemporanea p, .img-teorias p {
+  display: flex;
+  align-items: center;
+}
+
+.img-revolucao .img-sociedadeContemporanea .img-teorias {
+  width: 150px;
+  display: inline-block;
+}
+
+.img-revolucao {
+  margin-left: 10%;
+}
+
+.img-sociedadeContemporanea {
+  margin-right: 0;
+}
+
+.img-teorias {
+  margin-right: 20%;
 }
