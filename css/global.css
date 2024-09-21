@@ -197,18 +197,22 @@ h1 {
 
   .aba-text{
     color: rgb(0, 0, 0);
+    text-align: center;
   }
 
-.aba-item {
+  .aba-item {
   background-color: #e0e0e0;
   border: none;
   padding: 10px 20px;
-  margin: 0 30px;
+  margin: 0 10px;
   border-radius: 20px;
   font-size: 16px;
+  color: #333;
   cursor: pointer;
   outline: none;
   width: 250px;
+  justify-content: center;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -218,13 +222,14 @@ h1 {
 
 .aba-text-check{
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .aba-item-check {
   background-color: #9A1915;
   border: none;
   padding: 10px 20px;
-  margin: 0 30px;
+  margin: 0 10px;
   border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
@@ -376,7 +381,9 @@ h1 {
 }
 
 .icones {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-text {
