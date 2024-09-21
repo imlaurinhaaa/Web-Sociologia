@@ -1,4 +1,6 @@
 body {
+  padding-left: 50px;
+  padding-right: 30px;
   text-align: center;
 }
 
@@ -18,6 +20,8 @@ body {
 }
 
 .central-img {
+  padding-top: 60px;
+  padding-right: 30px;
   width: 640px;
   height: 480px;
 }
@@ -45,17 +49,21 @@ body {
 }
 
 .title {
+  position: absolute;
+  top: 100%;
+  left: 37%;
   color: black;
   font-size: 50px;
   display: inline-block;
   border-bottom: 2px solid red;
   border-radius: 1px;
   padding-bottom: 4px;
-  width: 365px;
+  width: auto;
   padding-top: 40px;
 }
 
 .div-participantes {
+  margin-top: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,6 +75,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  margin-top: 30px;
 }
 
 .participante-dir {
@@ -74,6 +83,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: right;
+  margin-top: 30px;
 }
 
 .info-participante-esq {
@@ -93,6 +103,7 @@ body {
 }
 
 .foto-participante-dir {
+  border: 3px solid black;
   margin-left: 50px;
   width: 300px;
   height: 300px;
@@ -100,13 +111,17 @@ body {
 }
 
 .foto-participante-esq {
-  margin-right: 100px;
+  border: 3px solid black;
+  margin-right: 50px;
   width: 300px;
   height: 300px;
   border-radius: 100%;
 }
 
-.title-info {
+.title-info-esq {
+  position: absolute;
+  text-align: left;
+  margin-bottom: 100px;
   font-size: 30px;
   display: inline-block;
   border-bottom: 2px solid red;
@@ -116,6 +131,21 @@ body {
   padding-top: 40px;
 }
 
-.info {
-  text-align: left;
+.title-info-dir {
+  position: absolute;
+  margin-left: 335px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  display: inline-block;
+  border-bottom: 2px solid red;
+  border-radius: 1px;
+  padding-bottom: 4px;
+  width: 300px;
+  padding-top: 40px;
 }
+
+.title-align{
+  position: absolute;
+  text-align: center;
+}
+
