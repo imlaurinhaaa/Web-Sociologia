@@ -51,7 +51,7 @@ body {
   border: 5px solid #9A1915;
 }
 
-.main-nav {
+.header-nav {
   list-style: none;
   margin: 0 50px;
   display: flex;
@@ -66,15 +66,15 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  gap: 20px;
+  gap: 60px;
+  margin-right: 50px;
 
 }
 
 .links a {
   display: flex;
-  margin-right: 80px;
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-bottom: 3px solid transparent;
   border-radius: 3px;
   cursor: pointer;
@@ -108,8 +108,7 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
-  margin-left: 50px;
-  width: 70px;
+  margin-right: 5px;
 }
 
 #sesi-logo {
@@ -139,7 +138,7 @@ body {
 .banner-titulo {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
   margin-bottom: 100px;
 }
