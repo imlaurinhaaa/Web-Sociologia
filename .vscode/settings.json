@@ -40,6 +40,7 @@
         "Filosofia",
         "Flávio",
         "formigueiro",
+        "icones",
         "imagem",
         "importante",
         "IMPORTANTE",
@@ -47,6 +48,7 @@
         "informar",
         "infundado",
         "interessado",
+        "introducao",
         "isso",
         "Jardim",
         "linha",
@@ -110,6 +112,7 @@
         "tema",
         "teorias",
         "Teorias",
+        "titulo",
         "tópicos",
         "trás",
         "tudo",
@@ -119,5 +122,5 @@
         "whatsapp",
         "youtube"
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5502
 }
