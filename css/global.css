@@ -15,11 +15,11 @@ html {
 }
 
 body {
-    background-color: #ffffffff;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 50;
-    font-style: normal;
+  background-color: #ffffffff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
 }
 
 .sociologia-header {
@@ -30,28 +30,28 @@ body {
   padding: 1rem 0;
 }
 
-.logo-header{
-    margin: 0 30px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #e30613;
-  }
+.logo-header {
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e30613;
+}
 
-  .section-img{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-  }
+.section-img {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
 
-  .img-content{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    border: 5px solid #9A1915;
-  }
+.img-content {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #9A1915;
+}
 
-.header-nav {
+.main-nav {
   list-style: none;
   margin: 0 50px;
   display: flex;
@@ -60,15 +60,25 @@ body {
   padding: 0 20px;
 }
 
-.nav-link  ul, li, a{
-  text-decoration: none;
+.links {
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  transition: color 0.3s;
-  color: #ffffffff;
   display: flex;
+  justify-content: space-between;
   list-style: none;
-  padding: 0;
-  margin-left: 50px;
+  gap: 20px;
+
+}
+
+.links a {
+  display: flex;
+  margin-right: 80px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .vertical-line {
@@ -79,9 +89,7 @@ body {
   margin-right: 20px;
 }
 
-.header-nav .nav-link:hover {
-  color: #878787;
-}
+
 
 .logo-header {
   margin: 0 40px;
@@ -92,7 +100,7 @@ body {
 }
 
 
-#icones-header{
+#icones-header {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
@@ -101,17 +109,18 @@ body {
   list-style: none;
   padding: 0;
   margin-left: 50px;
+  width: 70px;
 }
 
 #sesi-logo {
   margin: 0 40px;
 }
 
-.banner{
-    padding: 0;
-    width: 100%;
-    height: 600px;
-    filter: brightness(0.6);
+.banner {
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  filter: brightness(0.6);
 
 }
 
@@ -125,7 +134,14 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 2;
-  
+}
+
+.banner-titulo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -143,26 +159,27 @@ h1 {
   width: 20%;
   background-color: #9A1915;
 }
-  .img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-    height: 50px;
-    box-sizing: border-box;
-  }
 
-#sesi-logo{
-    margin-left: 10px;
-    margin-right: 30px;
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  height: 50px;
+  box-sizing: border-box;
 }
 
-.header-nav .nav-list{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
+#sesi-logo {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.header-nav .nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
 
 .img-content {
   border-radius: 50%;
@@ -185,22 +202,19 @@ h1 {
   background-color: #e30613;
 }
 
-  .icones {
-    background-color: #e30613;
-  }
-  .topics-header{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+.topics-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
-  .aba-text{
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
+.aba-text {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 
-  .aba-item {
+.aba-item {
   background-color: #e0e0e0;
   border: none;
   padding: 10px 20px;
@@ -219,7 +233,7 @@ h1 {
   font-style: normal;
 }
 
-.aba-text-check{
+.aba-text-check {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -249,7 +263,7 @@ h1 {
 }
 
 #intro-content {
-  max-width: 60%; 
+  max-width: 60%;
   margin-bottom: 50px;
 }
 
@@ -265,16 +279,16 @@ h1 {
   border-radius: 50%;
   object-fit: cover;
   margin-left: 20px;
-  margin-right: 140px; 
+  margin-right: 140px;
   margin-top: 110px;
 }
 
-#intro-1{
+#intro-1 {
   margin-top: 60px;
   margin-left: 70px;
 }
 
-#intro-2{
+#intro-2 {
   margin-left: 70px;
   margin-top: 45px;
 }
@@ -291,14 +305,14 @@ h1 {
   white-space: nowrap;
 }
 
-#line-text-1{
+#line-text-1 {
   height: 5px;
   width: 81%;
   background-color: #9A1915;
   margin-left: 1px;
 }
 
-#line-text-2{
+#line-text-2 {
   height: 5px;
   width: 59%;
   background-color: #9A1915;
@@ -312,7 +326,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   margin-top: 30px;
-  font-size: large;
+  font-size: large;
 }
 
 .imagem-icones {
@@ -326,12 +340,12 @@ h1 {
 
 }
 
-.header-nav .nav-link{
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-    margin: 6px;
-    color: #ffffffff;
+.header-nav .nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  margin: 6px;
+  color: #ffffffff;
 }
 
 .footer {
