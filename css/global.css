@@ -185,6 +185,7 @@ h1 {
   width: 200px;
   height: 200px;
   border: 5px solid #9a1915;
+  
 }
 
 .img {
@@ -195,6 +196,15 @@ h1 {
   gap: 10px;
   height: 50px;
   box-sizing: border-box;
+}
+
+.alinhamento{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+  padding: 100px;
 }
 
 .icones {
@@ -211,6 +221,13 @@ h1 {
 .aba-text {
   color: rgb(0, 0, 0);
   text-align: center;
+  justify-content: space-between;
+  padding-left: 50px ;
+}
+.aba-text-dicas{
+  color: rgb(0, 0, 0);
+  padding-left: 70px;
+
 }
 
 .aba-item {
@@ -235,6 +252,7 @@ h1 {
 .aba-text-check {
   color: rgb(255, 255, 255);
   text-align: center;
+  padding-left: 70px;
 }
 
 .aba-item-check {
@@ -306,14 +324,14 @@ h1 {
 
 #line-text-1 {
   height: 5px;
-  width: 81%;
+  width: 64%;
   background-color: #9A1915;
   margin-left: 1px;
 }
 
 #line-text-2 {
   height: 5px;
-  width: 59%;
+  width: 47%;
   background-color: #9A1915;
   margin-left: 1px;
 }
@@ -413,13 +431,13 @@ h1 {
 .section-img {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .img {
-  width: 22%;
+  width: 25%;
   margin-bottom: 300px;
-    align-items: center; /* Alinha os itens ao centro */
+  align-items: center;
 }
 
 .img:nth-child(4n+1) {
