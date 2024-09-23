@@ -324,14 +324,14 @@ h1 {
 
 #line-text-1 {
   height: 5px;
-  width: 64%;
+  width: 68%;
   background-color: #9A1915;
   margin-left: 1px;
 }
 
 #line-text-2 {
   height: 5px;
-  width: 47%;
+  width: 50%;
   background-color: #9A1915;
   margin-left: 1px;
 }
@@ -454,4 +454,16 @@ h1 {
   font-size: x-large;
   text-align: center;
   color: #000000;
+}
+
+.principaisTopicos {
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+
+#line-text-3 {
+  height: 5px;
+  width: 21%;
+  background-color: #9A1915;
+  margin-left: 1px;
 }

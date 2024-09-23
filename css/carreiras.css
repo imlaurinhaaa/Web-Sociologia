@@ -89,8 +89,6 @@ body {
   margin-right: 20px;
 }
 
-
-
 .logo-header {
   margin: 0 40px;
   display: flex;
@@ -98,7 +96,6 @@ body {
   background-color: #e30613;
   height: 50px;
 }
-
 
 #icones-header {
   text-decoration: none;
@@ -475,4 +472,3 @@ h1 {
     text-align: justify;
     width: 45%;
 }
-
