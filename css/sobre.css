@@ -326,11 +326,47 @@ h1 {
   padding-top: 40px;
 }
 
-.div-participantes {
-  margin-top: 200px;
+.sobre-content h1{
+  color: black;
+}
+
+#line-1 {
+  height: 5px;
+  width: 16%;
+  background-color: #9A1915;
+  margin-left: 1px;
+}
+
+.sobre-content p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+  font-size: large;
+  text-align: justify;
+  width: 45%;
+}
+
+.sobre-content {
+  margin-left: 3%;
+  margin-top: 100px;
+}
+
+.img-equipe{
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin-left: 850px;
+}
+
+.fotoEquipe {
+  width: 60%;
+  height: auto;
+}
+
+.participantes {
+  display: flex;
   flex-direction: column;
 }
 
@@ -469,38 +505,4 @@ h1 {
 .footer-text {
   background-color: #9a1915;
   color: white;
-}
-
-.sobre-content h1{
-  color: black;
-}
-
-#line-text-5 {
-  height: 5px;
-  width: 20%;
-  background-color: #9A1915;
-  margin-left: 1px;
-}
-
-.sobre-content p {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 30px;
-  font-size: large;
-  text-align: justify;
-  width: 45%;
-}
-.sobre-content {
-  margin-left: 3%;
-  margin-top: 10%;
-}
-
-.fotoEquipe {
-  width: 35%;
-  height: auto;
-  float: right;
-  margin-right: 10%;
-  margin-top: 0px;
 }
