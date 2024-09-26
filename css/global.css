@@ -82,50 +82,128 @@ body {
 }
 
 /* menu-mobile */
-.menu-mobile{
-  background-color: #9a1915;
+.menu-mobile ul{
+  background-color: #ff0000;
+  backdrop-filter: blur(10px);
   position: absolute;
   top: 82px;
   right: 0;
-  width: 12%;
-  height: 25vh;
-  z-index: 2;
-  display: none; 
+  width: 405px;
+  height: 0;
   visibility: hidden;
   transition: 0.5s;
   overflow: hidden;
+  margin-right: 0;
+  z-index: 2;
 }
 
-.menu-mobile nav a{
+.menu-mobile.abrir ul {
+  visibility: visible;
+  height: calc(72vh - 7px);
+}
+
+.menu-mobile ul li:hover{
+  background-color: #000000c4;
+  }
+
+.menu-mobile ul li {
+  display: block;
+  padding: 10px ;
+  font-size: 16px ;
+  text-align: center;
+}
+
+.menu-mobile ul li a{
   color: #ffffff;
   text-decoration: none;
 }
-
-button{
-  margin-top: 20px;
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  border-radius: 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  pointer-events: all;
-  border: rgb(255, 255, 255) solid ;
+#btn-menu{
+  width: 45px;
+  height: 45px;
+  border: 0px solid #ff0000;
+  background: transparent;
+  border-radius: 10px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
 }
 
 .linha{
-  width: 32px;
-  height: 5px;
-  background-color: white;
+  width: 40px;
+  height: 3px;
+  background-color: #ffffff;
   display: block;
-  border-radius: 20px;
-  margin: 2px auto;
-  box-sizing: border-box;
+  margin: 10px auto;
   position: relative;
+  transform-origin: center;
+  transition: .2s;
 }
 
+#btn-menu.ativo .linha:nth-child(1){
+  transform: translateY(12px) rotate(-45deg);
+  background-color: #ffffff;
+}
+#btn-menu.ativo .linha:nth-child(3){
+  transform: translateY(-15px) rotate(45deg);
+  background-color: #ffffff;
+}
+#btn-menu.ativo .linha:nth-child(2){
+  width: 0;
 
+  height: 4px;
+}
+#btn-menu.ativo{
+  border: 0px solid #000000;
+}
+/* começo do botão dentro do menu mobile */
+.sociologia{
+  width: 100%;
+  height: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 20px ;
+  text-align: center;
+}
+
+#btn-menu2{
+  height: 70px;
+  border: 0px solid #ff0000;
+  margin: 20px;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.linha2-1{
+  transform: rotate(-45deg);
+  width: 15px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 3px auto;
+  position: relative;
+  transform-origin: center;
+  border-radius: 20px;
+  transition: .2s;
+}
+
+.linha2{
+  transform: rotate(-135deg);
+  width: 15px;  
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 3px auto;
+  position: relative;
+  transform-origin: center;
+  border-radius: 20px;
+  transition: .2s;
+}
 /* fim menu mobile MOTIVO: não me perder*/
 
 .vertical-line {
@@ -183,7 +261,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 1;
 }
 
 .banner-titulo {

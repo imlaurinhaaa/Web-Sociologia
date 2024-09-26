@@ -23,22 +23,34 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <button onclick="animarMenu()" id="btn-menu">
-              <span class="linha"></span>
-              <span class="linha"></span>
-              <span class="linha"></span>
-            </button>
-            <div class="menu-mobile" id="menu-mobile">
-            <nav>
-              <a href="./pages-abas/carreiras.html" class="aba-text">CARREIRAS</a>
-              <a href="./pages-abas/dicas.html" class="aba-text-dicas">DICAS</a>
-              <a href="./pages-abas/simulados.html" class="aba-text">SIMULADOS</a>
-              <a href="./pages-abas/notícias.html" class="aba-text">NOTÍCIAS</a>
-              <a href="./pages-abas/video-aula.html" class="aba-text">VÍDEO-AULA</a>
-              <a href="./pages-abas/sobre.html" class="aba-text">SOBRE-NÓS</a>
+            <body>
+              <button onclick="animar(), animarMenu()" id="btn-menu">
+                  <span class="linha"></span>
+                  <span class="linha"></span>
+                  <span class="linha"></span>
+              </button>
+            <div class="menu-mobile" id="menu-materias">
+              <nav class="menu-materias" id="menu-materias"> 
+                <ul>
+                    <li><a href="portugues.html">Português</a> </li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="geografia.html">Geografia</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                    <li><a href="fisica.html">Física</a></li>
+                    <li><a href="quimica.html">Química</a></li>
+                    <li><a href="artes.html">Artes</a></li>
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li class="sociologia"><a href="sociologia.html" class="sociologia-link">Sociologia</a>
+                      <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                        <span class="linha2"></span>
+                        <span class="linha2-1"></span>
+                      </button>
+                  </li>
+                    <li><a href="edFisica.html">Ed. Física</a></li>
+                    <li><a href="ingles.html">Inglês</a></li>
+                    </ul>
             </nav>
-            </div>
-        </nav>
     </header>
 
     <section class="header-banner">

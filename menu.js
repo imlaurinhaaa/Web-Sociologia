@@ -1,9 +1,19 @@
-const menuDiv = document.getElementById('menu-mobile')
-const btnAnimar = document.getElementById('btn-menu')
+function animar(){
+    const btn = document.getElementById('btn-menu');
+    btn.classList.toggle('ativo');
+}
+function animarMenu(){
+    const menu = document.getElementById('menu-materias');
+    menu.classList.toggle('abrir');
+    menu.addEventListener('click', animarMenu);
+}
 
-menuDiv.addEventListener('click', animarMenu)
-
-function animarMenu() {
-    menuDiv.classList.toggle('abrir')
-    btnAnimar.classList.toggle('ativo')
+function animar2(){
+    const btn = document.getElementById('btn-menu2');
+    btn.classList.toggle('ativado');
+}
+function animarMenu2(){
+    const menu = document.getElementById('menu-menu');
+    menu.classList.toggle('abrir2');
+    menu.addEventListener('click', animarMenu);
 }
