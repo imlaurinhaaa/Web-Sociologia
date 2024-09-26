@@ -81,6 +81,53 @@ body {
   transition: transform 0.3s ease;
 }
 
+/* menu-mobile */
+.menu-mobile{
+  background-color: #9a1915;
+  position: absolute;
+  top: 82px;
+  right: 0;
+  width: 12%;
+  height: 25vh;
+  z-index: 2;
+  display: none; 
+  visibility: hidden;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.menu-mobile nav a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  pointer-events: all;
+  border: rgb(255, 255, 255) solid ;
+}
+
+.linha{
+  width: 32px;
+  height: 5px;
+  background-color: white;
+  display: block;
+  border-radius: 20px;
+  margin: 2px auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+/* fim menu mobile MOTIVO: não me perder*/
+
 .vertical-line {
   height: 50px;
   width: 3px;
@@ -115,15 +162,19 @@ body {
   margin: 0 40px;
 }
 
+.header-banner{
+  position: relative;
+}
+
 .banner {
   padding: 0;
   width: 100%;
   height: 600px;
   filter: brightness(0.6);
-
 }
 
 .overlay {
+  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
