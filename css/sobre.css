@@ -329,6 +329,7 @@ h1 {
 
 .sobre-content h1{
   color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 #line-1 {
@@ -365,6 +366,7 @@ h1 {
   width: auto;
   margin-right: 230px;
   margin-top: -210px;
+  border-radius: 5%;
 }
 
 .participantes {
@@ -398,7 +400,6 @@ h1 {
   flex-direction: row;
   justify-content: left;
   margin-top: 30px;
-  margin-bottom: 5rem;
   margin-left: 160px;
   align-self: flex-start;
 }
@@ -408,8 +409,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: right;
-  margin-top: 30px;
   margin-bottom: 10px;
+  margin-right: 90px;
   align-self: flex-end;
 }
 
@@ -420,7 +421,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-top: 0px;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .info-participante-dir {
@@ -429,21 +430,25 @@ h1 {
   text-align: right;
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .foto-participante-dir {
   margin-left: 50px;
   width: 300px;
-  height: 300px;
+  height: auto;
   border-radius: 100%;
   align-self: flex-end;
+}
+
+.foto-zani {
+  margin-right: 90px;
 }
 
 .foto-participante-esq {
   margin-right: 50px;
   width: 300px;
-  height: 300px;
+  height: auto;
   border-radius: 100%;
   align-self: flex-start;
 }
@@ -471,12 +476,12 @@ h1 {
   font-weight: 800;
   font-style: normal;
   font-size: 30px;
-  color: #333;
+  color: #000000;
   white-space: nowrap;
   position: absolute;
   margin-left: 335px;
   margin-bottom: 100px;
-  padding-bottom: 4px;
+  padding-bottom: 50px;
   width: 300px;
   padding-top: 40px;
   align-self: flex-end;
@@ -489,12 +494,12 @@ h1 {
   font-weight: 800;
   font-style: normal;
   font-size: 30px;
-  color: #333;
+  color: #000000;
   white-space: nowrap;
   position: absolute;
   margin-left: 335px;
   margin-bottom: 100px;
-  padding-bottom: 4px;
+  padding-bottom: 50px;
   width: 300px;
   padding-top: 40px;
   align-self: flex-end;
@@ -510,6 +515,7 @@ h1 {
   font-size: 18px;
   margin-top: 70px;
   align-self: flex-start;
+  text-align: justify;
 }
 
 .info-dir{
@@ -520,12 +526,51 @@ h1 {
   font-size: 18px;
   margin-top: 70px;
   align-self: flex-end;
+  text-align: justify;
 }
 
 .title-align{
   position: absolute;
   text-align: center;
 }
+
+#line-3-laura {
+  height: 5px;
+  width: 43%;
+  background-color: #9A1915;
+  margin-top: 95px;
+}
+
+#line-3-evelyn {
+  height: 5px;
+  width: 57.2%;
+  background-color: #9A1915;
+  margin-top: 115px;
+  margin-left: 42.7%;
+}
+
+#line-3-bruna {
+  height: 5px;
+  width: 51%;
+  background-color: #9A1915;
+  margin-top: 80px;
+}
+
+#line-3-zani {
+  height: 5px;
+  width: 46%;
+  background-color: #9A1915;
+  margin-top: 95px;
+  margin-left: 54%;
+}
+
+#line-3-luiz {
+  height: 5px;
+  width: 57.5%;
+  background-color: #9A1915;
+  margin-top: 95px;
+}
+
 
 .footer {
   background-color: #9a1915;
