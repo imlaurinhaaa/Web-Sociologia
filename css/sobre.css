@@ -480,6 +480,26 @@ h1 {
   width: 300px;
   padding-top: 40px;
   align-self: flex-end;
+  margin-right: 140px;
+}
+
+.title-info-dir-2{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  color: #333;
+  white-space: nowrap;
+  position: absolute;
+  margin-left: 335px;
+  margin-bottom: 100px;
+  padding-bottom: 4px;
+  width: 300px;
+  padding-top: 40px;
+  align-self: flex-end;
+  margin-right: 245px;
+
 }
 
 .info-esq{
