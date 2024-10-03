@@ -121,7 +121,7 @@ body {
 }
 
 .overlay {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
@@ -309,15 +309,14 @@ h1 {
   font-style: normal;
   font-size: xx-large;
   color: #000000;
-  display: flex;
-  white-space: nowrap;
+  margin-left: 9.5rem;
 }
 
 #line-text-1 {
   height: 5px;
-  width: 64%;
+  width: 10.5%;
   background-color: #9A1915;
-  margin-left: 1px;
+  margin-left: 9.5rem;
 }
 
 #line-text-2 {
@@ -414,61 +413,58 @@ h1 {
   color: white;
 }
 
-.main-content{
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.topo {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
   justify-content: center;
-  display: flex;
 }
 
-.section-img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.img-card{
+  width: 30rem;
+  height: 20rem;
 }
 
-.img {
-  width: 25%;
-  margin-bottom: 300px;
-  align-items: center;
+.text-card h2{
+  width: 30rem;
+  text-align: start;
+  margin-top: 2%;
 }
 
-.img:nth-child(4n+1) {
-  margin-left: 0;
-}
-
-.img:nth-child(4n) {
-  margin-right: 0;
-}
-
-.img-text {
+.text-card p{
+  width: 30rem;
+  text-align: justify;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: x-large;
-  text-align: center;
-  color: #000000;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+  font-size: large;
 }
 
-.imgProfessor, .imgPesquisaAplicada, .imgPolitica {
-    margin-top: 10%;
-    width: 45%;
-    height: auto;
+.topo2 {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
+  justify-content: center;
 }
 
-.professor, .pesquisaAplicada, .politica {
-    margin-top: 60px;
-    margin-left: 70px;
+.fim1 {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
+  justify-content: center;
 }
 
-.professor h2, .pesquisaAplicada h2, .politica h2 {
-    margin-top: 2%;
-}
-
-.professor p, .pesquisaAplicada p, .politica p {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 30px;
-    font-size: large;
-    text-align: justify;
-    width: 45%;
+.fim2 {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
+  justify-content: center;
 }
