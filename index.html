@@ -1,201 +1,225 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/global.css" />
-    <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
-    <title>Sociologia</title>
-  </head>
-  <body>
-    
-    <header class="sociologia-header">
-        <div class="logo-header">
-            <img id="sesi-logo" src="img/sesiii.jpeg" alt="logo-header SESI">
-            <img id="senai-logo" src="img/image.png" alt="logo-header SENAI">
-        </div>
-        
-        <div class="vertical-line"></div>
 
-        <nav class="header-nav">
-            <ul class="links">
-                <li><a href="" class="nav-link">Home</a></li>
-                <li><a href="" class="nav-link">Sobre</a></li>
-                <li><a href="" class="nav-link">Cadastre-se</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/global.css" />
+  <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+  <title>Sociologia</title>
+</head>
+
+<body>
+
+  <header class="sociologia-header">
+    <div class="logo-header">
+      <img id="sesi-logo" src="img/sesiii.jpeg" alt="logo-header SESI">
+      <img id="senai-logo" src="img/image.png" alt="logo-header SENAI">
+    </div>
+
+    <div class="vertical-line"></div>
+
+    <nav class="header-nav">
+      <ul class="links">
+        <li><a href="" class="nav-link">Home</a></li>
+        <li><a href="" class="nav-link">Sobre</a></li>
+        <li><a href="" class="nav-link">Cadastre-se</a></li>
+      </ul>
+
+      <body>
+        <button onclick="animar(), animarMenu()" id="btn-menu">
+          <span class="linha"></span>
+          <span class="linha"></span>
+          <span class="linha"></span>
+        </button>
+        <div class="menu-mobile" id="menu-materias">
+          <nav class="menu-materias" id="menu-materias">
+            <ul>
+              <li><a href="portugues.html">Português</a> </li>
+              <li><a href="matematica.html">Matemática</a></li>
+              <li><a href="historia.html">História</a></li>
+              <li><a href="geografia.html">Geografia</a></li>
+              <li><a href="biologia.html">Biologia</a></li>
+              <li><a href="fisica.html">Física</a></li>
+              <li><a href="quimica.html">Química</a></li>
+              <li><a href="artes.html">Artes</a></li>
+              <li><a href="filosofia.html">Filosofia</a></li>
+              <li class="sociologia"><a href="sociologia.html" class="sociologia-link">Sociologia</a>
+                <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                  <span class="linha2"></span>
+                  <span class="linha2-1"></span>
+                </button>
+              </li>
+              <li><a href="edFisica.html">Ed. Física</a></li>
+              <li><a href="ingles.html">Inglês</a></li>
             </ul>
-            <body>
-              <button onclick="animar(), animarMenu()" id="btn-menu">
-                  <span class="linha"></span>
-                  <span class="linha"></span>
-                  <span class="linha"></span>
-              </button>
-            <div class="menu-mobile" id="menu-materias">
-              <nav class="menu-materias" id="menu-materias"> 
-                <ul>
-                    <li><a href="portugues.html">Português</a> </li>
-                    <li><a href="matematica.html">Matemática</a></li>
-                    <li><a href="historia.html">História</a></li>
-                    <li><a href="geografia.html">Geografia</a></li>
-                    <li><a href="biologia.html">Biologia</a></li>
-                    <li><a href="fisica.html">Física</a></li>
-                    <li><a href="quimica.html">Química</a></li>
-                    <li><a href="artes.html">Artes</a></li>
-                    <li><a href="filosofia.html">Filosofia</a></li>
-                    <li class="sociologia"><a href="sociologia.html" class="sociologia-link">Sociologia</a>
-                      <button onclick="animar2(), animarMenu2()" id="btn-menu2">
-                        <span class="linha2"></span>
-                        <span class="linha2-1"></span>
-                      </button>
-                  </li>
-                    <li><a href="edFisica.html">Ed. Física</a></li>
-                    <li><a href="ingles.html">Inglês</a></li>
-                    </ul>
-            </nav>
-    </header>
+          </nav>
+  </header>
 
-    <section class="header-banner">
-      <div class="overlay">
-        <h1 class="banner-titulo">Vestibular 2024 - Sociologia</h1>
-      </div>
-      <img class="banner" src="./img/imgBanner.jpeg" alt= "Banner Filosofia">
-    </section>
-        <section class="topics-header">
-            <div class="aba-item-check">
-              <a href="index.html" class="aba-text-check">SOBRE</a>
-            </div>
-            <div class="aba-item">
-              <a href="./pages-abas/carreiras.html" class="aba-text">CARREIRAS</a>
-            </div>
-            <div class="aba-item">
-              <a href="./pages-abas/dicas.html" class="aba-text-dicas">DICAS</a>
-            </div>
-            <div class="aba-item">
-              <a href="./pages-abas/simulados.html" class="aba-text">SIMULADOS</a>
-            </div>
-            <div class="aba-item">
-              <a href="./pages-abas/notícias.html" class="aba-text">NOTÍCIAS</a>
-            </div>
-            <div class="aba-item">
-              <a href="./pages-abas/video-aula.html" class="aba-text">VÍDEO-AULA</a>
-            </div>
-            <div class="aba-item">
-              <a href="./pages-abas/sobre.html" class="aba-text">SOBRE-NÓS</a>
-            </div>
-        </section>
-  
-        <div id="line">
+  <section class="header-banner">
+    <div class="image-banner">
+      <h1 class="title">Monte sua Carreira! - Sociologia</h1>
+      <img src="./img/imgBanner.jpeg" alt="Banner Filosofia">
+    </div>
+  </section>
+
+  <section class="topics-header">
+    <div class="aba-item-check">
+      <a href="index.html" class="aba-text-check">HOME</a>
+    </div>
+    <div class="aba-item">
+      <a href="./pages-abas/carreiras.html" class="aba-text">CARREIRAS</a>
+    </div>
+    <div class="aba-item">
+      <a href="./pages-abas/dicas.html" class="aba-text-dicas">DICAS</a>
+    </div>
+    <div class="aba-item">
+      <a href="./pages-abas/simulados.html" class="aba-text">SIMULADOS</a>
+    </div>
+    <div class="aba-item">
+      <a href="./pages-abas/notícias.html" class="aba-text">NOTÍCIAS</a>
+    </div>
+    <div class="aba-item">
+      <a href="./pages-abas/video-aula.html" class="aba-text">VÍDEO-AULA</a>
+    </div>
+    <div class="aba-item">
+      <a href="./pages-abas/sobre.html" class="aba-text">SOBRE-NÓS</a>
+    </div>
+  </section>
+
+  <div id="line">
+    <hr>
+  </div>
+
+  <section class="introducao">
+    <div id="intro-content">
+      <div id="intro-1">
+        <h1 class="titulo-intro">PORQUE A SOCIOLOGIA É IMPORTANTE?</h1>
+        <div id="line-text-1">
           <hr>
+        </div>
+        <p class="text-intro">A sociologia é importante pois nos faz refletir questões, fazendo com que sejamos melhores
+          como sujeitos em uma perspectiva social, assim nos dando um lugar de pertencimento e melhora na sociedade.
+          Outro ponto importante que a sociologia trás para nosso mundo é como resolver e entender problemas dos mais
+          diversos assuntos, nos ensinando a ter um ponto de vista amplo e infundado sobre tudo que está em nossa volta,
+          seja ele um pequeno formigueiro ou uma situação mais séria como uma ditadura.</p>
       </div>
 
-      <section class="introducao">
-        <div id="intro-content">
-          <div id="intro-1">
-            <h1 class="titulo-intro">PORQUE A SOCIOLOGIA É IMPORTANTE?</h1>
-            <div id="line-text-1"><hr></div>
-            <p class="text-intro">A sociologia é importante pois nos faz refletir questões, fazendo com que sejamos melhores como sujeitos em uma perspectiva social, assim nos dando um lugar de pertencimento e melhora na sociedade. Outro ponto importante que a sociologia trás para nosso mundo é como resolver e entender problemas dos mais diversos assuntos, nos ensinando a ter um ponto de vista amplo e infundado sobre tudo que está em nossa volta, seja ele um pequeno formigueiro ou uma situação mais séria como uma ditadura.</p>
-          </div>
-          
-          <div id="intro-2">
-            <h1 class="titulo-intro">SOCIOLOGIA NO VESTIBULAR</h1>
-            <div id="line-text-2"><hr></div>
-            <p class="text-intro">Em vestibulares como ENEM tem uma quantidade relativamente grande de perguntas que abordam a sociologia como tema central, onde sociólogos como Auguste Comte, Durkheim e Weber são pontos extremamente relevantes para a conclusão dessas questões, então é sempre bom se manter interessado quanto aos diversos assuntos que existem nessa fabulosa matéria. Dito isso para se informar mais sobre esses assuntos, separamos algumas abas que englobam alguns tópicos importantes das matérias.</p>
-          </div>
+      <div id="intro-2">
+        <h1 class="titulo-intro">SOCIOLOGIA NO VESTIBULAR</h1>
+        <div id="line-text-2">
+          <hr>
         </div>
-        
-        <div class="img-introducao">
-          <img id="img-intro" src="./img/imagem-introducao.jpg" alt="">
-        </div>
-      </section>
-
-      <div class="principaisTopicos">
-        <h1 class="titulo-intro">PRINCIPAIS TÓPICOS</h1>
-        <div id="line-text-3"><hr></div>
+        <p class="text-intro">Em vestibulares como ENEM tem uma quantidade relativamente grande de perguntas que abordam
+          a sociologia como tema central, onde sociólogos como Auguste Comte, Durkheim e Weber são pontos extremamente
+          relevantes para a conclusão dessas questões, então é sempre bom se manter interessado quanto aos diversos
+          assuntos que existem nessa fabulosa matéria. Dito isso para se informar mais sobre esses assuntos, separamos
+          algumas abas que englobam alguns tópicos importantes das matérias.</p>
       </div>
-      <main class="main-content">
-        <section class="section-img">
-          <div class="img">
-            <a href="./pages-topicos/cultura.html">
-              <img src="./img/cultura.img.jpeg" alt="imagem de cultura" class="img-content" />
-            </a>
-            <p class="img-text">CULTURA</p>
-          </div>
-      
-          <div class="img">
-            <a href="./pages-topicos/cidadania.html">
-              <img src="./img/cidadania.jpeg" alt="imagem de cidadania" class="img-content" />
-            </a>
-            <p class="img-text">CIDADANIA</p>
-          </div>
-      
-          <div class="img">
-            <a href="./pages-topicos/movimentos_sociais.html">
-              <img src="./img/movimentos_sociais.png" alt="imagem de movimentos sociais" class="img-content" />
-            </a>
-            <p class="img-text">MOVIMENTOS SOCIAIS</p>
-          </div>
-      
-          <div class="img">
-            <a href="./pages-topicos/politica.html">
-              <img src="./img/politica.jpeg" alt="imagem de politica" class="img-content" />
-            </a>
-            <p class="img-text">POLÍTICA</p>
-          </div>
+    </div>
+
+    <div class="img-introducao">
+      <img id="img-intro" src="./img/imagem-introducao.jpg" alt="">
+    </div>
+  </section>
+
+  <div class="principaisTopicos">
+    <h1 class="titulo-intro">PRINCIPAIS TÓPICOS</h1>
+    <div id="line-text-3">
+      <hr>
+    </div>
+  </div>
+  <main class="main-content">
+    <section class="section-img">
+      <div class="img">
+        <a href="./pages-topicos/cultura.html">
+          <img src="./img/cultura.img.jpeg" alt="imagem de cultura" class="img-content" />
+        </a>
+        <p class="img-text">CULTURA</p>
+      </div>
+
+      <div class="img">
+        <a href="./pages-topicos/cidadania.html">
+          <img src="./img/cidadania.jpeg" alt="imagem de cidadania" class="img-content" />
+        </a>
+        <p class="img-text">CIDADANIA</p>
+      </div>
+
+      <div class="img">
+        <a href="./pages-topicos/movimentos_sociais.html">
+          <img src="./img/movimentos_sociais.png" alt="imagem de movimentos sociais" class="img-content" />
+        </a>
+        <p class="img-text">MOVIMENTOS SOCIAIS</p>
+      </div>
+
+      <div class="img">
+        <a href="./pages-topicos/politica.html">
+          <img src="./img/politica.jpeg" alt="imagem de politica" class="img-content" />
+        </a>
+        <p class="img-text">POLÍTICA</p>
+      </div>
       <div class="alinhamento">
-          <div class="img">
-            <a href="./pages-topicos/revolucao.html">
-              <img src="./img/revolucao.jpeg" alt="imagem de revolução" class="img-content" />
-            </a>
-            <p class="img-text">REVOLUÇÃO</p>
-          </div>
-      
-          <div class="img">
-            <a href="./pages-topicos/sociedade_contemporanea.html">
-              <img src="./img/sociedade_contemporanea.jpeg" alt="Imagem de Sociedade Contemporânea" class="img-content" />
-            </a>
-            <p class="img-text">SOCIEDADE CONTEMPORÂNEA</p>
-          </div>
-      
-          <div class="img">
-            <a href="./pages-topicos/teorias.html">
-              <img src="./img/teorias_sociologicas.jpeg" alt="imagem de teorias sociológicas" class="img-content" />
-            </a>
-            <p class="img-text">TEORIAS SOCIOLÓGICAS</p>
-          </div>
-        </section>
-      </main>
+        <div class="img">
+          <a href="./pages-topicos/revolucao.html">
+            <img src="./img/revolucao.jpeg" alt="imagem de revolução" class="img-content" />
+          </a>
+          <p class="img-text">REVOLUÇÃO</p>
+        </div>
+
+        <div class="img">
+          <a href="./pages-topicos/sociedade_contemporanea.html">
+            <img src="./img/sociedade_contemporanea.jpeg" alt="Imagem de Sociedade Contemporânea" class="img-content" />
+          </a>
+          <p class="img-text">SOCIEDADE CONTEMPORÂNEA</p>
+        </div>
+
+        <div class="img">
+          <a href="./pages-topicos/teorias.html">
+            <img src="./img/teorias_sociologicas.jpeg" alt="imagem de teorias sociológicas" class="img-content" />
+          </a>
+          <p class="img-text">TEORIAS SOCIOLÓGICAS</p>
+        </div>
+    </section>
+  </main>
+  </div>
+  <div id="line">
+    <hr>
+  </div>
+
+  <footer class="footer">
+    <div class="icones">
+      <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="img/facebook.png" alt="facebook"
+          width=25px height=25px /></a>
+      <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="img/instagram.png"
+          alt="instagram" width=25px height=25px /></a>
+      <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="img/whatsapp.png" alt="whatsapp" width=25px
+          height=25px /></a>
+      <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="img/youtube.png"
+          alt="youtube" width=25px height=25px /></a>
+      <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="img/linkedin.png" alt="linkedin" width=25px
+          height=25px /></a>
     </div>
-      <div id="line">
-        <hr>
+
+    <div class="enderecos">
+      <div class="senai">
+        <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
+        <p>
+          R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+          SP, 13270-530
+        </p>
+      </div>
+      <img src="./img/linha.png" alt="linha">
+
+      <div class="sesi">
+        <h3>EDIFÍCIO REDE SESI Valinhos</h3>
+        <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
+      </div>
     </div>
 
-    <footer class="footer">
-      <div class="icones">
-        <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="img/facebook.png" alt="facebook" width=25px height=25px/></a>
-        <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="img/instagram.png" alt="instagram" width=25px height=25px/></a>
-        <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="img/whatsapp.png" alt="whatsapp" width=25px height=25px/></a>
-        <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="img/youtube.png" alt="youtube" width=25px height=25px/></a>
-        <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="img/linkedin.png" alt="linkedin" width=25px height=25px/></a>
-      </div>
-        
-      <div class="enderecos">
-        <div class="senai">
-            <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
-            <p>
-              R. Artur Fernandes Querido, 55 - Vila Santo<br/>Antonio, Valinhos -
-              SP, 13270-530
-            </p>
-          </div>
-            <img src="./img/linha.png" alt="linha">
-    
-            <div class="sesi">
-                <h3>EDIFÍCIO REDE SESI Valinhos</h3>
-                <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br/>Paulo, Valinhos - SP, 13273-450</p>
-            </div>
-      </div>
+  </footer>
 
-    </footer>
+  <script src="menu.js">
+  </script>
+</body>
 
-    <script src="menu.js">
-    </script>
-  </body>
 </html>
