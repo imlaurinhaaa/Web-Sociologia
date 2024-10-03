@@ -129,7 +129,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 1;
 }
 
 .banner-titulo {
@@ -137,7 +137,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  margin-bottom: 100px;
+  margin-bottom: 900px;
 }
 
 h1 {

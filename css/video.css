@@ -52,7 +52,7 @@ body {
 }
 
 .header-nav {
-  list-style: none;
+  list-style: non;
   margin: 0 50px;
   display: flex;
   justify-content: space-between;
@@ -129,10 +129,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  
 }
 
 .banner-titulo {
@@ -344,3 +344,46 @@ h1 {
     margin-left: 1px;
   }
 
+    @media screen and (max-width: 768px) {
+  .banner{
+    height: auto;
+    width: 100%; 
+  }
+  .sociologia-header{
+    width: 100%;
+  }
+  .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 60%;
+  }
+  .logo-header{
+    width: 30%;
+  }
+  .topics-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 6px;
+  }
+  .overlay{
+    display: none;
+  }
+
+  }
+  @media screen and (max-width: 1270px) {
+    .banner{
+      height: auto;
+      width: 100%; 
+    }
+    .sociologia-header{
+      width: 100%;
+    }
+    .overlay{ 
+      display: none;
+    }
+  }
