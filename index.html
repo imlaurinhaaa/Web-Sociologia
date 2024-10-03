@@ -90,14 +90,58 @@
   <div id="line">
     <hr>
   </div>
-
-  <section class="introducao">
+              <button onclick="animar(), animarMenu()" id="btn-menu">
+                  <span class="linha"></span>
+                  <span class="linha"></span>
+                  <span class="linha"></span>
+              </button>
+            <div class="menu-mobile" id="menu-materias">
+              <nav class="menu-materias" id="menu-materias"> 
+                <ul>
+                    <li><a href="portugues.html">Português</a> </li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="geografia.html">Geografia</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                    <li><a href="fisica.html">Física</a></li>
+                    <li><a href="quimica.html">Química</a></li>
+                    <li><a href="artes.html">Artes</a></li>
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li>
+                      <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                        <span class="linha2"></span>
+                        <span class="linha2-1"></span>
+                      </button>
+                      <a href="sociologia.html">Sociologia</a>
+                    </li>
+                    <li><a href="edFisica.html">Ed. Física</a></li>
+                    <li><a href="ingles.html">Inglês</a></li>
+                  </ul>
+            </nav>
+          </div> 
+          <div class="menu-menu" id="menu-menu">
+            <nav class="menu-menu" id="menu-menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./pages-abas/carreiras.html">Carreiras</a></li>
+                <li><a href="./pages-abas/dicas.html">Dicas</a></li>
+                <li><a href="./pages-abas/simulados.html">Simulados</a></li>
+                <li><a href="./pages-abas/notícias.html">Notícias</a></li>
+                <li><a href="./pages-abas/video-aula.html">Video aulas</a></li>
+              </ul>
+            </nav>
+          </div>
+      </li>
+    </header>
+      
+        <div id="line">
+          <hr>
+        </div>
+      <section class="introducao">
     <div id="intro-content">
       <div id="intro-1">
         <h1 class="titulo-intro">PORQUE A SOCIOLOGIA É IMPORTANTE?</h1>
         <div id="line-text-1">
-          <hr>
-        </div>
         <p class="text-intro">A sociologia é importante pois nos faz refletir questões, fazendo com que sejamos melhores
           como sujeitos em uma perspectiva social, assim nos dando um lugar de pertencimento e melhora na sociedade.
           Outro ponto importante que a sociologia trás para nosso mundo é como resolver e entender problemas dos mais
@@ -222,4 +266,8 @@
   </script>
 </body>
 
+    <script src="menu.js">
+    </script>
+    <script src="menu-menu.js"></script>
+  </body>
 </html>

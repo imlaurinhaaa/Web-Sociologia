@@ -233,7 +233,145 @@ body {
     font-style: normal;
   }
 
-  
+  .intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .content{
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-bottom: 80px
+  }
+
+  .intro-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PT-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 140px;
+    margin-top: 100px;
+  }
+
+  .line-intro{
+    height: 5px;
+    margin: 20px auto;
+    width: 85%;
+    background-color: #9A1915;
+  }
+
+  .titulo-PT{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    display: flex;
+    white-space: nowrap;
+  }
+
+  .text-PT {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: large;
+    color: #000000;
+    text-align: justify;
+    width: 80%;
+  }
+
+  .text-PT b{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: x-large;
+    color: #000000;
+    text-align: justify;
+    width: 80%;
+  }
+
+  .citacao{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: large;
+    color: #5B5859;
+    text-align: justify;
+    width: 80%;
+  }
+
+  #line-text-1-cul{
+    height: 5px;
+    width: 32%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
+
+  #line-text-2-cul{
+    height: 5px;
+    width: 31%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
+
+  #line-text-3-cul{
+    height: 5px;
+    width: 31%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
+
+  #line-text-4-cul{
+    height: 5px;
+    width: 19%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
+
+  #line-text-1-cid{
+    height: 5px;
+    width: 34%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
+
+  #line-text-2-cid{
+    height: 5px;
+    width: 33%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
+
+  #line-text-3-cid{
+    height: 5px;
+    width: 25%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
+
+  #line-text-4-cid{
+    height: 5px;
+    width: 25%;
+    background-color: #9A1915;
+    margin-left: 1px;
+  }
 
   .footer {
     background-color: #9a1915;
