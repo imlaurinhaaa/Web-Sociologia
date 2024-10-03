@@ -344,3 +344,16 @@ h1 {
     margin-left: 1px;
   }
 
+  .main-content {
+    display: flex;
+  }
+
+  .intro-dicas h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    margin-left: 9.5rem;
+  }
