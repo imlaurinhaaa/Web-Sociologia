@@ -322,8 +322,6 @@ body {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin-left: 20%;
-  margin-right: 20%;
   margin-top: 15%;
 }
 .dica-text{
@@ -332,6 +330,10 @@ body {
   margin-left: 10%;
   margin-top: 8%;
   gap: 9%;
+}
+.dica-text p{
+  width: 55rem;
+  text-align: justify;
 }
 
 
@@ -349,7 +351,7 @@ body {
   font-style: normal;
   margin-top: 30px;
   font-size: large;
-  padding-left: 10%;
+  padding-left: 8.5%;
 }
 
 .imagem-icones {
@@ -483,4 +485,38 @@ body {
   margin: 3rem;
   gap: 5rem;
   justify-content: center;
+}
+
+.PT-img{
+  width: 50rem;
+}
+
+.sociologia-dicas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-dicas{
+  background-color: #eeeeee81;
+  width: 93rem;
+  border-radius: 0.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.sociologia-dicas h1{
+  font-size: 27px;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+#line-text-3{
+  height: 3px;
+  width: 31%;
+  background-color: #9A1915;
 }
