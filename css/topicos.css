@@ -119,7 +119,7 @@ body {
   position: relative;
   display: inline-block;  
   width: 100%;
-  height: 600px;
+  height: 45rem;
   overflow: hidden;
 }
 
@@ -127,17 +127,6 @@ body {
   width: 100%; 
   height: 100%; 
 }
-
-.image-banner .title{
-  position: absolute;
-  top: 19rem;
-  left: 20rem; 
-  transform: translate(-50%, -50%); 
-  color: rgb(255, 255, 255); 
-  font-size: 2.2em; 
-  padding: 10px;
-  border-radius: 5px; 
-} 
 
 .title-movimentos{
   position: absolute;
