@@ -115,41 +115,52 @@ body {
   margin: 0 40px;
 }
 
-.banner {
-  padding: 0;
+.image-banner{
+  position: relative;
+  display: inline-block;  
   width: 100%;
-  height: 600px;
-  filter: brightness(0.6);
+  height: 45rem;
+  overflow: hidden;
+}
+
+.image-banner img{
+  width: 100%; 
+  height: 100%; 
+}
+
+.title-movimentos{
+  position: absolute;
+  top: 19rem;
+  left: 27rem; 
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255); 
+  font-size: 2.2em; 
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+.title-sociedade{
+  position: absolute;
+  top: 19rem;
+  left: 32rem; 
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255); 
+  font-size: 2.2em; 
+  padding: 10px;
+  border-radius: 5px;
 
 }
 
-.overlay {
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-}
+.title-teorias{
+  position: absolute;
+  top: 19rem;
+  left: 29rem; 
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255); 
+  font-size: 2.2em; 
+  padding: 10px;
+  border-radius: 5px;
 
-.banner-titulo {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  margin-bottom: 100px;
-}
-
-h1 {
-  font-size: 48px;
-  font-weight: bold;
-  text-align: left;
-  z-index: 3;
-  color: white;
-  margin-right: 950px;
 }
 
 #line {
@@ -261,8 +272,8 @@ h1 {
   }
 
   .PT-img {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     border-radius: 50%;
     object-fit: cover;
     margin-left: 20px;
@@ -275,6 +286,8 @@ h1 {
     margin: 20px auto;
     width: 85%;
     background-color: #9A1915;
+    margin-top: 5%;
+    margin-bottom: 8%;
   }
 
   .titulo-PT{
@@ -328,56 +341,147 @@ h1 {
     height: 5px;
     width: 32%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
   }
 
   #line-text-2-cul{
     height: 5px;
     width: 31%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
   }
 
   #line-text-3-cul{
     height: 5px;
     width: 31%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
   }
 
   #line-text-4-cul{
     height: 5px;
     width: 19%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
   }
 
   #line-text-1-cid{
     height: 5px;
-    width: 34%;
+    width: 35%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
   }
 
   #line-text-2-cid{
     height: 5px;
     width: 33%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
   }
 
   #line-text-3-cid{
     height: 5px;
     width: 25%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
   }
 
   #line-text-4-cid{
     height: 5px;
     width: 25%;
     background-color: #9A1915;
-    margin-left: 1px;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-1-mov{
+    height: 5px;
+    width: 49%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-2-mov{
+    height: 5px;
+    width: 19%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-3-mov{
+    height: 5px;
+    width: 35%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-1-pol{
+    height: 5px;
+    width: 32%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-2-pol{
+    height: 5px;
+    width: 29%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-3-pol{
+    height: 5px;
+    width: 27%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-1-rev{
+    height: 5px;
+    width: 36%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-2-rev{
+    height: 5px;
+    width: 40%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-3-rev{
+    height: 5px;
+    width: 26%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-1-soc{
+    height: 5px;
+    width: 59%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-2-soc{
+    height: 5px;
+    width: 54%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-1-teo{
+    height: 5px;
+    width: 30%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
+  }
+
+  #line-text-2-teo{
+    height: 5px;
+    width: 34%;
+    background-color: #9A1915;
+    margin-left: 0.2rem;
   }
 
   .footer {
