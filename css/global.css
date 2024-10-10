@@ -152,7 +152,6 @@ body {
 }
 #btn-menu.ativo .linha:nth-child(2){
   width: 0;
-
   height: 4px;
 }
 #btn-menu.ativo{
@@ -277,6 +276,7 @@ body {
 
 .overlay {
   z-index: 1;
+  position: absolute;
   /* position: absolute; */
   top: 0;
   left: 0;

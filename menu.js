@@ -5,7 +5,7 @@ function animar(){
 function animarMenu(){
     const menu = document.getElementById('menu-materias');
     menu.classList.toggle('abrir');
-    menu.addEventListener('click', animarMenu);
+    menu.addEventListener('hold', animarMenu);
 }
 
 function animar2(){
@@ -16,5 +16,14 @@ function animar2(){
 function animarMenu2(){
     const menu2 = document.getElementById('menu-menu');
     menu2.classList.toggle('aberto');
-    menu2.addEventListener('click', animarMenu2);
+    menu2.addEventListener('hold', animarMenu2);
+}
+
+function fecharMenu(){
+    const btn2 = document.getElementById('btn-menu2');
+    const btn = document.getElementById('btn-menu');
+
+    if(!btn.classList.toggle('ativo')){
+        return !btn2.classList.toggle('ativado')
+    }
 }
