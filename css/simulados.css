@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
 }
 
+:root{
+  --cor-header: #2cc3ff;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -230,6 +234,59 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+  }
+
+  .simulado-content {
+    display: flex;
+  }
+
+  .img-simulado{
+    height: 19rem;
+    width: 25rem;
+  }
+
+  .text-simulado{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    color: #000000;
+    text-align: justify;
+  }
+
+  .text-simulado-link{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: #2cc3ff;
+    text-align: justify;
+  }
+
+  #line-text-1{
+    height: 5px;
+    width: 9%;
+    background-color: #9A1915;
+  }
+
+  #line-text-2{
+    height: 5px;
+    width: 71%;
+    background-color: #9A1915;
+  }
+
+  #line-text-3{
+    height: 5px;
+    width: 71%;
+    background-color: #9A1915;
+  }
+
+  #line-text-4{
+    height: 5px;
+    width: 82%;
+    background-color: #9A1915;
   }
 
 
