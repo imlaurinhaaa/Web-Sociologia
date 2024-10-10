@@ -301,7 +301,7 @@ body {
 
 #line-text-1 {
   height: 5px;
-  width: 21%;
+  width: 17.5%;
   background-color: #9A1915;
   margin-left: 9.5rem;
 }
@@ -310,7 +310,7 @@ body {
   height: 5px;
   width: 47%;
   background-color: #9A1915;
-  margin-left: 30%;
+  margin-left: 26%;
   margin-top: 4%;
 }
 
@@ -323,16 +323,17 @@ body {
   height: 300px;
   object-fit: cover;
   margin-top: 15%;
+  margin-left: 45%;
 }
 .dica-text{
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-top: 8%;
   gap: 9%;
 }
 .dica-text p{
-  width: 55rem;
+  width: 84%;
   text-align: justify;
 }
 
@@ -340,7 +341,6 @@ body {
 .intro-img {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 3%;
 }
 
@@ -516,7 +516,7 @@ body {
 }
 
 #line-text-3{
-  height: 3px;
-  width: 31%;
+  height: 4px;
+  width: 37%;
   background-color: #9A1915;
 }
