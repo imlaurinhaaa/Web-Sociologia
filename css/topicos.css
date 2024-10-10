@@ -283,8 +283,8 @@ body {
   }
 
   .PT-img {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     border-radius: 50%;
     object-fit: cover;
     margin-left: 20px;
@@ -297,6 +297,8 @@ body {
     margin: 20px auto;
     width: 85%;
     background-color: #9A1915;
+    margin-top: 5%;
+    margin-bottom: 8%;
   }
 
   .titulo-PT{
