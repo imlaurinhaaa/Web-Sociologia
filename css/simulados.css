@@ -237,8 +237,7 @@ body {
 
 /* final da header/ banner/ abas */
 
-
-/* início do conteúdo da section simulado */
+/* início do conteúdo do simulado */
 
   .intro{
     margin-top: 3rem;
@@ -353,7 +352,9 @@ body {
     background-color: #9A1915;
   }
 
-  /* início do conteúdo do footer */
+/* final do conteúdo simulado */
+
+/* início do footer */
 
   .footer {
     background-color: #9a1915;
@@ -413,4 +414,4 @@ body {
     color: white;
   }
   
-  /* final do conteúdo do footer */
+  /* final do footer */

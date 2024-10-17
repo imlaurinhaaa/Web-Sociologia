@@ -22,6 +22,8 @@ body {
   font-style: normal;
 }
 
+/* início da header/ banner/ abas */
+
 .sociologia-header {
   display: flex;
   color: #ffffffff;
@@ -192,6 +194,10 @@ body {
     font-weight: 700;
     font-style: normal;
   }
+
+/* final da header/ banner/ abas */
+
+/* início do conteúdo sobre-nós */
 
 .sobre-content h1{
   color: black;
@@ -436,6 +442,10 @@ body {
   margin-top: 5rem;
 }
 
+/* final do conteúdo sobre-nós */
+
+/* início do footer */
+
 .footer {
   background-color: #9a1915;
   color: white;
@@ -486,9 +496,4 @@ body {
   color: white;
 }
 
-#line-text-3 {
-  height: 0.3rem;
-  width: 21%;
-  background-color: #9A1915;
-  margin-left: 0.6rem;
-}
+/* final do footer */

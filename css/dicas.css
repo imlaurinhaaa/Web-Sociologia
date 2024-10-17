@@ -257,6 +257,8 @@ body {
 
 /* final da header/ banner/ abas */
 
+/* início do conteúdo dicas */
+
 .introducao {
   display: flex;
   justify-content: space-between;
@@ -451,6 +453,10 @@ body {
   background-color: #9A1915;
 }
 
+/* final do conteúdo dicas */
+
+/* início do footer */
+
 .footer-text {
   background-color: #9a1915;
   color: white;
@@ -523,4 +529,4 @@ body {
   color: white;
 }
 
-
+/* final do footer */
