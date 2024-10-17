@@ -136,18 +136,6 @@ body {
 
 }
 
-.image-banner .title{
-  position: absolute;
-  top: 19rem;
-  left: 40rem; 
-  transform: translate(-50%, -50%); 
-  color: rgb(255, 255, 255); 
-  font-size: 2.1em; 
-  padding: 10px;
-  border-radius: 5px; 
-
-} 
-
 #line {
   height: 5px;
   margin: 20px auto;
