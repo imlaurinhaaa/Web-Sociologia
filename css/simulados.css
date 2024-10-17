@@ -26,6 +26,8 @@ body {
   font-style: normal;
 }
 
+/* início do conteúdo da header */
+
 .sociologia-header {
   display: flex;
   color: #ffffffff;
@@ -183,7 +185,7 @@ body {
   
   }
   
-  .aba-item {
+  .aba-item, .aba-text {
     background-color: #e0e0e0;
     border: none;
     padding: 10px 20px;
@@ -200,6 +202,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
+    width: 100%;
+  }
+
+  .aba-text a, .aba-item {
+    width: 100%;
+    color: rgb(255, 255, 255);
   }
   
   .aba-text-check {
@@ -222,15 +231,84 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
+  }
+
+  .aba-item:hover,
+  .aba-text:hover {
+    background-color: #9A1915;
+    color: #ffffff;
+}
+
+/* final do conteúdo da header */
+
+
+/* início do conteúdo da section simulado */
+
+  .intro{
+    margin-top: 3rem;
+  }
+
+  .titulo-intro {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: #000000;
+    margin-left: 9.5rem
+  }
+
+  .simulado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .simulado-content {
+    background-color: #c2c2c281;
+    height: 78rem;
+    width: 93rem;
+    border-radius: 0.3%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2rem;
   }
+
+  .simulado-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .text-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 7rem;
+    gap: 5%;
+  }
+
 
   .img-simulado{
     height: 19rem;
     width: 25rem;
+    object-fit: cover;
+    margin-left: 7rem;
+  }
+
+  .titulo-simulado{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+    color: #000000;
+    white-space: nowrap;
   }
 
   .text-simulado{
@@ -241,6 +319,7 @@ body {
     font-size: large;
     color: #000000;
     text-align: justify;
+    margin-top: 2rem;
   }
 
   .text-simulado-link{
@@ -251,32 +330,35 @@ body {
     font-size: large;
     color: #2cc3ff;
     text-align: justify;
+    margin-top: 2rem;
   }
 
   #line-text-1{
-    height: 5px;
-    width: 9%;
+    height: 0.2rem;
+    width: 11%;
     background-color: #9A1915;
+    margin-left: 9.5rem
   }
 
   #line-text-2{
-    height: 5px;
-    width: 71%;
+    height: 0.2rem;
+    width: 53%;
     background-color: #9A1915;
   }
 
   #line-text-3{
-    height: 5px;
-    width: 71%;
+    height: 0.2rem;
+    width: 70%;
     background-color: #9A1915;
   }
 
   #line-text-4{
-    height: 5px;
-    width: 82%;
+    height: 0.2rem;
+    width: 61%;
     background-color: #9A1915;
   }
 
+  /* início do conteúdo do footer */
 
   .footer {
     background-color: #9a1915;
@@ -336,48 +418,4 @@ body {
     color: white;
   }
   
-  .main-content{
-    justify-content: center;
-    display: flex;
-  }
-  
-  .section-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .img {
-    width: 25%;
-    margin-bottom: 300px;
-    align-items: center;
-  }
-  
-  .img:nth-child(4n+1) {
-    margin-left: 0;
-  }
-  
-  .img:nth-child(4n) {
-    margin-right: 0;
-  }
-  
-  .img-text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: x-large;
-    text-align: center;
-    color: #000000;
-  }
-  
-  .principaisTopicos {
-    margin-left: 4%;
-    margin-bottom: 5%;
-  }
-  
-  #line-text-3 {
-    height: 5px;
-    width: 21%;
-    background-color: #9A1915;
-    margin-left: 1px;
-  }
-
+  /* final do conteúdo do footer */

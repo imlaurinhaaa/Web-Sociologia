@@ -321,11 +321,11 @@ body {
   margin-top: 8%;
   gap: 9%;
 }
+
 .dica-text p{
   width: 84%;
   text-align: justify;
 }
-
 
 .intro-img {
   display: flex;
@@ -346,6 +346,96 @@ body {
 .imagem-icones {
   margin-left: 43%;
   display: inline-block;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.topo {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.img-card{
+  width: 30rem;
+  height: 20rem;
+}
+
+.text-card h2{
+  width: 30rem;
+  text-align: start;
+  margin-top: 2%;
+}
+
+.text-card p{
+  width: 30rem;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+  font-size: large;
+}
+
+.topo2 {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.fim1 {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.fim2 {
+  display: flex;
+  margin: 3rem;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.PT-img{
+  width: 50rem;
+}
+
+.sociologia-dicas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-dicas{
+  background-color: #c2c2c281;
+  width: 93rem;
+  border-radius: 0.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.sociologia-dicas h1{
+  font-size: 27px;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+#line-text-3{
+  height: 4px;
+  width: 37%;
+  background-color: #9A1915;
 }
 
 .footer-text {
@@ -420,92 +510,4 @@ body {
   color: white;
 }
 
-.main-content {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5%;
-}
 
-.topo {
-  display: flex;
-  margin: 3rem;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.img-card{
-  width: 30rem;
-  height: 20rem;
-}
-
-.text-card h2{
-  width: 30rem;
-  text-align: start;
-  margin-top: 2%;
-}
-
-.text-card p{
-  width: 30rem;
-  text-align: justify;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 30px;
-  font-size: large;
-}
-
-.topo2 {
-  display: flex;
-  margin: 3rem;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.fim1 {
-  display: flex;
-  margin: 3rem;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.fim2 {
-  display: flex;
-  margin: 3rem;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.PT-img{
-  width: 50rem;
-}
-
-.sociologia-dicas{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.lista-dicas{
-  background-color: #eeeeee81;
-  width: 93rem;
-  border-radius: 0.3%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5%;
-}
-
-.sociologia-dicas h1{
-  font-size: 27px;
-  margin-top: 2%;
-  display: flex;
-  justify-content: center;
-}
-
-#line-text-3{
-  height: 4px;
-  width: 37%;
-  background-color: #9A1915;
-}
