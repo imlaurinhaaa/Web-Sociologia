@@ -30,13 +30,6 @@ body {
   padding: 1rem 0;
 }
 
-.logo-header {
-  margin: 0 2rem;
-  display: flex;
-  justify-content: space-between;
-  background-color: #e30613;
-}
-
 .section-img {
   align-items: center;
   justify-content: space-between;
@@ -100,10 +93,6 @@ body {
   margin-right: 0.5rem;
 }
 
-#sesi-logo {
-  margin: 0 40px;
-}
-
 .image-banner{
   position: relative;
   display: inline-block;  
@@ -135,7 +124,7 @@ body {
 }
 
 #sesi-logo {
-  margin-left: 0.5rem;
+  margin-left: 3rem;
   margin-right: 2rem;
 }
 
@@ -164,18 +153,17 @@ body {
   }
   
   .aba-item {
+    background-color: #9A1915;    
     background-color: #e0e0e0;
-    border: none;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-    border-radius: 1rem;
-    font-size: 1rem;
     color: #333;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6rem;
+    margin: 0 0.8rem;
+    font-size: 1rem;
     cursor: pointer;
     outline: none;
     width: 15rem;
-    justify-content: center;
-    align-items: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -185,30 +173,32 @@ body {
   .aba-text-check {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 70px;
+    padding-left: 3.2rem;
+    margin-top: 0.5rem;
   }
   
   .aba-item-check {
     background-color: #9A1915;
     border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 20px;
-    font-size: 16px;
+    padding: 0.6rem 1rem;
+    border-radius: 6rem;
+    margin: 0 0.2rem;
+    font-size: 1rem;
     cursor: pointer;
     outline: none;
-    width: 250px;
+    width: 15rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
   }
+    
 
 
   .footer {
     background-color: #9a1915;
     color: white;
-    margin-top: 50px;
+    margin-top: 3.15rem;
   }
   
   .footer .icones {
@@ -219,7 +209,7 @@ body {
     width: 20%;
     display: inline-block;
     text-align: center;
-    padding: 30px 0 20px 0;
+    padding: 1.8rem 0 1.25rem 0;
     margin-left: 29%;
   }
   
@@ -236,7 +226,7 @@ body {
     display: inline-block;
     margin-left: 3%;
     text-align: center;
-    padding: 0 0 20px 0px;
+    padding: 0 0 1.25rem 0rem;
   }
   
   .sesi h3 {
@@ -249,7 +239,7 @@ body {
   
   .footer .icones img {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 1.4rem;
   }
   
   .icones {
@@ -276,7 +266,7 @@ body {
   
   .img {
     width: 25%;
-    margin-bottom: 300px;
+    margin-bottom: 18rem;
     align-items: center;
   }
   
@@ -302,52 +292,8 @@ body {
   }
   
   #line-text-3 {
-    height: 5px;
+    height: 0.3rem;
     width: 21%;
     background-color: #9A1915;
-    margin-left: 1px;
-  }
-
-    @media screen and (max-width: 768px) {
-  .banner{
-    height: auto;
-    width: 100%; 
-  }
-  .sociologia-header{
-    width: 100%;
-  }
-  .links{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    width: 60%;
-  }
-  .logo-header{
-    width: 30%;
-  }
-  .topics-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    gap: 6px;
-  }
-  .overlay{
-    display: none;
-  }
-
-  }
-  @media screen and (max-width: 1270px) {
-    .banner{
-      height: auto;
-      width: 100%; 
-    }
-    .sociologia-header{
-      width: 100%;
-    }
-    .overlay{ 
-      display: none;
-    }
+    margin-left: 0.6rem;
   }
