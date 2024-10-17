@@ -142,15 +142,11 @@ body {
   }
   
   .aba-text {
+    background-color: #ffffff00;
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 3rem;
-  }
-  .aba-text-dicas{
-    color: rgb(0, 0, 0);
-    padding-left: 4rem;
-  
+    padding-left: 50px ;
   }
   .aba-text-home{
     color: rgb(0, 0, 0);
@@ -173,6 +169,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
+    width: 100%;
+  }
+
+  .aba-text a, .aba-item {
+    width: 100%;
+    color: rgb(255, 255, 255);
   }
   
   .aba-text-check {
@@ -196,8 +199,14 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
   }
-    
+
+  .aba-item:hover, .aba-item:hover a{
+    background-color: #9A1915;
+    color: #ffffff;
+}
+
   .footer {
     background-color: #9a1915;
     color: white;

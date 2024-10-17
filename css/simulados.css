@@ -174,18 +174,14 @@ body {
   }
   
   .aba-text {
+    background-color: #ffffff00;
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
     padding-left: 50px ;
   }
-  .aba-text-dicas{
-    color: rgb(0, 0, 0);
-    padding-left: 70px;
   
-  }
-  
-  .aba-item, .aba-text {
+  .aba-item {
     background-color: #e0e0e0;
     border: none;
     padding: 10px 20px;
@@ -234,8 +230,7 @@ body {
     list-style: none;
   }
 
-  .aba-item:hover,
-  .aba-text:hover {
+  .aba-item:hover, .aba-item:hover a{
     background-color: #9A1915;
     color: #ffffff;
 }
