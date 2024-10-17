@@ -114,20 +114,20 @@ body {
   margin: 0 40px;
 }
 
-.image-banner{
+.image-banner {
   position: relative;
-  display: inline-block;  
+  display: inline-block;
   width: 100%;
   height: 45rem;
   overflow: hidden;
 }
 
-.image-banner img{
-  width: 100%; 
-  height: 100%; 
+.image-banner img {
+  width: 100%;
+  height: 100%;
 }
 
-  
+
 #line {
   height: 5px;
   margin: 20px auto;
@@ -161,7 +161,7 @@ body {
   width: 200px;
   height: 200px;
   border: 5px solid #9a1915;
-  
+
 }
 
 .img {
@@ -174,7 +174,7 @@ body {
   box-sizing: border-box;
 }
 
-.alinhamento{
+.alinhamento {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -199,7 +199,7 @@ body {
   color: rgb(0, 0, 0);
   text-align: center;
   justify-content: space-between;
-  padding-left: 50px ;
+  padding-left: 50px;
 }
 
 .aba-item {
@@ -223,7 +223,8 @@ body {
   width: 100%;
 }
 
-.aba-text a, .aba-item {
+.aba-text a,
+.aba-item {
   width: 100%;
   color: rgb(255, 255, 255);
 }
@@ -251,7 +252,8 @@ body {
   list-style: none;
 }
 
-.aba-item:hover, .aba-item:hover a{
+.aba-item:hover,
+.aba-item:hover a {
   background-color: #9A1915;
   color: #ffffff;
 }
@@ -335,18 +337,18 @@ body {
   justify-content: center;
 }
 
-.img-card{
+.img-card {
   width: 30rem;
   height: 20rem;
 }
 
-.text-card h2{
+.text-card h2 {
   width: 30rem;
   text-align: start;
   margin-top: 2%;
 }
 
-.text-card p{
+.text-card p {
   width: 30rem;
   text-align: justify;
   font-family: "Montserrat", sans-serif;

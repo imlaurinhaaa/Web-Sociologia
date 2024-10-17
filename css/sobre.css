@@ -95,17 +95,17 @@ body {
   margin-right: 0.5rem;
 }
 
-.image-banner{
+.image-banner {
   position: relative;
-  display: inline-block;  
+  display: inline-block;
   width: 100%;
   height: 45rem;
   overflow: hidden;
 }
 
-.image-banner img{
-  width: 100%; 
-  height: 100%; 
+.image-banner img {
+  width: 100%;
+  height: 100%;
 }
 
 #line {
@@ -137,69 +137,70 @@ body {
 }
 
 .topics-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 0;
-  }
-  
-  .aba-text {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    justify-content: space-between;
-    padding-left: 3rem;
-  }
-  .aba-text-dicas{
-    color: rgb(0, 0, 0);
-    padding-left: 4rem;
-  
-  }
-  
-  .aba-item {
-    background-color: #9A1915;    
-    background-color: #e0e0e0;
-    color: #333;
-    border: none;
-    padding: 0.6rem 1rem;
-    border-radius: 6rem;
-    margin: 0 0.8rem;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    width: 15rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .aba-text-check {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-left: 3.2rem;
-    margin-top: 0.5rem;
-  }
-  
-  .aba-item-check {
-    background-color: #9A1915;
-    border: none;
-    padding: 0.6rem 1rem;
-    border-radius: 6rem;
-    margin: 0 0.2rem;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    width: 15rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.aba-text {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 3rem;
+}
+
+.aba-text-dicas {
+  color: rgb(0, 0, 0);
+  padding-left: 4rem;
+
+}
+
+.aba-item {
+  background-color: #9A1915;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6rem;
+  margin: 0 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  width: 15rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.aba-text-check {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 3.2rem;
+  margin-top: 0.5rem;
+}
+
+.aba-item-check {
+  background-color: #9A1915;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6rem;
+  margin: 0 0.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  width: 15rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 
 /* final da header/ banner/ abas */
 
 /* início do conteúdo sobre-nós */
 
-.sobre-content h1{
+.sobre-content h1 {
   color: black;
   font-family: "Montserrat", sans-serif;
 }
@@ -227,7 +228,7 @@ body {
   margin-bottom: 10rem;
 }
 
-.img-equipe{
+.img-equipe {
   display: flex;
   justify-content: flex-end;
 }
@@ -245,7 +246,7 @@ body {
   flex-direction: column;
 }
 
-.titulo-participantes{
+.titulo-participantes {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   font-weight: 800;
@@ -359,7 +360,7 @@ body {
   margin-right: 4rem;
 }
 
-.title-info-dir-2{
+.title-info-dir-2 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -377,7 +378,7 @@ body {
 
 }
 
-.info-esq{
+.info-esq {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -388,7 +389,7 @@ body {
   text-align: justify;
 }
 
-.info-dir{
+.info-dir {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -400,7 +401,7 @@ body {
   margin-right: -1.8rem;
 }
 
-.title-align{
+.title-align {
   position: absolute;
   text-align: center;
 }
