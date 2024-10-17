@@ -192,65 +192,6 @@ body {
     font-weight: 700;
     font-style: normal;
   }
-    
-.div-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-bottom: 40px;
-}
-
-.introduction {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  text-align: left;
-}
-
-.central-img {
-  padding-top: 60px;
-  padding-right: 30px;
-  width: 640px;
-  height: 480px;
-}
-
-.title-1 {
-  color: black;
-  font-size: 50px;
-  display: inline-block;
-  border-bottom: 2px solid red;
-  border-radius: 1px;
-  padding-bottom: 4px;
-  width: 275px;
-}
-
-.text-1 {
-  font-size: larger;
-  font-weight: bolder;
-}
-
-#line {
-  height: 5px;
-  margin: 20px auto;
-  width: 20%;
-  background-color: #9a1915;
-}
-
-.title {
-  position: absolute;
-  top: 100%;
-  left: 37%;
-  color: black;
-  font-size: 50px;
-  display: inline-block;
-  border-bottom: 2px solid red;
-  border-radius: 1px;
-  padding-bottom: 4px;
-  width: auto;
-  padding-top: 40px;
-}
-
 
 .sobre-content h1{
   color: black;
@@ -258,10 +199,9 @@ body {
 }
 
 #line-1 {
-  height: 5px;
-  width: 16%;
+  height: 0.2rem;
+  width: 8.8%;
   background-color: #9A1915;
-  margin-left: 1px;
 }
 
 .sobre-content p {
@@ -269,16 +209,16 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  margin-top: 30px;
+  margin-top: 1.8rem;
   font-size: large;
   text-align: justify;
   width: 45%;
 }
 
 .sobre-content {
-  margin-left: 5%;
-  margin-top: 100px;
-  margin-bottom: 180px;
+  margin-left: 10%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .img-equipe{
@@ -287,10 +227,10 @@ body {
 }
 
 #fotoEquipe {
-  height: 380px;
+  height: 23rem;
   width: auto;
-  margin-right: 230px;
-  margin-top: -210px;
+  margin-right: 14rem;
+  margin-top: -17rem;
   border-radius: 5%;
 }
 
@@ -301,22 +241,22 @@ body {
 
 .titulo-participantes{
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+  font-size: 1.8rem;
   font-weight: 800;
   font-style: normal;
   color: #000000;
   justify-content: center;
   display: flex;
-  margin-right: 2px;
-  margin-bottom: 40px;
+  margin-right: 0.12rem;
+  margin-bottom: 2.5rem;
 }
 
 #line-2 {
-  height: 5px;
-  width: 22%;
+  height: 0.2rem;
+  width: 16%;
   background-color: #9A1915;
-  margin: 15px auto;
-  margin-top: -40px;
+  margin: 0.9rem auto;
+  margin-top: -2.5rem;
 }
 
 .participante-esq {
@@ -324,8 +264,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  margin-top: 30px;
-  margin-left: 160px;
+  margin-top: 1.6rem;
+  margin-left: 10rem;
   align-self: flex-start;
 }
 
@@ -334,8 +274,8 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: right;
-  margin-bottom: 10px;
-  margin-right: 90px;
+  margin-bottom: 0.6rem;
+  margin-right: 10rem;
   align-self: flex-end;
 }
 
@@ -345,7 +285,7 @@ body {
   text-align: left;
   display: flex;
   flex-direction: column;
-  margin-top: 0px;
+  margin-top: 0rem;
   align-self: center;
 }
 
@@ -359,20 +299,20 @@ body {
 }
 
 .foto-participante-dir {
-  margin-left: 50px;
-  width: 300px;
+  margin-left: 3rem;
+  width: 18rem;
   height: auto;
   border-radius: 100%;
   align-self: flex-end;
 }
 
 .foto-zani {
-  margin-right: 90px;
+  margin-right: 10rem;
 }
 
 .foto-participante-esq {
   margin-right: 50px;
-  width: 300px;
+  width: 18rem;
   height: auto;
   border-radius: 100%;
   align-self: flex-start;
@@ -383,15 +323,15 @@ body {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-size: 30px;
+  font-size: 1.5rem;
   color: #000000;
   white-space: nowrap;
   position: absolute;
   text-align: left;
-  margin-bottom: 100px;
-  padding-bottom: 4px;
-  width: 300px;
-  padding-top: 0px;
+  margin-bottom: 6rem;
+  padding-bottom: 0.5rem;
+  width: 18rem;
+  padding-top: 0rem;
   align-self: flex-start;
 }
 
@@ -400,17 +340,17 @@ body {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-size: 30px;
+  font-size: 1.5rem;
   color: #000000;
   white-space: nowrap;
   position: absolute;
-  margin-left: 335px;
-  margin-bottom: 100px;
-  padding-bottom: 50px;
-  width: 300px;
-  padding-top: 40px;
+  margin-left: 17rem;
+  margin-bottom: 8rem;
+  padding-bottom: 7rem;
+  width: 18rem;
+  padding-top: 2.5rem;
   align-self: flex-end;
-  margin-right: 140px;
+  margin-right: 4rem;
 }
 
 .title-info-dir-2{
@@ -418,17 +358,16 @@ body {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-size: 30px;
+  font-size: 1.5rem;
   color: #000000;
   white-space: nowrap;
   position: absolute;
-  margin-left: 335px;
-  margin-bottom: 100px;
-  padding-bottom: 50px;
-  width: 300px;
-  padding-top: 40px;
+  margin-right: 9.3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 6rem;
+  width: 18rem;
+  padding-top: 2.5rem;
   align-self: flex-end;
-  margin-right: 245px;
 
 }
 
@@ -437,8 +376,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
-  margin-top: 70px;
+  font-size: 1.1rem;
+  margin-top: 4rem;
   align-self: flex-start;
   text-align: justify;
 }
@@ -448,10 +387,11 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
-  margin-top: 70px;
+  font-size: 1.1rem;
+  margin-top: 4rem;
   align-self: flex-end;
   text-align: justify;
+  margin-right: -1.8rem;
 }
 
 .title-align{
@@ -460,14 +400,14 @@ body {
 }
 
 #line-3-laura {
-  height: 5px;
+  height: 0.2rem;
   width: 43%;
   background-color: #9A1915;
-  margin-top: 95px;
+  margin-top: 5.9rem;
 }
 
 #line-3-evelyn {
-  height: 5px;
+  height: 0.2rem;
   width: 57.2%;
   background-color: #9A1915;
   margin-top: 115px;
@@ -475,25 +415,25 @@ body {
 }
 
 #line-3-bruna {
-  height: 5px;
+  height: 0.2rem;
   width: 51%;
   background-color: #9A1915;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 #line-3-zani {
-  height: 5px;
+  height: 0.2rem;
   width: 46%;
   background-color: #9A1915;
-  margin-top: 95px;
+  margin-top: 0.2rem;
   margin-left: 54%;
 }
 
 #line-3-luiz {
-  height: 5px;
+  height: 0.2rem;
   width: 57.5%;
   background-color: #9A1915;
-  margin-top: 95px;
+  margin-top: 5rem;
 }
 
 .footer {
