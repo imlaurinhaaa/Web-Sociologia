@@ -193,8 +193,6 @@ body {
     font-style: normal;
   }
     
-
-
   .footer {
     background-color: #9a1915;
     color: white;
@@ -228,15 +226,7 @@ body {
     text-align: center;
     padding: 0 0 1.25rem 0rem;
   }
-  
-  .sesi h3 {
-    text-align: left;
-  }
-  
-  .sesi p {
-    text-align: left;
-  }
-  
+
   .footer .icones img {
     display: inline-block;
     margin-left: 1.4rem;
@@ -252,45 +242,7 @@ body {
     background-color: #9a1915;
     color: white;
   }
-  
-  .main-content{
-    justify-content: center;
-    display: flex;
-  }
-  
-  .section-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .img {
-    width: 25%;
-    margin-bottom: 18rem;
-    align-items: center;
-  }
-  
-  .img:nth-child(4n+1) {
-    margin-left: 0;
-  }
-  
-  .img:nth-child(4n) {
-    margin-right: 0;
-  }
-  
-  .img-text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: x-large;
-    text-align: center;
-    color: #000000;
-  }
-  
-  .principaisTopicos {
-    margin-left: 4%;
-    margin-bottom: 5%;
-  }
-  
+
   #line-text-3 {
     height: 0.3rem;
     width: 21%;
