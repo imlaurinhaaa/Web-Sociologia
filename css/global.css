@@ -83,19 +83,19 @@ body {
 
 /* menu-mobile */
 .menu-mobile ul {
-  background-color: #ff0000;
+  background-color: #e30613;
   backdrop-filter: blur(10px);
   position: absolute;
   top: 82px;
   right: 0;
   width: 405px;
-  height: 0;
+  max-height: 31.25rem;
   visibility: hidden;
-  transition: 0.5s;
+  transition: 2s;
   overflow: hidden;
   margin-right: 0;
   z-index: 4;
-  display: flex;
+  display: inline;
   flex-direction: column;
 }
 
@@ -153,10 +153,7 @@ body {
   background-color: #ffffff;
 }
 
-#btn-menu.ativo .linha:nth-child(2) {
-  width: 0;
-  height: 4px;
-}
+
 
 #btn-menu.ativo {
   border: 0px solid #000000;
