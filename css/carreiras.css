@@ -22,6 +22,8 @@ body {
   font-style: normal;
 }
 
+/* início da header/ banner/ abas */
+
 .sociologia-header {
   display: flex;
   color: #ffffffff;
@@ -253,6 +255,8 @@ body {
   background-color: #9A1915;
   color: #ffffff;
 }
+
+/* final da header/ banner/ abas */
 
 .introducao {
   display: flex;
