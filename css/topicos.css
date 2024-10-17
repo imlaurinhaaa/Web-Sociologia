@@ -22,6 +22,8 @@ body {
   font-style: normal;
 }
 
+/* início da header/ banner/ abas */
+
 .sociologia-header {
   display: flex;
   color: #ffffffff;
@@ -199,15 +201,11 @@ body {
   }
   
   .aba-text {
+    background-color: #ffffff00;
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
     padding-left: 50px ;
-  }
-  .aba-text-dicas{
-    color: rgb(0, 0, 0);
-    padding-left: 70px;
-  
   }
   
   .aba-item {
@@ -227,6 +225,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
+    width: 100%;
+  }
+
+  .aba-text a, .aba-item {
+    width: 100%;
+    color: rgb(255, 255, 255);
   }
   
   .aba-text-check {
@@ -249,7 +254,16 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
   }
+
+  .aba-item:hover, .aba-item:hover a{
+    background-color: #9A1915;
+    color: #ffffff;
+}
+
+
+  /* final da header/ banner/ abas */
 
   .intro{
     display: flex;

@@ -26,7 +26,7 @@ body {
   font-style: normal;
 }
 
-/* início do conteúdo da header */
+/* início da header/ banner/ abas */
 
 .sociologia-header {
   display: flex;
@@ -235,7 +235,7 @@ body {
     color: #ffffff;
 }
 
-/* final do conteúdo da header */
+/* final da header/ banner/ abas */
 
 
 /* início do conteúdo da section simulado */
