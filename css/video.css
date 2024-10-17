@@ -152,34 +152,37 @@ body {
   }
   
   .aba-text {
+    background-color: #ffffff00;
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 3rem;
-  }
-  .aba-text-dicas{
-    color: rgb(0, 0, 0);
-    padding-left: 4rem;
-  
+    padding-left: 50px ;
   }
   
   .aba-item {
     background-color: #e0e0e0;
     border: none;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-    border-radius: 1rem;
-    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
     color: #333;
     cursor: pointer;
     outline: none;
-    width: 15rem;
+    width: 250px;
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
+    width: 100%;
+  }
+
+  .aba-text a, .aba-item {
+    width: 100%;
+    color: rgb(255, 255, 255);
   }
   
   .aba-text-check {
@@ -202,7 +205,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    list-style: none;
   }
+
+  .aba-item:hover, .aba-item:hover a{
+    background-color: #9A1915;
+    color: #ffffff;
+}
 
 
   .footer {
