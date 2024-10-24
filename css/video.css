@@ -135,8 +135,6 @@ body {
 }
 
 .topics-header {
-<<<<<<< HEAD
-=======
   display: flex;
   justify-content: space-between;
   margin: 2rem 0;
@@ -281,7 +279,6 @@ body {
   .sociologia-header {
     width: 100%;
     height: 100%;
->>>>>>> 048634ef5d07359464ee20df40e39614d403e19f
     display: flex;
     justify-content: space-between;
     margin: 2rem 0; 
@@ -401,7 +398,7 @@ body {
     background-color: #9A1915;
     margin-left: 0.6rem;
   }
-
+}
 
   @media screen and (max-width: 500px) {
     .sociologia-header{
