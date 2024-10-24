@@ -237,6 +237,15 @@ body {
   color: #ffffff;
 }
 
+.aba-text-home{
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.6rem;
+}
+
+
 /* final da header/ banner/ abas */
 
 /* início do conteúdo do simulado */
