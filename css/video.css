@@ -153,7 +153,7 @@ body {
 
 .aba-text-home {
   color: rgb(0, 0, 0);
-  padding-left: 4rem;
+  padding-left: 2rem;
 }
 
 .aba-item {
@@ -211,6 +211,15 @@ body {
   background-color: #9A1915;
   color: #ffffff;
 }
+
+.aba-text-home{
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.6rem;
+}
+
 
 /* final da header/ banner/ abas */
 
