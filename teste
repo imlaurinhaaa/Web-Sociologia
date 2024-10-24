@@ -1,1 +1,2 @@
-sdafasd
+git config --global user.name "Bruna Savelli"
+git config --global user.email bnsavelli@gmail.comgit config user.name
