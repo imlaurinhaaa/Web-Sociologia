@@ -115,11 +115,17 @@ body {
   padding: 10px 30px;
   font-size: 16px;
   text-align: center;
+  border-bottom: 1px solid #ffffff;
 }
 
 .menu-mobile ul li a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.menu-mobile ul li h1 {
+  color: #ffffff;
+  border-bottom: #ffffff;
 }
 
 #btn-menu {
@@ -160,6 +166,9 @@ body {
 }
 
 /* começo do botão dentro do menu mobile */
+.sociologia{
+  display: flex;
+}
 
 #menu-materias {
   display: flex;
