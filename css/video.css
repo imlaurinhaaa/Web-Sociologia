@@ -135,6 +135,153 @@ body {
 }
 
 .topics-header {
+<<<<<<< HEAD
+=======
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+
+}
+
+.aba-text {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.aba-text-home {
+  color: rgb(0, 0, 0);
+  padding-left: 2rem;
+}
+
+.aba-item {
+  background-color: #9A1915;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6rem;
+  margin: 0 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  width: 15rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  list-style: none;
+  width: 100%;
+}
+
+.aba-text a,
+.aba-item {
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.aba-text-check {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 3.2rem;
+  margin-top: 0.5rem;
+}
+
+.aba-item-check {
+  background-color: #9A1915;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6rem;
+  margin: 0 0.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  width: 15rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  list-style: none;
+}
+
+.aba-item:hover,
+.aba-item:hover a {
+  background-color: #9A1915;
+  color: #ffffff;
+}
+
+.aba-text-home{
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.6rem;
+}
+
+
+/* final da header/ banner/ abas */
+
+/* início do footer*/
+
+.footer {
+  background-color: #9a1915;
+  color: white;
+  margin-top: 3.15rem;
+}
+
+.footer .icones {
+  background-color: #e30613;
+}
+
+.senai {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.8rem 0 1.25rem 0;
+  margin-left: 29%;
+}
+
+.senai h3 {
+  text-align: left;
+}
+
+.senai p {
+  text-align: left;
+}
+
+.sesi {
+  width: 20%;
+  display: inline-block;
+  margin-left: 3%;
+  text-align: center;
+  padding: 0 0 1.25rem 0rem;
+}
+
+.footer .icones img {
+  display: inline-block;
+  margin-left: 1.4rem;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  background-color: #9a1915;
+  color: white;
+}
+
+/* final do footer */
+
+@media screen and (max-width: 500px) {
+  .sociologia-header {
+    width: 100%;
+    height: 100%;
+>>>>>>> 048634ef5d07359464ee20df40e39614d403e19f
     display: flex;
     justify-content: space-between;
     margin: 2rem 0; 
