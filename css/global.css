@@ -128,37 +128,48 @@ body {
   background-color: #000000c4;
 }
 
+.menu-mobile ul .menu-title:hover {
+  background-color: var(--color-menu);
+}
+
 .menu-mobile ul li {
-  display: block;
+  display: flex;
   padding: 10px 30px;
   font-size: 16px;
   text-align: center;
-  
 }
 
-.menu-mobile ul .sociologia {
-  width: 20rem;
+.menu-mobile ul .sociologia{
+  width: 30rem;
   display: flex;
-  gap: 15rem;
   justify-content: left;
   flex-direction: row;
 }
 
-.menu-mobile ul .sociologia a{
-  
+.menu-mobile ul li div{
+  width: 20.7rem;
+  display: block;
+}
+
+.menu-mobile ul .sociologia div{
+  width: 20.7rem;
+  display: block;
+  border-bottom: 0 solid #ffffff;
 }
 
 .menu-mobile ul li a {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: left;
   color: var(--color-fonteBranca);
   text-decoration: none;
-  border-bottom: 1px solid #ffffff
+  border-bottom: 1px solid #ffffff;
+  font-weight: 400;
 }
 
 .menu-mobile ul li h1 {
   color: #ffffff;
-  border-bottom: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
 #btn-menu {
@@ -172,12 +183,11 @@ body {
   cursor: pointer;
 }
 
-
 .linha {
   width: 40px;
   height: 3px;
   background-color: #ffffff;
-  display: block;
+  display: flex;
   margin: 10px auto;
   position: relative;
   transform-origin: center;
@@ -215,6 +225,10 @@ body {
   transition: .3s;
 }
 
+.btn-menu2:hover{
+  background-color: #000;
+}
+
 #btn-menu2.ativado .arrow{
   transform: rotate(0deg) ;
 }
@@ -222,7 +236,7 @@ body {
 #btn-menu2 {
   height: 10px;
   border: 0px solid #ff0000;
-  background-color: #00000000;
+  background: transparent;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -247,10 +261,27 @@ body {
   gap: 0.5rem;
 }
 
+.menu-menu ul li {
+  display: block;
+  padding: 6px ;
+  font-size: 16px;
+}
+
+.menu-menu ul li a {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: left;
+  color: var(--color-fonteBranca);
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 400;
+}
+
 #menu-menu a {
   margin-left: 2.5rem;
   text-decoration: none;
   color: #e0e0e0;
+  border-bottom: 1px solid #ffffff
 }
 
 #menu-menu.aberto ul {
