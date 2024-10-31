@@ -524,6 +524,7 @@ color: var(--color-fontePreto);
   font-style: normal;
   margin-top: 30px;
   font-size: large;
+  text-align: justify;
 }
 
 .imagem-icones {
