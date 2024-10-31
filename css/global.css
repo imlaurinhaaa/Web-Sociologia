@@ -116,6 +116,7 @@ body {
   z-index: 4;
   display: inline;
   flex-direction: column;
+  gap: 0.5rem;
 }
 
 .menu-mobile.abrir ul {
@@ -134,7 +135,17 @@ body {
   text-align: center;
 }
 
+.menu-mobile ul .sociologia {
+  width: 20rem;
+  display: flex;
+  gap: 15rem;
+  justify-content: left;
+  flex-direction: row;
+}
+
 .menu-mobile ul li a {
+  display: flex;
+  justify-content: left;
   color: var(--color-fonteBranca);
   text-decoration: none;
 }
@@ -185,7 +196,7 @@ body {
 }
 
 #btn-menu2 {
-  height: 10px;
+  height: 5px;
   border: 0px solid #ff0000;
   background: transparent;
   border-radius: 10px;
@@ -198,7 +209,7 @@ body {
   position: absolute;
   right: 0;
   top: 480px;
-  background-color: #e30613;
+  background-color: var(--color-menu);
   z-index: 5;
   width: 405px;
   max-height: 0;
@@ -208,9 +219,12 @@ body {
   visibility: hidden;
   overflow: hidden;
   list-style: none;
+  justify-content: left;
+  gap: 0.5rem;
 }
 
 #menu-menu a {
+  margin-left: 2.5rem;
   text-decoration: none;
   color: #e0e0e0;
 }
