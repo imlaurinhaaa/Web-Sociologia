@@ -164,16 +164,16 @@ body {
   justify-content: left;
   color: var(--color-fonteBranca);
   text-decoration: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 0.3px solid #ffffff;
   font-weight: bold;
-  font-size: medium;
+  font-size: 1rem;
 }
 
 .menu-mobile ul li div h1 {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight: 300;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -273,7 +273,7 @@ body {
 .menu-menu ul li {
   display: block;
   padding: 6px ;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .menu-menu ul li div{
@@ -288,7 +288,7 @@ body {
   color: var(--color-fonteBranca);
   text-decoration: none;
   border-bottom: 1px solid #ffffff;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 #menu-menu a {
