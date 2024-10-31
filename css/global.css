@@ -137,6 +137,7 @@ body {
   padding: 10px 30px;
   font-size: 16px;
   text-align: center;
+  justify-content: center;
 }
 
 .menu-mobile ul .sociologia{
@@ -164,12 +165,20 @@ body {
   color: var(--color-fonteBranca);
   text-decoration: none;
   border-bottom: 1px solid #ffffff;
-  font-weight: 400;
+  font-weight: bold;
+  font-size: medium;
 }
 
-.menu-mobile ul li h1 {
+.menu-mobile ul li div h1 {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  border-bottom: 1px solid #ffffff;
+}
+
+.menu-mobile ul li .materias{
+  width: 12rem;
 }
 
 #btn-menu {
@@ -246,7 +255,7 @@ body {
 #menu-menu ul {
   position: absolute;
   right: 0;
-  top: 35.3rem;
+  top: 36.34rem;
   background-color: var(--color-menu);
   z-index: 5;
   width: 405px;
@@ -267,6 +276,11 @@ body {
   font-size: 16px;
 }
 
+.menu-menu ul li div{
+  display: block;
+  width: 22rem;
+}
+
 .menu-menu ul li a {
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -281,7 +295,8 @@ body {
   margin-left: 2.5rem;
   text-decoration: none;
   color: #e0e0e0;
-  border-bottom: 1px solid #ffffff
+  border-bottom: 1px solid #ffffff;
+  font-size: 0.9rem;
 }
 
 #menu-menu.aberto ul {
@@ -289,6 +304,9 @@ body {
   max-height: 30.25rem;
 }
 
+.video-aula{
+  margin-bottom: 1rem;
+}
 /* fim menu mobile MOTIVO: não me perder*/
 
 .vertical-line {
