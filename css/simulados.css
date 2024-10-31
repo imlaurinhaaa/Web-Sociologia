@@ -244,7 +244,7 @@ body {
 .aba-text-check {
   color: var(--color-fonteBranca);
   text-align: center;
-  padding-left: 4.8rem;
+  padding-left: 3.7rem;
 }
 
 .aba-item-check {
@@ -275,6 +275,20 @@ body {
   text-align: center;
   justify-content: space-between;
   padding-left: 4.6rem;
+}
+
+.aba-text-dicas{
+  color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.6rem;
+}
+
+.aba-text-noticias{
+  color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.2rem;
 }
 
 
