@@ -10,21 +10,24 @@
   scroll-behavior: smooth;
 }
 
-:root {
-  --cor-background: #fff;
-  --color-icones: #fff;
-  --color-linhaVertical: #fff;
-  --color-fonteBranca: #fff;
-  --color-header: #e30613;
-  --color-linhaFooter: #e30613;
-  --color-borderIMG: #9a1915;
-  --color-corLinha: #9a1915;
-  --color-footer: #9a1915;
-  --color-menu: #9a1915;
-  --color-abaCheck: #9a1915;
-  --color-fontePreto: #000;
-  --color-aba: #e0e0e0;
-}
+  :root{
+    --cor-background: #fff;
+    --color-icones: #fff;
+    --color-linhaVertical: #fff;
+    --color-fonteBranca: #fff;
+    --color-header: #e30613;
+    --color-linhaFooter: #e30613;
+    --color-borderIMG: #9a1915;
+    --color-corLinha: #9a1915;
+    --color-footer: #9a1915;
+    --color-menu: #9a1915;
+    --color-abaCheck: #9a1915;
+    --color-fontePreto: #000;
+    --color-aba: #e0e0e0;
+    --color-quadroSimulados: #c2c2c281;
+    --cor-link: #2cc3ff;
+  }
+
 
 html {
   overflow-x: hidden;
@@ -39,6 +42,7 @@ body {
 }
 
 /* início da header/ banner/ abas */
+
 .sociologia-header {
   display: flex;
   color: var(--color-fonteBranca);
@@ -85,6 +89,7 @@ body {
   list-style: none;
   gap: 60px;
   margin-right: 50px;
+
 }
 
 .links a {
@@ -124,6 +129,10 @@ body {
   margin-right: 5px;
 }
 
+#sesi-logo {
+  margin: 0 40px;
+}
+
 .image-banner {
   position: relative;
   display: inline-block;
@@ -144,6 +153,16 @@ body {
   background-color: var(--color-corLinha);
 }
 
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
 #sesi-logo {
   margin-left: 10px;
   margin-right: 30px;
@@ -153,6 +172,23 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
+}
+
+.img-content {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid var(--color-borderIMG);
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  height: 50px;
+  box-sizing: border-box;
 }
 
 .alinhamento {
@@ -208,7 +244,7 @@ body {
 .aba-text-check {
   color: var(--color-fonteBranca);
   text-align: center;
-  padding-left: 4.1rem;
+  padding-left: 3.7rem;
 }
 
 .aba-item-check {
@@ -234,13 +270,31 @@ body {
   color: var(--color-fonteBranca);
 }
 
-.aba-text-home, .aba-text-dicas {
+
+.aba-text-home{
   color: var(--color-fontePreto);
   text-align: center;
   justify-content: space-between;
   padding-left: 4.6rem;
 }
+
+.aba-text-dicas{
+  color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.6rem;
+}
+
+.aba-text-simulados{
+  color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.2rem;
+}
+
 /* final da header/ banner/ abas */
+
+
 
 /*Inicio do conteúdo do notícias*/
 .slider-container {
@@ -323,18 +377,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-}* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f1f5f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
 }
 
 .slider-container {
@@ -497,6 +539,7 @@ body {
 .next {
   right: -10px;
 }
+  
 /* final do conteúdo do notícias */
 
 
