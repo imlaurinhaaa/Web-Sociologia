@@ -268,6 +268,21 @@ body {
   color: var(--color-fonteBranca);
 }
 
+
+.aba-text-noticias{
+  color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.1rem;
+}
+
+.aba-text-dicas{
+  color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.8rem;
+}
+
 /* final da header/ banner/ abas */
 
 /* início do conteúdo tópicos */
