@@ -116,6 +116,7 @@ body {
   z-index: 4;
   display: inline;
   flex-direction: column;
+  gap: 0.5rem;
 }
 
 .menu-mobile.abrir ul {
@@ -132,12 +133,27 @@ body {
   padding: 10px 30px;
   font-size: 16px;
   text-align: center;
-  border-bottom: 1px solid #ffffff;
+  
+}
+
+.menu-mobile ul .sociologia {
+  width: 20rem;
+  display: flex;
+  gap: 15rem;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.menu-mobile ul .sociologia a{
+  
 }
 
 .menu-mobile ul li a {
+  display: flex;
+  justify-content: left;
   color: var(--color-fonteBranca);
   text-decoration: none;
+  border-bottom: 1px solid #ffffff
 }
 
 .menu-mobile ul li h1 {
@@ -183,9 +199,7 @@ body {
 }
 
 /* começo do botão dentro do menu mobile */
-.sociologia{
-  display: flex;
-}
+
 
 #menu-materias {
   display: flex;
@@ -193,10 +207,22 @@ body {
   justify-content: center;
 }
 
+.arrow{
+  width: 1rem;
+  height: 1rem;
+  z-index: 10;
+  transform: rotate(90deg);
+  transition: .3s;
+}
+
+#btn-menu2.ativado .arrow{
+  transform: rotate(0deg) ;
+}
+
 #btn-menu2 {
   height: 10px;
   border: 0px solid #ff0000;
-  background: transparent;
+  background-color: #00000000;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -206,20 +232,23 @@ body {
 #menu-menu ul {
   position: absolute;
   right: 0;
-  top: 480px;
-  background-color: #e30613;
+  top: 35.3rem;
+  background-color: var(--color-menu);
   z-index: 5;
   width: 405px;
   max-height: 0;
-  transition: max-height 1s ease, visibility 1s ease;
+  transition: max-height 0.5s ease, visibility 1s ease;
   display: flex;
   flex-direction: column;
   visibility: hidden;
   overflow: hidden;
   list-style: none;
+  justify-content: left;
+  gap: 0.5rem;
 }
 
 #menu-menu a {
+  margin-left: 2.5rem;
   text-decoration: none;
   color: #e0e0e0;
 }
@@ -227,32 +256,6 @@ body {
 #menu-menu.aberto ul {
   visibility: visible;
   max-height: 30.25rem;
-}
-
-.linha2-1 {
-  transform: rotate(-45deg);
-  width: 1px;
-  height: 15px;
-  background-color: #ffffff;
-  display: block;
-  margin: 3px auto;
-  position: relative;
-  transform-origin: center;
-  border-radius: 20px;
-  transition: .2s;
-}
-
-.linha2 {
-  transform: rotate(-135deg);
-  width: 1px;
-  height: 15px;
-  background-color: #ffffff;
-  display: block;
-  margin: 3px auto;
-  position: relative;
-  transform-origin: center;
-  border-radius: 20px;
-  transition: .2s;
 }
 
 /* fim menu mobile MOTIVO: não me perder*/
