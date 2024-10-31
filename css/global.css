@@ -425,6 +425,19 @@ body {
   color: var(--color-fonteBranca);
 }
 
+.aba-text-dicas{
+color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.6rem;
+}
+
+.aba-text-noticias{
+  color: var(--color-fontePreto);
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 4.3rem;
+}
 /* final da header/ banner/ abas */
 
 /* início do conteúdo home */
