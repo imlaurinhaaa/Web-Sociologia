@@ -315,10 +315,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  max-width: 58rem;
+  width: 80%;
+  max-width: 70rem;
   overflow: hidden;
-  position: relative;
   margin-top: 8rem;
   margin-left: 12rem;
 }
@@ -372,10 +371,11 @@ h1 {
 .slider-container, .slider-container-2, .slider-container-3 {
   display: flex;
   align-items: center;
-  width: 70%;
-  max-width: 58rem;
+  width: 80%;
+  max-width: 82rem;
   overflow: hidden;
   position: relative;
+  
 }
 
 .card-slider, .card-slider-2, .card-slider-3 {
@@ -393,7 +393,8 @@ h1 {
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 18rem;
+  width: 26rem;
+  height: 25rem;
   margin: 0 10px;
   display: flex;
   flex-direction: column;
@@ -454,6 +455,7 @@ h1 {
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
+
 }
 
 
