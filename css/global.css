@@ -546,21 +546,21 @@ color: var(--color-fontePreto);
 }
 
 #line-text-1 {
-  height: 5px;
+  height: 0.2rem;
   width: 64%;
   background-color: var(--color-corLinha);
   margin-left: 0.2rem;
 }
 
 #line-text-2 {
-  height: 5px;
+      height: 0.2rem;
   width: 50%;
   background-color: var(--color-corLinha);
   margin-left: 0.2rem;
 }
 
 #line-text-3 {
-  height: 5px;
+      height: 0.2rem;
   width: 19%;
   background-color: var(--color-corLinha);
   margin-left: 0.2rem;

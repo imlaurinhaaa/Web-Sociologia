@@ -325,14 +325,14 @@ body {
 }
 
 #line-text-1 {
-  height: 5px;
+  height: 0.2rem;
   width: 17.5%;
   background-color: var(--color-corLinha);
   margin-left: 9.5rem;
 }
 
 #line-text-2 {
-  height: 5px;
+  height: 0.2rem;
   width: 47%;
   background-color: var(--color-corLinha);
   margin-left: 26%;
@@ -471,7 +471,7 @@ body {
 }
 
 #line-text-3 {
-  height: 4px;
+  height: 0.2rem;
   width: 37%;
   background-color: var(--color-corLinha);
 }
