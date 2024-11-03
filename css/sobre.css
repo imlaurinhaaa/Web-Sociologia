@@ -208,7 +208,6 @@ body {
   color: var(--color-fontePreto);
   text-align: center;
   justify-content: space-between;
-  padding-left: 50px;
 }
 
 .aba-item {
@@ -241,7 +240,6 @@ body {
 .aba-text-check {
   color: var(--color-fonteBranca);
   text-align: center;
-  padding-left: 4.1rem;
 }
 
 .aba-item-check {
@@ -265,18 +263,6 @@ body {
 .aba-item:hover a {
   background-color: var(--color-abaCheck);
   color: var(--color-fonteBranca);
-}
-
-.aba-text-home{
-  color: var(--color-fontePreto);
-  text-align: center;
-  justify-content: space-between;
-  padding-left: 4.6rem;
-}
-
-.aba-text-dicas {
-  color: var(--color-fontePreto);
-  padding-left: 4rem;
 }
 
 
