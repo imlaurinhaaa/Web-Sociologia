@@ -331,14 +331,14 @@ body {
 }
 
 #line-text-1 {
-  height: 5px;
+  height: 0.2rem;
   width: 10.5%;
   background-color: var(--color-corLinha);
   margin-left: 9.5rem;
 }
 
 #line-text-2 {
-  height: 5px;
+  height: 0.2rem;
   width: 47%;
   background-color: var(--color-corLinha);
   margin-left: 1px;
