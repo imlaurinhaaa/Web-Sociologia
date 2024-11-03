@@ -209,7 +209,6 @@ body {
   color: var(--color-fontePreto);
   text-align: center;
   justify-content: space-between;
-  padding-left: 50px;
 }
 
 .aba-item {
@@ -242,7 +241,6 @@ body {
 .aba-text-check {
   color: var(--color-fonteBranca);
   text-align: center;
-  padding-left: 4.8rem;
 }
 
 .aba-item-check {
@@ -267,14 +265,6 @@ body {
   background-color: var(--color-abaCheck);
   color: var(--color-fonteBranca);
 }
-
-.aba-text-home{
-  color: var(--color-fontePreto);
-  text-align: center;
-  justify-content: space-between;
-  padding-left: 4.6rem;
-}
-
 
 /* final da header/ banner/ abas */
 
