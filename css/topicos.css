@@ -10,10 +10,6 @@
   scroll-behavior: smooth;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 :root{
   --cor-background: #fff;
   --color-icones: #fff;
@@ -212,23 +208,15 @@ body {
 
 .aba-item {
   background-color: var(--color-aba);
-  border: none;
   padding: 10px 20px;
   margin: 0 10px;
   border-radius: 20px;
   font-size: 16px;
-  color: #333;
   cursor: pointer;
-  outline: none;
-  width: 250px;
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
-  list-style: none;
-  width: 100%;
 }
 
 .aba-text a,
@@ -244,19 +232,15 @@ body {
 
 .aba-item-check {
   background-color: var(--color-abaCheck);
-  border: none;
   padding: 10px 20px;
   margin: 0 10px;
-  border-radius: 20px;
   font-size: 16px;
+  border-radius: 20px;
   cursor: pointer;
-  outline: none;
-  width: 250px;
+  justify-content: center;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
-  list-style: none;
 }
 
 .aba-item:hover,
