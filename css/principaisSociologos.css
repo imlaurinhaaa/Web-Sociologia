@@ -321,7 +321,7 @@ body {
     width: 85%;
     background-color: var(--color-corLinha);
     margin-top: 5%;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
 }
 
 .titulo-PS {
@@ -370,6 +370,8 @@ body {
     text-align: justify;
     width: 80%;
 }
+
+/* linhas do Comte*/
 
 #line-text-1-comte{
     height: 0.2rem;
@@ -425,6 +427,8 @@ body {
     background-color: var(--color-corLinha);
 }
 
+/* linhas do Durkheim*/
+
 #line-text-1-durkheim{
     height: 0.2rem;
     width: 22%;
@@ -461,6 +465,8 @@ body {
     background-color: var(--color-corLinha);
 }
 
+/* linhas do Marx*/
+
 #line-text-1-marx{
     height: 0.2rem;
     width: 14%;
@@ -496,6 +502,8 @@ body {
     width: 21%;
     background-color: var(--color-corLinha);
 }
+
+/* linhas do Weber*/
 
 #line-text-1-weber{
     height: 0.2rem;
