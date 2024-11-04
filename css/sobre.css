@@ -257,6 +257,7 @@ body {
   font-weight: 700;
   font-style: normal;
   list-style: none;
+  width: 100%;
 }
 
 .aba-item:hover,
