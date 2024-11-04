@@ -197,7 +197,6 @@ body {
   gap: 200px;
   padding: 100px;
 }
-
 .topics-header {
   display: flex;
   justify-content: space-between;
@@ -261,7 +260,7 @@ body {
 }
 
 .aba-item:hover,
-.aba-item:hover a {
+.aba-item:hover * {
   background-color: var(--color-abaCheck);
   color: var(--color-fonteBranca);
 }
