@@ -229,22 +229,24 @@ body {
   color: var(--color-fonteBranca);
   text-align: center;
 }
-
-.aba-item-check {
+.aba-item-check{
   background-color: var(--color-abaCheck);
   padding: 10px 20px;
   margin: 0 10px;
-  font-size: 16px;
   border-radius: 20px;
+  font-size: 16px;
   cursor: pointer;
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  width: 100%;
 }
 
+
+
 .aba-item:hover,
-.aba-item:hover * {
+.aba-item:hover a {
   background-color: var(--color-abaCheck);
   color: var(--color-fonteBranca);
 }
