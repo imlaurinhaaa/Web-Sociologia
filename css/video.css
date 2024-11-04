@@ -150,6 +150,16 @@ body {
   background-color: var(--color-corLinha);
 }
 
+
+#line-2{
+  margin-top: 300px;
+  height: 5px;
+  margin: 40px auto;
+  width: 60%;
+  background-color: var(--color-corLinha);
+}
+
+
 .img {
   display: flex;
   flex-direction: column;
@@ -267,6 +277,48 @@ body {
 }
 
 /* final da header/ banner/ abas */
+/* inicio do conteudo */
+
+.main-div-header{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.div-filho-1{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.img-professor{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#line-text-1 {
+  height: 0.2rem;
+  width: 10%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+}
+#line-text-2{
+  height: 0.3rem;
+  width: 10%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+  margin: 1.5rem 0;
+}
+
+.texto-1{
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  padding: auto;
+  width: 50%;
+}
+
 
 /* início do footer*/
 
