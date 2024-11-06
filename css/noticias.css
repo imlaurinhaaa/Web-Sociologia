@@ -191,15 +191,6 @@ body {
   box-sizing: border-box;
 }
 
-.alinhamento {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  gap: 200px;
-  padding: 100px;
-}
-
 .topics-header {
   display: flex;
   justify-content: space-between;
@@ -288,12 +279,6 @@ body {
   margin-left: 24rem;
 }
 
-#line-movimentos-02 {
-  height: 0.1rem;
-  width: 19.5rem;
-  background-color: var(--color-corLinha);
-  margin-left: 24rem;
-}
 .titulo-intro, h1 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
