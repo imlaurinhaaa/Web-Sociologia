@@ -341,13 +341,69 @@ body {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  width: 35%;
+  width: 60%;
 }
 .text-just-2{
   display: flex;
   flex-direction: column;
   text-align: justify;
-  width: 35%;
+  width: 60%;
+}
+.div-itens{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.div-itens h2{
+  font-size: 40px;
+}
+
+#line-experiencia{
+  height: 0.3rem;
+  width: 60%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+  margin: 1.5rem 0;
+}
+
+#line-vestibular{
+  height: 0.3rem;
+  width: 67%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+  margin: 1.5rem 0;
+}
+
+#line-evolucao{
+  height: 0.3rem;
+  width: 39%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+  margin: 1.5rem 0;
+}
+
+#line-estudo{
+  height: 0.3rem;
+  width: 55%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+  margin: 1.5rem 0;
+}
+
+#line-problemas{
+  height: 0.3rem;
+  width: 74%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+  margin: 1.5rem 0;
+}
+
+#line-resumo{
+  height: 0.3rem;
+  width: 68%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.2rem;
+  margin: 1.5rem 0;
 }
 
 /* início do footer*/
