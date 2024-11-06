@@ -26,6 +26,8 @@
   --color-aba: #e0e0e0;
   --color-quadroSimulados: #c2c2c281;
   --cor-link: #2cc3ff;
+  --cor-carrossel-p: #2a2a2a;
+
 }
 
 html {
@@ -273,37 +275,50 @@ body {
 /*Inicio do conteúdo do notícias*/
 
 #line-movimentos {
-  height: 0.2rem;
-  width: 18rem;
+  height: 0.1rem;
+  width: 18.2rem;
   background-color: var(--color-corLinha);
-  margin-left: 4rem;
+  margin-left: 24rem;
 }
 
-h1 {
+#line-sociologos{
+  height: 0.1rem;
+  width: 19.5rem;
+  background-color: var(--color-corLinha);
+  margin-left: 24rem;
+}
+
+#line-movimentos-02 {
+  height: 0.1rem;
+  width: 19.5rem;
+  background-color: var(--color-corLinha);
+  margin-left: 24rem;
+}
+.titulo-intro, h1 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
   color: #000000;
-  margin-left: 4rem;
-  margin-top: 5rem;
+  margin-left: 24rem;
+  margin-top: 3rem;
 }
 
 .slider-container, .slider-container-2, .slider-container-3 {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 80%;
   max-width: 70rem;
   overflow: hidden;
   margin-top: 8rem;
-  margin-left: 12rem;
+  margin-left: 23rem;
 }
 
 .card-slider, .card-slider-2, .card-slider-3 {
   overflow: hidden;
   width: 100%;
+
 }
 
 .cards {
@@ -313,9 +328,9 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: var(--cor-background);
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0.5, 0.5, 0.5, 0.5);
   overflow: hidden;
   width: 50rem;
   height: 25rem;
@@ -354,7 +369,6 @@ h1 {
   max-width: 82rem;
   overflow: hidden;
   position: relative;
-  
 }
 
 .card-slider, .card-slider-2, .card-slider-3 {
@@ -368,9 +382,9 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color:var(--cor-background);
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.3rem 0.3rem rgba(0.5, 0.5, 0.5, 0.5);
   overflow: hidden;
   width: 26rem;
   height: 25rem;
@@ -378,6 +392,7 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  margin-bottom: 2rem;
 }
 
 .card img {
