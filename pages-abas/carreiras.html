@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/carreiras.css" />
+    <link rel="stylesheet" href="../css/global.css">
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
     <title>Sociologia - Carreiras</title>
 </head>
@@ -25,9 +26,44 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+              </button>
+              <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias">
+                  <ul>
+                    <li class="menu-title"><div class="materias"><h1>MATÉRIAS</h1></div></li>
+                    <li><div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li><div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
+                    <li class="sociologia"><div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+                      <button onclick="animar2(), animarMenu2()" id="btn-menu2">  
+                        <img src="../img/arrow.png" alt="arrow" class="arrow">
+                      </button>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="menu-menu" id="menu-menu">
+                  <nav class="menu-menu" id="menu-menu">
+                    <ul>
+                      <li><div><a href="index.html">Home</a></div></li>
+                      <li><div><a href="./pages-abas/carreiras.html">Carreiras</a></div></li>
+                      <li><div><a href="./pages-abas/dicas.html">Dicas</a></div></li>
+                      <li><div><a href="./pages-abas/simulados.html">Simulados</a></div></li>
+                      <li><div><a href="./pages-abas/notícias.html">Notícias</a></div></li>
+                      <li><div class="video-aula"><a href="./pages-abas/video-aula.html">Video aulas</a></div></li>
+                    </ul>
+                  </nav>
+                </div>
         </nav>
     </header>
 
@@ -194,6 +230,7 @@
         </div>
 
     </footer>
+    <script src="../menu.js"></script>
 </body>
 
 </html>
