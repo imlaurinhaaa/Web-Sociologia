@@ -189,15 +189,6 @@ body {
   box-sizing: border-box;
 }
 
-.alinhamento {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  gap: 200px;
-  padding: 100px;
-}
-
 .topics-header {
   display: flex;
   justify-content: space-between;
@@ -279,7 +270,7 @@ body {
   margin-left: 4rem;
 }
 
-h1 {
+ .titulo-intro{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
