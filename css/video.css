@@ -319,6 +319,36 @@ body {
   width: 50%;
 }
 
+.video-esq{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10rem;
+}
+.iframe{
+  width: 70%;
+}
+
+.video-dir{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 10rem;
+}
+.text-just{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 35%;
+}
+.text-just-2{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 35%;
+}
 
 /* início do footer*/
 
