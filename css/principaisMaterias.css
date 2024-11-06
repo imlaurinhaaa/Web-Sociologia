@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     outline: none;
     scroll-behavior: smooth;
 }
+
 
 :root{
     --cor-background: #fff;
@@ -26,9 +28,11 @@
     --color-aba: #e0e0e0;
 }
 
+
 html {
     overflow-x: hidden;
 }
+
 
 body {
     background-color: #ffffffff;
@@ -38,7 +42,9 @@ body {
     font-style: normal;
 }
 
+
 /* início da header/ banner/ abas */
+
 
 .sociologia-header {
     display: flex;
@@ -48,12 +54,14 @@ body {
     padding: 1rem 0;
 }
 
+
 .logo-header {
     margin: 0 30px;
     display: flex;
     justify-content: space-between;
     background-color: var(--color-header);
 }
+
 
 .section-img {
     align-items: center;
@@ -62,12 +70,14 @@ body {
     flex-direction: row;
 }
 
+
 .img-content {
     border-radius: 50%;
     width: 100px;
     height: 100px;
     border: 5px solid var(--color-borderIMG);
 }
+
 
 .header-nav {
     list-style: none;
@@ -77,6 +87,7 @@ body {
     align-items: center;
     padding: 0 20px;
 }
+
 
 .links {
     font-family: "Montserrat", sans-serif;
@@ -88,6 +99,7 @@ body {
     margin-right: 50px;
 }
 
+
 .links a {
     display: flex;
     color: var(--color-fonteBranca);
@@ -98,6 +110,7 @@ body {
     transition: transform 0.3s ease;
 }
 
+
 .vertical-line {
     height: 50px;
     width: 3px;
@@ -106,6 +119,7 @@ body {
     margin-right: 20px;
 }
 
+
 .logo-header {
     margin: 0 40px;
     display: flex;
@@ -113,6 +127,7 @@ body {
     background-color: var(--color-header);
     height: 50px;
 }
+
 
 #icones-header {
     text-decoration: none;
@@ -125,9 +140,11 @@ body {
     margin-right: 5px;
 }
 
+
 #sesi-logo {
     margin: 0 40px;
 }
+
 
 .image-banner {
     position: relative;
@@ -137,10 +154,12 @@ body {
     filter: brightness(0.6);
 }
 
+
 .image-banner img {
     width: 100%;
     height: 100%;
 }
+
 
 #line {
     height: 5px;
@@ -149,6 +168,7 @@ body {
     background-color: var(--color-corLinha);
 }
 
+
 .img {
     display: flex;
     flex-direction: column;
@@ -159,16 +179,19 @@ body {
     box-sizing: border-box;
 }
 
+
 #sesi-logo {
     margin-left: 10px;
     margin-right: 30px;
 }
+
 
 .header-nav .nav-list {
     list-style: none;
     display: flex;
     justify-content: center;
 }
+
 
 .img-content {
     border-radius: 50%;
@@ -177,6 +200,7 @@ body {
     border: 5px solid var(--color-borderIMG);
 }
 
+
 .img {
     display: flex;
     flex-direction: column;
@@ -186,6 +210,7 @@ body {
     height: 50px;
     box-sizing: border-box;
 }
+
 
 .alinhamento {
     display: flex;
@@ -196,6 +221,7 @@ body {
     padding: 100px;
 }
 
+
 .topics-header {
     display: flex;
     justify-content: space-between;
@@ -203,12 +229,14 @@ body {
     margin-bottom: 40px;
 }
 
+
 .aba-text {
     color: var(--color-fontePreto);
     text-align: center;
     justify-content: space-between;
     padding-left: 50px;
 }
+
 
 .aba-item {
     background-color: var(--color-aba);
@@ -231,16 +259,19 @@ body {
     width: 100%;
 }
 
+
 .aba-text a, .aba-item {
     width: 100%;
     color: var(--color-fonteBranca);
 }
+
 
 .aba-text-check {
     color: var(--color-fonteBranca);
     text-align: center;
     padding-left: 4.8rem;
 }
+
 
 .aba-item-check {
     background-color: var(--color-abaCheck);
@@ -259,10 +290,12 @@ body {
     list-style: none;
 }
 
+
 .aba-item:hover, .aba-item:hover a {
     background-color: var(--color-abaCheck);
     color: var(--color-fonteBranca);
 }
+
 
 .aba-text-home{
     color: var(--color-fontePreto);
@@ -272,14 +305,20 @@ body {
 }
 
 
+
+
 /* final da header/ banner/ abas */
 
+
 /* início do footer */
+
+
 
 
 .footer-text {
     color: var(--color-fonteBranca);
 }
+
 
 .footer {
     background-color: var(--color-footer);
@@ -287,9 +326,11 @@ body {
     margin-top: 50px;
 }
 
+
 .footer .icones {
     background-color: var(--color-linhaFooter);
 }
+
 
 .senai {
     width: 20%;
@@ -299,13 +340,16 @@ body {
     margin-left: 29%;
 }
 
+
 .senai h3 {
     text-align: left;
 }
 
+
 .senai p {
     text-align: left;
 }
+
 
 .sesi {
     width: 20%;
@@ -315,18 +359,22 @@ body {
     padding: 0 0 20px 0px;
 }
 
+
 .sesi h3 {
     text-align: left;
 }
+
 
 .sesi p {
     text-align: left;
 }
 
+
 .footer .icones img {
     display: inline-block;
     margin-left: 25px;
 }
+
 
 .icones {
     display: flex;
@@ -334,142 +382,68 @@ body {
     justify-content: center;
 }
 
+
 /* final do footer */
+
 
 /* inicio section conteudo */
 .conteudo{
     display: flex;
     flex-direction: column;
-}
-
-.text{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
-.bloco{
-    display: flex;
-    flex-direction: column;
-    margin-left: -100px;
-}
 
-.conteudo .text h1{
+.conteudo .titulo{
+    margin-right: 734px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-size: xx-large;
     color: #000000;
-    margin-left: 4.3rem;
+    margin-top: 8rem;
 }
 
-.conteudo, .text h3{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: xx-large;
-    color: #000000;
-    margin-left: 4.3rem;
-    font-size: 1.7rem;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.conteudo, .text p{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-size: xx-large;
-    color: #000000;
-    margin-left: 4.3rem;
-    font-size: 1.2rem;
-    width: 80rem;
-    margin-top: 10px;
-    text-align: justify;
-    justify-content: center;
-}
-
-#line{
-    height: 5px;
-    width: 29%;
-    background-color: var(--color-corLinha);
-    margin-left: 4.3rem;
-    margin-top: -4px;
-}
-
-#line1{
-    height: 5px;
-    width: 28%;
-    background-color: var(--color-corLinha);
-    margin-left: 4.3rem;
-    margin-top: -4px;
-}
 
 #line2{
     height: 5px;
-    width: 30%;
+    width: 470px;
     background-color: var(--color-corLinha);
-    margin-left: 4.3rem;
-    margin-top: -4px;
+    margin-right: 728px;
 }
 
-#line3{
-    height: 5px;
-    width: 32%;
-    background-color: var(--color-corLinha);
-    margin-left: 4.3rem;
-    margin-top: -4px;
+
+.conteudo .subtitulo{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 840px;
+    margin-top: 5rem;
 }
 
-.conteudo, .text, .imagem{
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 4.3rem;
-    width: 80rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
-.conteudo, .text, legend{
+.conteudo .texto{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-size: xx-large;
     color: #000000;
-    margin-left: 4.3rem;
     font-size: 1.2rem;
+    width: 75rem;
+    margin-top: 2rem;
+    text-align: justify;
 }
 
 
-.conteudo, .text, h5{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: xx-large;
-    color: #000000;
-    margin-left: 4.3rem;
-    font-size: 1.6rem;
-}
-
-.conteudo, .sociologo p{
-    width: 40rem;
-}
-
-.conteudo, .sociologo{
-    padding: 80px;
-}
-
-.bloco, .sociologo{
-    display: flex;
-    flex-direction: column;
-}
-
-.bloco, .sociologo, .img-sociologo, img{
-    margin-left: 2.5rem;
+.conteudo .imagem{
+    width: 60rem;
+    margin-top: 3rem;
 }
 
