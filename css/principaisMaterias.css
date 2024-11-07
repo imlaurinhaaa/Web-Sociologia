@@ -394,7 +394,7 @@ body {
     align-items: center;
 }
 
-
+/* ESTILIZAÇÃO DOS TITULOS */
 .conteudo .titulo{
     margin-right: 734px;
     font-family: "Montserrat", sans-serif;
@@ -414,7 +414,7 @@ body {
     margin-right: 728px;
 }
 
-
+/* ESTILIZAÇÃO DOS SUBTITULOS */
 .conteudo .subtitulo{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -427,6 +427,234 @@ body {
     margin-top: 5rem;
 }
 
+.conteudo .subtitulo-industria{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 900px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-etnocentrismo{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 710px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-estado{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 520px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-br{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 860px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-fem{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 630px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-movNegro{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 749px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-sociais{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 710px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-manifestacao{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 640px;
+    margin-top: 5rem;
+}
+
+.conteudo .titulo-socbrasil{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.7rem;
+    margin-right: 830px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-gilberto{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.8rem;
+    margin-right: 1010px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-sergio{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.8rem;
+    margin-right: 855px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-florestan{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.8rem;
+    margin-right: 945px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-darcy{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.8rem;
+    margin-right: 1030px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-trabalho{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.8rem;
+    margin-right: 890px;
+    margin-top: 5rem;
+}
+
+/* ESTILIZAÇÃO DOS TÓPICOS */
+.conteudo .subtitulo-topico1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-right: 650px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-topico2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-right: 760px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-topico3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-right: 520px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-topico4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-right: 860px;
+    margin-top: 5rem;
+}
+
+.conteudo .subtitulo-topico5{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-right: 820px;
+    margin-top: 5rem;
+}
 
 .conteudo .texto{
     font-family: "Montserrat", sans-serif;
@@ -441,9 +669,58 @@ body {
     text-align: justify;
 }
 
+.conteudo .texto-topico{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.2rem;
+    width: 55rem;
+    margin-top: 2rem;
+    text-align: justify;
+    margin-right: 55px;
+}
+
+.conteudo .texto-topico2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: xx-large;
+    color: #000000;
+    font-size: 1.2rem;
+    width: 55rem;
+    margin-top: 2rem;
+    text-align: justify;
+    margin-right: 310px;
+}
 
 .conteudo .imagem{
     width: 60rem;
     margin-top: 3rem;
 }
 
+.conteudo .imagem-topico{
+    margin-top: 3rem;
+}
+
+.conteudo .imagem-topico2{
+    margin-top: -15rem;
+    margin-left: 1150px;
+}
+
+.conteudo .imagem-topico2 img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo .imagem-trabalho{
+    margin-top: 5rem;
+}
+
+.conteudo .imagem-trabalho img{
+    width: 800px;
+}
