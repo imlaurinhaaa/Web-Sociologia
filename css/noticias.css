@@ -353,15 +353,11 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--color-fontePreto);
   margin-bottom: 2rem;
   margin-left: 1rem;
   margin-top: 1rem;
-}
-
-.feminismo-title h3{
-  font-size: 1rem;
 }
 
 .card p {

@@ -1,12 +1,10 @@
-let currentIndexMovimentos = 0;
-let currentIndexSociologos = 0;
-let currentIndexAssuntos = 0;
+let currentIndex = 0;
 
-function slideLeft(containerSelector, currentIndex) {
-  const cardsContainer = document.querySelector(containerSelector);
-  const totalCards = cardsContainer.querySelectorAll(".card").length;
+function slideLeft() {
+  const cardsContainer = document.querySelector(".cards");
+  const totalCards = document.querySelectorAll(".card").length;
   const visibleCards = 3;
-  const cardWidth = cardsContainer.querySelector(".card").offsetWidth + 20; 
+  const cardWidth = document.querySelector(".card").offsetWidth + 20; // 20px de margem entre os cards
 
   if (currentIndex > 0) {
     currentIndex--;
@@ -15,15 +13,13 @@ function slideLeft(containerSelector, currentIndex) {
   }
 
   updateSlide(cardsContainer, currentIndex, cardWidth);
-
-  return currentIndex;
 }
 
-function slideRight(containerSelector, currentIndex) {
-  const cardsContainer = document.querySelector(containerSelector);
-  const totalCards = cardsContainer.querySelectorAll(".card").length;
+function slideRight() {
+  const cardsContainer = document.querySelector(".cards");
+  const totalCards = document.querySelectorAll(".card").length;
   const visibleCards = 3;
-  const cardWidth = cardsContainer.querySelector(".card").offsetWidth + 20; 
+  const cardWidth = document.querySelector(".card").offsetWidth + 20; // 20px de margem entre os cards
 
   if (currentIndex < totalCards - visibleCards) {
     currentIndex++;
@@ -32,34 +28,26 @@ function slideRight(containerSelector, currentIndex) {
   }
 
   updateSlide(cardsContainer, currentIndex, cardWidth);
-
-  return currentIndex;
 }
 
 function updateSlide(container, index, cardWidth) {
   container.style.transform = `translateX(-${index * cardWidth}px)`;
 }
 
-function slideLeftMovimentos() {
-  currentIndexMovimentos = slideLeft(".card-slider", currentIndexMovimentos);
+// Função para deslizar automaticamente
+function autoSlide() {
+  slideRight();
 }
 
-function slideRightMovimentos() {
-  currentIndexMovimentos = slideRight(".card-slider", currentIndexMovimentos);
-}
+// Configura o intervalo para mudar automaticamente
+let slideInterval = setInterval(autoSlide, 3000); // Muda a cada 3 segundos (3000ms)
 
-function slideLeftSociologos() {
-  currentIndexSociologos = slideLeft(".card-slider-2", currentIndexSociologos);
-}
+// Pausa o carrossel ao passar o mouse e retoma ao sair
+const sliderContainer = document.querySelector('.slider-container');
+sliderContainer.addEventListener('mouseenter', () => {
+  clearInterval(slideInterval);
+});
 
-function slideRightSociologos() {
-  currentIndexSociologos = slideRight(".card-slider-2", currentIndexSociologos);
-}
-
-function slideLeftAssuntos() {
-  currentIndexAssuntos = slideLeft(".card-slider-3", currentIndexAssuntos);
-}
-
-function slideRightAssuntos() {
-  currentIndexAssuntos = slideRight(".card-slider-3", currentIndexAssuntos);
-}
+sliderContainer.addEventListener('mouseleave', () => {
+  slideInterval = setInterval(autoSlide, 3000);
+});
