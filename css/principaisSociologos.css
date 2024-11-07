@@ -371,6 +371,11 @@ body {
     width: 80%;
 }
 
+.main-content{
+    width: 80%;
+    background-color: var(--cor-background);
+}
+
 /* linhas do Comte*/
 
 #line-text-1-comte{
