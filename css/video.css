@@ -328,7 +328,7 @@ body {
   padding: 10rem;
 }
 .iframe{
-  width: 70%;
+  width: 100%;
 }
 
 .video-dir{
@@ -343,13 +343,13 @@ body {
   flex-direction: column;
   text-align: justify;
   width: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1rem;
 }
-.text-just-2{
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  width: 60%;
-}
+
 .div-itens{
   display: flex;
   flex-direction: column;
@@ -407,7 +407,21 @@ body {
   margin: 1.5rem 0;
 }
 
+.h3-p{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  align-items: flex-end;
+}
 
+.titulo-video-dir{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  align-items: flex-end;
+}
 
 /* início do footer*/
 
