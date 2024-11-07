@@ -286,6 +286,7 @@ body {
 /* início do conteúdo principais sociólogos */
 
 .intro {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -372,8 +373,42 @@ body {
 }
 
 .main-content{
-    width: 80%;
+    width: 100%;
     background-color: var(--cor-background);
+    display: flex;
+}
+
+.imgs{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-side{
+    width: 100%;
+    background-color: var(--cor-background);
+    display: flex;
+    flex-direction: column;
+    margin-right: 12rem;
+    margin-top: 3.3rem;
+    margin-bottom: 7rem;
+} 
+
+.img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.legend{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-citacao);
+    text-align: justify;
+    margin-top: 1rem;
+    width: 20rem;    
 }
 
 /* linhas do Comte*/
@@ -386,49 +421,43 @@ body {
 
 #line-text-2-comte{
     height: 0.2rem;
-    width: 21%;
+    width: 26%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-comte{
     height: 0.2rem;
-    width: 27%;
+    width: 34%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-4-comte{
     height: 0.2rem;
-    width: 23%;
+    width: 66%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-5-comte{
     height: 0.2rem;
-    width: 52%;
+    width: 35%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-6-comte{
     height: 0.2rem;
-    width: 28%;
+    width: 35%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-7-comte{
     height: 0.2rem;
-    width: 28%;
+    width: 38%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-8-comte{
     height: 0.2rem;
-    width: 30%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-9-comte{
-    height: 0.2rem;
-    width: 26%;
+    width: 33%;
     background-color: var(--color-corLinha);
 }
 
@@ -442,31 +471,31 @@ body {
 
 #line-text-2-durkheim{
     height: 0.2rem;
-    width: 34%;
+    width: 43%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-durkheim{
     height: 0.2rem;
-    width: 26%;
+    width: 33%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-4-durkheim{
     height: 0.2rem;
-    width: 31%;
+    width: 39%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-5-durkheim{
     height: 0.2rem;
-    width: 23%;
+    width: 30%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-6-durkheim{
     height: 0.2rem;
-    width: 27%;
+    width: 33%;
     background-color: var(--color-corLinha);
 }
 
@@ -480,31 +509,31 @@ body {
 
 #line-text-2-marx{
     height: 0.2rem;
-    width: 22%;
+    width: 27%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-marx{
     height: 0.2rem;
-    width: 51%;
+    width: 64%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-4-marx{
     height: 0.2rem;
-    width: 40%;
+    width: 50%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-5-marx{
     height: 0.2rem;
-    width: 24%;
+    width: 31%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-6-marx{
     height: 0.2rem;
-    width: 21%;
+    width: 26%;
     background-color: var(--color-corLinha);
 }
 
