@@ -294,9 +294,9 @@ body {
 }
 
 .content {
-    margin-top: 60px;
-    margin-left: 70px;
-    margin-bottom: 80px
+    margin-left: 10rem;
+    margin-bottom: 8rem;
+    margin-top: 5rem
 }
 
 .intro-img {
@@ -320,7 +320,7 @@ body {
     margin: 20px auto;
     width: 85%;
     background-color: var(--color-corLinha);
-    margin-top: 5%;
+    margin-top: 2rem;
     margin-bottom: 3%;
 }
 
@@ -371,221 +371,152 @@ body {
     width: 80%;
 }
 
-/* linhas do Comte*/
+.main-content{
+    width: 100%;
+    background-color: var(--cor-background);
+    display: flex;
+}
 
-#line-text-1-comte{
+.imgs{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.img-side{
+    width: 100%;
+    background-color: var(--cor-background);
+    display: flex;
+    flex-direction: column;
+    margin-right: 12rem;
+    margin-bottom: 5rem;
+} 
+
+.img{
+    width: 18rem;
+    height: 18rem;
+}
+
+.legend{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-citacao);
+    text-align: justify;
+    margin-top: 1rem;
+    width: 18rem;    
+}
+
+.resumo{
+    margin-bottom: 7%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+/* linhas Feminismo*/
+
+#line-text-1-fem{
     height: 0.2rem;
-    width: 21%;
+    width: 49%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-comte{
+#line-text-2-fem{
     height: 0.2rem;
-    width: 21%;
+    width: 33%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-comte{
-    height: 0.2rem;
-    width: 27%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-comte{
-    height: 0.2rem;
-    width: 23%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-comte{
-    height: 0.2rem;
-    width: 52%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-comte{
-    height: 0.2rem;
-    width: 28%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-7-comte{
-    height: 0.2rem;
-    width: 28%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-8-comte{
-    height: 0.2rem;
-    width: 30%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-9-comte{
-    height: 0.2rem;
-    width: 26%;
-    background-color: var(--color-corLinha);
-}
-
-/* linhas do Durkheim*/
-
-#line-text-1-durkheim{
-    height: 0.2rem;
-    width: 22%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-durkheim{
-    height: 0.2rem;
-    width: 34%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-durkheim{
-    height: 0.2rem;
-    width: 26%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-durkheim{
-    height: 0.2rem;
-    width: 31%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-durkheim{
-    height: 0.2rem;
-    width: 23%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-durkheim{
-    height: 0.2rem;
-    width: 27%;
-    background-color: var(--color-corLinha);
-}
-
-/* linhas do Marx*/
-
-#line-text-1-marx{
-    height: 0.2rem;
-    width: 14%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-marx{
-    height: 0.2rem;
-    width: 22%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-marx{
-    height: 0.2rem;
-    width: 51%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-marx{
-    height: 0.2rem;
-    width: 40%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-marx{
-    height: 0.2rem;
-    width: 24%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-marx{
-    height: 0.2rem;
-    width: 21%;
-    background-color: var(--color-corLinha);
-}
-
-/* linhas do Weber*/
-
-#line-text-1-weber{
-    height: 0.2rem;
-    width: 15%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-weber{
-    height: 0.2rem;
-    width: 34%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-weber{
-    height: 0.2rem;
-    width: 41%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-weber{
-    height: 0.2rem;
-    width: 42%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-weber{
-    height: 0.2rem;
-    width: 37%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-weber{
-    height: 0.2rem;
-    width: 28%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-7-weber{
-    height: 0.2rem;
-    width: 22%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-1-bourdieu {
-    height: 0.2rem;
-    width: 23%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-bourdieu {
+#line-text-3-fem{
     height: 0.2rem;
     width: 35%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-bourdieu {
+
+/* linhas LGBTQIA */
+
+#line-text-1-lgbt{
     height: 0.2rem;
-    width: 34%;
+    width: 48%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-4-bourdieu {
+#line-text-2-lgbt{
     height: 0.2rem;
-    width: 24%;
+    width: 31%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-5-bourdieu {
+#line-text-3-lgbt{
     height: 0.2rem;
-    width: 32%;
+    width: 46%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-6-bourdieu {
+/* linhas Racismo */
+
+#line-text-1-rac{
     height: 0.2rem;
-    width: 34%;
+    width: 30%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-7-bourdieu {
+#line-text-2-rac{
     height: 0.2rem;
-    width: 28%;
+    width: 59%;
+    background-color: var(--color-corLinha);
+}
+
+#line-text-3-rac{
+    height: 0.2rem;
+    width: 69%;
+    background-color: var(--color-corLinha);
+}
+
+/* linhas Indígenas */
+
+#line-text-1-ind{
+    height: 0.2rem;
+    width: 59%;
+    background-color: var(--color-corLinha);
+}
+
+#line-text-2-ind{
+    height: 0.2rem;
+    width: 57%;
+    background-color: var(--color-corLinha);
+}
+
+#line-text-3-ind{
+    height: 0.2rem;
+    width: 50%;
+    background-color: var(--color-corLinha);
+}
+
+/* linhas Saúde Mental */
+
+#line-text-1-sau {
+    height: 0.2rem;
+    width: 42%;
+    background-color: var(--color-corLinha);
+}
+
+#line-text-2-sau {
+    height: 0.2rem;
+    width: 52%;
+    background-color: var(--color-corLinha);
+}
+
+#line-text-3-sau {
+    height: 0.2rem;
+    width: 55%;
     background-color: var(--color-corLinha);
 }
 
