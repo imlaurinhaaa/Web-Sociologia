@@ -284,8 +284,7 @@ body {
   margin-left: 24rem;
 }
 
-.titulo-intro,
-h1 {
+.titulo-intro{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -354,9 +353,15 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--color-fontePreto);
   margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.feminismo-title h3{
+  font-size: 1rem;
 }
 
 .card p {
@@ -364,6 +369,9 @@ h1 {
   font-weight: 500;
   color: var(--cor-carrossel-p);
   margin-bottom: 1rem;
+  text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .slider-container,
@@ -395,7 +403,7 @@ h1 {
   box-shadow: 0rem 0.3rem 0.3rem rgba(0.5, 0.5, 0.5, 0.5);
   overflow: hidden;
   width: 26rem;
-  height: 25rem;
+  height: 28rem;
   margin: 0 10px;
   display: flex;
   flex-direction: column;
@@ -452,6 +460,34 @@ h1 {
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
+}
+
+.button-noticias,
+.button-noticias-estado {
+  background-color: var(--color-aba);
+  color: var(--color-fontePreto);
+  width: 60%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  border-radius: 0.4rem; 
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+.button-noticias:hover,
+.button-noticias-estado:hover {
+  background-color: var(--color-abaCheck);
+  color: var(--color-fonteBranca);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-noticias-estado {
+  margin-top: 1rem;
 }
 /* final do conteúdo do notícias */
 
