@@ -26,7 +26,7 @@
   --color-aba: #e0e0e0;
   --color-quadroSimulados: #c2c2c281;
   --cor-link: #2cc3ff;
-  --cor-carrossel-p: #2a2a2a;
+  --cor-carrossel-p: #484848;
 }
 
 html {
@@ -264,25 +264,26 @@ body {
 /*Inicio do conteúdo do notícias*/
 
 #line-movimentos {
-  height: 0.1rem;
-  width: 18.2rem;
+  height: 0.2rem;
+  width: 24rem;
   background-color: var(--color-corLinha);
   margin-left: 24rem;
 }
 
 #line-sociologos {
-  height: 0.1rem;
-  width: 19.5rem;
+  height: 0.2rem;
+  width: 27rem;
   background-color: var(--color-corLinha);
   margin-left: 24rem;
 }
 
-#line-movimentos-02 {
-  height: 0.1rem;
-  width: 19.5rem;
+#line-materias {
+  height: 0.2rem;
+  width: 24rem;
   background-color: var(--color-corLinha);
   margin-left: 24rem;
 }
+
 .titulo-intro,
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -295,12 +296,18 @@ h1 {
   margin-top: 3rem;
 }
 
+.main-content{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
 .slider-container,
 .slider-container-2,
 .slider-container-3 {
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   max-width: 70rem;
   overflow: hidden;
   margin-top: 8rem;
@@ -343,13 +350,18 @@ h1 {
 }
 
 .card h3 {
-  font-size: 1.2rem;
-  margin: 1rem 0;
-  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: var(--color-fontePreto);
+  margin-bottom: 2rem;
 }
 
 .card p {
   font-size: 0.9em;
+  font-weight: 500;
   color: var(--cor-carrossel-p);
   margin-bottom: 1rem;
 }
@@ -399,18 +411,6 @@ h1 {
 
 .card-content {
   padding: 20px;
-}
-
-.card h3 {
-  font-size: 1.2em;
-  margin: 1rem 0;
-  color: #333;
-}
-
-.card p {
-  font-size: 1rem;
-  color: var(--cor-carrossel-p);
-  margin-bottom: 2rem;
 }
 
 .slider-button,
