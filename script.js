@@ -1,34 +1,97 @@
-let currentIndex = 0;
+let currentIndex1 = 0;
+let currentIndex2 = 0;
+let currentIndex3 = 0;
 
-function slideLeft() {
-  const cardsContainer = document.querySelector(".cards");
-  const totalCards = document.querySelectorAll(".card").length;
+function slideLeft1() {
+  const cardsContainer = document.querySelector(".slider-container-1 .cards");
+  const totalCards = document.querySelectorAll(".slider-container-1 .card").length;
   const visibleCards = 3;
-  const cardWidth = document.querySelector(".card").offsetWidth + 20; // 20px de margem entre os cards
+  const cardWidth = document.querySelector(".slider-container-1 .card").offsetWidth + 20; 
 
-  if (currentIndex > 0) {
-    currentIndex--;
+  if (currentIndex1 > 0) {
+    currentIndex1--;
   } else {
-    currentIndex = totalCards - visibleCards;
+    currentIndex1 = totalCards - visibleCards;
   }
 
-  updateSlide(cardsContainer, currentIndex, cardWidth);
+  updateSlide(cardsContainer, currentIndex1, cardWidth);
 }
 
-function slideRight() {
-  const cardsContainer = document.querySelector(".cards");
-  const totalCards = document.querySelectorAll(".card").length;
+function slideRight1() {
+  const cardsContainer = document.querySelector(".slider-container-1 .cards");
+  const totalCards = document.querySelectorAll(".slider-container-1 .card").length;
   const visibleCards = 3;
-  const cardWidth = document.querySelector(".card").offsetWidth + 20; // 20px de margem entre os cards
+  const cardWidth = document.querySelector(".slider-container-1 .card").offsetWidth + 20; 
 
-  if (currentIndex < totalCards - visibleCards) {
-    currentIndex++;
+  if (currentIndex1 < totalCards - visibleCards) {
+    currentIndex1++;
   } else {
-    currentIndex = 0;
+    currentIndex1 = 0;
   }
 
-  updateSlide(cardsContainer, currentIndex, cardWidth);
+  updateSlide(cardsContainer, currentIndex1, cardWidth);
 }
+
+function slideLeft2() {
+  const cardsContainer = document.querySelector(".slider-container-2 .cards");
+  const totalCards = document.querySelectorAll(".slider-container-2 .card").length;
+  const visibleCards = 3;
+  const cardWidth = document.querySelector(".slider-container-2 .card").offsetWidth + 20; 
+
+  if (currentIndex2 > 0) {
+    currentIndex2--;
+  } else {
+    currentIndex2 = totalCards - visibleCards;
+  }
+
+  updateSlide(cardsContainer, currentIndex2, cardWidth);
+}
+
+function slideRight2() {
+  const cardsContainer = document.querySelector(".slider-container-2 .cards");
+  const totalCards = document.querySelectorAll(".slider-container-2 .card").length;
+  const visibleCards = 3;
+  const cardWidth = document.querySelector(".slider-container-2 .card").offsetWidth + 20; 
+
+  if (currentIndex2 < totalCards - visibleCards) {
+    currentIndex2++;
+  } else {
+    currentIndex2 = 0;
+  }
+
+  updateSlide(cardsContainer, currentIndex2, cardWidth);
+}
+
+function slideLeft3() {
+  const cardsContainer = document.querySelector(".slider-container-3 .cards");
+  const totalCards = document.querySelectorAll(".slider-container-3 .card").length;
+  const visibleCards = 3;
+  const cardWidth = document.querySelector(".slider-container-3 .card").offsetWidth + 30; 
+
+  if (currentIndex3 > 0) {
+    currentIndex3--;
+  } else {
+    currentIndex3 = totalCards - visibleCards;
+  }
+
+  updateSlide(cardsContainer, currentIndex3, cardWidth);
+}
+
+function slideRight3() {
+  const cardsContainer = document.querySelector(".slider-container-3 .cards");
+  const totalCards = document.querySelectorAll(".slider-container-3 .card").length;
+  const visibleCards = 3;
+  const cardWidth = document.querySelector(".slider-container-3 .card").offsetWidth + 30; 
+
+  if (currentIndex3 < totalCards - visibleCards) {
+    currentIndex3++;
+  } else {
+    currentIndex3 = 0;
+  }
+
+  updateSlide(cardsContainer, currentIndex3, cardWidth);
+}
+
 
 function updateSlide(container, index, cardWidth) {
   container.style.transform = `translateX(-${index * cardWidth}px)`;
