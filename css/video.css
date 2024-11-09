@@ -281,9 +281,16 @@ body {
 
 .main-div-header{
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   gap: 20px;
   padding: 10rem;
+}
+
+
+.div-ajuste{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
 }
 
 .div-filho-1{
@@ -295,7 +302,7 @@ body {
 
 
 .img-professor{
-
+  margin-top: 6.25rem;
   width: 400px;
   height: 400px;
   border-radius: 50%;
