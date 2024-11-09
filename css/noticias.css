@@ -301,7 +301,7 @@ body {
   justify-content: center;
 }
 
-.slider-container,
+.slider-container-1,
 .slider-container-2,
 .slider-container-3 {
   display: flex;
@@ -370,7 +370,7 @@ body {
   margin-right: 1rem;
 }
 
-.slider-container,
+.slider-container-1,
 .slider-container-2,
 .slider-container-3 {
   display: flex;
