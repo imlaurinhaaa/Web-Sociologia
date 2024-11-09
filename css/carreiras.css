@@ -312,22 +312,10 @@ body {
   font-size: xx-large;
   color: #000000;
   margin-left: 9.5rem;
-}
+  margin-top: 4rem;
+  margin-left: 21.2rem;
 
-#line-text-1 {
-  height: 0.2rem;
-  width: 10.5%;
-  background-color: var(--color-corLinha);
-  margin-left: 9.5rem;
 }
-
-#line-text-2 {
-  height: 0.2rem;
-  width: 47%;
-  background-color: var(--color-corLinha);
-  margin-left: 1px;
-}
-
 
 .text-intro {
   font-family: "Montserrat", sans-serif;
@@ -336,6 +324,20 @@ body {
   font-style: normal;
   margin-top: 30px;
   font-size: large;
+  
+}
+
+.line-text {
+  height: 0.2rem;
+  background-color: var(--color-corLinha);
+  margin-left: 21.2rem;
+  width: 12rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .topo {
@@ -343,6 +345,7 @@ body {
   margin: 3rem;
   gap: 5rem;
   justify-content: center;
+
 }
 
 .img-card {

@@ -92,18 +92,19 @@ function slideRight3() {
   updateSlide(cardsContainer, currentIndex3, cardWidth);
 }
 
-
 function updateSlide(container, index, cardWidth) {
   container.style.transform = `translateX(-${index * cardWidth}px)`;
 }
 
 // Função para deslizar automaticamente
 function autoSlide() {
-  slideRight();
+  slideRight1();
+  slideRight2();
+  slideRight3();
 }
 
 // Configura o intervalo para mudar automaticamente
-let slideInterval = setInterval(autoSlide, 3000); // Muda a cada 3 segundos (3000ms)
+let slideInterval = setInterval(autoSlide, 4000); // Muda a cada 4 segundos (4000ms)
 
 // Pausa o carrossel ao passar o mouse e retoma ao sair
 const sliderContainer = document.querySelector('.slider-container');
@@ -112,5 +113,5 @@ sliderContainer.addEventListener('mouseenter', () => {
 });
 
 sliderContainer.addEventListener('mouseleave', () => {
-  slideInterval = setInterval(autoSlide, 3000);
+  slideInterval = setInterval(autoSlide, 4000);
 });
