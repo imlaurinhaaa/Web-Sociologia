@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/movimentosSociais.css" />
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+    <script src="../menu.js"></script>
     <title>Sociologia- Saúde Mental</title>
 </head>
 
 <body>
+
+    <!-- Início da header -->
 
     <header class="sociologia-header">
         <div class="logo-header">
@@ -25,11 +28,101 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+
+            <!-- Botão de menu -->
+
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias">
+                    <ul>
+                        <li class="menu-title">
+                            <div class="materias">
+                                <h1>MATÉRIAS</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li class="sociologia">
+                            <div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+                            <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                                <img src="../img/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-menu" id="menu-menu">
+                    <nav class="menu-menu" id="menu-menu">
+                        <ul>
+                            <li>
+                                <div><a href="../index.html">Home</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/carreiras.html">Carreiras</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/dicas.html">Dicas</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/simulados.html">Simulados</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/notícias.html">Notícias</a></div>
+                            </li>
+                            <li>
+                                <div class="video-aula"><a href="../pages-abas/video-aula.html">Video aulas</a></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
         </nav>
     </header>
+
+    <!-- Final da header -->
+
+    <!-- Banner -->
 
     <section class="header-banner">
         <div class="image-banner">
@@ -37,19 +130,39 @@
         </div>
     </section>
 
+    <!-- Início das abas -->
+
     <section class="topics-header">
-        <button class="aba-item" onclick="location.href='../index.html'"><p class="aba-text">HOME</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'"><p class="aba-text">CARREIRAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'"><p class="aba-text">DICAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'"><p class="aba-text">SIMULADOS</p></button>
-        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'"><p class="aba-text-check">NOTÍCIAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'"><p class="aba-text">VÍDEO-AULA</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'"><p class="aba-text">SOBRE-NÓS</p></button>
+        <button class="aba-item" onclick="location.href='../index.html'">
+            <p class="aba-text">HOME</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'">
+            <p class="aba-text">CARREIRAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'">
+            <p class="aba-text">DICAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'">
+            <p class="aba-text">SIMULADOS</p>
+        </button>
+        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'">
+            <p class="aba-text-check">NOTÍCIAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'">
+            <p class="aba-text">VÍDEO-AULA</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'">
+            <p class="aba-text">SOBRE-NÓS</p>
+        </button>
     </section>
+
+    <!-- Final das abas -->
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Introdução- Conteúdo sobre Saúde Mental -->
 
     <section class="intro">
         <div class="content">
@@ -58,10 +171,16 @@
                 <hr>
             </div>
             <p class="text-PS"><b> Desafios e Implicações Sociológicas</b></p>
-            <p class="text-PS">Recentemente, o crescente papel da vida digital e sua presença chamou a atenção para as questões relacionadas à saúde mental, especialmente entre os jovens. A possibilidade de se comunicar constantemente por meio das redes sociais, aplicativos de mensagens e dispositivos eletrônicos intensificou a discussão sobre o impacto da tecnologia na vida emocional e psicológica humana. Do ponto de vista sociológico, isso pode ser interpretado como mudanças nas interações sociais e nas normas culturais que afetam os padrões de vida moderna.</p>
+            <p class="text-PS">Recentemente, o crescente papel da vida digital e sua presença chamou a atenção para as
+                questões relacionadas à saúde mental, especialmente entre os jovens. A possibilidade de se comunicar
+                constantemente por meio das redes sociais, aplicativos de mensagens e dispositivos eletrônicos
+                intensificou a discussão sobre o impacto da tecnologia na vida emocional e psicológica humana. Do ponto
+                de vista sociológico, isso pode ser interpretado como mudanças nas interações sociais e nas normas
+                culturais que afetam os padrões de vida moderna.</p>
 
             <div class="citacao">
-                <blockquote><i>“Não gosto de rótulos. Eu quero é descobrir o que existe por trás do comportamento do ser humano.” - Nise da Silveira</i>
+                <blockquote><i>“Não gosto de rótulos. Eu quero é descobrir o que existe por trás do comportamento do ser
+                        humano.” - Nise da Silveira</i>
                 </blockquote>
             </div>
         </div>
@@ -75,26 +194,49 @@
     <hr>
     </div>
 
-    <main class="main-content">
-    <section class="saude-mental">
-        <div class="content">
-            <h1 class="titulo-PS">REDES SOCIAIS E ISOLAMENTO SOCIAL</h1>
-            <div id="line-text-2-sau">
-                <hr>
-            </div>
-            <p class="text-PS">O uso excessivo das redes sociais, de acordo com estudos recentes, leva a altos níveis de ansiedade, depressão e solidão entre os jovens. Em conexão com esses dados, o conceito de "comunidade virtual" é frequentemente invocado. Isso se refere ao fato de que, por um lado, as redes sociais criam a ilusão de uma comunicação sem barreiras, enquanto, por outro lado, as pessoas se comparam umas às outras. Como resultado, elas se sentem obrigadas a demonstrar abertamente seu sucesso e suas vidas incríveis, o que aumenta a insatisfação consigo mesmas e diminui a autoestima.</p>
-            <p class="text-PS">A teoria da alienação social, proposta por pensadores como Karl Marx e Émile Durkheim, pode ajudar a explicar como a tecnologia pode aumentar a distância social entre as pessoas, em vez de aproximá-las. A quantidade de tempo que as pessoas passam interagindo pessoalmente diminuiu ao longo dos anos, e muitos jovens se sentem mais à vontade conversando com os outros por meio de telas do que pessoalmente, o que pode levar a um aumento do isolamento.</p>
-        </div>
+    <!-- Sessão: Saúde Mental -->
 
-        <div class="content">
-            <h1 class="titulo-PS">EDUCAÇÃO DIGITAL E PROTEÇÃO ONLINE</h1>
-            <div id="line-text-3-sau">
-                <hr>
+    <main class="main-content">
+        <section class="saude-mental">
+            <div class="content">
+                <h1 class="titulo-PS">REDES SOCIAIS E ISOLAMENTO SOCIAL</h1>
+                <div id="line-text-2-sau">
+                    <hr>
+                </div>
+                <p class="text-PS">O uso excessivo das redes sociais, de acordo com estudos recentes, leva a altos
+                    níveis de ansiedade, depressão e solidão entre os jovens. Em conexão com esses dados, o conceito de
+                    "comunidade virtual" é frequentemente invocado. Isso se refere ao fato de que, por um lado, as redes
+                    sociais criam a ilusão de uma comunicação sem barreiras, enquanto, por outro lado, as pessoas se
+                    comparam umas às outras. Como resultado, elas se sentem obrigadas a demonstrar abertamente seu
+                    sucesso e suas vidas incríveis, o que aumenta a insatisfação consigo mesmas e diminui a autoestima.
+                </p>
+                <p class="text-PS">A teoria da alienação social, proposta por pensadores como Karl Marx e Émile
+                    Durkheim, pode ajudar a explicar como a tecnologia pode aumentar a distância social entre as
+                    pessoas, em vez de aproximá-las. A quantidade de tempo que as pessoas passam interagindo
+                    pessoalmente diminuiu ao longo dos anos, e muitos jovens se sentem mais à vontade conversando com os
+                    outros por meio de telas do que pessoalmente, o que pode levar a um aumento do isolamento.</p>
             </div>
-            <p class="text-PS">Além disso, o fenômeno denominado "ciberbullying" representa um desafio significativo para a saúde mental. As agressões virtuais podem ser igualmente devastadoras, prejudicando a vida de jovens e adultos. As mídias sociais, que deveriam ser um espaço de apoio e comunicação, frequentemente se transformam em ambientes de hostilidade e isolamento. A sociedade precisa adotar medidas mais rigorosas para proteger seus membros e proporcionar um ambiente virtual mais seguro.</p>
-            <p class="text-PS">Por outro lado, especialistas em saúde mental ressaltam a importância do ensino da educação digital e da alfabetização emocional. É necessário ensinar os jovens a navegar pelas complexidades da vida online de uma maneira saudável. Campanhas de conscientização sobre o uso responsável da tecnologia e a criação de espaços de apoio psicológico estão se tornando essenciais.</p>
-        </div>
-    </section>
+
+            <div class="content">
+                <h1 class="titulo-PS">EDUCAÇÃO DIGITAL E PROTEÇÃO ONLINE</h1>
+                <div id="line-text-3-sau">
+                    <hr>
+                </div>
+                <p class="text-PS">Além disso, o fenômeno denominado "ciberbullying" representa um desafio significativo
+                    para a saúde mental. As agressões virtuais podem ser igualmente devastadoras, prejudicando a vida de
+                    jovens e adultos. As mídias sociais, que deveriam ser um espaço de apoio e comunicação,
+                    frequentemente se transformam em ambientes de hostilidade e isolamento. A sociedade precisa adotar
+                    medidas mais rigorosas para proteger seus membros e proporcionar um ambiente virtual mais seguro.
+                </p>
+                <p class="text-PS">Por outro lado, especialistas em saúde mental ressaltam a importância do ensino da
+                    educação digital e da alfabetização emocional. É necessário ensinar os jovens a navegar pelas
+                    complexidades da vida online de uma maneira saudável. Campanhas de conscientização sobre o uso
+                    responsável da tecnologia e a criação de espaços de apoio psicológico estão se tornando essenciais.
+                </p>
+            </div>
+        </section>
+
+        <!-- Imagens sobre o Saúde Mental -->
 
         <section class="imgs">
             <div class="img-side">
@@ -111,17 +253,24 @@
 
     <div class="line-intro">
         <hr>
-        </div>
+    </div>
 
-        <section class="resumo">
+    <!-- Resumo sobre o Saúde Mental -->
+
+    <section class="resumo">
         <div class="text">
-            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu gênero, tenham as mesmas oportunidades e direitos.</p>
+            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas
+                estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia
+                as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu
+                gênero, tenham as mesmas oportunidades e direitos.</p>
         </div>
     </section>
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Início da footer -->
 
     <footer class="footer">
         <div class="icones">
@@ -152,8 +301,9 @@
                 <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
             </div>
         </div>
-
     </footer>
+
+    <!-- Final da footer -->
 
 </body>
 

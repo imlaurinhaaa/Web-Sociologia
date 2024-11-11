@@ -10,7 +10,7 @@
   scroll-behavior: smooth;
 }
 
-:root{
+:root {
   --cor-background: #fff;
   --color-icones: #fff;
   --color-linhaVertical: #fff;
@@ -95,6 +95,214 @@ body {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
+
+/* menu-mobile */
+
+.menu-mobile ul {
+  background-color: var(--color-menu);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 82px;
+  right: 0;
+  width: 405px;
+  max-height: 0;
+  transition: max-height 1s ease, visibility 1s ease;
+  visibility: hidden;
+  overflow: hidden;
+  margin-right: 0;
+  z-index: 4;
+  display: inline;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-mobile.abrir ul {
+  visibility: visible;
+  max-height: 31.25rem;
+}
+
+.menu-mobile ul li:hover {
+  background-color: #000000c4;
+}
+
+.menu-mobile ul .menu-title:hover {
+  background-color: var(--color-menu);
+}
+
+.menu-mobile ul li {
+  display: flex;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu-mobile ul .sociologia {
+  width: 30rem;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.menu-mobile ul li div {
+  width: 20.7rem;
+  display: block;
+}
+
+.menu-mobile ul .sociologia div {
+  width: 20.7rem;
+  display: block;
+  border-bottom: 0 solid #ffffff;
+}
+
+.menu-mobile ul li a {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: left;
+  color: var(--color-fonteBranca);
+  text-decoration: none;
+  border-bottom: 0.3px solid #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.menu-mobile ul li div h1 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  border-bottom: 1px solid #ffffff;
+}
+
+.menu-mobile ul li .materias {
+  width: 12rem;
+}
+
+#btn-menu {
+  width: 45px;
+  height: 45px;
+  border: 0px solid #ff0000;
+  background: transparent;
+  border-radius: 10px;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.linha {
+  width: 40px;
+  height: 3px;
+  background-color: #ffffff;
+  display: flex;
+  margin: 10px auto;
+  position: relative;
+  transform-origin: center;
+  transition: .2s;
+}
+
+#btn-menu.ativo .linha:nth-child(1) {
+  transform: translateY(12px) rotate(-45deg);
+  background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(3) {
+  transform: translateY(-15px) rotate(45deg);
+  background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(2) {
+  width: 0;
+}
+
+#menu-materias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow {
+  width: 1rem;
+  height: 1rem;
+  z-index: 10;
+  transform: rotate(90deg);
+  transition: .3s;
+}
+
+.btn-menu2:hover {
+  background-color: #000;
+}
+
+#btn-menu2.ativado .arrow {
+  transform: rotate(0deg);
+}
+
+#btn-menu2 {
+  height: 10px;
+  border: 0px solid #ff0000;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+#menu-menu ul {
+  position: absolute;
+  right: 0;
+  top: 36.34rem;
+  background-color: var(--color-menu);
+  z-index: 5;
+  width: 405px;
+  max-height: 0;
+  transition: max-height 0.5s ease, visibility 1s ease;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  overflow: hidden;
+  list-style: none;
+  justify-content: left;
+  gap: 0.5rem;
+}
+
+.menu-menu ul li {
+  display: block;
+  padding: 6px;
+  font-size: 1rem;
+}
+
+.menu-menu ul li div {
+  display: block;
+  width: 22rem;
+}
+
+.menu-menu ul li a {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: left;
+  color: var(--color-fonteBranca);
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 600;
+}
+
+#menu-menu a {
+  margin-left: 2.5rem;
+  text-decoration: none;
+  color: #e0e0e0;
+  border-bottom: 1px solid #ffffff;
+  font-size: 0.9rem;
+}
+
+#menu-menu.aberto ul {
+  visibility: visible;
+  max-height: 30.25rem;
+}
+
+.video-aula {
+  margin-bottom: 1rem;
+}
+
+/* fim menu mobile */
 
 .vertical-line {
   height: 50px;
@@ -193,6 +401,7 @@ body {
   gap: 200px;
   padding: 100px;
 }
+
 .topics-header {
   display: flex;
   justify-content: space-between;
@@ -229,7 +438,8 @@ body {
   color: var(--color-fonteBranca);
   text-align: center;
 }
-.aba-item-check{
+
+.aba-item-check {
   background-color: var(--color-abaCheck);
   padding: 10px 20px;
   margin: 0 10px;
@@ -243,14 +453,11 @@ body {
   width: 100%;
 }
 
-
-
 .aba-item:hover,
-.aba-item:hover a {
+.aba-item:hover * {
   background-color: var(--color-abaCheck);
   color: var(--color-fonteBranca);
 }
-
 
 /* final da header/ banner/ abas */
 

@@ -101,6 +101,7 @@ body {
 }
 
 /* menu-mobile */
+
 .menu-mobile ul {
   background-color: var(--color-menu);
   backdrop-filter: blur(10px);
@@ -217,9 +218,6 @@ body {
   width: 0;
 }
 
-/* começo do botão dentro do menu mobile */
-
-
 #menu-materias {
   display: flex;
   flex-direction: column;
@@ -307,7 +305,8 @@ body {
 .video-aula{
   margin-bottom: 1rem;
 }
-/* fim menu mobile MOTIVO: não me perder*/
+
+/* fim menu mobile */
 
 .vertical-line {
   height: 50px;

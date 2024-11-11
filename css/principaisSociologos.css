@@ -100,6 +100,214 @@ body {
     transition: transform 0.3s ease;
 }
 
+/* menu-mobile */
+
+.menu-mobile ul {
+    background-color: var(--color-menu);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 82px;
+    right: 0;
+    width: 405px;
+    max-height: 0;
+    transition: max-height 1s ease, visibility 1s ease;
+    visibility: hidden;
+    overflow: hidden;
+    margin-right: 0;
+    z-index: 4;
+    display: inline;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.menu-mobile.abrir ul {
+    visibility: visible;
+    max-height: 31.25rem;
+}
+
+.menu-mobile ul li:hover {
+    background-color: #000000c4;
+}
+
+.menu-mobile ul .menu-title:hover {
+    background-color: var(--color-menu);
+}
+
+.menu-mobile ul li {
+    display: flex;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu-mobile ul .sociologia {
+    width: 30rem;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.menu-mobile ul li div {
+    width: 20.7rem;
+    display: block;
+}
+
+.menu-mobile ul .sociologia div {
+    width: 20.7rem;
+    display: block;
+    border-bottom: 0 solid #ffffff;
+}
+
+.menu-mobile ul li a {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: left;
+    color: var(--color-fonteBranca);
+    text-decoration: none;
+    border-bottom: 0.3px solid #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.menu-mobile ul li div h1 {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu-mobile ul li .materias {
+    width: 12rem;
+}
+
+#btn-menu {
+    width: 45px;
+    height: 45px;
+    border: 0px solid #ff0000;
+    background: transparent;
+    border-radius: 10px;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.linha {
+    width: 40px;
+    height: 3px;
+    background-color: #ffffff;
+    display: flex;
+    margin: 10px auto;
+    position: relative;
+    transform-origin: center;
+    transition: .2s;
+}
+
+#btn-menu.ativo .linha:nth-child(1) {
+    transform: translateY(12px) rotate(-45deg);
+    background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(3) {
+    transform: translateY(-15px) rotate(45deg);
+    background-color: #ffffff;
+}
+
+#btn-menu.ativo .linha:nth-child(2) {
+    width: 0;
+}
+
+#menu-materias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arrow {
+    width: 1rem;
+    height: 1rem;
+    z-index: 10;
+    transform: rotate(90deg);
+    transition: .3s;
+}
+
+.btn-menu2:hover {
+    background-color: #000;
+}
+
+#btn-menu2.ativado .arrow {
+    transform: rotate(0deg);
+}
+
+#btn-menu2 {
+    height: 10px;
+    border: 0px solid #ff0000;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu-menu ul {
+    position: absolute;
+    right: 0;
+    top: 36.34rem;
+    background-color: var(--color-menu);
+    z-index: 5;
+    width: 405px;
+    max-height: 0;
+    transition: max-height 0.5s ease, visibility 1s ease;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    overflow: hidden;
+    list-style: none;
+    justify-content: left;
+    gap: 0.5rem;
+}
+
+.menu-menu ul li {
+    display: block;
+    padding: 6px;
+    font-size: 1rem;
+}
+
+.menu-menu ul li div {
+    display: block;
+    width: 22rem;
+}
+
+.menu-menu ul li a {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: left;
+    color: var(--color-fonteBranca);
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    font-weight: 600;
+}
+
+#menu-menu a {
+    margin-left: 2.5rem;
+    text-decoration: none;
+    color: #e0e0e0;
+    border-bottom: 1px solid #ffffff;
+    font-size: 0.9rem;
+}
+
+#menu-menu.aberto ul {
+    visibility: visible;
+    max-height: 30.25rem;
+}
+
+.video-aula {
+    margin-bottom: 1rem;
+}
+
+/* fim menu mobile */
+
 .vertical-line {
     height: 50px;
     width: 3px;
@@ -359,13 +567,13 @@ body {
     width: 80%;
 }
 
-.main-content{
+.main-content {
     width: 100%;
     background-color: var(--cor-background);
     display: flex;
 }
 
-.imgs{
+.imgs {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -373,21 +581,21 @@ body {
     margin-right: 5rem;
 }
 
-.img-side{
+.img-side {
     width: 100%;
     background-color: var(--cor-background);
     display: flex;
     flex-direction: column;
     margin-right: 12rem;
     margin-bottom: 15rem;
-} 
+}
 
-.img{
+.img {
     width: 20rem;
     height: 20rem;
 }
 
-.legend{
+.legend {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -395,54 +603,54 @@ body {
     color: var(--color-citacao);
     text-align: justify;
     margin-top: 1rem;
-    width: 20rem;    
+    width: 20rem;
 }
 
 /* linhas do Comte*/
 
-#line-text-1-comte{
+#line-text-1-comte {
     height: 0.2rem;
     width: 21%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-comte{
+#line-text-2-comte {
     height: 0.2rem;
     width: 26%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-comte{
+#line-text-3-comte {
     height: 0.2rem;
     width: 34%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-4-comte{
+#line-text-4-comte {
     height: 0.2rem;
     width: 66%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-5-comte{
+#line-text-5-comte {
     height: 0.2rem;
     width: 35%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-6-comte{
+#line-text-6-comte {
     height: 0.2rem;
     width: 35%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-7-comte{
+#line-text-7-comte {
     height: 0.2rem;
     width: 38%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-8-comte{
+#line-text-8-comte {
     height: 0.2rem;
     width: 33%;
     background-color: var(--color-corLinha);
@@ -450,37 +658,37 @@ body {
 
 /* linhas do Durkheim*/
 
-#line-text-1-durkheim{
+#line-text-1-durkheim {
     height: 0.2rem;
     width: 22%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-durkheim{
+#line-text-2-durkheim {
     height: 0.2rem;
     width: 43%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-durkheim{
+#line-text-3-durkheim {
     height: 0.2rem;
     width: 33%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-4-durkheim{
+#line-text-4-durkheim {
     height: 0.2rem;
     width: 39%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-5-durkheim{
+#line-text-5-durkheim {
     height: 0.2rem;
     width: 30%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-6-durkheim{
+#line-text-6-durkheim {
     height: 0.2rem;
     width: 33%;
     background-color: var(--color-corLinha);
@@ -488,37 +696,37 @@ body {
 
 /* linhas do Marx*/
 
-#line-text-1-marx{
+#line-text-1-marx {
     height: 0.2rem;
     width: 14%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-marx{
+#line-text-2-marx {
     height: 0.2rem;
     width: 27%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-marx{
+#line-text-3-marx {
     height: 0.2rem;
     width: 64%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-4-marx{
+#line-text-4-marx {
     height: 0.2rem;
     width: 50%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-5-marx{
+#line-text-5-marx {
     height: 0.2rem;
     width: 31%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-6-marx{
+#line-text-6-marx {
     height: 0.2rem;
     width: 26%;
     background-color: var(--color-corLinha);
@@ -526,43 +734,43 @@ body {
 
 /* linhas do Weber*/
 
-#line-text-1-weber{
+#line-text-1-weber {
     height: 0.2rem;
     width: 15%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-weber{
+#line-text-2-weber {
     height: 0.2rem;
     width: 34%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-weber{
+#line-text-3-weber {
     height: 0.2rem;
     width: 41%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-4-weber{
+#line-text-4-weber {
     height: 0.2rem;
     width: 42%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-5-weber{
+#line-text-5-weber {
     height: 0.2rem;
     width: 37%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-6-weber{
+#line-text-6-weber {
     height: 0.2rem;
     width: 28%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-7-weber{
+#line-text-7-weber {
     height: 0.2rem;
     width: 22%;
     background-color: var(--color-corLinha);
