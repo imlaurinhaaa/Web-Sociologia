@@ -482,6 +482,55 @@ body {
     margin-left: 10rem;
 }
 
+#line14{
+    height: 0.2rem;
+    width: 180px;
+    background-color: var(--color-corLinha);
+    margin-left: 10rem;
+}
+
+#line15{
+    height: 0.2rem;
+    width: 410px;
+    background-color: var(--color-corLinha);
+    margin-left: 10rem;
+}
+
+#line16{
+    height: 0.2rem;
+    width: 90px;
+    background-color: var(--color-corLinha);
+    margin-left: 10rem;
+}
+
+#line17{
+    height: 0.2rem;
+    width: 130px;
+    background-color: var(--color-corLinha);
+    margin-left: 10rem;
+}
+
+#line18{
+    height: 0.2rem;
+    width: 225px;
+    background-color: var(--color-corLinha);
+    margin-left: 10rem;
+}
+
+#line19{
+    height: 0.2rem;
+    width: 390px;
+    background-color: var(--color-corLinha);
+    margin-left: 10rem;
+}
+
+#line20{
+    height: 0.2rem;
+    width: 200px;
+    background-color: var(--color-corLinha);
+    margin-left: 10rem;
+}
+
 /* ESTILIZAÇÃO DOS SUBTITULOS */
 .conteudo .subtitulo{
     font-family: "Montserrat", sans-serif;
@@ -606,7 +655,7 @@ body {
 
 .conteudo .imagem1 img{
     width: 30rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -700px;
 }
 
@@ -618,7 +667,7 @@ body {
 
 .conteudo .imagem2 img{
     width: 30rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -80rem;
 }
 
@@ -627,10 +676,9 @@ body {
     margin-top: -50px;
 }
 
-
 .conteudo .imagem3 img{
     width: 30rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -80rem;
 }
 
@@ -639,10 +687,9 @@ body {
     margin-top: -100px;
 }
 
-
 .conteudo .imagem4 img{
     width: 30rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -80rem;
 }
 
@@ -651,10 +698,9 @@ body {
     margin-top: -100px;
 }
 
-
 .conteudo .imagem5 img{
     width: 30rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -80rem;
 }
 
@@ -663,10 +709,9 @@ body {
     margin-top: -80px;
 }
 
-
 .conteudo .imagem6 img{
     width: 30rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -80rem;
 }
 
@@ -675,10 +720,9 @@ body {
     margin-top: -80px;
 }
 
-
 .conteudo .imagem7 img{
     width: 30rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -4rem;
 }
 
@@ -687,16 +731,25 @@ body {
     margin-top: -90px;
 }
 
-
 .conteudo .imagem8 img{
     width: 20rem;
-    margin-left: 1340px;
+    margin-left: 1275px;
     margin-top: -5rem;
+}
+
+.conteudo .imagem9{
+    width: 30rem;
+    margin-top: -275px;
+}
+
+.conteudo .imagem9 img{
+    width: 30rem;
+    margin-left: 1275px;
 }
 
 .conteudo legend{
     width: 28rem;
-    margin-left: 1350px;
+    margin-left: 1275px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -705,27 +758,4 @@ body {
     font-size: 1rem;
     font-weight: 200;
     text-align: justify;
-}
-
-.conteudo .imagem-topico{
-    margin-top: 3rem;
-}
-
-.conteudo .imagem-topico2{
-    margin-top: -15rem;
-    margin-left: 1150px;
-}
-
-.conteudo .imagem-topico2 img{
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-.conteudo .imagem-trabalho{
-    margin-top: 5rem;
-}
-
-.conteudo .imagem-trabalho img{
-    width: 800px;
 }
