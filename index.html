@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/global.css" />
   <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+  <script src="menu.js"></script>
   <title>Sociologia</title>
 </head>
 
 <body>
+
+  <!-- Início da header -->
 
   <header class="sociologia-header">
     <div class="logo-header">
@@ -26,45 +29,91 @@
         <li><a href="" class="nav-link">Cadastre-se</a></li>
       </ul>
 
-        <button onclick="animar(), animarMenu()" id="btn-menu">
-          <span class="linha"></span>
-          <span class="linha"></span>
-          <span class="linha"></span>
-        </button>
-        <div class="menu-mobile" id="menu-materias">
-          <nav class="menu-materias" id="menu-materias">
+
+      <!-- Botão de menu -->
+
+      <button onclick="animar(), animarMenu()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+      </button>
+
+      <div class="menu-mobile" id="menu-materias">
+        <nav class="menu-materias" id="menu-materias">
+          <ul>
+            <li class="menu-title">
+              <div class="materias">
+                <h1>MATÉRIAS</h1>
+              </div>
+            </li>
+            <li>
+              <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li>
+              <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+            </li>
+            <li class="sociologia">
+              <div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+              <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                <img src="../img/arrow.png" alt="arrow" class="arrow">
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-menu" id="menu-menu">
+          <nav class="menu-menu" id="menu-menu">
             <ul>
-              <li class="menu-title"><div class="materias"><h1>MATÉRIAS</h1></div></li>
-              <li><div><a href="artes.html">Artes</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="biologia.html">Biologia</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="edFisica.html">Ed. Física</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="filosofia.html">Filosofia</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="fisica.html">Física</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="geografia.html">Geografia</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="historia.html">História</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="ingles.html">Inglês</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="matematica.html">Matemática</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li><div><a href="quimica.html">Química</a></div><img src="./img/arrow.png" alt="arrow" class="arrow"></li>
-              <li class="sociologia"><div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
-                <button onclick="animar2(), animarMenu2()" id="btn-menu2">  
-                  <img src="./img/arrow.png" alt="arrow" class="arrow">
-                </button>
+              <li>
+                <div><a href="index.html">Home</a></div>
+              </li>
+              <li>
+                <div><a href="./pages-abas/carreiras.html">Carreiras</a></div>
+              </li>
+              <li>
+                <div><a href="./pages-abas/dicas.html">Dicas</a></div>
+              </li>
+              <li>
+                <div><a href="./pages-abas/simulados.html">Simulados</a></div>
+              </li>
+              <li>
+                <div><a href="./pages-abas/notícias.html">Notícias</a></div>
+              </li>
+              <li>
+                <div class="video-aula"><a href="./pages-abas/video-aula.html">Video aulas</a></div>
               </li>
             </ul>
           </nav>
-          <div class="menu-menu" id="menu-menu">
-            <nav class="menu-menu" id="menu-menu">
-              <ul>
-                <li><div><a href="index.html">Home</a></div></li>
-                <li><div><a href="./pages-abas/carreiras.html">Carreiras</a></div></li>
-                <li><div><a href="./pages-abas/dicas.html">Dicas</a></div></li>
-                <li><div><a href="./pages-abas/simulados.html">Simulados</a></div></li>
-                <li><div><a href="./pages-abas/notícias.html">Notícias</a></div></li>
-                <li><div class="video-aula"><a href="./pages-abas/video-aula.html">Video aulas</a></div></li>
-              </ul>
-            </nav>
-          </div>
+        </div>
+    </nav>
   </header>
+
+  <!-- Final da header -->
+
+  <!-- Banner -->
 
   <section class="header-banner">
     <div class="image-banner">
@@ -72,20 +121,39 @@
     </div>
   </section>
 
+  <!-- Início das abas -->
+
   <section class="topics-header">
-    <button class="aba-item-check" onclick="location.href='index.html'"><p class="aba-text-check">HOME</p></button>
-    <button class="aba-item" onclick="location.href='./pages-abas/carreiras.html'"><p class="aba-text">CARREIRAS</p></button>
-    <button class="aba-item" onclick="location.href='./pages-abas/dicas.html'"><p class="aba-text">DICAS</p></button>
-    <button class="aba-item" onclick="location.href='./pages-abas/simulados.html'"><p class="aba-text">SIMULADOS</p></button>
-    <button class="aba-item" onclick="location.href='./pages-abas/notícias.html'"><p class="aba-text">NOTÍCIAS</p></button>
-    <button class="aba-item" onclick="location.href='./pages-abas/video-aula.html'"><p class="aba-text">VÍDEO-AULA</p></button>
-    <button class="aba-item" onclick="location.href='./pages-abas/sobre.html'"><p class="aba-text">SOBRE-NÓS</p></button>
+    <button class="aba-item-check" onclick="location.href='index.html'">
+      <p class="aba-text-check">HOME</p>
+    </button>
+    <button class="aba-item" onclick="location.href='./pages-abas/carreiras.html'">
+      <p class="aba-text">CARREIRAS</p>
+    </button>
+    <button class="aba-item" onclick="location.href='./pages-abas/dicas.html'">
+      <p class="aba-text">DICAS</p>
+    </button>
+    <button class="aba-item" onclick="location.href='./pages-abas/simulados.html'">
+      <p class="aba-text">SIMULADOS</p>
+    </button>
+    <button class="aba-item" onclick="location.href='./pages-abas/notícias.html'">
+      <p class="aba-text">NOTÍCIAS</p>
+    </button>
+    <button class="aba-item" onclick="location.href='./pages-abas/video-aula.html'">
+      <p class="aba-text">VÍDEO-AULA</p>
+    </button>
+    <button class="aba-item" onclick="location.href='./pages-abas/sobre.html'">
+      <p class="aba-text">SOBRE-NÓS</p>
+    </button>
   </section>
+
+  <!-- Final das abas -->
 
   <div id="line">
     <hr>
   </div>
-  </header>
+
+  <!-- Introdução -->
 
   <section class="introducao">
     <div id="intro-content">
@@ -114,14 +182,12 @@
       </div>
     </div>
 
-
-
-
-
     <div class="img-introducao">
       <img id="img-intro" src="./img/imagem-introducao.jpg" alt="">
     </div>
   </section>
+
+  <!-- Sessão: Principais tópicos -->
 
   <div class="principaisTopicos">
     <h1 class="titulo-intro">PRINCIPAIS TÓPICOS</h1>
@@ -129,6 +195,7 @@
       <hr>
     </div>
   </div>
+
   <main class="main-content">
     <section class="section-img">
       <div class="img">
@@ -181,11 +248,12 @@
         </div>
     </section>
   </main>
-  </div>
 
   <div id="line">
     <hr>
   </div>
+
+  <!-- Início da footer -->
 
   <footer class="footer">
     <div class="icones">
@@ -216,10 +284,10 @@
         <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
       </div>
     </div>
-
   </footer>
 
-  <script src="menu.js"></script>
+  <!-- Final da footer -->
+
 </body>
 
 </html>

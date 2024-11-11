@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/movimentosSociais.css" />
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+    <script src="../menu.js"></script>
     <title>Sociologia- LGBTQIA+</title>
 </head>
 
 <body>
+
+    <!-- Início da header -->
 
     <header class="sociologia-header">
         <div class="logo-header">
@@ -25,11 +28,101 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+
+            <!-- Botão de menu -->
+
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias">
+                    <ul>
+                        <li class="menu-title">
+                            <div class="materias">
+                                <h1>MATÉRIAS</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li class="sociologia">
+                            <div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+                            <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                                <img src="../img/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-menu" id="menu-menu">
+                    <nav class="menu-menu" id="menu-menu">
+                        <ul>
+                            <li>
+                                <div><a href="../index.html">Home</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/carreiras.html">Carreiras</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/dicas.html">Dicas</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/simulados.html">Simulados</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/notícias.html">Notícias</a></div>
+                            </li>
+                            <li>
+                                <div class="video-aula"><a href="../pages-abas/video-aula.html">Video aulas</a></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
         </nav>
     </header>
+
+    <!-- Final da header -->
+
+    <!-- Banner -->
 
     <section class="header-banner">
         <div class="image-banner">
@@ -37,19 +130,39 @@
         </div>
     </section>
 
+    <!-- Início das abas -->
+
     <section class="topics-header">
-        <button class="aba-item" onclick="location.href='../index.html'"><p class="aba-text">HOME</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'"><p class="aba-text">CARREIRAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'"><p class="aba-text">DICAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'"><p class="aba-text">SIMULADOS</p></button>
-        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'"><p class="aba-text-check">NOTÍCIAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'"><p class="aba-text">VÍDEO-AULA</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'"><p class="aba-text">SOBRE-NÓS</p></button>
+        <button class="aba-item" onclick="location.href='../index.html'">
+            <p class="aba-text">HOME</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'">
+            <p class="aba-text">CARREIRAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'">
+            <p class="aba-text">DICAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'">
+            <p class="aba-text">SIMULADOS</p>
+        </button>
+        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'">
+            <p class="aba-text-check">NOTÍCIAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'">
+            <p class="aba-text">VÍDEO-AULA</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'">
+            <p class="aba-text">SOBRE-NÓS</p>
+        </button>
     </section>
+
+    <!-- Final das abas -->
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Introdução- Conteúdo sobre LGBTQIA+ -->
 
     <section class="intro">
         <div class="content">
@@ -58,10 +171,14 @@
                 <hr>
             </div>
             <p class="text-PS"><b>Uma perspectiva sociológica</b></p>
-            <p class="text-PS">Em outras palavras, a luta pela inclusão do LGBTQIA+ é a luta das principais mudanças sociais e de um novo estágio na aceitação da peculiaridade humana. Isso implica um novo estágio de liberdade, mas também um novo olhar sociológico que não valoriza mais a unidade, mas sim a diversidade, a força de desenvolvimento social.</p>
+            <p class="text-PS">Em outras palavras, a luta pela inclusão do LGBTQIA+ é a luta das principais mudanças
+                sociais e de um novo estágio na aceitação da peculiaridade humana. Isso implica um novo estágio de
+                liberdade, mas também um novo olhar sociológico que não valoriza mais a unidade, mas sim a diversidade,
+                a força de desenvolvimento social.</p>
 
             <div class="citacao">
-                <blockquote><i>“Minha luta é para que possamos ser quem somos, sem que isso seja considerado um afronta a ninguém.” - Laerte Coutinho</i>
+                <blockquote><i>“Minha luta é para que possamos ser quem somos, sem que isso seja considerado um afronta
+                        a ninguém.” - Laerte Coutinho</i>
                 </blockquote>
             </div>
         </div>
@@ -75,26 +192,48 @@
     <hr>
     </div>
 
-    <main class="main-content">
-    <section class="lgbtqia">
-        <div class="content">
-            <h1 class="titulo-PS">A LUTA PELA INCLUSÃO</h1>
-            <div id="line-text-2-lgbt">
-                <hr>
-            </div>
-            <p class="text-PS">No cenário atual, a inclusão e o respeito à diversidade LGBTQIA+ tornaram-se evidentes e amplamente debatidos. Esse desenvolvimento pode ser entendido por fatores sociológicos, como a visibilidade e a aceitação de uma comunidade diversa, que mudaram completamente a estrutura de normas e processos de socialização. Desde então, conceitos como identidade de gênero e orientação sexual têm uma abordagem mais abrangente e menos normativa.</p>
-            <p class="text-PS">Como visto, a teoria do construcionismo social é fundamental para compreender como as identidades LGBTQIA+ foram, em muitos casos, ainda são (Betti, 2018) — historicamente marginalizadas. Essa transformação ocorreu por meio do ativismo e da luta pelos direitos humanos, reconstruindo o papel social e a natureza do conceito de gênero. A mesma teoria pode ser observada em legislações e políticas públicas estabelecidas em muitos países, visando a justiça e a igualdade de oportunidades.</p>
-        </div>
+    <!-- Sessão: LGBTQIA+ -->
 
-        <div class="content">
-            <h1 class="titulo-PS">DESAFIOS DA INCLUSÃO LGBTQIA+</h1>
-            <div id="line-text-3-lgbt">
-                <hr>
+    <main class="main-content">
+        <section class="lgbtqia">
+            <div class="content">
+                <h1 class="titulo-PS">A LUTA PELA INCLUSÃO</h1>
+                <div id="line-text-2-lgbt">
+                    <hr>
+                </div>
+                <p class="text-PS">No cenário atual, a inclusão e o respeito à diversidade LGBTQIA+ tornaram-se
+                    evidentes e amplamente debatidos. Esse desenvolvimento pode ser entendido por fatores sociológicos,
+                    como a visibilidade e a aceitação de uma comunidade diversa, que mudaram completamente a estrutura
+                    de normas e processos de socialização. Desde então, conceitos como identidade de gênero e orientação
+                    sexual têm uma abordagem mais abrangente e menos normativa.</p>
+                <p class="text-PS">Como visto, a teoria do construcionismo social é fundamental para compreender como as
+                    identidades LGBTQIA+ foram, em muitos casos, ainda são (Betti, 2018) — historicamente
+                    marginalizadas. Essa transformação ocorreu por meio do ativismo e da luta pelos direitos humanos,
+                    reconstruindo o papel social e a natureza do conceito de gênero. A mesma teoria pode ser observada
+                    em legislações e políticas públicas estabelecidas em muitos países, visando a justiça e a igualdade
+                    de oportunidades.</p>
             </div>
-            <p class="text-PS">No entanto, há desafios evidentes e predominantes. Crimes de ódio e formas de heterossexismo são realidades presentes, especialmente em áreas onde a diversidade sexual é vista como uma norma social distorcida e rara. Sociologicamente, esses conflitos dizem respeito à resistência ao que chamamos de "mudança social". Isso pode ser exemplificado em qualquer norma tradicional, onde a quebra dessas regras é vista como perturbadora e, portanto, discretamente hostil por grupos mais conservadores.</p>
-            <p class="text-PS">Especialistas apontam que somente por meio da educação e da conscientização social um futuro inclusivo pode ser solidificado, onde todas as pessoas sejam respeitadas, independentemente de sua orientação sexual e identidade de gênero. A desconstrução de estereótipos depende do colapso de uma "mentalidade de ódio" e da promoção de um diálogo aberto sobre diversidade, não apenas em lares, mas também em escolas e locais de trabalho.</p>
-        </div>
-    </section>
+
+            <div class="content">
+                <h1 class="titulo-PS">DESAFIOS DA INCLUSÃO LGBTQIA+</h1>
+                <div id="line-text-3-lgbt">
+                    <hr>
+                </div>
+                <p class="text-PS">No entanto, há desafios evidentes e predominantes. Crimes de ódio e formas de
+                    heterossexismo são realidades presentes, especialmente em áreas onde a diversidade sexual é vista
+                    como uma norma social distorcida e rara. Sociologicamente, esses conflitos dizem respeito à
+                    resistência ao que chamamos de "mudança social". Isso pode ser exemplificado em qualquer norma
+                    tradicional, onde a quebra dessas regras é vista como perturbadora e, portanto, discretamente hostil
+                    por grupos mais conservadores.</p>
+                <p class="text-PS">Especialistas apontam que somente por meio da educação e da conscientização social um
+                    futuro inclusivo pode ser solidificado, onde todas as pessoas sejam respeitadas, independentemente
+                    de sua orientação sexual e identidade de gênero. A desconstrução de estereótipos depende do colapso
+                    de uma "mentalidade de ódio" e da promoção de um diálogo aberto sobre diversidade, não apenas em
+                    lares, mas também em escolas e locais de trabalho.</p>
+            </div>
+        </section>
+
+        <!-- Imagens sobre o LGBTQIA+ -->
 
         <section class="imgs">
             <div class="img-side">
@@ -111,17 +250,24 @@
 
     <div class="line-intro">
         <hr>
-        </div>
+    </div>
 
-        <section class="resumo">
+    <!-- Resumo sobre o LGBTQIA+ -->
+
+    <section class="resumo">
         <div class="text">
-            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu gênero, tenham as mesmas oportunidades e direitos.</p>
+            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas
+                estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia
+                as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu
+                gênero, tenham as mesmas oportunidades e direitos.</p>
         </div>
     </section>
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Início da footer -->
 
     <footer class="footer">
         <div class="icones">
@@ -152,8 +298,9 @@
                 <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
             </div>
         </div>
-
     </footer>
+
+    <!-- Final da footer -->
 
 </body>
 

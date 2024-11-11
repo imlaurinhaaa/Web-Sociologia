@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/principaisSociologos.css" />
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+    <script src="../menu.js"></script>
     <title>Sociologia- Pierre Bourdieu</title>
 </head>
 
 <body>
+
+    <!-- Início da header -->
 
     <header class="sociologia-header">
         <div class="logo-header">
@@ -25,11 +28,101 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+
+            <!-- Botão de menu -->
+
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias">
+                    <ul>
+                        <li class="menu-title">
+                            <div class="materias">
+                                <h1>MATÉRIAS</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li class="sociologia">
+                            <div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+                            <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                                <img src="../img/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-menu" id="menu-menu">
+                    <nav class="menu-menu" id="menu-menu">
+                        <ul>
+                            <li>
+                                <div><a href="../index.html">Home</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/carreiras.html">Carreiras</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/dicas.html">Dicas</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/simulados.html">Simulados</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/notícias.html">Notícias</a></div>
+                            </li>
+                            <li>
+                                <div class="video-aula"><a href="../pages-abas/video-aula.html">Video aulas</a></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
         </nav>
     </header>
+
+    <!-- Final da header -->
+
+    <!-- Banner -->
 
     <section class="header-banner">
         <div class="image-banner">
@@ -37,20 +130,39 @@
         </div>
     </section>
 
+    <!-- Início das abas -->
+
     <section class="topics-header">
-        <button class="aba-item" onclick="location.href='../index.html'"><p class="aba-text">HOME</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'"><p class="aba-text">CARREIRAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'"><p class="aba-text">DICAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'"><p class="aba-text">SIMULADOS</p></button>
-        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'"><p class="aba-text-check">NOTÍCIAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'"><p class="aba-text">VÍDEO-AULA</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'"><p class="aba-text">SOBRE-NÓS</p></button>
+        <button class="aba-item" onclick="location.href='../index.html'">
+            <p class="aba-text">HOME</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'">
+            <p class="aba-text">CARREIRAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'">
+            <p class="aba-text">DICAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'">
+            <p class="aba-text">SIMULADOS</p>
+        </button>
+        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'">
+            <p class="aba-text-check">NOTÍCIAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'">
+            <p class="aba-text">VÍDEO-AULA</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'">
+            <p class="aba-text">SOBRE-NÓS</p>
+        </button>
     </section>
+
+    <!-- Final das abas -->
 
     <div id="line">
         <hr>
     </div>
 
+    <!-- Introdução- Conteúdo sobre Pierre Bourdieu -->
 
     <section class="intro">
         <div class="content">
@@ -59,10 +171,14 @@
                 <hr>
             </div>
             <p class="text-PS"><b>Pierre Bourdieu: Intelectual Inovador da Sociologia e Etnologia</b></p>
-            <p class="text-PS">Pierre Bourdieu (1930-2002) foi um renomado sociólogo e pensador francês que trouxe inovações significativas para a compreensão da Sociologia e da Etnologia no século XX. Com uma obra influente, Bourdieu ajudou a redefinir as maneiras como as práticas culturais e sociais são interpretadas e compreendidas.</p>
+            <p class="text-PS">Pierre Bourdieu (1930-2002) foi um renomado sociólogo e pensador francês que trouxe
+                inovações significativas para a compreensão da Sociologia e da Etnologia no século XX. Com uma obra
+                influente, Bourdieu ajudou a redefinir as maneiras como as práticas culturais e sociais são
+                interpretadas e compreendidas.</p>
 
             <div class="citacao">
-                <blockquote><i>“O que foi aprendido pelas pessoas por meio de seu próprio corpo não é algo que se apaga tão facilmente.”</i>
+                <blockquote><i>“O que foi aprendido pelas pessoas por meio de seu próprio corpo não é algo que se apaga
+                        tão facilmente.”</i>
                 </blockquote>
             </div>
         </div>
@@ -76,86 +192,121 @@
     <hr>
     </div>
 
+    <!-- Sessão: Pierre Bourdieu -->
+
     <main class="main-content">
-    <section class="pierre-bou">
-        <div class="content">
-            <h1 class="titulo-PS">FORMAÇÃO E PRIMEIROS TRABALHOS</h1>
-            <div id="line-text-2-bourdieu">
-                <hr>
+        <section class="pierre-bou">
+            <div class="content">
+                <h1 class="titulo-PS">FORMAÇÃO E PRIMEIROS TRABALHOS</h1>
+                <div id="line-text-2-bourdieu">
+                    <hr>
+                </div>
+                <p class="text-PS">Pierre Félix Bourdieu nasceu em Denguin, França, em 1º de agosto de 1930. Iniciou sua
+                    educação em sua cidade natal antes de se mudar para Paris, onde, em 1954, se graduou em Economia
+                    Política e Sociologia pela Universidade Sorbonne. Em 1960, ele obteve seus primeiros exercícios de
+                    diretor de ensino na Universidade de Paris-Sorbonne, onde ele foi professor de Sociologia e de
+                    Política. Em 1964, ele se tornou professor de Sociologia na Universidade de Paris-Diderot, e em
+                    1970, de Política na Universidade de Paris-Sorbonne.</p>
             </div>
-            <p class="text-PS">Pierre Félix Bourdieu nasceu em Denguin, França, em 1º de agosto de 1930. Iniciou sua educação em sua cidade natal antes de se mudar para Paris, onde, em 1954, se graduou em Economia Política e Sociologia pela Universidade Sorbonne. Em 1960, ele obteve seus primeiros exercícios de diretor de ensino na Universidade de Paris-Sorbonne, onde ele foi professor de Sociologia e de Política. Em 1964, ele se tornou professor de Sociologia na Universidade de Paris-Diderot, e em 1970, de Política na Universidade de Paris-Sorbonne.</p>
-        </div>
 
-        <div class="content">
-            <h1 class="titulo-PS">ASCENSÃO ACADÊMICA E PESQUISA</h1>
-            <div id="line-text-3-bourdieu">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">ASCENSÃO ACADÊMICA E PESQUISA</h1>
+                <div id="line-text-3-bourdieu">
+                    <hr>
+                </div>
+                <p class="text-PS">Durante a sua viagem, Bourdieu tornou-se assistente do filósofo e sociólogo Raymond
+                    Aron na Faculdade de Letras de Paris, ao regressar à França, em Paris, no ano seguinte. Bourdieu
+                    tornou-se secretário-geral do Centro Europeu de Sociologia depois de 1962 ￼. Durante as décadas de
+                    1960 e 1970, a investigação de Bourdieu como etnólogo daria ao campo da sociologia contribuições
+                    vastas e inovadoras. As investigações de Bourdieu nas vidas culturais, lazeres e estilos econômicos
+                    e alimentares das classes na Europa, em particular, em França geraram algumas das obras fundamentais
+                    da sociologia moderna, como O Gosto ou A Distinção.</p>
+                <p class="text-PS">Nesta que é, possivelmente, sua grande obra, Bourdieu estuda como o costume do bom
+                    gosto, o estilo e a forma de vida são indissociáveis da influência de certas condições sociais de
+                    vida. Ele argumenta que o poder de compra e o inventário cultural e sistemático moldam o gosto.</p>
             </div>
-            <p class="text-PS">Durante a sua viagem, Bourdieu tornou-se assistente do filósofo e sociólogo Raymond Aron na Faculdade de Letras de Paris, ao regressar à França, em Paris, no ano seguinte. Bourdieu tornou-se secretário-geral do Centro Europeu de Sociologia depois de 1962 ￼. Durante as décadas de 1960 e 1970, a investigação de Bourdieu como etnólogo daria ao campo da sociologia contribuições vastas e inovadoras. As investigações de Bourdieu nas vidas culturais, lazeres e estilos econômicos e alimentares das classes na Europa, em particular, em França geraram algumas das obras fundamentais da sociologia moderna, como O Gosto ou A Distinção.</p>
-            <p class="text-PS">Nesta que é, possivelmente, sua grande obra, Bourdieu estuda como o costume do bom gosto, o estilo e a forma de vida são indissociáveis da influência de certas condições sociais de vida. Ele argumenta que o poder de compra e o inventário cultural e sistemático moldam o gosto.</p>
-        </div>
 
-        <div class="content">
-            <h1 class="titulo-PS">IDEIAS E CONTRIBUIÇÕES</h1>
-            <div id="line-text-4-bourdieu">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">IDEIAS E CONTRIBUIÇÕES</h1>
+                <div id="line-text-4-bourdieu">
+                    <hr>
+                </div>
+                <p class="text-PS">Bourdieu sugeriu conceitos revolucionários como "capital cultural", "habitus" e
+                    "campo social", que são atualmente amplamente aplicados para compreender a dinâmica das interações
+                    sociais. Ele defendia que as preferências e hábitos culturais da burguesia, das classes médias e da
+                    classe trabalhadora eram reflexos de suas vivências e posições sociais. Esses princípios
+                    contribuíram para evidenciar que a sociedade é formada por relações de poder, não somente no âmbito
+                    político e econômico, mas também no cultural.</p>
             </div>
-            <p class="text-PS">Bourdieu sugeriu conceitos revolucionários como "capital cultural", "habitus" e "campo social", que são atualmente amplamente aplicados para compreender a dinâmica das interações sociais. Ele defendia que as preferências e hábitos culturais da burguesia, das classes médias e da classe trabalhadora eram reflexos de suas vivências e posições sociais. Esses princípios contribuíram para evidenciar que a sociedade é formada por relações de poder, não somente no âmbito político e econômico, mas também no cultural.</p>
-        </div>
 
-        <div class="content">
-            <h1 class="titulo-PS">CARREIRA E LEGADO ACADÊMICO</h1>
-            <div id="line-text-5-bourdieu">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">CARREIRA E LEGADO ACADÊMICO</h1>
+                <div id="line-text-5-bourdieu">
+                    <hr>
+                </div>
+                <p class="text-PS">Bourdieu, reconhecido em todo o mundo, ministrou aulas em universidades de renome,
+                    como Harvard, Chicago e o Instituto Max Planck em Berlim. No ano de 1981, assumiu a cadeira de
+                    Sociologia no Collège de France. Em sua primeira aula, propôs uma crítica inovadora à formação dos
+                    sociólogos, conhecida como "Sociologia da Sociologia". Bourdieu se estabeleceu como uma autoridade
+                    em Antropologia e Sociologia, investigando tópicos como educação, mídia, política, arte e
+                    linguística.</p>
             </div>
-            <p class="text-PS">Bourdieu, reconhecido em todo o mundo, ministrou aulas em universidades de renome, como Harvard, Chicago e o Instituto Max Planck em Berlim. No ano de 1981, assumiu a cadeira de Sociologia no Collège de France. Em sua primeira aula, propôs uma crítica inovadora à formação dos sociólogos, conhecida como "Sociologia da Sociologia". Bourdieu se estabeleceu como uma autoridade em Antropologia e Sociologia, investigando tópicos como educação, mídia, política, arte e linguística.</p>
-        </div>
 
-        <div class="content">
-            <h1 class="titulo-PS">RECONHECIMENTO E ÚLTIMOS ANOS</h1>
-            <div id="line-text-6-bourdieu">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">RECONHECIMENTO E ÚLTIMOS ANOS</h1>
+                <div id="line-text-6-bourdieu">
+                    <hr>
+                </div>
+                <p class="text-PS">Durante sua trajetória profissional, foi agraciado com títulos de "Doutor Honoris
+                    Causa" por universidades de prestígio, como a Universidade Livre de Berlim, a Universidade Johann
+                    Wolfgang-Goethe de Frankfurt e a Universidade de Atenas. Pierre Bourdieu, reconhecido como um dos
+                    intelectuais mais influentes de sua época, faleceu em Paris em 23 de janeiro de 2002, deixando um
+                    legado que continua a influenciar as pesquisas em ciências sociais até os dias atuais.</p>
             </div>
-            <p class="text-PS">Durante sua trajetória profissional, foi agraciado com títulos de "Doutor Honoris Causa" por universidades de prestígio, como a Universidade Livre de Berlim, a Universidade Johann Wolfgang-Goethe de Frankfurt e a Universidade de Atenas. Pierre Bourdieu, reconhecido como um dos intelectuais mais influentes de sua época, faleceu em Paris em 23 de janeiro de 2002, deixando um legado que continua a influenciar as pesquisas em ciências sociais até os dias atuais.</p>
-        </div>
 
-
-        <div class="content">
-            <h1 class="titulo-PS">OBRAS DE PIERRE BOURDIEU</h1>
-            <div id="line-text-7-bourdieu">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">OBRAS DE PIERRE BOURDIEU</h1>
+                <div id="line-text-7-bourdieu">
+                    <hr>
+                </div>
+                <p class="text-PS">A Distinção (1984)</p>
+                <p class="text-PS">O Capital Social (1985)</p>
+                <p class="text-PS">A Reprodução (1970)</p>
+                <p class="text-PS">O Campo (1993)</p>
+                <p class="text-PS">Discurso sobre o Conjunto do Positivismo, 1848</p>
+                <p class="text-PS">Esboço de uma Teoria da Prática (1972)</p>
+                <p class="text-PS">A Economia das Trocas Simbólicas (1977)</p>
             </div>
-            <p class="text-PS">A Distinção (1984)</p>
-            <p class="text-PS">O Capital Social (1985)</p>
-            <p class="text-PS">A Reprodução (1970)</p>
-            <p class="text-PS">O Campo (1993)</p>
-            <p class="text-PS">Discurso sobre o Conjunto do Positivismo, 1848</p>
-            <p class="text-PS">Esboço de uma Teoria da Prática (1972)</p>
-            <p class="text-PS">A Economia das Trocas Simbólicas (1977)</p>
-        </div>
-    </section>
+        </section>
 
-    <section class="imgs">
-        <div class="img-side">
-            <img class="img" src="../img2/pierre.jpeg" alt="">
-            <p class="legend"><i>Pierre Bourdieu, uma das figuras mais influentes da sociologia contemporânea, cujas teorias redefiniram o estudo das relações sociais.</i></p>
-        </div>
+        <!-- Imagens sobre o Pierre Bourdieu -->
 
-        <div class="img-side">
-            <img class="img" src="../img2/livro-pierre.jpg" alt="">
-            <p class="legend"><i>Principal obra de Bourdieu,'Distinção' exploram as dinâmicas de poder e cultura.</i></p>
-        </div>
+        <section class="imgs">
+            <div class="img-side">
+                <img class="img" src="../img2/pierre.jpeg" alt="">
+                <p class="legend"><i>Pierre Bourdieu, uma das figuras mais influentes da sociologia contemporânea, cujas
+                        teorias redefiniram o estudo das relações sociais.</i></p>
+            </div>
 
-        <div class="img-side">
-            <img class="img" src="../img2/capital.jpg" alt="">
-            <p class="legend"><i>Ilustração do conceito central de Bourdieu, como 'capital cultural', fundamental para entender a sociedade.</i></p>
-        </div>
-    </section>
-</main>
+            <div class="img-side">
+                <img class="img" src="../img2/livro-pierre.jpg" alt="">
+                <p class="legend"><i>Principal obra de Bourdieu,'Distinção' exploram as dinâmicas de poder e
+                        cultura.</i></p>
+            </div>
+
+            <div class="img-side">
+                <img class="img" src="../img2/capital.jpg" alt="">
+                <p class="legend"><i>Ilustração do conceito central de Bourdieu, como 'capital cultural', fundamental
+                        para entender a sociedade.</i></p>
+            </div>
+        </section>
+    </main>
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Início da footer -->
 
     <footer class="footer">
         <div class="icones">
@@ -186,8 +337,9 @@
                 <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
             </div>
         </div>
-
     </footer>
+
+    <!-- Final da footer -->
 
 </body>
 

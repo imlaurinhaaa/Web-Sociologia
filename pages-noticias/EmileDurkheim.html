@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/principaisSociologos.css" />
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+    <script src="../menu.js"></script>
     <title>Sociologia- Émile Durkheim</title>
 </head>
 
 <body>
+
+    <!-- Início da header -->
 
     <header class="sociologia-header">
         <div class="logo-header">
@@ -25,11 +28,101 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+
+            <!-- Botão de menu -->
+
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias">
+                    <ul>
+                        <li class="menu-title">
+                            <div class="materias">
+                                <h1>MATÉRIAS</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li class="sociologia">
+                            <div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+                            <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                                <img src="../img/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-menu" id="menu-menu">
+                    <nav class="menu-menu" id="menu-menu">
+                        <ul>
+                            <li>
+                                <div><a href="../index.html">Home</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/carreiras.html">Carreiras</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/dicas.html">Dicas</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/simulados.html">Simulados</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/notícias.html">Notícias</a></div>
+                            </li>
+                            <li>
+                                <div class="video-aula"><a href="../pages-abas/video-aula.html">Video aulas</a></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
         </nav>
     </header>
+
+    <!-- Final da header -->
+
+    <!-- Banner -->
 
     <section class="header-banner">
         <div class="image-banner">
@@ -37,19 +130,39 @@
         </div>
     </section>
 
+    <!-- Início das abas -->
+
     <section class="topics-header">
-        <button class="aba-item" onclick="location.href='../index.html'"><p class="aba-text">HOME</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'"><p class="aba-text">CARREIRAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'"><p class="aba-text">DICAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'"><p class="aba-text">SIMULADOS</p></button>
-        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'"><p class="aba-text-check">NOTÍCIAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'"><p class="aba-text">VÍDEO-AULA</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'"><p class="aba-text">SOBRE-NÓS</p></button>
+        <button class="aba-item" onclick="location.href='../index.html'">
+            <p class="aba-text">HOME</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'">
+            <p class="aba-text">CARREIRAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'">
+            <p class="aba-text">DICAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'">
+            <p class="aba-text">SIMULADOS</p>
+        </button>
+        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'">
+            <p class="aba-text-check">NOTÍCIAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'">
+            <p class="aba-text">VÍDEO-AULA</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'">
+            <p class="aba-text">SOBRE-NÓS</p>
+        </button>
     </section>
+
+    <!-- Final das abas -->
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Introdução- Conteúdo sobre Émile Durkheim -->
 
     <section class="intro">
         <div class="content">
@@ -57,11 +170,15 @@
             <div id="line-text-1-durkheim">
                 <hr>
             </div>
-            <p class="text-PS"><b>Émile Durkheim: O Pai da Sociologia Moderna e Seus Legados para o Estudo das Relações Sociais</b></p>
-            <p class="text-PS">Émile Durkheim era conhecido pelos humanos como o pai da moderna sociologia, depois de decidir sobre a coesão social. Ele trouxe entendimento sobre essa teoria, dando origem a Escola Sociológica Francesa, ao lado de Karl Marx e Max Weber.
+            <p class="text-PS"><b>Émile Durkheim: O Pai da Sociologia Moderna e Seus Legados para o Estudo das Relações
+                    Sociais</b></p>
+            <p class="text-PS">Émile Durkheim era conhecido pelos humanos como o pai da moderna sociologia, depois de
+                decidir sobre a coesão social. Ele trouxe entendimento sobre essa teoria, dando origem a Escola
+                Sociológica Francesa, ao lado de Karl Marx e Max Weber.
             </p>
             <div class="citacao">
-                <blockquote><i>“Quando as normas sociais desaparecem, somos incapazes de saber o que é possível e o que não é, e acabamos ficando perdidos.”</i>
+                <blockquote><i>“Quando as normas sociais desaparecem, somos incapazes de saber o que é possível e o que
+                        não é, e acabamos ficando perdidos.”</i>
                 </blockquote>
             </div>
         </div>
@@ -75,83 +192,112 @@
     <hr>
     </div>
 
+    <!-- Sessão: Émile Durkheim -->
+
     <main class="main-content">
-    <section class="emile-durkheim">
-        <div class="content">
-            <h1 class="titulo-PS">INFÂNCIA E FORMAÇÃO ACADÊMICA</h1>
-            <div id="line-text-2-durkheim">
-                <hr>
+        <section class="emile-durkheim">
+            <div class="content">
+                <h1 class="titulo-PS">INFÂNCIA E FORMAÇÃO ACADÊMICA</h1>
+                <div id="line-text-2-durkheim">
+                    <hr>
+                </div>
+                <p class="text-PS">Nascido na França, em pontos de 15 de abril de 1858, em Épinal, Lorena Durkheim era
+                    descendente de uma família judia e seria educado no judaísmo, a fim de seguir a carreira de seu pai
+                    e avô, ambos rabinos. Ele rejeitou esse ensinamento, porém, se inscrevendo-se na filosofia e, mais
+                    tarde, na sociologia.</p>
+                <p class="text-PS">Ele se formou na Escola Normal Superior de Paris e ensinou em vários liceus
+                    franceses; uma visita à Alemanha em 1885- 1886 teve um efeito profundo sobre ele, e foi neste
+                    momento que ele decidiu se especializar em sociologia, sob influência dos métodos de psicología
+                    experimental de Wilhelm Wundt. Em 1887, Durkheim tornou-se professor de ciências sociais na
+                    universidade de Bordéus, e em 1902 aceitou um convite para ensinar na Sorbonne, em que permaneceu.
+                </p>
             </div>
-            <p class="text-PS">Nascido na França, em pontos de 15 de abril de 1858, em Épinal, Lorena Durkheim era descendente de uma família judia e seria educado no judaísmo, a fim de seguir a carreira de seu pai e avô, ambos rabinos. Ele rejeitou esse ensinamento, porém, se inscrevendo-se na filosofia e, mais tarde, na sociologia.</p>
-            <p class="text-PS">Ele se formou na Escola Normal Superior de Paris e ensinou em vários liceus franceses; uma visita à Alemanha em 1885- 1886 teve um efeito profundo sobre ele, e foi neste momento que ele decidiu se especializar em sociologia, sob influência dos métodos de psicología experimental de Wilhelm Wundt. Em 1887, Durkheim tornou-se professor de ciências sociais na universidade de Bordéus, e em 1902 aceitou um convite para ensinar na Sorbonne, em que permaneceu.</p>
-        </div>
 
-        <div class="content">
-            <h1 class="titulo-PS">CONTRIBUIÇÕES PIONEIRAS</h1>
-            <div id="line-text-3-durkheim">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">CONTRIBUIÇÕES PIONEIRAS</h1>
+                <div id="line-text-3-durkheim">
+                    <hr>
+                </div>
+                <p class="text-PS">Durkheim explora traços significativos dos fenômenos sociais. Ele escreve a influente
+                    divisão do método de Divisão do Trabalho Social , em 1893, no qual reivindica que a industrialização
+                    desperta a perseguição ao indivíduo, a especialização extrema, e a desumanização.</p>
+                <p class="text-PS">Ele lança um alerta quanto à industrialização. Baseado em A Regras do Método
+                    Sociológico, 1895, ele desenvolve um método científico para a sociologia e assume que é para se
+                    abster de parcialidade o estudo de fato social e se apresenta de maneira similar a uma ciência
+                    exata.
+                </p>
             </div>
-            <p class="text-PS">Durkheim explora traços significativos dos fenômenos sociais. Ele escreve a influente divisão do método de Divisão do Trabalho Social , em 1893, no qual reivindica que a industrialização desperta a perseguição ao indivíduo, a especialização extrema, e a desumanização.</p>
-            <p class="text-PS">Ele lança um alerta quanto à industrialização. Baseado em A Regras do Método Sociológico, 1895, ele desenvolve um método científico para a sociologia e assume que é para se abster de parcialidade o estudo de fato social e se apresenta de maneira similar a uma ciência exata.
-            </p>
-        </div>
 
-        <div class="content">
-            <h1 class="titulo-PS">ESTUDO DO SUICÍDIO E RELIGIÃO</h1>
-            <div id="line-text-4-durkheim">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">ESTUDO DO SUICÍDIO E RELIGIÃO</h1>
+                <div id="line-text-4-durkheim">
+                    <hr>
+                </div>
+                <p class="text-PS">“O Suicídio” é outra obra extremamente popular que busca provar socialmente que os
+                    fatores sociais direcionam as causas de autoextermínio, sendo qualquer uma das ações vista
+                    simplesmente como ações a serem medidas individualmente. Ele identificou três tipos do fenômeno:
+                    egoísta, anômico e altruísta.</p>
+                <p class="text-PS"> “As Formas Elementares da Vida Religiosa”, publicado em 1912, examina as bases
+                    sociais da religião. Durkheim dolor considera o fenômeno essencialmente social, afirmando que todas
+                    as religiões, de fato, são de igual valor para as comunidades.
+                </p>
             </div>
-            <p class="text-PS">“O Suicídio” é outra obra extremamente popular que busca provar socialmente que os fatores sociais direcionam as causas de autoextermínio, sendo qualquer uma das ações vista simplesmente como ações a serem medidas individualmente. Ele identificou três tipos do fenômeno: egoísta, anômico e altruísta.</p>
-            <p class="text-PS"> “As Formas Elementares da Vida Religiosa”, publicado em 1912, examina as bases sociais da religião. Durkheim dolor considera o fenômeno essencialmente social, afirmando que todas as religiões, de fato, são de igual valor para as comunidades.
-            </p>
-        </div>
 
-        <div class="content">
-            <h1 class="titulo-PS">LEGADO E FALECIMENTO</h1>
-            <div id="line-text-5-durkheim">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">LEGADO E FALECIMENTO</h1>
+                <div id="line-text-5-durkheim">
+                    <hr>
+                </div>
+                <p class="text-PS">Durkheim faleceu em Paris no dia 15 de novembro de 1917. Atualmente, ele está
+                    enterrado no cemitério de Montparnasse. O homem deixou um grande legado em ciência, ajudando a guiar
+                    a sociologia moderna e a estudar a quantificação das dinâmicas sociais, relações de trabalho e
+                    estrutura religiosa.
+                </p>
             </div>
-            <p class="text-PS">Durkheim faleceu em Paris no dia 15 de novembro de 1917. Atualmente, ele está enterrado no cemitério de Montparnasse. O homem deixou um grande legado em ciência, ajudando a guiar a sociologia moderna e a estudar a quantificação das dinâmicas sociais, relações de trabalho e estrutura religiosa.
-            </p>
-        </div>
 
-
-        <div class="content">
-            <h1 class="titulo-PS">OBRAS DE ÉMILE DURKHEIM</h1>
-            <div id="line-text-6-durkheim">
-                <hr>
+            <div class="content">
+                <h1 class="titulo-PS">OBRAS DE ÉMILE DURKHEIM</h1>
+                <div id="line-text-6-durkheim">
+                    <hr>
+                </div>
+                <p class="text-PS">Da Divisão do Trabalho Social, 1893</p>
+                <p class="text-PS">As Regras do Método Sociológico, 1895</p>
+                <p class="text-PS">O Suicídio: Um Estudo de Sociologia, 1897</p>
+                <p class="text-PS">As Formas Elementares da Vida Religiosa, 1912</p>
+                <p class="text-PS">A Educação e a Sociologia, 1922 (obra póstuma)</p>
+                <p class="text-PS">A Educação Moral, 1925 (obra póstuma)</p>
+                <p class="text-PS">Sociologia e Filosofia, 1929 (obra póstuma)</p>
             </div>
-            <p class="text-PS">Da Divisão do Trabalho Social, 1893</p>
-            <p class="text-PS">As Regras do Método Sociológico, 1895</p>
-            <p class="text-PS">O Suicídio: Um Estudo de Sociologia, 1897</p>
-            <p class="text-PS">As Formas Elementares da Vida Religiosa, 1912</p>
-            <p class="text-PS">A Educação e a Sociologia, 1922 (obra póstuma)</p>
-            <p class="text-PS">A Educação Moral, 1925 (obra póstuma)</p>
-            <p class="text-PS">Sociologia e Filosofia, 1929 (obra póstuma)</p>
-        </div>
-    </section>
+        </section>
 
-    <section class="imgs">
-        <div class="img-side">
-            <img class="img" src="../img2/emile-durkheim.jpg" alt="">
-            <p class="legend"><i>Émile Durkheim (1858-1917), sociólogo francês, é um dos fundadores da sociologia moderna, conhecido por seu estudo das estruturas sociais e da coesão social.</i></p>
-        </div>
+        <!-- Imagens sobre o Émile Durkheim -->
 
-        <div class="img-side">
-            <img class="img" src="../img2/o-suicidio.jpg" alt="">
-            <p class="legend"><i>Em 'O Suicídio' (1897), Durkheim aplica o método científico para estudar fenômenos sociais, analisando as causas sociais do suicídio.</i></p>
-        </div>
+        <section class="imgs">
+            <div class="img-side">
+                <img class="img" src="../img2/emile-durkheim.jpg" alt="">
+                <p class="legend"><i>Émile Durkheim (1858-1917), sociólogo francês, é um dos fundadores da sociologia
+                        moderna, conhecido por seu estudo das estruturas sociais e da coesão social.</i></p>
+            </div>
 
-        <div class="img-side">
-            <img class="img" src="../img2/industria-urbana.jpg" alt="">
-            <p class="legend"><i>A sociedade industrial, com sua divisão de trabalho complexa, foi o foco dos estudos de Durkheim sobre as novas formas de solidariedade nas sociedades modernas.</i></p>
-        </div>
-    </section>
-</main>
+            <div class="img-side">
+                <img class="img" src="../img2/o-suicidio.jpg" alt="">
+                <p class="legend"><i>Em 'O Suicídio' (1897), Durkheim aplica o método científico para estudar fenômenos
+                        sociais, analisando as causas sociais do suicídio.</i></p>
+            </div>
+
+            <div class="img-side">
+                <img class="img" src="../img2/industria-urbana.jpg" alt="">
+                <p class="legend"><i>A sociedade industrial, com sua divisão de trabalho complexa, foi o foco dos
+                        estudos de Durkheim sobre as novas formas de solidariedade nas sociedades modernas.</i></p>
+            </div>
+        </section>
+    </main>
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Início da footer -->
 
     <footer class="footer">
         <div class="icones">
@@ -182,8 +328,9 @@
                 <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
             </div>
         </div>
-
     </footer>
+
+    <!-- Final da footer -->
 
 </body>
 

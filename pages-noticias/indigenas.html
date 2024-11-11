@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/movimentosSociais.css" />
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+    <script src="../menu.js"></script>
     <title>Sociologia- Indígenas</title>
 </head>
 
 <body>
+
+    <!-- Início da header -->
 
     <header class="sociologia-header">
         <div class="logo-header">
@@ -25,11 +28,101 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+
+            <!-- Botão de menu -->
+
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias">
+                    <ul>
+                        <li class="menu-title">
+                            <div class="materias">
+                                <h1>MATÉRIAS</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li class="sociologia">
+                            <div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+                            <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                                <img src="../img/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-menu" id="menu-menu">
+                    <nav class="menu-menu" id="menu-menu">
+                        <ul>
+                            <li>
+                                <div><a href="../index.html">Home</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/carreiras.html">Carreiras</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/dicas.html">Dicas</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/simulados.html">Simulados</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/notícias.html">Notícias</a></div>
+                            </li>
+                            <li>
+                                <div class="video-aula"><a href="../pages-abas/video-aula.html">Video aulas</a></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
         </nav>
     </header>
+
+    <!-- Final da header -->
+
+    <!-- Banner -->
 
     <section class="header-banner">
         <div class="image-banner">
@@ -37,19 +130,39 @@
         </div>
     </section>
 
+    <!-- Início das abas -->
+
     <section class="topics-header">
-        <button class="aba-item" onclick="location.href='../index.html'"><p class="aba-text">HOME</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'"><p class="aba-text">CARREIRAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'"><p class="aba-text">DICAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'"><p class="aba-text">SIMULADOS</p></button>
-        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'"><p class="aba-text-check">NOTÍCIAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'"><p class="aba-text">VÍDEO-AULA</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'"><p class="aba-text">SOBRE-NÓS</p></button>
+        <button class="aba-item" onclick="location.href='../index.html'">
+            <p class="aba-text">HOME</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'">
+            <p class="aba-text">CARREIRAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'">
+            <p class="aba-text">DICAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'">
+            <p class="aba-text">SIMULADOS</p>
+        </button>
+        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'">
+            <p class="aba-text-check">NOTÍCIAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'">
+            <p class="aba-text">VÍDEO-AULA</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'">
+            <p class="aba-text">SOBRE-NÓS</p>
+        </button>
     </section>
+
+    <!-- Final das abas -->
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Introdução- Conteúdo sobre Indígenas -->
 
     <section class="intro">
         <div class="content">
@@ -58,7 +171,11 @@
                 <hr>
             </div>
             <p class="text-PS"><b>Um olhar sociológico sobre direitos e desigualdades</b></p>
-            <p class="text-PS">Em um contexto de urbanização acelerada e globalização, a situação dos povos indígenas tem sido amplamente debatida. Do ponto de vista sociológico, a luta desses povos ultrapassa a disputa por direitos territoriais, refletindo um embate entre culturas e valores. Ao longo da história, os povos indígenas foram submetidos à pressão da sociedade predominante, que frequentemente tenta assimilá-los, marginalizando suas culturas e modos de vida ancestrais.</p>
+            <p class="text-PS">Em um contexto de urbanização acelerada e globalização, a situação dos povos indígenas
+                tem sido amplamente debatida. Do ponto de vista sociológico, a luta desses povos ultrapassa a disputa
+                por direitos territoriais, refletindo um embate entre culturas e valores. Ao longo da história, os povos
+                indígenas foram submetidos à pressão da sociedade predominante, que frequentemente tenta assimilá-los,
+                marginalizando suas culturas e modos de vida ancestrais.</p>
 
             <div class="citacao">
                 <blockquote><i>"Esta terra tem dono!." - Sepé Tiaraju</i>
@@ -75,26 +192,51 @@
     <hr>
     </div>
 
-    <main class="main-content">
-    <section class="indigenas">
-        <div class="content">
-            <h1 class="titulo-PS">COLONIALISMO E RESISTÊNCIA INDÍGENAS</h1>
-            <div id="line-text-2-ind">
-                <hr>
-            </div>
-            <p class="text-PS">A teoria sociológica sobre colonialismo e pós-colonialismo auxilia na compreensão de como a colonização e a expansão das fronteiras econômicas afetaram as populações indígenas. Essas ações não apenas ocuparam seus territórios, mas também alteraram significativamente sua estrutura social, tradições e métodos de sobrevivência. Segundo essa visão, a marginalização persiste até os dias atuais, refletindo-se em disparidades sociais, econômicas e políticas. Numerosos povos indígenas ainda residem em condições de pobreza e lutam para preservar suas tradições e línguas.</p>
-            <p class="text-PS">Especialistas ressaltam a ideia de "etnocídio" como um perigo que essas comunidades enfrentam. Este conceito descreve o apagamento cultural imposto às comunidades indígenas, cujas tradições, idiomas e crenças são muitas vezes desvalorizados ou ameaçados. A educação indígena, por exemplo, representa um ponto de conflito: apesar da necessidade do ensino formal, a educação tradicional, sem uma perspectiva intercultural, pode afastar as novas gerações de suas origens culturais.</p>
-        </div>
+    <!-- Sessão: Indígenas -->
 
-        <div class="content">
-            <h1 class="titulo-PS">A LUTA PELA TERRA E PELA CULTURA</h1>
-            <div id="line-text-3-ind">
-                <hr>
+    <main class="main-content">
+        <section class="indigenas">
+            <div class="content">
+                <h1 class="titulo-PS">COLONIALISMO E RESISTÊNCIA INDÍGENAS</h1>
+                <div id="line-text-2-ind">
+                    <hr>
+                </div>
+                <p class="text-PS">A teoria sociológica sobre colonialismo e pós-colonialismo auxilia na compreensão de
+                    como a colonização e a expansão das fronteiras econômicas afetaram as populações indígenas. Essas
+                    ações não apenas ocuparam seus territórios, mas também alteraram significativamente sua estrutura
+                    social, tradições e métodos de sobrevivência. Segundo essa visão, a marginalização persiste até os
+                    dias atuais, refletindo-se em disparidades sociais, econômicas e políticas. Numerosos povos
+                    indígenas ainda residem em condições de pobreza e lutam para preservar suas tradições e línguas.</p>
+                <p class="text-PS">Especialistas ressaltam a ideia de "etnocídio" como um perigo que essas comunidades
+                    enfrentam. Este conceito descreve o apagamento cultural imposto às comunidades indígenas, cujas
+                    tradições, idiomas e crenças são muitas vezes desvalorizados ou ameaçados. A educação indígena, por
+                    exemplo, representa um ponto de conflito: apesar da necessidade do ensino formal, a educação
+                    tradicional, sem uma perspectiva intercultural, pode afastar as novas gerações de suas origens
+                    culturais.</p>
             </div>
-            <p class="text-PS">Outro aspecto crucial para os indígenas é a luta pela demarcação de terras, já que o território não é apenas um local físico, mas também um espaço sagrado, essencial para suas práticas culturais e espirituais. Sob a perspectiva sociológica, o território desempenha um papel fundamental na formação da identidade coletiva e da autonomia, possibilitando que essas comunidades vivam de acordo com suas próprias tradições e normas. Contudo, a expansão do agronegócio, da mineração e de outros setores industriais exerce uma pressão contínua sobre essas áreas, gerando conflitos acirrados e deslocamentos de comunidades.</p>
-            <p class="text-PS">Mesmo diante dos obstáculos, a resistência indígena se intensifica por meio do engajamento e da solidariedade global. Organizações não governamentais e movimentos indígenas têm ajudado a expressar as necessidades dessas comunidades, enfatizando a relevância da conservação cultural e ambiental. De acordo com pesquisadores, a valorização e o reconhecimento dos saberes tradicionais indígenas também podem trazer benefícios para a sociedade em geral, especialmente em temas como sustentabilidade e preservação ambiental.</p>
-        </div>
-    </section>
+
+            <div class="content">
+                <h1 class="titulo-PS">A LUTA PELA TERRA E PELA CULTURA</h1>
+                <div id="line-text-3-ind">
+                    <hr>
+                </div>
+                <p class="text-PS">Outro aspecto crucial para os indígenas é a luta pela demarcação de terras, já que o
+                    território não é apenas um local físico, mas também um espaço sagrado, essencial para suas práticas
+                    culturais e espirituais. Sob a perspectiva sociológica, o território desempenha um papel fundamental
+                    na formação da identidade coletiva e da autonomia, possibilitando que essas comunidades vivam de
+                    acordo com suas próprias tradições e normas. Contudo, a expansão do agronegócio, da mineração e de
+                    outros setores industriais exerce uma pressão contínua sobre essas áreas, gerando conflitos
+                    acirrados e deslocamentos de comunidades.</p>
+                <p class="text-PS">Mesmo diante dos obstáculos, a resistência indígena se intensifica por meio do
+                    engajamento e da solidariedade global. Organizações não governamentais e movimentos indígenas têm
+                    ajudado a expressar as necessidades dessas comunidades, enfatizando a relevância da conservação
+                    cultural e ambiental. De acordo com pesquisadores, a valorização e o reconhecimento dos saberes
+                    tradicionais indígenas também podem trazer benefícios para a sociedade em geral, especialmente em
+                    temas como sustentabilidade e preservação ambiental.</p>
+            </div>
+        </section>
+
+        <!-- Imagens sobre o Indígenas -->
 
         <section class="imgs">
             <div class="img-side">
@@ -111,17 +253,24 @@
 
     <div class="line-intro">
         <hr>
-        </div>
+    </div>
 
-        <section class="resumo">
+    <!-- Resumo sobre o Indígenas -->
+
+    <section class="resumo">
         <div class="text">
-            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu gênero, tenham as mesmas oportunidades e direitos.</p>
+            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas
+                estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia
+                as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu
+                gênero, tenham as mesmas oportunidades e direitos.</p>
         </div>
     </section>
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Início da footer -->
 
     <footer class="footer">
         <div class="icones">
@@ -152,8 +301,9 @@
                 <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
             </div>
         </div>
-
     </footer>
+
+    <!-- Final da footer -->
 
 </body>
 

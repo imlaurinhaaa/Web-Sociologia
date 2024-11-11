@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/movimentosSociais.css" />
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+    <script src="../menu.js"></script>
     <title>Sociologia- Racismo</title>
 </head>
 
 <body>
+
+    <!-- Início da header -->
 
     <header class="sociologia-header">
         <div class="logo-header">
@@ -25,11 +28,101 @@
                 <li><a href="" class="nav-link">Sobre</a></li>
                 <li><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
-            <div id="icones-header">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+
+            <!-- Botão de menu -->
+
+            <button onclick="animar(), animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-materias">
+                <nav class="menu-materias" id="menu-materias">
+                    <ul>
+                        <li class="menu-title">
+                            <div class="materias">
+                                <h1>MATÉRIAS</h1>
+                            </div>
+                        </li>
+                        <li>
+                            <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="filosofia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li>
+                            <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow"
+                                class="arrow">
+                        </li>
+                        <li class="sociologia">
+                            <div><a href="sociologia.html" class="sociologia-link">Sociologia</a></div>
+                            <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                                <img src="../img/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-menu" id="menu-menu">
+                    <nav class="menu-menu" id="menu-menu">
+                        <ul>
+                            <li>
+                                <div><a href="../index.html">Home</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/carreiras.html">Carreiras</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/dicas.html">Dicas</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/simulados.html">Simulados</a></div>
+                            </li>
+                            <li>
+                                <div><a href="../pages-abas/notícias.html">Notícias</a></div>
+                            </li>
+                            <li>
+                                <div class="video-aula"><a href="../pages-abas/video-aula.html">Video aulas</a></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
         </nav>
     </header>
+
+    <!-- Final da header -->
+
+    <!-- Banner -->
 
     <section class="header-banner">
         <div class="image-banner">
@@ -37,19 +130,39 @@
         </div>
     </section>
 
+    <!-- Início das abas -->
+
     <section class="topics-header">
-        <button class="aba-item" onclick="location.href='../index.html'"><p class="aba-text">HOME</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'"><p class="aba-text">CARREIRAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'"><p class="aba-text">DICAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'"><p class="aba-text">SIMULADOS</p></button>
-        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'"><p class="aba-text-check">NOTÍCIAS</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'"><p class="aba-text">VÍDEO-AULA</p></button>
-        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'"><p class="aba-text">SOBRE-NÓS</p></button>
+        <button class="aba-item" onclick="location.href='../index.html'">
+            <p class="aba-text">HOME</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/carreiras.html'">
+            <p class="aba-text">CARREIRAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/dicas.html'">
+            <p class="aba-text">DICAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/simulados.html'">
+            <p class="aba-text">SIMULADOS</p>
+        </button>
+        <button class="aba-item-check" onclick="location.href='../pages-abas/notícias.html'">
+            <p class="aba-text-check">NOTÍCIAS</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/video-aula.html'">
+            <p class="aba-text">VÍDEO-AULA</p>
+        </button>
+        <button class="aba-item" onclick="location.href='../pages-abas/sobre.html'">
+            <p class="aba-text">SOBRE-NÓS</p>
+        </button>
     </section>
+
+    <!-- Final das abas -->
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Introdução- Conteúdo sobre Racismo -->
 
     <section class="intro">
         <div class="content">
@@ -58,10 +171,16 @@
                 <hr>
             </div>
             <p class="text-PS"><b>Uma perspectiva sociológica sobre a desigualdade racial</b></p>
-            <p class="text-PS">O racismo é um fenômeno social presente em várias sociedades ao redor do mundo, com origens profundamente arraigadas na estrutura social. De acordo com sociólogos, o racismo vai além de simples atitudes discriminatórias de indivíduos, constituindo um sistema de discriminação apoiado por normas, práticas e instituições sociais que prejudicam de maneira desproporcional indivíduos negros e outras minorias raciais.</p>
+            <p class="text-PS">O racismo é um fenômeno social presente em várias sociedades ao redor do mundo, com
+                origens profundamente arraigadas na estrutura social. De acordo com sociólogos, o racismo vai além de
+                simples atitudes discriminatórias de indivíduos, constituindo um sistema de discriminação apoiado por
+                normas, práticas e instituições sociais que prejudicam de maneira desproporcional indivíduos negros e
+                outras minorias raciais.</p>
 
             <div class="citacao">
-                <blockquote><i>“Eu tenho um sonho de que meus quatro pequenos filhos um dia viverão em uma nação onde não serão julgados pela cor de sua pele, mas pelo conteúdo de seu caráter” - Martin Luther King Jr.</i>
+                <blockquote><i>“Eu tenho um sonho de que meus quatro pequenos filhos um dia viverão em uma nação onde
+                        não serão julgados pela cor de sua pele, mas pelo conteúdo de seu caráter” - Martin Luther King
+                        Jr.</i>
                 </blockquote>
             </div>
         </div>
@@ -75,26 +194,50 @@
     <hr>
     </div>
 
-    <main class="main-content">
-    <section class="racismo">
-        <div class="content">
-            <h1 class="titulo-PS">A PERSISTÊNCIA DA DISCRIMINAÇÃO RACIAL</h1>
-            <div id="line-text-2-rac">
-                <hr>
-            </div>
-            <p class="text-PS">O conceito de "racismo estrutural" é crucial para compreender a presença da discriminação racial nas estruturas básicas da sociedade, desde o sistema econômico até o sistema judicial e educacional. A teoria sociológica sugere que o racismo estrutural resulta em prejuízos para essas comunidades, como a representação reduzida em posições de liderança e a segregação em áreas de menor renda.</p>
-            <p class="text-PS">Especialistas no assunto indicam que a marginalização e a exclusão racial são resultados de processos históricos, como o colonialismo e a escravidão, que formaram a base de diversos países. Esses processos originaram uma hierarquia racial que, mesmo com progressos jurídicos e formais, persiste na distribuição de oportunidades e no tratamento dispensado a diferentes grupos sociais. Por exemplo, a ideia de "privilégio branco" é empregada para esclarecer como indivíduos brancos frequentemente obtêm benefícios sociais e econômicos de maneira automática, enquanto indivíduos negros enfrentam barreiras adicionais.</p>
-        </div>
+    <!-- Sessão: Racismo -->
 
-        <div class="content">
-            <h1 class="titulo-PS">LUTA CONTRA O RACISMO: REFORMAS E EDUCAÇÃO</h1>
-            <div id="line-text-3-rac">
-                <hr>
+    <main class="main-content">
+        <section class="racismo">
+            <div class="content">
+                <h1 class="titulo-PS">A PERSISTÊNCIA DA DISCRIMINAÇÃO RACIAL</h1>
+                <div id="line-text-2-rac">
+                    <hr>
+                </div>
+                <p class="text-PS">O conceito de "racismo estrutural" é crucial para compreender a presença da
+                    discriminação racial nas estruturas básicas da sociedade, desde o sistema econômico até o sistema
+                    judicial e educacional. A teoria sociológica sugere que o racismo estrutural resulta em prejuízos
+                    para essas comunidades, como a representação reduzida em posições de liderança e a segregação em
+                    áreas de menor renda.</p>
+                <p class="text-PS">Especialistas no assunto indicam que a marginalização e a exclusão racial são
+                    resultados de processos históricos, como o colonialismo e a escravidão, que formaram a base de
+                    diversos países. Esses processos originaram uma hierarquia racial que, mesmo com progressos
+                    jurídicos e formais, persiste na distribuição de oportunidades e no tratamento dispensado a
+                    diferentes grupos sociais. Por exemplo, a ideia de "privilégio branco" é empregada para esclarecer
+                    como indivíduos brancos frequentemente obtêm benefícios sociais e econômicos de maneira automática,
+                    enquanto indivíduos negros enfrentam barreiras adicionais.</p>
             </div>
-            <p class="text-PS">Apesar de o movimento pelos direitos civis e outros progressos terem provocado transformações notáveis, o racismo estrutural continua a existir, frequentemente de maneira silenciosa. Pesquisas apontam que a discriminação se manifesta em processos de seleção no mercado de trabalho, nas taxas de encarceramento e até mesmo no sistema de saúde, onde existem disparidades no tratamento dispensado a pacientes negros e brancos. Do ponto de vista sociológico, essas informações sugerem que o racismo não é apenas uma questão individual, mas um padrão coletivo que demanda alterações significativas nas instituições.</p>
-            <p class="text-PS">Especialistas defendem que a luta contra o racismo deve ultrapassar medidas isoladas e englobar políticas públicas sólidas e reformas estruturais que tratam as desigualdades de forma tangível. Ademais, a educação antirracista é percebida como um instrumento crucial para a mudança social, fomentando uma conscientização que ultrapassa o preconceito pessoal e destaca a responsabilidade compartilhada em estabelecer um ambiente inclusivo.</p>
-        </div>
+
+            <div class="content">
+                <h1 class="titulo-PS">LUTA CONTRA O RACISMO: REFORMAS E EDUCAÇÃO</h1>
+                <div id="line-text-3-rac">
+                    <hr>
+                </div>
+                <p class="text-PS">Apesar de o movimento pelos direitos civis e outros progressos terem provocado
+                    transformações notáveis, o racismo estrutural continua a existir, frequentemente de maneira
+                    silenciosa. Pesquisas apontam que a discriminação se manifesta em processos de seleção no mercado de
+                    trabalho, nas taxas de encarceramento e até mesmo no sistema de saúde, onde existem disparidades no
+                    tratamento dispensado a pacientes negros e brancos. Do ponto de vista sociológico, essas informações
+                    sugerem que o racismo não é apenas uma questão individual, mas um padrão coletivo que demanda
+                    alterações significativas nas instituições.</p>
+                <p class="text-PS">Especialistas defendem que a luta contra o racismo deve ultrapassar medidas isoladas
+                    e englobar políticas públicas sólidas e reformas estruturais que tratam as desigualdades de forma
+                    tangível. Ademais, a educação antirracista é percebida como um instrumento crucial para a mudança
+                    social, fomentando uma conscientização que ultrapassa o preconceito pessoal e destaca a
+                    responsabilidade compartilhada em estabelecer um ambiente inclusivo.</p>
+            </div>
         </section>
+
+        <!-- Imagens sobre o Racismo -->
 
         <section class="imgs">
             <div class="img-side">
@@ -111,17 +254,24 @@
 
     <div class="line-intro">
         <hr>
-        </div>
+    </div>
 
-        <section class="resumo">
+    <!-- Resumo sobre o Racismo -->
+
+    <section class="resumo">
         <div class="text">
-            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu gênero, tenham as mesmas oportunidades e direitos.</p>
+            <p class="text-PS">Em resumo, o feminismo, mais do que um movimento, representa uma transformação nas
+                estruturas sociais e nas percepções sobre o gênero. A partir de uma perspectiva sociológica, ele desafia
+                as normas patriarcais e trabalha para construir uma sociedade onde todos, independentemente de seu
+                gênero, tenham as mesmas oportunidades e direitos.</p>
         </div>
     </section>
 
     <div id="line">
         <hr>
     </div>
+
+    <!-- Início da footer -->
 
     <footer class="footer">
         <div class="icones">
@@ -152,8 +302,9 @@
                 <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
             </div>
         </div>
-
     </footer>
+
+    <!-- Final da footer -->
 
 </body>
 
