@@ -612,4 +612,10 @@ body {
       height: 100%;
       border-radius: 50%;
     }
+    #line-text-01{
+      width: 50%;
+    }
+    #line-text-02{
+      width: 60%;
+    }
   }
