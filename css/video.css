@@ -494,170 +494,58 @@ body {
 
 /* final do footer */
 
-@media screen and (max-width: 500px) {
-  .sociologia-header {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 0; 
 
-  }
-  
-  .aba-text {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    justify-content: space-between;
-    padding-left: 3rem;
-  }
-  .aba-text-dicas{
-    color: rgb(0, 0, 0);
-    padding-left: 4rem;
-  
-  }
-  .aba-text-home{
-    color: rgb(0, 0, 0);
-    padding-left: 4rem;
-  }
-  
-  .aba-item {
-    background-color: #9A1915;    
-    background-color: #e0e0e0;
-    color: #333;
-    border: none;
-    padding: 0.6rem 1rem;
-    border-radius: 6rem;
-    margin: 0 0.8rem;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    width: 15rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .aba-text-check {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-left: 3.2rem;
-    margin-top: 0.5rem;
-  }
-  
-  .aba-item-check {
-    background-color: #9A1915;
-    border: none;
-    padding: 0.6rem 1rem;
-    border-radius: 6rem;
-    margin: 0 0.2rem;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    width: 15rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-    
-  .footer {
-    background-color: #9a1915;
-    color: white;
-    margin-top: 3.15rem;
-  }
-  
-  .footer .icones {
-    background-color: #e30613;
-  }
-  
-  .senai {
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    padding: 1.8rem 0 1.25rem 0;
-    margin-left: 29%;
-  }
-  
-  .senai h3 {
-    text-align: left;
-  }
-  
-  .senai p {
-    text-align: left;
-  }
-  
-  .sesi {
-    width: 20%;
-    display: inline-block;
-    margin-left: 3%;
-    text-align: center;
-    padding: 0 0 1.25rem 0rem;
-  }
-
-  .footer .icones img {
-    display: inline-block;
-    margin-left: 1.4rem;
-  }
-  
-  .icones {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .footer-text {
-    background-color: #9a1915;
-    color: white;
-  }
-
-  #line-text-3 {
-    height: 0.3rem;
-    width: 21%;
-    background-color: #9A1915;
-    margin-left: 0.6rem;
-  }
-}
 
   @media screen and (max-width: 500px) {
     .sociologia-header{
       width: 100%;
-      height: 100%;
+      height: 200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 1rem;
+      margin-top: 0rem;
+      padding: 1rem;
     }
     .vertical-line{
       display: none;
     }
     .logo-header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    width: 150px;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+    }
+    .logo-header img{
+      max-width: 100%;
+      max-width: 150px;
+      height: auto;
+      margin: 0;
     }
     .header-nav{
       width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 1rem;
-    }
-
-
-    .image-banner{
-      width: 100%;
-      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-top: 1rem;
     }
+    .image-banner{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .image-banner img{
+      width: 100%;
+      height: auto;
+    }
 
-    .links a{
+    .links p {
       font-size: 1rem;
     }
     .links{
@@ -672,19 +560,56 @@ body {
       gap: 10px;
       
     }
-    .aba-item a{
-      text-align: center;
-      font-size: 1rem;
+    .aba-text{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
     }
-    .aba-text {
-      text-align: center;
+    .main-div-header{
+      flex-direction: column-reverse;
+      gap: 10px;
+      padding: 2rem;
+    }
+    .div-ajuste{
+      gap: 10px;
+    }
+    .div-filho-1{
+      flex-direction: column;
+      gap: 10px;
+    }
+    .video-dir,
+    .video-esq{
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem;
     }
 
-    .aba-text-home{
-      color: rgb(0, 0, 0);
-      padding-left: 4.4rem;
+    .text-just{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      width: 100%;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.1rem;
     }
-    .aba-text-dicas{
-      padding-left: 4.4rem;
+    .texto-1{
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding: auto;
+      width: 100%;
+    }
+
+    .img-professor{
+      margin-top: 2rem;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
     }
   }
