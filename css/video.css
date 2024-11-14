@@ -817,9 +817,18 @@ body {
   @media screen and (min-width:  768px) and (max-width: 1023px){
     .sociologia-header{
       width: 100%;
-      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .logo-header{
+      display: flex;
+      gap: 0px;
+    }
+    .logo-header img{
+      max-width: 100%;
+      max-width: 150px;
+      height: auto;
       margin: 0;
-      background-color: var(--color-header);
     }
     .vertical-line{
       display: none;
@@ -831,6 +840,12 @@ body {
       flex-direction: column-reverse;
       gap: 10px;
       padding: 2rem;
+    }
+    .topics-header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
     }
     .div-ajuste{
       gap: 10px;
