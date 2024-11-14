@@ -2,26 +2,28 @@
 
 #line-movimentos {
   height: 0.2rem;
-  width: 24rem;
+  width: 18rem;
   background-color: var(--color-corLinha);
   margin-left: 24rem;
 }
 
 #line-sociologos {
   height: 0.2rem;
-  width: 27rem;
+  width:20rem;
   background-color: var(--color-corLinha);
   margin-left: 24rem;
 }
 
 #line-materias {
   height: 0.2rem;
-  width: 24rem;
+  width: 18rem;
   background-color: var(--color-corLinha);
   margin-left: 24rem;
 }
 
-.titulo-intro{
+.titulo-intro-1,
+.titulo-intro-2,
+.titulo-intro-3 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -195,31 +197,167 @@
   z-index: 1;
 }
 
-.button-noticias,
-.button-noticias-estado {
+.button-noticias-1,
+.button-noticias-2,
+.button-noticias-3,
+.button-noticias-4,
+.button-noticias-5,
+.button-noticias-6,
+.button-noticias-7,
+.button-noticias-8,
+.button-noticias-9,
+.button-noticias-10,
+.button-noticias-11,
+.button-noticias-12,
+.button-noticias-14,
+.button-noticias-15 {
   background-color: var(--color-aba);
   color: var(--color-fontePreto);
   width: 60%;
   height: 2.5rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-left: 5rem;
+  justify-content: center;
   border-radius: 0.4rem; 
   font-size: 1rem;
   font-weight: bold;
-
+  margin-left: 5rem;
 }
 
-.button-noticias:hover,
-.button-noticias-estado:hover {
+.button-noticias-1:hover,
+.button-noticias-2:hover,
+.button-noticias-3:hover,
+.button-noticias-4:hover,
+.button-noticias-5:hover,
+.button-noticias-6:hover,
+.button-noticias-7:hover,
+.button-noticias-8:hover,
+.button-noticias-9:hover,
+.button-noticias-10:hover,
+.button-noticias-11:hover,
+.button-noticias-12:hover,
+.button-noticias-13:hover,
+.button-noticias-14:hover,
+.button-noticias-15:hover {
   background-color: var(--color-abaCheck);
   color: var(--color-fonteBranca);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.button-noticias-estado {
+.button-noticias-12 {
   margin-top: 1rem;
 }
 /* final do conteúdo do notícias */
+
+
+@media screen and (max-width: 500px) {
+  #line-movimentos {
+    height: 0.2rem;
+    width: 63%;
+    background-color: var(--color-corLinha);
+    margin-left: 5rem;
+  }
+
+  #line-sociologos {
+    height: 0.2rem;
+    width: 71%;
+    background-color: var(--color-corLinha);
+    margin-left: 4.1rem;
+  }
+
+  #line-materias {
+    height: 0.2rem;
+    width: 63%;
+    background-color: var(--color-corLinha);
+    margin-left: 5rem;
+  }
+  .titulo-intro-1,
+  .titulo-intro-2,
+  .titulo-intro-3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #000000;
+  }
+
+  .titulo-intro-1 {
+    margin-left: 5rem;
+  }
+
+  .titulo-intro-2 {
+    margin-left: 4.1rem;
+  }
+
+  .titulo-intro-3 {
+    margin-left: 5rem;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .slider-container-1, 
+  .slider-container-2,
+  .slider-container-3 {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    max-width: 50rem;
+    overflow: hidden;
+    margin-top: 8rem;
+    margin-left: 4rem;
+  }
+
+  .card-slider,
+  .card-slider-2,
+  .card-slider-3 {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .card {
+    width: 16rem;
+    height: 29rem;
+  }
+
+.button-noticias-1,
+.button-noticias-2,
+.button-noticias-3,
+.button-noticias-4,
+.button-noticias-5,
+.button-noticias-6,
+.button-noticias-9,
+.button-noticias-10,
+.button-noticias-11,
+.button-noticias-12,
+.button-noticias-14,
+.button-noticias-15 {
+  background-color: var(--color-aba);
+  color: var(--color-fontePreto);
+  width: 60%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  margin-left: 3.4rem;
+}
+
+.button-noticias-7 {
+  margin-left: 3.4rem;
+}
+.button-noticias-8 {
+  margin-left: 3.4rem;
+  margin-top: 1rem;
+}
+}
