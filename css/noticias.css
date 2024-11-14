@@ -272,16 +272,6 @@
     background-color: var(--color-corLinha);
     margin-left: 5rem;
   }
-  .titulo-intro-1,
-  .titulo-intro-2,
-  .titulo-intro-3 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.3rem;
-    color: #000000;
-  }
 
   .titulo-intro-1 {
     margin-left: 5rem;
@@ -342,10 +332,6 @@
 .button-noticias-12,
 .button-noticias-14,
 .button-noticias-15 {
-  background-color: var(--color-aba);
-  color: var(--color-fontePreto);
-  width: 60%;
-  height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -360,4 +346,66 @@
   margin-left: 3.4rem;
   margin-top: 1rem;
 }
+}
+
+@media screen and (max-width: 1023px) {
+  #line-movimentos {
+    height: 0.2rem;
+    width: 40%;
+    margin-left: 6rem;
+  }
+
+  #line-sociologos {
+    height: 0.2rem;
+    width: 45%;
+    margin-left: 6rem;
+  }
+
+  #line-materias {
+    height: 0.2rem;
+    width: 39%;
+    margin-left: 6rem;
+  }
+
+  .titulo-intro-1 {
+    margin-left: 6rem;
+  }
+
+  .titulo-intro-2 {
+    margin-left: 6rem;
+  }
+
+  .titulo-intro-3 {
+    margin-left: 6rem;
+  }
+
+  .slider-container-1,
+  .slider-container-2,
+  .slider-container-3 {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    max-width: 40rem;
+    overflow: hidden;
+    margin-top: 8rem;
+    margin-left: 6rem;
+  }
+
+  .card-slider,
+  .card-slider-2,
+  .card-slider-3 {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .card {
+    width: 33rem;
+    height: 29rem;
+  }
+
 }
