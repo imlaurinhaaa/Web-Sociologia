@@ -86,6 +86,10 @@ body {
   transition: transform 0.3s ease;
 }
 
+.links a:hover {
+  transform: scale(1.2);
+}
+
 /* menu-mobile */
 
 .menu-mobile ul {
@@ -454,10 +458,6 @@ body {
 
 /* final da header/ banner/ abas */
 
-/* início do conteúdo home */
-
-
-/* final do conteúdo home */
 
 /* início do footer */
 
