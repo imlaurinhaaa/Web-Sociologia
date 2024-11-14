@@ -674,7 +674,7 @@ body {
 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 767px) {
     .sociologia-header{
       width: 100%;
       height: 200px;
@@ -811,5 +811,138 @@ body {
       gap: 20px;
       text-align: left;
       align-items: flex-start;
+    }
+  }
+
+  @media screen and (min-width:  768px) and (max-width: 1023px){
+    .sociologia-header{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: var(--color-header);
+    }
+    .vertical-line{
+      display: none;
+    }
+    .links p {
+      font-size: 1rem;
+    }
+    .main-div-header{
+      flex-direction: column-reverse;
+      gap: 10px;
+      padding: 2rem;
+    }
+    .div-ajuste{
+      gap: 10px;
+      align-items: center;
+    }
+    .div-filho-1{
+      flex-direction: column;
+      gap: 10px;
+    }
+    .titulo-001{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .img-professor{
+      margin-top: 2rem;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .video-dir,
+    .video-esq{
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem;
+    }
+
+    .text-just{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      width: 100%;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.1rem;
+      margin-bottom: 3rem;
+    }
+    .texto-1{
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding: auto;
+      width: 100%;
+    }
+    .line-text-01{
+      width: 50%;
+    }
+    #line-text-02{
+      width: 60%;
+    }
+    .h3-p{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: right;
+      align-items: flex-start;
+    }
+
+    .titulo-video-dir{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: left;
+      align-items: flex-start;
+    }
+    #line-experiencia{
+      height: 0.3rem;
+      width: 80%;
+      background-color: var(--color-corLinha);
+      margin-left: 0.2rem;
+      margin: 1.5rem 0;
+    }
+    
+    #line-vestibular{
+      height: 0.3rem;
+      width: 87%;
+      background-color: var(--color-corLinha);
+      margin-left: 0.2rem;
+      margin: 1.5rem 0;
+    }
+    
+    #line-evolucao{
+      height: 0.3rem;
+      width: 50%;
+      background-color: var(--color-corLinha);
+      margin-left: 0.2rem;
+      margin: 1.5rem 0;
+    }
+    
+    #line-estudo{
+      height: 0.3rem;
+      width: 55%;
+      background-color: var(--color-corLinha);
+      margin-left: 0.2rem;
+      margin: 1.5rem 0;
+    }
+    
+    #line-problemas{
+      height: 0.3rem;
+      width: 97%;
+      background-color: var(--color-corLinha);
+      margin-left: 0.2rem;
+      margin: 1.5rem 0;
+    }
+    
+    #line-resumo{
+      height: 0.3rem;
+      width: 68%;
+      background-color: var(--color-corLinha);
+      margin-left: 0.2rem;
+      margin: 1.5rem 0;
     }
   }
