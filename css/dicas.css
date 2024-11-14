@@ -101,11 +101,18 @@ body {
 }
 
 .vertical-line {
+  display: none;
   height: 50px;
   width: 3px;
   background-color: var(--color-linhaVertical);
   margin: 0 20px;
   margin-right: 20px;
+}
+.links p {
+  font-size: 1rem;
+  color: var(--color-fonteBranca);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .logo-header {
@@ -446,7 +453,7 @@ body {
 
 .lista-dicas {
   background-color: var(--color-quadroDicas);
-  width: 93rem;
+  width: 100%;
   border-radius: 0.3%;
   display: flex;
   flex-direction: column;
@@ -529,3 +536,70 @@ body {
 }
 
 /* final do footer */
+
+@media screen and (max-width: 767px){
+  .PT-img {
+    width: 100%;
+    padding:10px ;
+  }
+  .titulo-intro {
+    font-size: 1.5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  #line-text-1 {
+    display: flex;
+    margin-left: 25%;
+    width: 50%;
+  }
+  .lista-dicas {
+    width: 100%;
+  }
+  #line-text-3 {
+    width: 50%;
+    margin-top: 1.25rem;
+  }
+  .dica-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-dica-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 15%;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width:  768px) and (max-width: 1023px){
+  .sociologia-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-header{
+    display: flex;
+    gap: 0px;
+  }
+  .logo-header img{
+    max-width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .links p {
+    font-size: 1rem;
+  }
+  .lista-dicas {
+    width: 100%;
+  }
+  .topics-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
