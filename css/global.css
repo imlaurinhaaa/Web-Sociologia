@@ -10,7 +10,7 @@
   scroll-behavior: smooth;
 }
 
-:root{
+:root {
   --cor-background: #fff;
   --color-icones: #fff;
   --color-linhaVertical: #fff;
@@ -54,20 +54,6 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: var(--color-header);
-}
-
-.section-img {
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-}
-
-.img-content {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  border: 5px solid var(--color-borderIMG);
 }
 
 .header-nav {
@@ -141,19 +127,19 @@ body {
   justify-content: center;
 }
 
-.menu-mobile ul .sociologia{
+.menu-mobile ul .sociologia {
   width: 30rem;
   display: flex;
   justify-content: left;
   flex-direction: row;
 }
 
-.menu-mobile ul li div{
+.menu-mobile ul li div {
   width: 20.7rem;
   display: block;
 }
 
-.menu-mobile ul .sociologia div{
+.menu-mobile ul .sociologia div {
   width: 20.7rem;
   display: block;
   border-bottom: 0 solid #ffffff;
@@ -178,7 +164,7 @@ body {
   border-bottom: 1px solid #ffffff;
 }
 
-.menu-mobile ul li .materias{
+.menu-mobile ul li .materias {
   width: 12rem;
 }
 
@@ -224,7 +210,7 @@ body {
   justify-content: center;
 }
 
-.arrow{
+.arrow {
   width: 1rem;
   height: 1rem;
   z-index: 10;
@@ -232,12 +218,12 @@ body {
   transition: .3s;
 }
 
-.btn-menu2:hover{
+.btn-menu2:hover {
   background-color: #000;
 }
 
-#btn-menu2.ativado .arrow{
-  transform: rotate(0deg) ;
+#btn-menu2.ativado .arrow {
+  transform: rotate(0deg);
 }
 
 #btn-menu2 {
@@ -270,11 +256,11 @@ body {
 
 .menu-menu ul li {
   display: block;
-  padding: 6px ;
+  padding: 6px;
   font-size: 1rem;
 }
 
-.menu-menu ul li div{
+.menu-menu ul li div {
   display: block;
   width: 22rem;
 }
@@ -302,7 +288,7 @@ body {
   max-height: 30.25rem;
 }
 
-.video-aula{
+.video-aula {
   margin-bottom: 1rem;
 }
 
@@ -397,15 +383,6 @@ body {
   box-sizing: border-box;
 }
 
-.alinhamento {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  gap: 200px;
-  padding: 100px;
-}
-
 .topics-header {
   display: flex;
   justify-content: space-between;
@@ -479,131 +456,6 @@ body {
 
 /* início do conteúdo home */
 
-.introducao {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-#intro-content {
-  max-width: 60%;
-  margin-bottom: 50px;
-}
-
-.img-introducao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#img-intro {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-left: 20px;
-  margin-right: 140px;
-  margin-top: 110px;
-}
-
-#intro-1 {
-  margin-top: 60px;
-  margin-left: 70px;
-}
-
-#intro-2 {
-  margin-left: 70px;
-  margin-top: 45px;
-}
-
-
-.titulo-intro {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size: xx-large;
-  color: #000000;
-  display: flex;
-  white-space: nowrap;
-}
-
-#line-text-1 {
-  height: 0.2rem;
-  width: 64%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.2rem;
-}
-
-#line-text-2 {
-      height: 0.2rem;
-  width: 50%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.2rem;
-}
-
-#line-text-3 {
-      height: 0.2rem;
-  width: 19%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.2rem;
-}
-
-.text-intro {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 30px;
-  font-size: large;
-  text-align: justify;
-}
-
-.imagem-icones {
-  margin-left: 43%;
-  display: inline-block;
-}
-
-.main-content {
-  justify-content: center;
-  display: flex;
-}
-
-.section-img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: -95px;
-}
-
-.img {
-  width: 25%;
-  margin-bottom: 300px;
-  align-items: center;
-}
-
-.img:nth-child(4n+1) {
-  margin-left: 0;
-}
-
-.img:nth-child(4n) {
-  margin-right: 0;
-}
-
-.img-text {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: x-large;
-  text-align: center;
-  color: #000000;
-}
-
-.principaisTopicos {
-  margin-left: 4%;
-  margin-bottom: 5%;
-}
 
 /* final do conteúdo home */
 
@@ -667,3 +519,94 @@ body {
 }
 
 /* final do footer */
+
+/* Responsividade: Celular */
+
+@media screen and (max-width: 767px) {
+  .sociologia-header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .logo-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+  }
+
+  .logo-header img {
+    max-width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0;
+  }
+
+  .header-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .image-banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .links p {
+    font-size: 1rem;
+  }
+
+  .links {
+    gap: 30px;
+  }
+
+  .topics-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  .aba-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-div-header {
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding: 2rem;
+  }
+}
