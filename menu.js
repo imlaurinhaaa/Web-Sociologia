@@ -19,7 +19,3 @@ function animarMenu2(){
     const menu2 = document.getElementById('menu-menu');
     menu2.classList.toggle('aberto');
 }
-
-function fecharMenu(){
-    
-}
