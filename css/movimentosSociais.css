@@ -39,446 +39,6 @@ body {
     font-style: normal;
 }
 
-/* início da header/ banner/ abas */
-
-.sociologia-header {
-    display: flex;
-    color: var(--color-fonteBranca);
-    justify-content: space-between;
-    background-color: var(--color-header);
-    padding: 1rem 0;
-}
-
-.logo-header {
-    margin: 0 30px;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--color-header);
-}
-
-.section-img {
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-}
-
-.img-content {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: 5px solid var(--color-borderIMG);
-}
-
-.header-nav {
-    list-style: none;
-    margin: 0 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-.links {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 60px;
-    margin-right: 50px;
-
-}
-
-.links a {
-    display: flex;
-    color: var(--color-fonteBranca);
-    font-size: 1.3rem;
-    border-bottom: 3px solid transparent;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-/* menu-mobile */
-
-.menu-mobile ul {
-    background-color: var(--color-menu);
-    backdrop-filter: blur(10px);
-    position: absolute;
-    top: 82px;
-    right: 0;
-    width: 405px;
-    max-height: 0;
-    transition: max-height 1s ease, visibility 1s ease;
-    visibility: hidden;
-    overflow: hidden;
-    margin-right: 0;
-    z-index: 4;
-    display: inline;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.menu-mobile.abrir ul {
-    visibility: visible;
-    max-height: 31.25rem;
-}
-
-.menu-mobile ul li:hover {
-    background-color: #000000c4;
-}
-
-.menu-mobile ul .menu-title:hover {
-    background-color: var(--color-menu);
-}
-
-.menu-mobile ul li {
-    display: flex;
-    padding: 10px 30px;
-    font-size: 16px;
-    text-align: center;
-    justify-content: center;
-}
-
-.menu-mobile ul .sociologia {
-    width: 30rem;
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-}
-
-.menu-mobile ul li div {
-    width: 20.7rem;
-    display: block;
-}
-
-.menu-mobile ul .sociologia div {
-    width: 20.7rem;
-    display: block;
-    border-bottom: 0 solid #ffffff;
-}
-
-.menu-mobile ul li a {
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    justify-content: left;
-    color: var(--color-fonteBranca);
-    text-decoration: none;
-    border-bottom: 0.3px solid #ffffff;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-.menu-mobile ul li div h1 {
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-    border-bottom: 1px solid #ffffff;
-}
-
-.menu-mobile ul li .materias {
-    width: 12rem;
-}
-
-#btn-menu {
-    width: 45px;
-    height: 45px;
-    border: 0px solid #ff0000;
-    background: transparent;
-    border-radius: 10px;
-    right: 30px;
-    top: 20px;
-    cursor: pointer;
-}
-
-.linha {
-    width: 40px;
-    height: 3px;
-    background-color: #ffffff;
-    display: flex;
-    margin: 10px auto;
-    position: relative;
-    transform-origin: center;
-    transition: .2s;
-}
-
-#btn-menu.ativo .linha:nth-child(1) {
-    transform: translateY(12px) rotate(-45deg);
-    background-color: #ffffff;
-}
-
-#btn-menu.ativo .linha:nth-child(3) {
-    transform: translateY(-15px) rotate(45deg);
-    background-color: #ffffff;
-}
-
-#btn-menu.ativo .linha:nth-child(2) {
-    width: 0;
-}
-
-#menu-materias {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.arrow {
-    width: 1rem;
-    height: 1rem;
-    z-index: 10;
-    transform: rotate(90deg);
-    transition: .3s;
-}
-
-.btn-menu2:hover {
-    background-color: #000;
-}
-
-#btn-menu2.ativado .arrow {
-    transform: rotate(0deg);
-}
-
-#btn-menu2 {
-    height: 10px;
-    border: 0px solid #ff0000;
-    background: transparent;
-    border-radius: 10px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-}
-
-#menu-menu ul {
-    position: absolute;
-    right: 0;
-    top: 36.34rem;
-    background-color: var(--color-menu);
-    z-index: 5;
-    width: 405px;
-    max-height: 0;
-    transition: max-height 0.5s ease, visibility 1s ease;
-    display: flex;
-    flex-direction: column;
-    visibility: hidden;
-    overflow: hidden;
-    list-style: none;
-    justify-content: left;
-    gap: 0.5rem;
-}
-
-.menu-menu ul li {
-    display: block;
-    padding: 6px;
-    font-size: 1rem;
-}
-
-.menu-menu ul li div {
-    display: block;
-    width: 22rem;
-}
-
-.menu-menu ul li a {
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    justify-content: left;
-    color: var(--color-fonteBranca);
-    text-decoration: none;
-    border-bottom: 1px solid #ffffff;
-    font-weight: 600;
-}
-
-#menu-menu a {
-    margin-left: 2.5rem;
-    text-decoration: none;
-    color: #e0e0e0;
-    border-bottom: 1px solid #ffffff;
-    font-size: 0.9rem;
-}
-
-#menu-menu.aberto ul {
-    visibility: visible;
-    max-height: 30.25rem;
-}
-
-.video-aula {
-    margin-bottom: 1rem;
-}
-
-/* fim menu mobile */
-
-.vertical-line {
-    height: 50px;
-    width: 3px;
-    background-color: var(--color-linhaVertical);
-    margin: 0 20px;
-    margin-right: 20px;
-}
-
-.logo-header {
-    margin: 0 40px;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--color-header);
-    height: 50px;
-}
-
-#icones-header {
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-    color: var(--color-icones);
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin-right: 5px;
-}
-
-#sesi-logo {
-    margin: 0 40px;
-}
-
-.image-banner {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 45rem;
-    filter: brightness(0.6);
-}
-
-.image-banner img {
-    width: 100%;
-    height: 100%;
-}
-
-#line {
-    height: 5px;
-    margin: 20px auto;
-    width: 20%;
-    background-color: var(--color-corLinha);
-}
-
-.img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-    height: 50px;
-    box-sizing: border-box;
-}
-
-#sesi-logo {
-    margin-left: 10px;
-    margin-right: 30px;
-}
-
-.header-nav .nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.img-content {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    border: 5px solid var(--color-borderIMG);
-}
-
-.img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-    height: 50px;
-    box-sizing: border-box;
-}
-
-.alinhamento {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    gap: 200px;
-    padding: 100px;
-}
-
-.topics-header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.aba-text {
-    color: var(--color-fontePreto);
-    text-align: center;
-    justify-content: space-between;
-}
-
-.aba-item {
-    background-color: var(--color-aba);
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 20px;
-    font-size: 16px;
-    color: #333;
-    cursor: pointer;
-    outline: none;
-    width: 250px;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    list-style: none;
-    width: 100%;
-}
-
-.aba-text a,
-.aba-item {
-    width: 100%;
-    color: var(--color-fonteBranca);
-}
-
-.aba-text-check {
-    color: var(--color-fonteBranca);
-    text-align: center;
-}
-
-.aba-item-check {
-    background-color: var(--color-abaCheck);
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    width: 250px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    list-style: none;
-    width: 100%;
-}
-
-.aba-item:hover,
-.aba-item:hover * {
-    background-color: var(--color-abaCheck);
-    color: var(--color-fonteBranca);
-}
-
-
-
-/* final da header/ banner/ abas */
-
 /* início do conteúdo principais sociólogos */
 
 .intro {
@@ -567,13 +127,13 @@ body {
     width: 80%;
 }
 
-.main-content{
+.main-content {
     width: 100%;
     background-color: var(--cor-background);
     display: flex;
 }
 
-.imgs{
+.imgs {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -581,21 +141,21 @@ body {
     margin-top: 5rem;
 }
 
-.img-side{
+.img-side {
     width: 100%;
     background-color: var(--cor-background);
     display: flex;
     flex-direction: column;
     margin-right: 12rem;
     margin-bottom: 5rem;
-} 
+}
 
-.img{
+.img {
     width: 18rem;
     height: 18rem;
 }
 
-.legend{
+.legend {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -603,33 +163,33 @@ body {
     color: var(--color-citacao);
     text-align: justify;
     margin-top: 1rem;
-    width: 18rem;    
+    width: 18rem;
 }
 
-.resumo{
+.resumo {
     margin-bottom: 7%;
 }
 
-.text{
+.text {
     display: flex;
     justify-content: center;
 }
 
 /* linhas Feminismo*/
 
-#line-text-1-fem{
+#line-text-1-fem {
     height: 0.2rem;
     width: 49%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-fem{
+#line-text-2-fem {
     height: 0.2rem;
     width: 33%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-fem{
+#line-text-3-fem {
     height: 0.2rem;
     width: 35%;
     background-color: var(--color-corLinha);
@@ -638,19 +198,19 @@ body {
 
 /* linhas LGBTQIA */
 
-#line-text-1-lgbt{
+#line-text-1-lgbt {
     height: 0.2rem;
     width: 48%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-lgbt{
+#line-text-2-lgbt {
     height: 0.2rem;
     width: 31%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-lgbt{
+#line-text-3-lgbt {
     height: 0.2rem;
     width: 46%;
     background-color: var(--color-corLinha);
@@ -658,19 +218,19 @@ body {
 
 /* linhas Racismo */
 
-#line-text-1-rac{
+#line-text-1-rac {
     height: 0.2rem;
     width: 30%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-rac{
+#line-text-2-rac {
     height: 0.2rem;
     width: 59%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-rac{
+#line-text-3-rac {
     height: 0.2rem;
     width: 69%;
     background-color: var(--color-corLinha);
@@ -678,19 +238,19 @@ body {
 
 /* linhas Indígenas */
 
-#line-text-1-ind{
+#line-text-1-ind {
     height: 0.2rem;
     width: 59%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-2-ind{
+#line-text-2-ind {
     height: 0.2rem;
     width: 57%;
     background-color: var(--color-corLinha);
 }
 
-#line-text-3-ind{
+#line-text-3-ind {
     height: 0.2rem;
     width: 50%;
     background-color: var(--color-corLinha);
@@ -717,62 +277,3 @@ body {
 }
 
 /* final do conteúdo principais sociólogos */
-
-/* início do footer */
-
-.footer-text {
-    color: var(--color-fonteBranca);
-}
-
-.footer {
-    background-color: var(--color-footer);
-    color: var(--color-fonteBranca);
-    margin-top: 50px;
-}
-
-.footer .icones {
-    background-color: var(--color-linhaFooter);
-}
-
-.senai {
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    padding: 30px 0 20px 0;
-    margin-left: 29%;
-}
-
-.senai h3 {
-    text-align: left;
-}
-
-.senai p {
-    text-align: left;
-}
-
-.sesi {
-    width: 20%;
-    display: inline-block;
-    margin-left: 3%;
-    text-align: center;
-    padding: 0 0 20px 0px;
-}
-
-.sesi h3 {
-    text-align: left;
-}
-
-.sesi p {
-    text-align: left;
-}
-
-.footer .icones img {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.icones {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
