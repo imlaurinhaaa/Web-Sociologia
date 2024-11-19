@@ -93,7 +93,7 @@ body {
   align-items: center;
   text-align: justify;
   padding: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .video-esq{
@@ -486,3 +486,4 @@ body {
       margin: 1.5rem 0;
     }
   }
+  
