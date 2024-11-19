@@ -180,143 +180,6 @@ body {
     color: #000000;
 }
 
-/* Responsividade: Celular */
-
-@media screen and (max-width: 767px) {
-    .introducao {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-
-        margin-bottom: 1.875rem;
-    }
-    
-    #intro-content {
-        max-width: 100%;
-        margin-bottom: 3.125rem;
-    }
-    
-    .img-introducao {
-        display: flex;
-        justify-content: center;
-        width: 80%;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-left: 2rem;
-        height: auto;
-
-    }
-    
-    #img-intro {
-        height: 18rem;
-        width: 18rem;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-    
-    #intro-1 {
-        margin-top: 3.75rem;
-        margin-left: 1rem;
-    }
-    
-    #intro-2 {
-        margin-top: 2.813rem;
-        margin-left: 1rem;
-    }
-    
-    
-    .titulo-intro {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 1.5rem;
-        color: #000000;
-    }
-    
-    .text-intro {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 400;
-        font-size: 1rem;
-        text-align: justify;
-        width: 90%;
-        word-spacing: 0.1em; 
-        text-align-last: left;
-    }
-    
-    #line{
-        height: 0.313rem;
-        margin: 20px auto;
-        width: 85%;
-        background-color: var(--color-corLinha);
-    }    
-    
-    #line-text-1 {
-        height: 0.2rem;
-        width: 94%;
-        background-color: var(--color-corLinha);
-        margin-left: 0.1rem;
-    }
-    
-    #line-text-2 {
-        height: 0.2rem;
-        width: 59%;
-        background-color: var(--color-corLinha);
-        margin-left: 0.1rem;
-    }
-    
-    #line-text-3 {
-        height: 0.2rem;
-        width: 76%;
-        background-color: var(--color-corLinha);
-        margin-left: 0.1rem;
-    }
-    
-    .imagem-icones {
-        margin-left: 43%;
-        display: inline-block;
-    }
-    
-    .main-content {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .section-img{
-        margin-top: 4rem;
-    }
-    
-    .linha-1 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 3rem;
-        margin-bottom: 3rem;
-    
-    }
-    
-    .linha-2 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 3rem;
-        margin-bottom: 6rem;
-    }
-    
-    .img-content {
-        border-radius: 50%;
-        width: 14rem;
-        height: 14rem;
-        border: 0.4rem solid var(--color-borderIMG);
-    }
-    
-    .img-text {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #000000;
-    }
-}
-
 /* Responsividade: Tablet */
 
 @media screen and (max-width: 768px) and (max-width: 1023px)  {
@@ -334,12 +197,10 @@ body {
     .img-introducao {
         display: flex;
         justify-content: center;
-        width: 100%;
         margin-top: 3rem;
         margin-bottom: 3rem;
-        margin-left: 1rem;
+        margin-left: 6.5rem;
         height: auto;
-
     }
     
     #img-intro {
@@ -426,6 +287,141 @@ body {
         text-align: center;
         gap: 3rem;
         margin-bottom: 3rem;
+    }
+    
+    .linha-2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .img-content {
+        border-radius: 50%;
+        width: 14rem;
+        height: 14rem;
+        border: 0.4rem solid var(--color-borderIMG);
+    }
+    
+    .img-text {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+/* Responsividade: Celular */
+
+@media screen and (max-width: 767px) {
+    .introducao {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        margin-bottom: 1.875rem;
+    }
+    
+    #intro-content {
+        max-width: 100%;
+        margin-bottom: 3.125rem;
+    }
+    
+    .img-introducao {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+    }
+    
+    #img-intro {
+        height: 18rem;
+        width: 18rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    #intro-1 {
+        margin-top: 3.75rem;
+        margin-left: 1rem;
+    }
+    
+    #intro-2 {
+        margin-top: 2.813rem;
+        margin-left: 1rem;
+    }
+    
+    
+    .titulo-intro {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #000000;
+    }
+    
+    .text-intro {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: justify;
+        width: 90%;
+        word-spacing: 0.1em; 
+        text-align-last: left;
+    }
+    
+    #line{
+        height: 0.313rem;
+        margin: 20px auto;
+        width: 85%;
+        background-color: var(--color-corLinha);
+    }    
+    
+    #line-text-1 {
+        height: 0.2rem;
+        width: 82%;
+        background-color: var(--color-corLinha);
+        margin-left: 0.1rem;
+    }
+    
+    #line-text-2 {
+        height: 0.2rem;
+        width: 93%;
+        background-color: var(--color-corLinha);
+        margin-left: 0.1rem;
+    }
+    
+    #line-text-3 {
+        height: 0.2rem;
+        width: 67%;
+        background-color: var(--color-corLinha);
+        margin-left: 0.1rem;
+    }
+    
+    .imagem-icones {
+        margin-left: 43%;
+        display: inline-block;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5rem;
+    }
+
+    .section-img{
+        margin-top: 4rem;
+    }
+    
+    .linha-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+    
     }
     
     .linha-2 {
