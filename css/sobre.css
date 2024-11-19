@@ -296,6 +296,17 @@ body {
 
 /* RESPONSIVIDADE PARA TABLET */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
+  /* ABAS */
+  .topics-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 6rem;
+  }
+
   /* CONTEÚDO */
   .sobre-nos .titulo{
     margin-top: 10rem;
@@ -317,8 +328,16 @@ body {
     margin-left: -3rem;
   }
 
+  .sobre-content{
+    display: flex;
+    flex-direction: column;
+  }
+
   .sobre-content .img-equipe{
-    margin-top: -5rem;
+    display: flex;
+    justify-content: start;
+    margin-left: 25rem;
+    margin-top: -3rem;
   }
   
   /* FIM DE CONTEÚDO */
@@ -363,5 +382,30 @@ body {
     margin-left: 9.5rem;
   }
   /* FIM DE PARTICIPANTES */
+
+  /* FOOTER */
+  .enderecos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .enderecos .senai {
+    width: 40%;
+    margin-left: 8rem
+  }
+
+  .enderecos img {
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: -3rem;
+  }
+
+  .enderecos .sesi {
+    width: 40%;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+  }
+
+  /* FIM DE FOOTER */
 }
 /* FIM DE RESPONSIVIDADE PARA TABLET */
