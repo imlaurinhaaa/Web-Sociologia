@@ -281,146 +281,46 @@ body {
 
 /* final do conteúdo do notícias */
 
+/* Responsividade tablet*/
 
-@media screen and (max-width: 767px) {
+@media  screen and (max-width: 768px) and (max-height: 1023px) {
 
+  
   #line-movimentos {
     height: 0.2rem;
-    width:  12rem;
+    width:  27%;
     background-color: var(--color-corLinha);
-    margin-left: 16rem;
+    margin-left: 36.5%;
   }
 
   #line-sociologos {
     height: 0.2rem;
-    width: 13.3rem;
+    width: 31%;
     background-color: var(--color-corLinha);
-    margin-left: 15.3rem;
-
-  
+    margin-left: 34%;
   }
 
   #line-materias {
     height: 0.2rem;
-    width: 12rem;
+    width: 28%;
     background-color: var(--color-corLinha);
-    margin-left: 16rem;
+    margin-left: 36%;
 
-  }
-
-  .titulo-intro-1 {
-    font-size: 1rem;
-    text-align: center;
-
-  }
-
-  .titulo-intro-2 {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .titulo-intro-3 {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .slider-container-1,
-  .slider-container-2,
-  .slider-container-3 {
-    width: 36%;
-    max-width: 30rem;
-    overflow: hidden;
-    margin-left: 14rem;
-  }
-
-  .card-slider,
-  .card-slider-2,
-  .card-slider-3 {
-    overflow: hidden;
-    width: 100%;
-  }
-
-  .cards {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-
-  .card {
-    width: 15rem;
-    height: 30rem;
-  }
-
-  .button-noticias-1,
-  .button-noticias-2,
-  .button-noticias-3,
-  .button-noticias-4,
-  .button-noticias-5,
-  .button-noticias-6,
-  .button-noticias-9,
-  .button-noticias-10,
-  .button-noticias-11,
-  .button-noticias-12,
-  .button-noticias-14,
-  .button-noticias-15 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1.5rem;
-    margin-left: 3rem;
-  }
-
-  .button-noticias-7 {
-    margin-left: 3.4rem;
-  }
-
-  .button-noticias-8 {
-    margin-left: 3rem;
-  }
-
-  .button-noticias-13 {
-    margin-left: 3.4rem;
-  }
-}
-
-@media  screen and (max-width: 768px) and (max-height: 1024px) {
-
-  #line-movimentos {
-    height: 0.2rem;
-    width: 25rem;
-    background-color: var(--color-corLinha);
-    margin-left: 16rem;
-  }
-
-  #line-sociologos {
-    height: 0.2rem;
-    width: 13.3rem;
-    background-color: var(--color-corLinha);
-    margin-left: 15.3rem;
-
-  
-  }
-
-  #line-materias {
-    height: 0.2rem;
-    width: 12rem;
-    background-color: var(--color-corLinha);
-    margin-left: 16rem;
   }
 
   .titulo-intro-1,
   .titulo-intro-2,
   .titulo-intro-3 {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
 
   }
-
   
   .slider-container-1,
   .slider-container-2,
   .slider-container-3 {
-    width: 36%;
-    max-width: 30rem;
+    width: 49%;
+    max-width: 40rem;
     overflow: hidden;
     margin-left: 14rem;
   }
@@ -438,7 +338,7 @@ body {
   }
 
   .card {
-    width: 15rem;
+    width: 25rem;
     height: 30rem;
   }
 
@@ -459,11 +359,104 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5rem;
+    margin-left: 5rem;
+  }
+
+  .button-noticias-7 {
+    margin-left: 5rem;
+  }
+
+  .button-noticias-8 {
+    margin-left: 5rem;
+  }
+
+  .button-noticias-13 {
+    margin-left: 5rem;
+  }
+}
+
+
+/* Responsividade celular*/
+
+@media screen and (max-width: 767px) {
+
+  #line-movimentos {
+    height: 0.2rem;
+    width:  27%;
+    background-color: var(--color-corLinha);
+    margin-left: 36.5%;
+  }
+
+  #line-sociologos {
+    height: 0.2rem;
+    width: 31%;
+    background-color: var(--color-corLinha);
+    margin-left: 34%;
+  }
+
+  #line-materias {
+    height: 0.2rem;
+    width: 28%;
+    background-color: var(--color-corLinha);
+    margin-left: 36%;
+
+  }
+
+  .titulo-intro-1,
+  .titulo-intro-2,
+  .titulo-intro-3 {
+    font-size: 1rem;
+    text-align: center;
+
+  }
+
+  .slider-container-1,
+  .slider-container-2,
+  .slider-container-3 {
+    width: 36%;
+    max-width: 30rem;
+    overflow: hidden;
+    margin-left: 14rem;
+  }
+
+  .card-slider,
+  .card-slider-2,
+  .card-slider-3 {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .card {
+    width: 15rem;
+    height: 30rem;
+  }
+
+  .button-noticias-1,
+  .button-noticias-2,
+  .button-noticias-3,
+  .button-noticias-4,
+  .button-noticias-5,
+  .button-noticias-6,
+  .button-noticias-9,
+  .button-noticias-10,
+  .button-noticias-11,
+  .button-noticias-12,
+  .button-noticias-14,
+  .button-noticias-15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
     margin-left: 3rem;
   }
 
   .button-noticias-7 {
-    margin-left: 3rem;
+    margin-left: 3.4rem;
   }
 
   .button-noticias-8 {
@@ -471,12 +464,9 @@ body {
   }
 
   .button-noticias-13 {
-    margin-left: 3rem;
+    margin-left: 3.4rem;
   }
 }
-
-
-
 
 
 
