@@ -217,20 +217,50 @@ body {
 .arrow {
   width: 1rem;
   height: 1rem;
-  z-index: 10;
+  z-index: 30;
   transform: rotate(90deg);
   transition: .3s;
 }
 
-.btn-menu2:hover {
+#btn-menu2:hover,
+#btn-menu3:hover,
+#btn-menu4:hover,
+#btn-menu5:hover,
+#btn-menu6:hover,
+#btn-menu7:hover,
+#btn-menu8:hover,
+#btn-menu9:hover,
+#btn-menu10:hover,
+#btn-menu11:hover,
+#btn-menu12:hover {
   background-color: #000;
 }
 
-#btn-menu2.ativado .arrow {
+#btn-menu2.ativado .arrow, 
+#btn-menu3.ativado2 .arrow,
+#btn-menu4.ativado3 .arrow,
+#btn-menu5.ativado4 .arrow,
+#btn-menu6.ativado5 .arrow,
+#btn-menu7.ativado6 .arrow,
+#btn-menu8.ativado7 .arrow,
+#btn-menu9.ativado8 .arrow,
+#btn-menu10.ativado9 .arrow,
+#btn-menu11.ativado10 .arrow,
+#btn-menu12.ativado11 .arrow {
   transform: rotate(0deg);
 }
 
-#btn-menu2 {
+#btn-menu2,
+#btn-menu3,
+#btn-menu4,
+#btn-menu5,
+#btn-menu6,
+#btn-menu7,
+#btn-menu8,
+#btn-menu9,
+#btn-menu10,
+#btn-menu11,
+#btn-menu12 {
   height: 10px;
   border: 0px solid #ff0000;
   background: transparent;
@@ -240,10 +270,19 @@ body {
   flex-direction: row;
 }
 
-#menu-menu ul {
+#menu-menu-soc ul,
+#menu-menu-art ul,
+#menu-menu-bio ul,
+#menu-menu-ef ul,
+#menu-menu-filo ul,
+#menu-menu-fis ul,
+#menu-menu-geo ul,
+#menu-menu-his ul,
+#menu-menu-ing ul,
+#menu-menu-mat ul,
+#menu-menu-qui ul {
   position: absolute;
   right: 0;
-  top: 36.34rem;
   background-color: var(--color-menu);
   z-index: 5;
   width: 405px;
@@ -258,18 +297,92 @@ body {
   gap: 0.5rem;
 }
 
-.menu-menu ul li {
+#menu-menu-art ul{
+  top: 12rem;
+}
+
+#menu-menu-bio ul{
+  top: 14rem;
+}
+
+#menu-menu-ef ul{
+  top: 16.5rem;
+}
+
+#menu-menu-filo ul{
+  top: 18.75rem;
+}
+
+#menu-menu-fis ul{
+  top: 21.15rem;
+}
+
+#menu-menu-geo ul{
+  top: 23.2rem;
+}
+
+#menu-menu-his ul{
+  top: 26.1rem;
+}
+
+#menu-menu-ing ul{
+  top: 28.75rem;
+}
+
+#menu-menu-mat ul{
+  top: 31.5rem;
+}
+
+#menu-menu-qui ul{
+  top: 34rem;
+}
+
+#menu-menu-soc ul{
+  top: 36rem;
+}
+
+.menu-menu-soc ul li,
+#menu-menu-art ul li,
+#menu-menu-bio ul li,
+#menu-menu-ef ul li,
+#menu-menu-filo ul li,
+#menu-menu-fis ul li,
+#menu-menu-geo ul li,
+#menu-menu-his ul li,
+#menu-menu-ing ul li,
+#menu-menu-mat ul li,
+#menu-menu-qui ul li {
   display: block;
   padding: 6px;
   font-size: 1rem;
 }
 
-.menu-menu ul li div {
+.menu-menu-soc ul li div,
+#menu-menu-art ul li div,
+#menu-menu-bio ul li div,
+#menu-menu-ef ul li div,
+#menu-menu-filo ul li div,
+#menu-menu-fis ul li div,
+#menu-menu-geo ul li div,
+#menu-menu-his ul li div,
+#menu-menu-ing ul li div,
+#menu-menu-mat ul li div,
+#menu-menu-qui ul li div {
   display: block;
   width: 22rem;
 }
 
-.menu-menu ul li a {
+#menu-menu-soc ul li a,
+#menu-menu-art ul li a,
+#menu-menu-bio ul li a,
+#menu-menu-ef ul li a,
+#menu-menu-filo ul li a,
+#menu-menu-fis ul li a,
+#menu-menu-geo ul li a,
+#menu-menu-his ul li a,
+#menu-menu-ing ul li a,
+#menu-menu-mat ul li a,
+#menu-menu-qui ul li a {
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: left;
@@ -277,23 +390,23 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #ffffff;
   font-weight: 600;
-}
-
-#menu-menu a {
   margin-left: 2.5rem;
-  text-decoration: none;
-  color: #e0e0e0;
-  border-bottom: 1px solid #ffffff;
   font-size: 0.9rem;
 }
 
-#menu-menu.aberto ul {
+#menu-menu-soc.aberto ul,
+#menu-menu-art.aberto2 ul,
+#menu-menu-bio.aberto3 ul,
+#menu-menu-ef.aberto4 ul,
+#menu-menu-filo.aberto5 ul,
+#menu-menu-fis.aberto6 ul,
+#menu-menu-geo.aberto7 ul,
+#menu-menu-his.aberto8 ul,
+#menu-menu-ing.aberto9 ul,
+#menu-menu-mat.aberto10 ul,
+#menu-menu-qui.aberto11 ul {
   visibility: visible;
   max-height: 30.25rem;
-}
-
-.video-aula {
-  margin-bottom: 1rem;
 }
 
 /* fim menu mobile */
