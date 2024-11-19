@@ -43,16 +43,74 @@ body {
 
 .intro {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: 30px 0;
+  width: 100%;
 }
 
-.content {
-  margin-top: 60px;
-  margin-left: 70px;
-  margin-bottom: 80px
+.content-intro {
+  width: 60%;
+  margin-left: 4.375rem;
+  margin-top: 3rem;
+}
+
+.cultura{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 2rem;
+  margin-left: 4.375rem;
+}
+
+.content{
+  margin-bottom: 4rem;
+}
+
+.cidadania{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 2rem;
+  margin-left: 4.375rem;
+}
+
+.movimentos-sociais{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 2rem;
+  margin-left: 4.375rem;
+}
+
+.politica{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 2rem;
+  margin-left: 4.375rem;
+}
+
+.revolucao{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 2rem;
+  margin-left: 4.375rem;
+}
+
+.sociedade-contemporanea{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 2rem;
+  margin-left: 4.375rem;
+}
+
+.teorias{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 2rem;
+  margin-left: 4.375rem;
 }
 
 /* Imagem */
@@ -60,17 +118,17 @@ body {
 .intro-img {
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 20%;
+  height: 0;
+  margin-top: 3rem;
 }
 
 .PT-img {
-  height: 280px;
-  width: 280px;
+  height: 18rem;
+  width: 18rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-left: 20px;
-  margin-right: 140px;
-  margin-top: 100px;
+  margin-left: 20rem;
 }
 
 /* Linha Central */
@@ -80,7 +138,7 @@ body {
   margin: 20px auto;
   width: 85%;
   background-color: var(--color-corLinha);
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 3%;
 }
 
@@ -106,31 +164,6 @@ body {
   font-size: large;
   color: var(--color-fontePreto);
   text-align: justify;
-  width: 80%;
-}
-
-.text-PT b {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  margin-top: 30px;
-  font-size: x-large;
-  color: var(--color-fontePreto);
-  text-align: justify;
-  width: 80%;
-}
-
-.citacao {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  margin-top: 30px;
-  font-size: large;
-  color: var(--color-citacao);
-  text-align: justify;
-  width: 80%;
 }
 
 /* Linhas */
@@ -283,3 +316,6 @@ body {
 }
 
 /* final do conteúdo tópicos */
+
+/* Responsividade: Tablet */
+
