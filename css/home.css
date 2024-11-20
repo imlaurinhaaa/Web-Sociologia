@@ -320,7 +320,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-
         margin-bottom: 1.875rem;
     }
     
@@ -408,7 +407,7 @@ body {
     .main-content {
         display: flex;
         flex-direction: column;
-        margin-right: 5rem;
+        margin-right: 5.5rem;
     }
 
     .section-img{

@@ -161,7 +161,7 @@ body {
   font-weight: 400;
   font-style: normal;
   margin-top: 30px;
-  font-size: large;
+  font-size: 1.2rem;
   color: var(--color-fontePreto);
   text-align: justify;
 }
@@ -319,3 +319,275 @@ body {
 
 /* Responsividade: Tablet */
 
+@media screen and (max-width: 768px) and (max-width: 1023px){
+  .intro {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    width: 100%;
+  }
+  
+  .content-intro {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+
+  .content{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .cultura{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  
+  .cidadania{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  
+  .movimentos-sociais{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  
+  .politica{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  
+  .revolucao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  
+  .sociedade-contemporanea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  
+  .teorias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  
+  /* Imagem */
+  
+  .intro-img {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    margin-left: 9rem;
+  }
+  
+  .PT-img {
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20rem;
+  }
+  
+  /* Linha Central */
+  
+  .line-intro {
+    height: 5px;
+    margin: 20px auto;
+    width: 85%;
+    background-color: var(--color-corLinha);
+    margin-top: 40%;
+    margin-bottom: 3%;
+  }
+  
+  /* Textos */
+  
+  .titulo-PT {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--color-fontePreto);
+    white-space: nowrap;
+  }
+  
+  .text-PT {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--color-fontePreto);
+    text-align: justify;
+    width: 90%;
+    word-spacing: 0.1em; 
+    text-align-last: left;
+  }
+  
+  /* Linhas */
+
+#line-text-1-cul {
+  height: 0.2rem;
+  width: 57%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-cul {
+  height: 0.2rem;
+  width: 73%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-cul {
+  height: 0.2rem;
+  width: 74%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-4-cul {
+  height: 0.2rem;
+  width: 45%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-cid {
+  height: 0.2rem;
+  width: 62%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-cid {
+  height: 0.2rem;
+  width: 79%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-cid {
+  height: 0.2rem;
+  width: 59%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-4-cid {
+  height: 0.2rem;
+  width: 58%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-mov {
+  height: 0.2rem;
+  width: 86%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-mov {
+  height: 0.2rem;
+  width: 44%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-mov {
+  height: 0.2rem;
+  width: 82%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-pol {
+  height: 0.2rem;
+  width: 57%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-pol {
+  height: 0.2rem;
+  width: 29%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-pol {
+  height: 0.2rem;
+  width: 27%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-rev {
+  height: 0.2rem;
+  width: 36%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-rev {
+  height: 0.2rem;
+  width: 40%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-rev {
+  height: 0.2rem;
+  width: 26%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-soc {
+  height: 0.2rem;
+  width: 59%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-soc {
+  height: 0.2rem;
+  width: 54%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-teo {
+  height: 0.2rem;
+  width: 30%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-teo {
+  height: 0.2rem;
+  width: 34%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+}
