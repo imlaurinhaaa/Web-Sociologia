@@ -55,7 +55,7 @@ body {
 
 #line-1 {
   height: 0.2rem;
-  width: 8.8%;
+  width: 9.5rem;
   background-color: var(--color-corLinha);
 }
 
@@ -108,7 +108,7 @@ body {
 
 #line-2 {
   height: 0.2rem;
-  width: 16%;
+  width: 13%;
   background-color: var(--color-corLinha);
   margin: 0.9rem auto;
   margin-top: -2.5rem;
@@ -256,57 +256,46 @@ body {
 
 #line-3-laura {
   height: 0.2rem;
-  width: 43%;
+  width: 21rem;
   background-color: var(--color-corLinha);
-  margin-top: 5.9rem;
+  margin-top: 5rem;
 }
 
 #line-3-evelyn {
   height: 0.2rem;
-  width: 57.2%;
+  width: 27.5rem;
   background-color: var(--color-corLinha);
-  margin-top: 115px;
-  margin-left: 42.7%;
+  margin-top: 6.3rem;
+  margin-left: 32rem;
 }
 
 #line-3-bruna {
   height: 0.2rem;
-  width: 51%;
+  width: 24.5rem;
   background-color: var(--color-corLinha);
-  margin-top: 5rem;
+  margin-top: 3.5rem;
 }
 
 #line-3-zani {
   height: 0.2rem;
-  width: 46%;
+  width: 22rem;
   background-color: var(--color-corLinha);
-  margin-top: 0.2rem;
-  margin-left: 54%;
+  margin-top: -1rem;
+  margin-left: 37.5rem;
 }
 
 #line-3-luiz {
   height: 0.2rem;
-  width: 57.5%;
+  width: 27.5rem;
   background-color: var(--color-corLinha);
-  margin-top: 5rem;
+  margin-top: 3.7rem;
 }
 
 /* final do conteúdo sobre-nós */
 
 
 /* RESPONSIVIDADE PARA TABLET */
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  /* ABAS */
-  .topics-header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 0 6rem;
-  }
-
+@media screen and (max-width: 1023px) and (min-width: 957px) {
   /* CONTEÚDO */
   .sobre-nos .titulo{
     margin-top: 10rem;
@@ -336,8 +325,13 @@ body {
   .sobre-content .img-equipe{
     display: flex;
     justify-content: start;
-    margin-left: 25rem;
-    margin-top: -3rem;
+    margin-left: 27rem;
+    margin-top: -3.5rem;
+  }
+  
+  .sobre-content .img-equipe #fotoEquipe{
+    width: 27rem;
+    height: auto;
   }
   
   /* FIM DE CONTEÚDO */
@@ -363,7 +357,7 @@ body {
   
   .participante-esq .info-participante-esq #line-3-luiz{
     width: 27.5rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
   }
   
   .participantes .participante-dir{
@@ -382,30 +376,150 @@ body {
     margin-left: 9.5rem;
   }
   /* FIM DE PARTICIPANTES */
-
-  /* FOOTER */
-  .enderecos {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .enderecos .senai {
-    width: 40%;
-    margin-left: 8rem
-  }
-
-  .enderecos img {
-    height: 4rem;
-    margin-top: 2rem;
-    margin-left: -3rem;
-  }
-
-  .enderecos .sesi {
-    width: 40%;
-    margin-left: 2rem;
-    margin-top: 1.8rem;
-  }
-
-  /* FIM DE FOOTER */
 }
-/* FIM DE RESPONSIVIDADE PARA TABLET */
+/* FIM DA RESPONSIVIDADE PARA TABLET */
+
+
+/* RESPONSIVIDADE PARA CELULAR */
+@media screen and (max-width: 767px) and (min-width: 320px){
+  #line{
+    width: 100%;
+  }
+
+  .sobre-nos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #line-1{
+    width: 36%;
+  }
+
+  .sobre-content{
+    width: 80%;
+    margin-top: -1%;
+  }
+
+  .sobre-content p{
+    width: 100%;
+  }
+
+  .sobre-content .img-equipe{
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 0;
+    height: 20rem;
+  }
+
+  .sobre-content .img-equipe #fotoEquipe{
+    width: 25rem;
+    height: 20rem;
+    margin-right: 0;
+    margin-top: 15%;
+  }
+
+  #line-2{
+    width: 40%;
+  }
+
+  .participantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .participante-esq, .participante-dir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .foto-participante-esq, .foto-participante-dir{
+    width: 15rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+  
+  .info-participante-esq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-left: -37%;
+  }
+  
+  .info-participante-dir{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 39.25rem;
+    margin: 0;
+    margin-left: -10rem;
+  }
+  
+  .info-participante-dir hr{
+    margin-right: -10rem;
+  }
+
+  .info-participante-esq .info-esq, .info-participante-dir .info-dir{
+    width: 25rem;
+  }
+
+  .info-participante-esq, .info-participante-dir{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .participante-dir{
+    width: 30rem;
+    margin-right: 3rem;
+}
+
+.participante-esq .info-participante-esq #line-3-laura{
+  width: 20.5rem;
+  margin-top: 10.5rem;
+  margin-left: 2rem;
+  margin-bottom: -2rem;
+}
+
+.participante-esq .info-participante-esq #line-3-bruna{
+  width: 24.2rem;
+  margin-top: 8rem;
+  margin-left: 5.5rem;
+  margin-bottom: -2rem;
+}
+
+.participante-esq .info-participante-esq #line-3-luiz{
+  width: 27.3rem;
+  margin-top: 5.5rem;
+  margin-left: 9rem;
+  margin-bottom: -2rem;
+}
+
+.participantes .participante-dir{
+  margin-right: 4rem;
+}
+
+.participante-dir .info-participante-dir #line-3-evelyn{
+  width: 27.5rem;
+  margin-top: 15rem;
+  margin-left: 12rem;
+}
+
+.participante-dir .info-participante-dir #line-3-zani{
+  width: 22rem;
+  margin-top: 5.5rem;
+  margin-left: 17.2rem;
+}
+  
+}
+/* FIM DA RESPONSIVIDADE PARA CELULAR */
