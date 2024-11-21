@@ -80,7 +80,7 @@ body {
     margin-bottom: 3%;
 }
 
-.titulo-PS {
+.titulo-PS, .titulo-PS-rc {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -91,7 +91,7 @@ body {
     white-space: nowrap;
 }
 
-.text-PS, .text-PS-1,.text-PS-3, .text-PS-resumo, .text-PS-historia, .text-PS-historia-2 {
+.text-PS, .text-PS-1,.text-PS-3, .text-PS-resumo, .text-PS-historia, .text-PS-historia-2, .text-PS-1-rc, .text-PS-rc {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -115,7 +115,7 @@ body {
     width: 80%;
 }
 
-.citacao {
+.citacao, .citacao-rc {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -127,18 +127,21 @@ body {
     width: 80%;
 }
 
-.main-content {
+.main-content, .main-content-rc {
     width: 100%;
     background-color: var(--cor-background);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .imgs {
-    width: 20%;
     display: flex;
-    flex-direction: column;
-    margin-right: 5rem;
-    margin-top: 5rem;
+    align-items: center;;
+    margin-top: 13rem;
+        flex-direction: column;
+
 }
 
 .img-side {
@@ -146,8 +149,8 @@ body {
     background-color: var(--cor-background);
     display: flex;
     flex-direction: column;
-    margin-right: 12rem;
-    margin-bottom: 5rem;
+    margin-right: 6rem;
+    margin-bottom: 8.1rem;
 }
 
 .img {
@@ -168,6 +171,8 @@ body {
 
 .resumo {
     margin-bottom: 7%;
+    margin-left: 10rem;
+    width: 100%;
 }
 
 .text-PS-resumo {
@@ -179,19 +184,19 @@ body {
 
 #line-text-1-fem {
     height: 0.2rem;
-    width: 49%;
+    width: 70%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-2-fem {
     height: 0.2rem;
-    width: 33%;
+    width: 44%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-fem {
     height: 0.2rem;
-    width: 35%;
+    width: 46%;
     background-color: var(--color-corLinha);
 }
 
@@ -396,13 +401,24 @@ body {
         align-items: center;
     }
 
-    .titulo-PS, .titulo-PS-rc {
+    .titulo-PS {
         font-size: 1rem;
         text-align: center;
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 3rem;
+    }
+
+    .titulo-PS-rc {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
     }
     
     .text-PS-1, .text-PS-1-rc{
@@ -429,8 +445,12 @@ body {
         width: 70%;
     }
 
-    #line-text-1-fem, #line-text-1-rac {
+    #line-text-1-fem {
         width: 76%;
+    }
+
+    #line-text-1-rac {
+        width: 69%;
     }
       
 
@@ -441,8 +461,8 @@ body {
     }
 
     .PS-img, .PS-img-rc {
-        height: 20rem;
-        width: 20rem;
+        height: 16rem;
+        width: 16rem;
         margin-left: 9rem;
         margin-bottom: 3.5rem;
     }
@@ -488,27 +508,50 @@ body {
         margin-bottom: 0;
     }
 
-    #line-text-3-fem {
+    #line-text-3-fem, #line-text-3-rac {
         width: 120%;
     }
+    
+    .text-PS-historia, .text-PS-racismo{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
 
-
-  
-
+    .text-PS-historia-2, .text-PS-racismo-2{
+        width: 100%;
+        margin-left: 0;
+        margin-right:5rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
    
+    .imgs, .imgs-rc {
+        display: flex;
+        align-items: center;
+        margin-top: 9.4rem;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        margin-right: 2rem;
+    
+    }
 
     .img-side {
         display: flex;
         align-items: center;
-        margin-bottom: 5rem;
-        justify-content: center;
-        margin-top: 5rem;
         width: 100%;
-        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 2rem;
         margin-right: 0;
+        margin-top: 2rem
     }
 
-    .text-PS-3 {
+    .text-PS-3, .text-PS-3-rc {
         font-size: 1rem;
         margin-bottom: 0;
     }
@@ -517,27 +560,6 @@ body {
         margin-left: 0.9rem;
         width: 120%;
     }
-
-    .text-PS-historia{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-    }
-
-    .text-PS-historia-2 {
-        width: 100%;
-        margin-left: 0;
-        margin-right:5rem;
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-    }
-
-   
-
 
     .text {
         display: flex;
