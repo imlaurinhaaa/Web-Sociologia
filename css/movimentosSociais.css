@@ -49,7 +49,7 @@ body {
     margin-top: 30px;
 }
 
-.content {
+.content, .content-2 {
     margin-left: 10rem;
     margin-bottom: 8rem;
     margin-top: 5rem
@@ -71,7 +71,7 @@ body {
     margin-top: 100px;
 }
 
-.line-intro {
+.line-intro, .line-final {
     height: 5px;
     margin: 20px auto;
     width: 85%;
@@ -91,7 +91,7 @@ body {
     white-space: nowrap;
 }
 
-.text-PS, .text-PS-3 {
+.text-PS, .text-PS-1,.text-PS-3, .text-PS-resumo, .text-PS-historia, .text-PS-historia-2 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -170,7 +170,7 @@ body {
     margin-bottom: 7%;
 }
 
-.text {
+.text-PS-resumo {
     display: flex;
     justify-content: center;
 }
@@ -311,11 +311,13 @@ body {
         height: 20rem;
         width: 20rem;
         margin-left: 9rem;
+        margin-bottom: 3.5rem;
     }
 
     .line-intro {
-        width: 85%;
-        margin-left: 5rem;
+        width: 60%;
+        display: flex;
+        margin-left: 11rem;
     }
 
     .main-content {
@@ -367,4 +369,179 @@ body {
     margin-left: 6rem;
     width: 80%;
    }
+
+   #line-text-2-fem{
+    width: 95%;
+   }
+
+   #line-text-3-fem{
+    width: 99.5%;
+   }
+
+}
+
+/* Responsividade celular*/
+
+@media screen and (max-width: 767px) {
+    .intro, .intro-rc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .content, .content-2, .content-rc, .content-2-rc {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-PS, .titulo-PS-rc {
+        font-size: 1rem;
+        text-align: center;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-PS-1, .text-PS-1-rc{
+        width: 70%;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }  
+    
+    .text-PS, .text-PS-resumo, .text-PS-rc {
+        width: 70%;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .citacao, .citacao-rc{
+        font-size: 0.9rem;
+        width: 70%;
+    }
+
+    #line-text-1-fem, #line-text-1-rac {
+        width: 76%;
+    }
+      
+
+    .intro-img, .intro-img-rc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .PS-img, .PS-img-rc {
+        height: 20rem;
+        width: 20rem;
+        margin-left: 9rem;
+        margin-bottom: 3.5rem;
+    }
+
+    #line-text-2-fem, #line-text-2-rac {
+        width: 80%;
+    }
+
+    .line-intro, .line-final, .line-intro-rc {
+        width: 60%;
+        display: flex;
+        margin-left: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .line-final {
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 5.5rem;
+    }
+
+    .main-content, .main-content-rc {
+        width: 80%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feminismo, .racismo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 5rem;
+    } 
+    .content-2, .content-2-rc {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin-bottom: 0;
+    }
+
+    #line-text-3-fem {
+        width: 120%;
+    }
+
+
+  
+
+   
+
+    .img-side {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5rem;
+        justify-content: center;
+        margin-top: 5rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text-PS-3 {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .resumo {
+        margin-left: 0.9rem;
+        width: 120%;
+    }
+
+    .text-PS-historia{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .text-PS-historia-2 {
+        width: 100%;
+        margin-left: 0;
+        margin-right:5rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+   
+
+
+    .text {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
 }
