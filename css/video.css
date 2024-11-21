@@ -339,6 +339,17 @@ body {
       padding: auto;
       width: 100%;
     }
+    
+    .text{
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding: auto;
+      width: 100%;
+    }
 
     .img-professor{
       margin-top: 2rem;
