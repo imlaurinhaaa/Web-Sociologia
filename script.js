@@ -97,11 +97,11 @@ function updateSlide(container, index, cardWidth) {
 }
 
 // Função para deslizar automaticamente
-//function autoSlide() {
+function autoSlide() {
   slideRight1();
   slideRight2();
   slideRight3();
-//}
+}
 
 // Configura o intervalo para mudar automaticamente
 let slideInterval = setInterval(autoSlide, 4000); // Muda a cada 4 segundos (4000ms)
