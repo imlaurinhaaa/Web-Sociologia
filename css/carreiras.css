@@ -189,6 +189,10 @@ body {
 
 /* RESPONSIVIDADE PARA CELULAR */
 @media screen and (max-width: 767px) {
+  #line{
+    width: 80%;
+  }
+
   /* MAIN */
   .topo,
   .topo2,
