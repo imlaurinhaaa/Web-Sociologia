@@ -373,8 +373,8 @@ body {
     
     #line{
         height: 0.313rem;
-        margin: 20px auto;
-        width: 85%;
+        margin: 3rem;
+        width: 80%;
         background-color: var(--color-corLinha);
     }    
     
