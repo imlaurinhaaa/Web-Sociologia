@@ -139,3 +139,4 @@ function animarMenu12() {
     const menu2 = document.getElementById('menu-menu-qui');
     menu2.classList.toggle('aberto11');
 }
+
