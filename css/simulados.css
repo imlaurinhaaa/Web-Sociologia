@@ -65,7 +65,7 @@ body {
 
 .simulado-content {
   background-color: var(--color-quadroSimulados);
-  height: 78rem;
+  height: auto;
   width: 93rem;
   border-radius: 0.3%;
   display: flex;
@@ -85,6 +85,7 @@ body {
 
 .text-box {
   display: flex;
+  align-items: center;
   flex-direction: column;
   margin-left: 15%;
   margin-right: 7rem;
