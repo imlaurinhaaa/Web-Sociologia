@@ -42,7 +42,7 @@ body {
 
 /* início do conteúdo principais sociólogos */
 
-.intro, .intro-rc, .intro-lb {
+.intro, .intro-rc, .intro-lb, .intro-ind {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -50,14 +50,14 @@ body {
     margin-top: 30px;
 }
 
-.content, .content-2, .content-rc, .content-rc-1, .content-2-rc, .content-lb, .content-2-lb, .content-3-lb {
+.content, .content-2, .content-rc, .content-rc-1, .content-2-rc, .content-lb, .content-2-lb, .content-3-lb, .content-1-ind, .content-2-ind, .content-3-ind {
     margin-left: 10rem;
     margin-bottom: 8rem;
     margin-top: 5rem
 }
 
 .titulo-PS, .titulo-PS-2-rc .titulo-PS-rc, .titulo-PS-2-rc, .titulo-PS-3-rc,
-.titulo-PS-1-lb, .titulo-PS-2-lb, .titulo-PS-lb-3{
+.titulo-PS-1-lb, .titulo-PS-2-lb, .titulo-PS-lb-3, .titulo-PS-1-ind, .titulo-PS-2-ind, .titulo-PS-3-ind {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -69,7 +69,7 @@ body {
     margin-top: 0;
 }
 
-.citacao, .citacao-rc {
+.citacao, .citacao-rc, .citacao-ind {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -115,7 +115,9 @@ body {
 .text-PS-1-rc, 
 .text-PS-rc,
 .text-PS-lb,
-.text-PS-lb-1 {
+.text-PS-lb-1,
+.text-PS-ind,
+.text-PS-1-ind{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -126,6 +128,7 @@ body {
     text-align: justify;
     width: 80%;
 }
+
 
 .text-PS-1,
 .text-PS-1-rc,
@@ -149,13 +152,18 @@ body {
     width: 80%;
 }
 
-.main-content, .main-content-rc, .main-content-lb {
+.main-content, .main-content-rc, .main-content-lb, .main-content-ind {
     width: 100%;
     background-color: var(--cor-background);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.text-PS-ind-1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 .imgs {
@@ -266,19 +274,19 @@ body {
 
 #line-text-1-ind {
     height: 0.2rem;
-    width: 59%;
+    width: 54%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-2-ind {
     height: 0.2rem;
-    width: 57%;
+    width: 49%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-ind {
     height: 0.2rem;
-    width: 50%;
+    width: 43%;
     background-color: var(--color-corLinha);
 }
 
@@ -409,27 +417,57 @@ body {
 /* Responsividade celular*/
 
 @media screen and (max-width: 767px) {
-    .intro, .intro-rc, .intro-lb {
+    .intro, .intro-rc, .intro-lb, .intro-ind {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     } 
-    .content, .content-2, .content-rc, .content-2-rc, .content-lb, .content-2-lb, .content-3-lb {
+    .content, .content-2, .content-rc, .content-2-rc, .content-lb, .content-2-lb, .content-3-lb, .content-1-ind, .content-2-ind, .content-3-ind {
         margin: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .titulo-PS {
+    .titulo-PS, .titulo-PS-2-rc, .titulo-PS-rc, .titulo-PS-2-rc, .titulo-PS-3-rc, .titulo-PS-1-lb, .titulo-PS-2-lb, .titulo-PS-lb-3, .titulo-PS-1-ind, .titulo-PS-2-ind, .titulo-PS-3-ind {
         font-size: 1rem;
         text-align: center;
-        width: 80%;
+        width: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 3rem;
+    }
+
+
+    .intro-ind {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .titulo-PS-1-ind {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 40%;
+        display: flex;
+        margin-top: 3rem;
+        margin-left: 0rem;
+
+    }
+
+    .titulo-PS-3-ind {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-left: 5rem;
+        font-size: 1.2rem;
     }
 
     .titulo-PS-rc {
@@ -451,6 +489,14 @@ body {
         align-items: center;
         margin-top: 3rem;
         margin-left: 2.6rem;
+    }
+
+    .titulo-PS-2-ind {
+        font-size: 1rem;
+        text-align: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
 
     .titulo-PS-3-rc {
@@ -499,7 +545,6 @@ body {
         margin-left: 5rem;
         font-size: 1.2rem;
     }
-
     .content-lb {
         display: flex;
         justify-content: center;
@@ -521,8 +566,28 @@ body {
         margin-left: 5rem;
     }
 
-    .text-PS-1 {
+    .text-PS-ind {
+        font-size: 1rem;    
+        margin-left: 5rem;
+    }
+
+    .text-PS-ind-1 {
+        font-size: 1rem;
+        width: 60%;
+    }
+
+    .text-PS-1-ind{
         width: 70%;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .text-PS-1 {
+        width: 60%;
         margin-left: 0;
         margin-right: 0;
         font-size: 1rem;
@@ -538,7 +603,14 @@ body {
         font-size: 1rem;
     }
 
-    .text-PS-1-rc {  
+    .text-PS-1-ind {
+        width: 70%;
+        margin-left: 0;
+        margin-right: 0; 
+        font-size: 1rem;
+    }
+
+    .text-PS-1-rc, .text-PS-ind {  
         width: 70%;
         margin-left: 0;
         margin-right: 0;
@@ -554,7 +626,7 @@ body {
         font-size: 1rem;
     }
 
-    .citacao, .citacao-rc {
+    .citacao, .citacao-rc, .citacao-ind {
         font-size: 0.9rem;
         width: 70%;
     }
@@ -568,13 +640,13 @@ body {
     }
       
 
-    .intro-img, .intro-img-rc {
+    .intro-img, .intro-img-rc, .intro-img-ind {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .PS-img, .PS-img-rc {
+    .PS-img, .PS-img-rc, .PS-img-ind {
         height: 16rem;
         width: 16rem;
         margin-left: 9rem;
@@ -608,7 +680,7 @@ body {
         margin-left: 5.5rem;
     }
 
-    .main-content, .main-content-rc, .main-content-lb {
+    .main-content, .main-content-rc, .main-content-lb, .main-content-ind {
         width: 80%;
         margin: 0;
         display: flex;
@@ -624,7 +696,7 @@ body {
         margin-left: 5rem;
     } 
 
-    .content-rc-1{
+    .content-rc-1, .content-1-ind{
         width: 150%;
         margin-left: 8rem;
         margin-right: 0;
@@ -735,5 +807,7 @@ body {
         width: 80%;
         margin-left: 5rem;    
     }
+
+    
     
 }
