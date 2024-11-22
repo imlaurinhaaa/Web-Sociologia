@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@ body {
 
 /* início do conteúdo principais sociólogos */
 
-.intro, .intro-rc {
+.intro, .intro-rc, .intro-lb {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -49,13 +50,14 @@ body {
     margin-top: 30px;
 }
 
-.content, .content-2 {
+.content, .content-2, .content-rc, .content-rc-1, .content-2-rc, .content-lb, .content-2-lb, .content-3-lb {
     margin-left: 10rem;
     margin-bottom: 8rem;
     margin-top: 5rem
 }
 
-.titulo-PS, .titulo-PS-rc {
+.titulo-PS, .titulo-PS-2-rc .titulo-PS-rc, .titulo-PS-2-rc, .titulo-PS-3-rc,
+.titulo-PS-1-lb, .titulo-PS-2-lb, .titulo-PS-lb-3{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -64,6 +66,7 @@ body {
     color: var(--color-fontePreto);
     display: flex;
     white-space: nowrap;
+    margin-top: 0;
 }
 
 .citacao, .citacao-rc {
@@ -74,24 +77,24 @@ body {
     margin-top: 30px;
     font-size: large;
     color: var(--color-citacao);
-    text-align: justify;
-    width: 80%;
-}
+        text-align: justify;
+        width: 80%;
+    }
 
-.intro-img, .intro-img-rc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .intro-img, .intro-img-rc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.PS-img, .PS-img-rc {
-    height: 280px;
-    width: 280px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 20px;
-    margin-right: 140px;
-    margin-top: 100px;
+    .PS-img, .PS-img-rc {
+        height: 280px;
+        width: 280px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 20px;
+        margin-right: 140px;
+        margin-top: 100px;
 }
 
 .line-intro, .line-final, .line-intro-rc {
@@ -99,8 +102,8 @@ body {
     margin: 20px auto;
     width: 85%;
     background-color: var(--color-corLinha);
-    margin-top: 2rem;
-    margin-bottom: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .text-PS, 
@@ -110,7 +113,9 @@ body {
 .text-PS-historia,
 .text-PS-historia-2, 
 .text-PS-1-rc, 
-.text-PS-rc {
+.text-PS-rc,
+.text-PS-lb,
+.text-PS-lb-1 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -120,6 +125,16 @@ body {
     color: var(--color-fontePreto);
     text-align: justify;
     width: 80%;
+}
+
+.text-PS-1,
+.text-PS-1-rc,
+.text-PS-1-lb {
+    font-size: 1.5rem;
+}
+
+.text-PS-1-lb {
+    margin-top: 2rem;
 }
 
 .text-PS b {
@@ -134,7 +149,7 @@ body {
     width: 80%;
 }
 
-.main-content, .main-content-rc {
+.main-content, .main-content-rc, .main-content-lb {
     width: 100%;
     background-color: var(--cor-background);
     display: flex;
@@ -190,19 +205,19 @@ body {
 
 #line-text-1-fem {
     height: 0.2rem;
-    width: 70%;
+    width: 46%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-2-fem {
     height: 0.2rem;
-    width: 44%;
+    width: 29%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-fem {
     height: 0.2rem;
-    width: 46%;
+    width: 30%;
     background-color: var(--color-corLinha);
 }
 
@@ -211,19 +226,19 @@ body {
 
 #line-text-1-lgbt {
     height: 0.2rem;
-    width: 48%;
+    width: 43%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-2-lgbt {
     height: 0.2rem;
-    width: 31%;
+    width: 27%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-lgbt {
     height: 0.2rem;
-    width: 46%;
+    width: 40%;
     background-color: var(--color-corLinha);
 }
 
@@ -231,19 +246,19 @@ body {
 
 #line-text-1-rac {
     height: 0.2rem;
-    width: 30%;
+    width: 21%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-2-rac {
     height: 0.2rem;
-    width: 59%;
+    width: 51%;
     background-color: var(--color-corLinha);
 }
 
 #line-text-3-rac {
     height: 0.2rem;
-    width: 69%;
+    width: 60%;
     background-color: var(--color-corLinha);
 }
 
@@ -394,13 +409,13 @@ body {
 /* Responsividade celular*/
 
 @media screen and (max-width: 767px) {
-    .intro, .intro-rc {
+    .intro, .intro-rc, .intro-lb {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     } 
-    .content, .content-2, .content-rc, .content-2-rc {
+    .content, .content-2, .content-rc, .content-2-rc, .content-lb, .content-2-lb, .content-3-lb {
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -428,16 +443,84 @@ body {
     }
 
     .titulo-PS-2-rc {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         text-align: center;
-        width: 70%;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 3rem;
-
+        margin-left: 2.6rem;
     }
-    
+
+    .titulo-PS-3-rc {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        margin-top: 3rem;                       
+    }
+
+    .titulo-PS-1-lb {
+        font-size: 1rem;
+        text-align: center;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .titulo-PS-2-lb {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-left: 3rem;
+        font-size: 1.2rem;
+    }
+
+
+    .titulo-PS-lb-3 {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-left: 5rem;
+        font-size: 1.2rem;
+    }
+
+    .content-lb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .main-content-lb {
+        width: 100%;
+        margin-left: 3rem;
+    }               
+
+    .text-PS-1-lb {
+        font-size: 1.2rem;
+    }
+
+    .text-PS-lb {
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+
     .text-PS-1 {
         width: 70%;
         margin-left: 0;
@@ -462,6 +545,13 @@ body {
         font-size: 1rem;
         display: flex;
         align-items: center;
+    }
+
+    .text-PS-rc {
+        width: 70%;
+        margin-left: 0;
+        margin-right: 0; 
+        font-size: 1rem;
     }
 
     .citacao, .citacao-rc {
@@ -496,8 +586,13 @@ body {
     }
 
     #line-text-2-rac {
-        width: 60%;
-        margin-left: 1.4rem;
+        width: 72%;
+        margin-left: 0;
+    }
+
+    #line-text-3-rac {
+        width: 100rem;
+        margin-left: 0;
     }
 
     .line-intro, .line-final, .line-intro-rc {
@@ -513,14 +608,14 @@ body {
         margin-left: 5.5rem;
     }
 
-    .main-content, .main-content-rc {
+    .main-content, .main-content-rc, .main-content-lb {
         width: 80%;
         margin: 0;
         display: flex;
         flex-direction: column;
     }
 
-    .feminismo, .racismo {
+    .feminismo, .racismo, .lgbt, .indigenas, .saudeMental {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -592,14 +687,14 @@ body {
         margin-top: 2rem
     }
 
-    .text-PS-3, .text-PS-3-rc {
+    .text-PS-3, .text-PS-3-rc, .text-PS-lb {
         font-size: 1rem;
         margin-bottom: 0;
     }
 
     #line-text-3-rac {
         width: 65%;
-        margin-left: 0;
+        margin-left: 0.9rem;
     }
     .resumo {
         margin-left: 0.9rem;
@@ -611,4 +706,34 @@ body {
         justify-content: center;
         width: 80%;
     }
+
+    .text-PS-lb-1 {
+        font-size: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+       
+     
+        width: 70%;
+    }
+
+    .text-PS-lb {
+        width: 70%;
+    }
+
+    #line-text-1-lgbt {
+        width: 72%;
+        margin-left: 0;
+    }
+
+    #line-text-2-lgbt {
+        width: 57%;
+        margin-left: 2rem;
+    }
+
+    #line-text-3-lgbt {
+        width: 80%;
+        margin-left: 5rem;    
+    }
+    
 }
