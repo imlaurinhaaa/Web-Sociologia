@@ -41,7 +41,7 @@ body {
 
 /* início do conteúdo principais sociólogos */
 
-.intro {
+.intro, .intro-rc {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -55,31 +55,6 @@ body {
     margin-top: 5rem
 }
 
-.intro-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.PS-img {
-    height: 280px;
-    width: 280px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 20px;
-    margin-right: 140px;
-    margin-top: 100px;
-}
-
-.line-intro, .line-final {
-    height: 5px;
-    margin: 20px auto;
-    width: 85%;
-    background-color: var(--color-corLinha);
-    margin-top: 2rem;
-    margin-bottom: 3%;
-}
-
 .titulo-PS, .titulo-PS-rc {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -91,7 +66,51 @@ body {
     white-space: nowrap;
 }
 
-.text-PS, .text-PS-1,.text-PS-3, .text-PS-resumo, .text-PS-historia, .text-PS-historia-2, .text-PS-1-rc, .text-PS-rc {
+.citacao, .citacao-rc {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: large;
+    color: var(--color-citacao);
+    text-align: justify;
+    width: 80%;
+}
+
+.intro-img, .intro-img-rc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PS-img, .PS-img-rc {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 140px;
+    margin-top: 100px;
+}
+
+.line-intro, .line-final, .line-intro-rc {
+    height: 5px;
+    margin: 20px auto;
+    width: 85%;
+    background-color: var(--color-corLinha);
+    margin-top: 2rem;
+    margin-bottom: 3%;
+}
+
+.text-PS, 
+.text-PS-1,
+.text-PS-3,
+.text-PS-resumo, 
+.text-PS-historia,
+.text-PS-historia-2, 
+.text-PS-1-rc, 
+.text-PS-rc {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -115,18 +134,6 @@ body {
     width: 80%;
 }
 
-.citacao, .citacao-rc {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    margin-top: 30px;
-    font-size: large;
-    color: var(--color-citacao);
-    text-align: justify;
-    width: 80%;
-}
-
 .main-content, .main-content-rc {
     width: 100%;
     background-color: var(--cor-background);
@@ -141,7 +148,6 @@ body {
     align-items: center;;
     margin-top: 13rem;
         flex-direction: column;
-
 }
 
 .img-side {
@@ -412,7 +418,7 @@ body {
     }
 
     .titulo-PS-rc {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
         width: 80%;
         display: flex;
@@ -420,18 +426,36 @@ body {
         align-items: center;
         margin-top: 3rem;
     }
+
+    .titulo-PS-2-rc {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+
+    }
     
-    .text-PS-1, .text-PS-1-rc{
+    .text-PS-1 {
         width: 70%;
         margin-left: 0;
         margin-right: 0;
-        font-size: 1.2rem;
+        font-size: 1rem;
         display: flex;
         align-items: center;
         text-align: center;
     }  
-    
-    .text-PS, .text-PS-resumo, .text-PS-rc {
+
+    .text-PS-rc {
+        width: 70%;
+        margin-left: 0;
+        margin-right: 0; 
+        font-size: 1rem;
+    }
+
+    .text-PS-1-rc {  
         width: 70%;
         margin-left: 0;
         margin-right: 0;
@@ -440,7 +464,7 @@ body {
         align-items: center;
     }
 
-    .citacao, .citacao-rc{
+    .citacao, .citacao-rc {
         font-size: 0.9rem;
         width: 70%;
     }
@@ -450,7 +474,7 @@ body {
     }
 
     #line-text-1-rac {
-        width: 69%;
+        width: 56%;
     }
       
 
@@ -467,8 +491,13 @@ body {
         margin-bottom: 3.5rem;
     }
 
-    #line-text-2-fem, #line-text-2-rac {
+    #line-text-2-fem {
         width: 80%;
+    }
+
+    #line-text-2-rac {
+        width: 60%;
+        margin-left: 1.4rem;
     }
 
     .line-intro, .line-final, .line-intro-rc {
@@ -499,13 +528,25 @@ body {
         width: 80%;
         margin-left: 5rem;
     } 
-    .content-2, .content-2-rc {
+
+    .content-rc-1{
+        width: 150%;
+        margin-left: 8rem;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .content-2{
         margin: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 70%;
         margin-bottom: 0;
+    }
+
+    .content-2-rc {
+        width: 150%;
     }
 
     #line-text-3-fem, #line-text-3-rac {
@@ -556,6 +597,10 @@ body {
         margin-bottom: 0;
     }
 
+    #line-text-3-rac {
+        width: 65%;
+        margin-left: 0;
+    }
     .resumo {
         margin-left: 0.9rem;
         width: 120%;
