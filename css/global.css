@@ -92,7 +92,7 @@ body {
 
 /* menu-mobile */
 
-.menu-mobile ul {
+.menu-mobile ul{
   background-color: var(--color-menu);
   backdrop-filter: blur(10px);
   position: absolute;
@@ -100,7 +100,6 @@ body {
   right: 0;
   width: 405px;
   max-height: 0;
-  transition: max-height 1s ease, visibility 1s ease;
   visibility: hidden;
   overflow: hidden;
   margin-right: 0;
