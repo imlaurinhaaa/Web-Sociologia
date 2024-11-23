@@ -96,7 +96,7 @@ body {
   background-color: var(--color-menu);
   backdrop-filter: blur(10px);
   position: absolute;
-  top: 82px;
+  top: 5.125rem;
   right: 0;
   width: 405px;
   max-height: 0;
@@ -142,7 +142,7 @@ body {
   display: block;
 }
 
-.menu-mobile ul .sociologia div {
+.menu-mobile ul div {
   width: 20.7rem;
   display: block;
   border-bottom: 0 solid #ffffff;
@@ -834,6 +834,65 @@ body {
     flex-direction: column-reverse;
     gap: 0.625rem;
     padding: 2rem;
+  }
+
+  .menu-mobile ul{
+    width: 100%;
+    top: 12.5rem;
+  }
+
+  #menu-menu-art ul{
+    top: 19rem;
+  }
+  
+  #menu-menu-bio ul{
+    width: 100%;
+    top: 21.5rem;
+  }
+  
+  #menu-menu-ef ul{
+    width: 100%;
+    top: 24rem;
+  }
+  
+  #menu-menu-filo ul{
+    width: 100%;
+    top: 26.4rem;
+  }
+  
+  #menu-menu-fis ul{
+    width: 100%;
+    top: 29rem;
+  }
+  
+  #menu-menu-geo ul{
+    width: 100%;
+    top: 31.4rem;
+  }
+  
+  #menu-menu-his ul{
+    width: 100%;
+    top: 34rem;
+  }
+  
+  #menu-menu-ing ul{
+    width: 100%;
+    top: 37rem;
+  }
+  
+  #menu-menu-mat ul{
+    width: 100%;
+    top: 39rem;
+  }
+  
+  #menu-menu-qui ul{
+    width: 100%;
+    top: 42rem;
+  }
+  
+  #menu-menu-soc ul{
+    width: 100%;
+    top: 43.6rem;
   }
 }
 
