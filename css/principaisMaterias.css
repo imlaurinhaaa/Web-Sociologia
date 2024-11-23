@@ -41,13 +41,13 @@ body {
 
 
 /* inicio section conteudo */
-.conteudo {
+.conteudo-cs{
     display: flex;
     flex-direction: column;
 }
 
 /* ESTILIZAÇÃO DOS TITULOS */
-.conteudo .titulo {
+.conteudo-cs .titulo-cs {
     margin-left: 10rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -58,133 +58,133 @@ body {
     margin-top: 8rem;
 }
 
-#line2 {
+#line2-cs {
     height: 0.2rem;
     width: 470px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line3 {
+#line3-cs { 
     height: 0.2rem;
     width: 425px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line4 {
+#line4-cs {
     height: 0.2rem;
     width: 375px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line5 {
+#line5-cs {
     height: 0.2rem;
     width: 578px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line6 {
+#line6-ec {
     height: 0.2rem;
     width: 816px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line7 {
+#line7-ec {
     height: 0.2rem;
     width: 440px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line8 {
+#line8-sb {
     height: 0.2rem;
     width: 450px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line9 {
+#line9-sb {
     height: 0.2rem;
     width: 630px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line10 {
+#line10-sb{
     height: 0.2rem;
     width: 540px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line11 {
+#line11-cs {
     height: 0.2rem;
     width: 505px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line12 {
+#line12-sb {
     height: 0.2rem;
     width: 680px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line13 {
+#line13-sb {
     height: 0.2rem;
     width: 300px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line14 {
+#line14-sb {
     height: 0.2rem;
     width: 180px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line15 {
+#line15-sb {
     height: 0.2rem;
     width: 410px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line16 {
+#line16-sb {
     height: 0.2rem;
     width: 90px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line17 {
+#line17-sb {
     height: 0.2rem;
     width: 130px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line18 {
+#line18-sb {
     height: 0.2rem;
     width: 225px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line19 {
+#line19-sb {
     height: 0.2rem;
     width: 390px;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
 
-#line20 {
+#line20-sb {
     height: 0.2rem;
     width: 200px;
     background-color: var(--color-corLinha);
@@ -192,7 +192,7 @@ body {
 }
 
 /* ESTILIZAÇÃO DOS SUBTITULOS */
-.conteudo .subtitulo {
+.conteudo-cs .subtitulo-cs {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -204,7 +204,7 @@ body {
     margin-top: 5rem;
 }
 
-.conteudo .texto {
+.conteudo-cs .texto-cs {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -307,107 +307,107 @@ body {
     margin-right: 310px;
 }
 
-.conteudo .imagem1 {
+.conteudo-cs .imagem1-cs {
     width: 30rem;
     margin-top: -200px;
     margin-bottom: 100px;
 }
 
-.conteudo .imagem1 img {
+.conteudo-cs .imagem1-cs img {
     width: 30rem;
     margin-left: 1275px;
     margin-top: -700px;
 }
 
-.conteudo .imagem2 {
+.conteudo-cs .imagem2-cs{
     width: 30rem;
     margin-top: -120px;
     margin-bottom: 50px;
 }
 
-.conteudo .imagem2 img {
+.conteudo-cs .imagem2-cs img {
     width: 30rem;
     margin-left: 1275px;
     margin-top: -80rem;
 }
 
-.conteudo .imagem3 {
+.conteudo-cs .imagem3-cs {
     width: 30rem;
     margin-top: -50px;
 }
 
-.conteudo .imagem3 img {
+.conteudo-cs .imagem3-cs img {
     width: 30rem;
     margin-left: 1275px;
     margin-top: -80rem;
 }
 
-.conteudo .imagem4 {
+.conteudo-cs .imagem4-ec {
     width: 30rem;
     margin-top: -100px;
 }
 
-.conteudo .imagem4 img {
+.conteudo-cs .imagem4-ec img {
     width: 30rem;
     margin-left: 1275px;
     margin-top: -80rem;
 }
 
-.conteudo .imagem5 {
+.conteudo-cs .imagem5-ec {
     width: 30rem;
     margin-top: -100px;
 }
 
-.conteudo .imagem5 img {
+.conteudo-cs .imagem5-ec img {
     width: 30rem;
     margin-left: 1275px;
     margin-top: -80rem;
 }
 
-.conteudo .imagem6 {
+.conteudo-cs .imagem6 {
     width: 30rem;
     margin-top: -80px;
 }
 
-.conteudo .imagem6 img {
+.conteudo-cs .imagem6 img {
     width: 30rem;
     margin-left: 1275px;
     margin-top: -80rem;
 }
 
-.conteudo .imagem7 {
+.conteudo-cs .imagem7-sb {
     width: 30rem;
     margin-top: -80px;
 }
 
-.conteudo .imagem7 img {
+.conteudo-cs .imagem7-sb img {
     width: 30rem;
     margin-left: 1275px;
     margin-top: -4rem;
 }
 
-.conteudo .imagem8 {
+.conteudo-cs .imagem8-sb {
     width: 30rem;
     margin-top: -90px;
 }
 
-.conteudo .imagem8 img {
+.conteudo-cs .imagem8-sb img {
     width: 20rem;
     margin-left: 1275px;
     margin-top: -5rem;
 }
 
-.conteudo .imagem9 {
+.conteudo-cs .imagem9-st {
     width: 30rem;
     margin-top: -275px;
 }
 
-.conteudo .imagem9 img {
+.conteudo-cs .imagem9-st img {
     width: 30rem;
     margin-left: 1275px;
 }
 
-.conteudo legend {
+.conteudo-cs legend {
     width: 28rem;
     margin-left: 1275px;
     font-family: "Montserrat", sans-serif;
@@ -418,4 +418,126 @@ body {
     font-size: 1rem;
     font-weight: 200;
     text-align: justify;
+}
+
+
+@media screen and (max-width: 767px){
+    /* começo da estilização do cs */
+    .conteudo-cs .titulo-cs {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .conteudo-cs .texto-cs {
+        margin-left: 0;
+        width: 100%;
+    }
+    #line2-cs, #line3-cs, #line4-cs, #line5-cs{
+        width: 100%;
+        margin-left: 0;
+    }
+    .conteudo-cs .subtitulo-cs{
+        width: 100%;
+        margin: 0;
+    }
+    /* ajuste das img e o legend do cs*/
+    .conteudo-cs .imagem1-cs{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem1-cs img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem2-cs{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem2-cs img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem3-cs{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem3-cs img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs legend{
+        margin-left: 0;
+        width: 100%;
+    }
+    /* fim da estilização do cs */
+    /* começo da estilização do es*/
+    .conteudo-cs .imagem4-ec{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem4-ec img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem5-ec{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem5-ec img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    #line6-ec, #line7-ec{
+        width: 100%;
+        margin-left: 0;
+    }
+    /* fim da estilização do es */
+    /* começo da estilização do sb */
+    .conteudo-cs .imagem7-sb{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem7-sb img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem8-sb{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem8-sb img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    #line8-sb, #line9-sb, #line10-sb, #line11-sb, #line12-sb, #line13-sb, #line14-sb, #line15-sb, #line16-sb, #line17-sb, #line18-sb, #line19-sb, #line20-sb{
+        width: 100%;
+        margin-left: 0;
+    }
+    /* fim da estilização do sb */
+    /* começo da estilização do st */
+    .conteudo-cs .imagem9-st{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .conteudo-cs .imagem9-st img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
 }
