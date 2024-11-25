@@ -333,11 +333,26 @@ body {
     margin-left: 0;
   }
 
+  .foto-participante-dir, .foto-participante-esq{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
   .title-info-dir-2, .line-3-evelyn, .title-info-dir, .line-3-zani{
     margin: 0;
   }
 
   .info-participante-esq{
+    margin-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info-participante-dir{
+    margin-right: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,36 +373,62 @@ body {
   }
 
   .title-info-dir, .title-info-esq, .title-info-dir-2{
-    white-space: wrap;
+    font-size: 1.3rem;
     margin: 0;
     margin-bottom: 11rem;
   }
 
+  .title-laura{
+    margin-top: -8rem;
+  }
+
   #line-3-laura{
-    margin-top: 13rem;
-    width: 115%;
+    width: 145%;
+    margin-top: 4rem;
+  }
+
+  .title-evelyn{
+    margin-top: 2rem;
+    margin-left: -2rem;
+    white-space: nowrap;
   }
 
   #line-3-evelyn{
     margin: 0;
-    margin-top: -11rem;
-    width: 83%;
+    margin-top: -10.5rem;
+    width: 193%;
+    margin-left: -2rem;
+  }
+
+  .title-bruna{
+    margin-top: -4rem;
+    margin-left: -0.5rem;
   }
 
   #line-3-bruna{
-    margin-top: 10rem;
-    width: 140%;
+    margin-top: 4rem;
+    width: 173%;
+    margin-left: -0.5rem;
+  }
+
+  .title-zani{
+    margin-top: -5rem;
   }
 
   #line-3-zani{
     margin: 0;
-    margin-top: 11rem;
-    width: 105%;
+    margin-top: 4rem;
+    width: 157%;
+  }
+
+  .title-luiz{
+    margin-left: -2rem;
   }
 
   #line-3-luiz{
-    margin-top: 10rem;
-    width: 140%;
+    margin-top: 5.5rem;
+    width: 193%;
+    margin-left: -2rem;
   }
 }
 /* FIM DA RESPONSIVIDADE PARA CELULAR */
