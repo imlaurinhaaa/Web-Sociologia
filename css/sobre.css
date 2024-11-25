@@ -273,6 +273,7 @@ body {
 
 /* RESPONSIVIDADE PARA CELULAR */
 @media screen and (max-width: 767px) and (min-width: 320px){
+/* Parte de "cima" da página */
   .sobre-nos{
     display: flex;
     flex-direction: column;
@@ -289,10 +290,104 @@ body {
 
   .sobre-content p{
     width: 23rem;
+    font-size: 1rem;
   }
 
   .sobre-content .img-equipe{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sobre-content .img-equipe #fotoEquipe{
     margin-left: 0;
+    margin-top: 10%;
+    width: 80%;
+    height: 70%;
+  }
+
+/* Parte dos participantes */
+  #line-2{
+    width: 61%;
+  }
+
+  .participantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .participante-esq, .foto-participante-esq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .participante-dir, .foto-participante-dir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .title-info-dir-2, .line-3-evelyn, .title-info-dir, .line-3-zani{
+    margin: 0;
+  }
+
+  .info-participante-esq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title-info-esq{
+    margin-bottom: 35rem;
+  }
+  
+  .info-participante-esq p{
+    width: 20rem;
+    margin-left: 0;
+  }
+  
+  .info-participante-dir p{
+    width: 20rem;
+    margin-left: 0;
+  }
+
+  .title-info-dir, .title-info-esq, .title-info-dir-2{
+    white-space: wrap;
+    margin: 0;
+    margin-bottom: 11rem;
+  }
+
+  #line-3-laura{
+    margin-top: 13rem;
+    width: 115%;
+  }
+
+  #line-3-evelyn{
+    margin: 0;
+    margin-top: -11rem;
+    width: 83%;
+  }
+
+  #line-3-bruna{
+    margin-top: 10rem;
+    width: 140%;
+  }
+
+  #line-3-zani{
+    margin: 0;
+    margin-top: 11rem;
+    width: 105%;
+  }
+
+  #line-3-luiz{
+    margin-top: 10rem;
+    width: 140%;
   }
 }
 /* FIM DA RESPONSIVIDADE PARA CELULAR */
