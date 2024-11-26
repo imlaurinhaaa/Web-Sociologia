@@ -199,7 +199,7 @@ body {
 #line-text-6-bourdieu,
 #line-text-7-bourdieu {
   width: 80%;
-  border: 1px solid #ccc;
+  border: 1px solid var(--color-corLinha);
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -310,7 +310,7 @@ body {
   #line-text-7-bourdieu {
     width: 70%; 
     margin: 1rem auto; 
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-corLinha);
   }
 
   /* Linha de introdução */
