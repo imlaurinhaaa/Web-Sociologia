@@ -204,7 +204,7 @@ body {
   margin-top: 2rem;
 }
 
-/* final do conteúdo principais sociólogos */
+
 /* Final do conteúdo principais sociólogos */
 
 @media (max-width: 768px) {
@@ -308,13 +308,13 @@ body {
   #line-text-5-bourdieu,
   #line-text-6-bourdieu,
   #line-text-7-bourdieu {
-    width: 70%; /* Uniformiza a largura */
-    margin: 1rem auto; /* Centraliza os elementos */
-    border: 1px solid #ccc; /* Adiciona borda */
+    width: 70%; 
+    margin: 1rem auto; 
+    border: 1px solid #ccc;
   }
 
   /* Linha de introdução */
   .line-intro {
-    width: 70%; /* Garante alinhamento similar às outras linhas */
+    width: 70%; 
   }
 }
