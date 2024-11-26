@@ -104,7 +104,7 @@ function autoSlide() {
 }
 
 // Configura o intervalo para mudar automaticamente
-let slideInterval = setInterval(autoSlide, 4000); // Muda a cada 4 segundos (4000ms)
+let slideInterval = setInterval(autoSlide, 5000); // Muda a cada 5 segundos (5000ms)
 
 // Pausa o carrossel ao passar o mouse e retoma ao sair
 const sliderContainer = document.querySelector('.slider-container');

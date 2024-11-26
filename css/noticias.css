@@ -281,73 +281,72 @@ body {
 
 /* final do conteúdo do notícias */
 
-/* Responsividade tablet*/
-
-@media  screen and (max-width: 768px) and (max-height: 1023px) {
-
-  
+/* Responsividade para celulares */
+@media screen and (max-width: 767px) {
+  /* Linhas de divisão */
   #line-movimentos {
     height: 0.2rem;
-    width:  27%;
+    width: 27%;
     background-color: var(--color-corLinha);
-    margin-left: 36.5%;
+    margin: 0 auto; 
   }
 
   #line-sociologos {
     height: 0.2rem;
     width: 31%;
     background-color: var(--color-corLinha);
-    margin-left: 34%;
+    margin: 0 auto; 
   }
 
   #line-materias {
     height: 0.2rem;
     width: 28%;
     background-color: var(--color-corLinha);
-    margin-left: 36%;
-
+    margin: 0 auto; 
   }
 
+  /* Títulos */
   .titulo-intro-1,
   .titulo-intro-2,
   .titulo-intro-3 {
     font-size: 1rem;
     text-align: center;
-
+    margin-bottom: 1rem; 
   }
-  
+
+  /* Containers dos sliders */
   .slider-container-1,
   .slider-container-2,
   .slider-container-3 {
-    width: 49%;
-    max-width: 40rem;
+    width: 75%;
+    max-width: 30rem; 
     overflow: hidden;
-    margin-left: 14rem;
+    margin: 0 auto; 
+    margin-top: 2rem;
   }
 
-  .card-slider,
-  .card-slider-2,
-  .card-slider-3 {
-    overflow: hidden;
-    width: 100%;
-  }
-
+  /* Sliders */
   .cards {
     display: flex;
     transition: transform 0.5s ease;
+    width: 25rem;
   }
 
   .card {
-    width: 25rem;
-    height: 30rem;
+    width: 70%; 
+    max-width: 30rem; 
+    height: auto; 
   }
 
+  /* Botões */
   .button-noticias-1,
   .button-noticias-2,
   .button-noticias-3,
   .button-noticias-4,
   .button-noticias-5,
   .button-noticias-6,
+  .button-noticias-7,
+  .button-noticias-8,
   .button-noticias-9,
   .button-noticias-10,
   .button-noticias-11,
@@ -358,113 +357,95 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5rem;
-    margin-left: 5rem;
-  }
-
-  .button-noticias-7 {
-    margin-left: 5rem;
-  }
-
-  .button-noticias-8 {
-    margin-left: 5rem;
-  }
-
-  .button-noticias-13 {
-    margin-left: 5rem;
+    margin: 1.5rem auto; 
   }
 }
 
+  
 
-/* Responsividade celular*/
-
-@media screen and (max-width: 767px) {
-
-  #line-movimentos {
-    height: 0.2rem;
-    width:  27%;
-    background-color: var(--color-corLinha);
-    margin-left: 36.5%;
-  }
-
-  #line-sociologos {
-    height: 0.2rem;
-    width: 31%;
-    background-color: var(--color-corLinha);
-    margin-left: 34%;
-  }
-
+/* Responsividade para telas de computador (largura 1024px) */
+@media screen and (max-width: 1024px) {
+  /* Ajuste das linhas divisórias */
+  #line-movimentos,
+  #line-sociologos,
   #line-materias {
     height: 0.2rem;
-    width: 28%;
+    width: 40%; 
     background-color: var(--color-corLinha);
-    margin-left: 36%;
-
+    margin: 0 auto; 
   }
 
+  /* Títulos */
   .titulo-intro-1,
   .titulo-intro-2,
   .titulo-intro-3 {
-    font-size: 1rem;
+    font-size: 1.5rem; 
     text-align: center;
-
+    margin-bottom: 1.2rem; 
   }
 
+  /* Containers dos sliders */
   .slider-container-1,
   .slider-container-2,
   .slider-container-3 {
-    width: 36%;
-    max-width: 30rem;
+    width: 90%; 
+    max-width: 60rem;
     overflow: hidden;
-    margin-left: 14rem;
+    margin: 0 auto; 
+    margin-top: 2rem;
   }
 
-  .card-slider,
-  .card-slider-2,
-  .card-slider-3 {
-    overflow: hidden;
-    width: 100%;
-  }
-
+  /* Sliders */
   .cards {
     display: flex;
     transition: transform 0.5s ease;
   }
 
   .card {
-    width: 15rem;
-    height: 30rem;
+    width: 20rem; 
+    height: 30rem; 
+    margin: 0 1rem; 
   }
 
-  .button-noticias-1,
-  .button-noticias-2,
-  .button-noticias-3,
-  .button-noticias-4,
+  /* Botões */
   .button-noticias-5,
   .button-noticias-6,
+  .button-noticias-7,
+  .button-noticias-8,
   .button-noticias-9,
   .button-noticias-10,
-  .button-noticias-11,
   .button-noticias-12,
+  .button-noticias-13,
   .button-noticias-14,
   .button-noticias-15 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5rem;
-    margin-left: 3rem;
+    margin: 1.2rem auto; 
+
   }
 
-  .button-noticias-7 {
-    margin-left: 3.4rem;
+  /* Texto dos botões */
+  .button-noticias-1{
+    font-size: 1.2rem; 
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+  }
+  .button-noticias-3, .button-noticias-2 {
+    font-size: 1.2rem; 
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }  
+
+  .button-noticias-4 button{
+    margin-bottom: 3rem;
+    margin-left: 4rem;
   }
 
-  .button-noticias-8 {
-    margin-left: 3rem;
-  }
-
-  .button-noticias-13 {
-    margin-left: 3.4rem;
+  .button-noticias-11{
+    font-size: 1.2rem; 
+    margin-left: 4rem;
+    margin-top: 2rem;
   }
 }
 
