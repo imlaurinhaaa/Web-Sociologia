@@ -597,6 +597,34 @@ body {
     gap: 10px;
     padding: 0.625rem;
   }
+
+  
+  /* FOOTER */
+  .enderecos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .enderecos .senai {
+    width: 85%;
+    margin-left: 2rem;
+    margin-right: 2rem;    
+  }
+
+  .enderecos img {
+    height: 2rem;
+    width: 2rem;
+    transform: rotate(90deg);
+  }
+
+  .enderecos .sesi {
+    width: 85%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1.8rem;
+  }
+
+  /* FIM DA FOOTER */
 }
 
 /* Responsividade: Tablet */
