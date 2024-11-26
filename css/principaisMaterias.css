@@ -436,9 +436,21 @@ body {
         text-align: justify;
         margin-left: 1.2rem;
     }
-    #line2-cs, #line3-cs, #line4-cs, #line5-cs{
-        width: 100%;
-        margin-left: 0;
+    #line2-cs{
+        width: 70%;
+        margin-left: 4.06rem;
+    }
+    #line3-cs{
+        width: 60%;
+        margin-left: 5.3rem;
+    }
+    #line4-cs{
+        width: 55%;
+        margin-left: 6rem;
+    }
+    #line5-cs{
+        width: 80%;
+        margin-left: 2.7rem;
     }
     .conteudo-cs .subtitulo-cs{
         width: 100%;
@@ -511,10 +523,13 @@ body {
         width: 90%;
         border-radius: 1rem;
     }
-
-    #line6-ec, #line7-ec{
-        width: 100%;
-        margin-left: 0;
+    #line7-ec{
+        width: 55%;
+        margin-left: 6rem;
+    }
+    #line6-ec{
+        width: 95%;
+        margin-left: 0.5rem;
     }
     /* fim da estilização do es */
     /* começo da estilização do sb */
