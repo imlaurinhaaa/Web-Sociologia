@@ -318,3 +318,92 @@ body {
     width: 70%; 
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .content {
+    margin-left: 10rem;
+  }
+
+  .intro {
+    margin-top: 10rem;
+    width: 100%;
+  }
+
+  .titulo-PS {
+    width: 70%;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  .main-content {
+    margin-top: 10rem;
+  }
+
+  .imgs {
+    margin-right: 5rem;
+  }
+
+  .img{
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .line-intro {
+    width: 70%;
+  }
+
+  .titulo-PS {
+    width: 70%;
+  }
+
+  .text-PS {
+    width: 70%;
+  }
+
+  .citacao {
+    width:70%;
+  }
+
+  .legend {
+    width: 14rem;
+    margin-right: 3rem;
+  }
+
+  #line-text-1-comte,
+  #line-text-2-comte,
+  #line-text-3-comte,
+  #line-text-4-comte,
+  #line-text-5-comte,
+  #line-text-6-comte,
+  #line-text-7-comte,
+  #line-text-8-comte,
+  #line-text-1-durkheim,
+  #line-text-2-durkheim,
+  #line-text-3-durkheim,
+  #line-text-4-durkheim,
+  #line-text-5-durkheim,
+  #line-text-6-durkheim,
+  #line-text-1-marx,
+  #line-text-2-marx,
+  #line-text-3-marx,
+  #line-text-4-marx,
+  #line-text-5-marx,
+  #line-text-6-marx,
+  #line-text-1-weber,
+  #line-text-2-weber,
+  #line-text-3-weber,
+  #line-text-4-weber,
+  #line-text-5-weber,
+  #line-text-6-weber,
+  #line-text-7-weber,
+  #line-text-1-bourdieu,
+  #line-text-2-bourdieu,
+  #line-text-3-bourdieu,
+  #line-text-4-bourdieu,
+  #line-text-5-bourdieu,
+  #line-text-6-bourdieu,
+  #line-text-7-bourdieu {
+    width: 70%;
+  }
+  
+}
