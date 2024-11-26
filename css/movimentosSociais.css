@@ -270,7 +270,7 @@ body {
 #line-text-3-rac,
 #line-text-2-sau,
 #line-text-3-sau {
-  width: 70%;
+  width: 80%;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 1px solid #ccc;
@@ -349,6 +349,8 @@ body {
     line-height: 1.6;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
 
   .text-PS-1-lb {
@@ -381,6 +383,8 @@ body {
     text-align: center;
     width: 70%;
     margin: 2rem auto;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
 
   .titulo-PS-2-rc,
