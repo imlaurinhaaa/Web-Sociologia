@@ -47,6 +47,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2rem;
+  margin-bottom: 1rem;
   color: #000000;
 }
 
@@ -57,12 +58,13 @@ body {
   text-align: justify;
 }
 
-/*  */
+/* Introdução */
 
 .intro{
   display: flex;
   margin: 1.875rem 0;
   width: 100%;
+  margin-top: 5rem;
 }
 
 .content-intro{
@@ -70,6 +72,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 60%;
+  margin-left: 10rem;
 }
 
 .intro-img{
@@ -84,4 +87,63 @@ body {
   height: 18rem;
   border-radius: 50%;
   object-fit: cover;
+}
+
+
+/* Conteúdo */
+
+.line-intro{
+  height: 5px;
+  margin: 20px auto;
+  width: 85%;
+  background-color: var(--color-corLinha);
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+}
+
+.cultura{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cidadania{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cidadania{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movimentos-sociais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.politica{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.revolucao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.content{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
