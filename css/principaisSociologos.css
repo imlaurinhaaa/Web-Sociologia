@@ -1,382 +1,320 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
 }
 
 :root {
-    --cor-background: #fff;
-    --color-icones: #fff;
-    --color-linhaVertical: #fff;
-    --color-fonteBranca: #fff;
-    --color-header: #e30613;
-    --color-linhaFooter: #e30613;
-    --color-borderIMG: #9a1915;
-    --color-corLinha: #9a1915;
-    --color-footer: #9a1915;
-    --color-menu: #9a1915;
-    --color-abaCheck: #9a1915;
-    --color-fontePreto: #000;
-    --color-aba: #e0e0e0;
-    --color-citacao: #5B5859;
+  --cor-background: #fff;
+  --color-icones: #fff;
+  --color-linhaVertical: #fff;
+  --color-fonteBranca: #fff;
+  --color-header: #e30613;
+  --color-linhaFooter: #e30613;
+  --color-borderIMG: #9a1915;
+  --color-corLinha: #9a1915;
+  --color-footer: #9a1915;
+  --color-menu: #9a1915;
+  --color-abaCheck: #9a1915;
+  --color-fontePreto: #000;
+  --color-aba: #e0e0e0;
+  --color-citacao: #5b5859;
 }
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-    background-color: #ffffffff;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+  background-color: #ffffffff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
-
 
 /* início do conteúdo principais sociólogos */
 
 .intro {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .content {
-    margin-left: 10rem;
-    margin-bottom: 8rem;
+  margin-left: 10rem;
+  margin-bottom: 8rem;
 }
 
 .intro-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .PS-img {
-    height: 280px;
-    width: 280px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 20px;
-    margin-right: 140px;
-    margin-top: 100px;
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 140px;
+  margin-top: 100px;
 }
 
 .line-intro {
-    height: 5px;
-    margin: 20px auto;
-    width: 85%;
-    background-color: var(--color-corLinha);
+  height: 5px;
+  margin: 20px auto;
+  width: 85%;
+  background-color: var(--color-corLinha);
 }
 
 .titulo-PS {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: xx-large;
-    color: var(--color-fontePreto);
-    display: flex;
-    white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  color: var(--color-fontePreto);
+  display: flex;
+  white-space: nowrap;
 }
 
 .text-PS {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 30px;
-    font-size: large;
-    color: var(--color-fontePreto);
-    text-align: justify;
-    width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+  font-size: large;
+  color: var(--color-fontePreto);
+  text-align: justify;
+  width: 80%;
 }
 
 .text-PS b {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: 30px;
-    font-size: x-large;
-    color: var(--color-fontePreto);
-    text-align: justify;
-    width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 30px;
+  font-size: x-large;
+  color: var(--color-fontePreto);
+  text-align: justify;
+  width: 80%;
 }
 
 .citacao {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    margin-top: 30px;
-    font-size: large;
-    color: var(--color-citacao);
-    text-align: justify;
-    width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 30px;
+  font-size: large;
+  color: var(--color-citacao);
+  text-align: justify;
+  width: 80%;
 }
 
 .main-content {
-    width: 100%;
-    background-color: var(--cor-background);
-    display: flex;
+  width: 100%;
+  background-color: var(--cor-background);
+  display: flex;
 }
 
 .imgs {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 15rem;
-    margin-right: 5rem;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rem;
+  margin-right: 5rem;
 }
 
 .img-side {
-    width: 100%;
-    background-color: var(--cor-background);
-    display: flex;
-    flex-direction: column;
-    margin-right: 12rem;
-    margin-bottom: 15rem;
+  width: 100%;
+  background-color: var(--cor-background);
+  display: flex;
+  flex-direction: column;
+  margin-right: 12rem;
+  margin-bottom: 15rem;
 }
 
 .img {
-    width: 20rem;
-    height: 20rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 .legend {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--color-citacao);
-    text-align: justify;
-    margin-top: 1rem;
-    width: 20rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-citacao);
+  text-align: justify;
+  margin-top: 1rem;
+  width: 20rem;
 }
 
-/* linhas do Comte*/
-
-#line-text-1-comte {
-    height: 0.2rem;
-    width: 21%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-comte {
-    height: 0.2rem;
-    width: 26%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-comte {
-    height: 0.2rem;
-    width: 34%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-comte {
-    height: 0.2rem;
-    width: 66%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-comte {
-    height: 0.2rem;
-    width: 35%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-comte {
-    height: 0.2rem;
-    width: 35%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-7-comte {
-    height: 0.2rem;
-    width: 38%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-8-comte {
-    height: 0.2rem;
-    width: 33%;
-    background-color: var(--color-corLinha);
-}
-
-/* linhas do Durkheim*/
-
-#line-text-1-durkheim {
-    height: 0.2rem;
-    width: 22%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-durkheim {
-    height: 0.2rem;
-    width: 43%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-durkheim {
-    height: 0.2rem;
-    width: 33%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-durkheim {
-    height: 0.2rem;
-    width: 39%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-durkheim {
-    height: 0.2rem;
-    width: 30%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-durkheim {
-    height: 0.2rem;
-    width: 33%;
-    background-color: var(--color-corLinha);
-}
-
-/* linhas do Marx*/
-
-#line-text-1-marx {
-    height: 0.2rem;
-    width: 14%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-marx {
-    height: 0.2rem;
-    width: 27%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-marx {
-    height: 0.2rem;
-    width: 64%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-marx {
-    height: 0.2rem;
-    width: 50%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-marx {
-    height: 0.2rem;
-    width: 31%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-marx {
-    height: 0.2rem;
-    width: 26%;
-    background-color: var(--color-corLinha);
-}
-
-/* linhas do Weber*/
-
-#line-text-1-weber {
-    height: 0.2rem;
-    width: 15%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-weber {
-    height: 0.2rem;
-    width: 34%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-weber {
-    height: 0.2rem;
-    width: 41%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-weber {
-    height: 0.2rem;
-    width: 42%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-weber {
-    height: 0.2rem;
-    width: 37%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-weber {
-    height: 0.2rem;
-    width: 28%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-7-weber {
-    height: 0.2rem;
-    width: 22%;
-    background-color: var(--color-corLinha);
-}
-
-/* linhas do Bourdieu*/
-
-#line-text-1-bourdieu {
-    height: 0.2rem;
-    width: 23%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-2-bourdieu {
-    height: 0.2rem;
-    width: 35%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-3-bourdieu {
-    height: 0.2rem;
-    width: 34%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-4-bourdieu {
-    height: 0.2rem;
-    width: 24%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-5-bourdieu {
-    height: 0.2rem;
-    width: 32%;
-    background-color: var(--color-corLinha);
-}
-
-#line-text-6-bourdieu {
-    height: 0.2rem;
-    width: 34%;
-    background-color: var(--color-corLinha);
-}
-
+#line-text-1-comte,
+#line-text-2-comte,
+#line-text-3-comte,
+#line-text-4-comte,
+#line-text-5-comte,
+#line-text-6-comte,
+#line-text-7-comte,
+#line-text-8-comte,
+#line-text-1-durkheim,
+#line-text-2-durkheim,
+#line-text-3-durkheim,
+#line-text-4-durkheim,
+#line-text-5-durkheim,
+#line-text-6-durkheim,
+#line-text-1-marx,
+#line-text-2-marx,
+#line-text-3-marx,
+#line-text-4-marx,
+#line-text-5-marx,
+#line-text-6-marx,
+#line-text-1-weber,
+#line-text-2-weber,
+#line-text-3-weber,
+#line-text-4-weber,
+#line-text-5-weber,
+#line-text-6-weber,
+#line-text-7-weber,
+#line-text-1-bourdieu,
+#line-text-2-bourdieu,
+#line-text-3-bourdieu,
+#line-text-4-bourdieu,
+#line-text-5-bourdieu,
+#line-text-6-bourdieu,
 #line-text-7-bourdieu {
-    height: 0.2rem;
-    width: 28%;
-    background-color: var(--color-corLinha);
+  width: 80%;
+  border: 1px solid #ccc;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /* final do conteúdo principais sociólogos */
+/* Final do conteúdo principais sociólogos */
+
+@media (max-width: 768px) {
+  .content,
+  .intro,
+  .main-content,
+  .imgs,
+  .img-side,
+  .auguste-comte,
+  .pierre-bourdieu,
+  .karl-marx,
+  .max-weber,
+  .emile-durkheim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .PS-img {
+    width: 12rem;
+    height: 12rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .legend {
+    width: 14rem;
+    text-align: justify;
+  }
+
+  .titulo-PS {
+    font-size: large;
+    text-align: center;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow-wrap: break-word;
+    white-space: normal;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-PS,
+  .text-PS b,
+  .citacao {
+    font-size: medium;
+    width: 70%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .imgs,
+  .img-side {
+    margin: 2rem auto;
+  }
+
+  /* Estilização das linhas */
+  #line-text-1-comte,
+  #line-text-2-comte,
+  #line-text-3-comte,
+  #line-text-4-comte,
+  #line-text-5-comte,
+  #line-text-6-comte,
+  #line-text-7-comte,
+  #line-text-8-comte,
+  #line-text-1-durkheim,
+  #line-text-2-durkheim,
+  #line-text-3-durkheim,
+  #line-text-4-durkheim,
+  #line-text-5-durkheim,
+  #line-text-6-durkheim,
+  #line-text-1-marx,
+  #line-text-2-marx,
+  #line-text-3-marx,
+  #line-text-4-marx,
+  #line-text-5-marx,
+  #line-text-6-marx,
+  #line-text-1-weber,
+  #line-text-2-weber,
+  #line-text-3-weber,
+  #line-text-4-weber,
+  #line-text-5-weber,
+  #line-text-6-weber,
+  #line-text-7-weber,
+  #line-text-1-bourdieu,
+  #line-text-2-bourdieu,
+  #line-text-3-bourdieu,
+  #line-text-4-bourdieu,
+  #line-text-5-bourdieu,
+  #line-text-6-bourdieu,
+  #line-text-7-bourdieu {
+    width: 70%; /* Uniformiza a largura */
+    margin: 1rem auto; /* Centraliza os elementos */
+    border: 1px solid #ccc; /* Adiciona borda */
+  }
+
+  /* Linha de introdução */
+  .line-intro {
+    width: 70%; /* Garante alinhamento similar às outras linhas */
+  }
+}
