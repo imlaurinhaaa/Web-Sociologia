@@ -180,8 +180,97 @@ body {
     color: #000000;
 }
 
-/* Responsividade: Tablet */
+/* Responsividade: Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .introducao{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 2rem 1rem;
+    }
 
+    #intro-content {
+        max-width: 65%;
+        margin-bottom: 2rem;
+    }
+
+    .img-introducao{
+        width: 35%;
+        margin-left: 64rem;
+        margin-bottom: 8rem;
+    }
+
+    #img-intro {
+        height: 16rem;
+        width: 16rem;
+        object-fit: cover;
+    }
+
+    #intro-1,
+    #intro-2{
+        margin-left: 3rem;
+    }
+
+    #intro-1 {
+        margin-top: 2rem;
+    }
+
+    #intro-2 {
+        margin-top: 1.5rem;
+    }
+
+    .principaisTopicos{
+        margin-bottom: 4%;
+    }
+
+    .main-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-img{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .img{
+        width: 22%;
+        margin-bottom: 10rem;
+        align-items: center;
+    }
+
+    .linha-1,
+    .linha-2{
+        flex-direction: row;
+        justify-content: center;
+        gap: 10rem; 
+        margin-bottom: 7rem;
+        margin-top: 2rem;
+    }
+
+    .img-content{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    #line{
+        width: 25%;
+    }
+
+    #line-text-1{
+        width: 79%;
+    }
+
+    #line-text-2{
+        width: 57%;
+    }
+
+    #line-text-3{
+        width: 25%;
+    }
+}
+
+/* Responsividade: Tablet */
 @media screen and (max-width: 768px) and (max-width: 1023px)  {
     .introducao {
         display: flex;
@@ -314,7 +403,6 @@ body {
 }
 
 /* Responsividade: Celular */
-
 @media screen and (max-width: 767px) {
     .introducao {
         display: flex;

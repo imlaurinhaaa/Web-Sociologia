@@ -71,8 +71,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
-  margin-left: 10rem;
+  width: 70%;
+  margin-left: 7rem;
 }
 
 .intro-img{
@@ -101,37 +101,13 @@ body {
   margin-top: 8rem;
 }
 
-.cultura{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cidadania{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cidadania{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.movimentos-sociais{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.politica{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.revolucao{
+.cultura,
+.cidadania,
+.movimentos-sociais,
+.politica,
+.revolucao,
+.sociedade-contemporanea,
+.teoria{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,4 +122,84 @@ body {
 .content{
   margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+/* Responsividade: Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+.intro{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.content-intro{
+  width: 70%;
+  margin-left: 5rem;
+}
+
+.intro-img{
+  width: 40%;
+}
+
+.PT-img{
+  width: 16rem;
+  height: 16rem;
+}
+
+.container{
+  width: 90%;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .intro{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    margin-top: 4rem;
+    width: 100%;
+  }
+
+  .content-intro{
+    width: 65%;
+    margin-left: 4rem;
+  }
+
+  .intro-img{
+    width: 30%;
+    margin: 2rem 0;
+    justify-content: center;
+  }
+
+  .PT-img{
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .line-intro{
+    width: 80%;
+  }
+
+  .cultura,
+  .cidadania,
+  .movimentos-sociais,
+  .politica,
+  .revolucao,
+  .sociedade-contemporanea,
+  .teoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .container{
+    width: 95%;
+    padding: 0 1rem;
+  }
+
+  .content{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
 }
