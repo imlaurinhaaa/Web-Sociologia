@@ -208,7 +208,7 @@ body {
 
 .lista-dicas {
   background-color: var(--color-quadroDicas);
-  width: 100%;
+  width: 90%;
   border-radius: 0.3%;
   display: flex;
   flex-direction: column;
