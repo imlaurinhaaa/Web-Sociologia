@@ -88,12 +88,19 @@ body {
 .text{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   text-align: justify;
   padding: auto;
   width: 60%;
+}
+
+.line-intro{
+  height: 5px;
+  margin: 20px auto;
+  width: 85%;
+  background-color: var(--color-corLinha);
 }
 
 .video-esq{
@@ -103,6 +110,7 @@ body {
   justify-content: space-between;
   padding: 10rem;
 }
+
 .iframe{
   width: 100%;
 }
