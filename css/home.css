@@ -58,7 +58,7 @@ body {
     width: 80%;
     height: 0;
     margin-bottom: 10rem;
-    margin-left: 68rem;
+    margin-left: 74rem;
 }
 
 #img-intro {
@@ -103,21 +103,21 @@ body {
 
 #line-text-1 {
     height: 0.2rem;
-    width: 64%;
+    width: 60%;
     background-color: var(--color-corLinha);
     margin-left: 0.2rem;
 }
 
 #line-text-2 {
     height: 0.2rem;
-    width: 46%;
+    width: 43%;
     background-color: var(--color-corLinha);
     margin-left: 0.2rem;
 }
 
 #line-text-3 {
     height: 0.2rem;
-    width: 19%;
+    width: 18%;
     background-color: var(--color-corLinha);
     margin-left: 0.2rem;
 }
