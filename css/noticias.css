@@ -452,3 +452,63 @@ body {
     margin-top: 2rem;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    width: 20rem;
+    height: 30rem;
+    margin: 0 1rem;
+  }
+  .vertical-line{
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1308px) {
+
+.card-slider,
+.card-slider-2,
+.card-slider-3 {
+  overflow: hidden;
+  width: 70%;
+
+}
+.slider-container-1,
+.slider-container-2,
+.slider-container-3 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  max-width: 82rem;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-left: 8rem;
+}
+.card{
+  width: 18rem;
+  height: 28rem;
+  margin: 0 1rem;
+}
+.quadro-noticias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.titulo-intro-1,
+.titulo-intro-2,
+.titulo-intro-3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+#line-movimentos {
+  margin-left: 32rem;
+}
+#line-sociologos {
+  margin-left: 31rem;
+}
+#line-materias {
+  margin-left: 32rem;
+}
