@@ -10,7 +10,7 @@
   scroll-behavior: smooth;
 }
 
-:root{
+:root {
   --cor-background: #fff;
   --color-icones: #fff;
   --color-linhaVertical: #fff;
@@ -40,13 +40,13 @@ body {
 
 /* início do conteúdo sobre-nós */
 
-.sobre-nos{
+.sobre-nos {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.sobre-nos .titulo{
+.sobre-nos .titulo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.sobre-content{
+.sobre-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -119,8 +119,8 @@ body {
   background-color: var(--color-corLinha);
   margin: 0.9rem auto;
   margin-top: -2.5rem;
-  }
-  
+}
+
 .participante-esq {
   width: 100%;
   display: flex;
@@ -210,14 +210,15 @@ body {
   padding-top: 0rem;
   align-self: flex-start;
   margin-left: 34.5rem;
-  
+
 }
 
-.title-info-dir-2{
+.title-info-dir-2 {
   margin-left: 28.7rem;
 }
 
-.info-esq, .info-dir {
+.info-esq,
+.info-dir {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -272,60 +273,54 @@ body {
 /* final do conteúdo sobre-nós */
 
 /* RESPONSIVIDADE PARA CELULAR */
-@media screen and (max-width: 767px) and (min-width: 320px){
-/* Parte de "cima" da página */
-  .sobre-nos{
+@media screen and (max-width: 767px) and (min-width: 320px) {
+
+  /* Parte de "cima" da página */
+  .sobre-nos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .sobre-content{
+  .sobre-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .sobre-content p{
+  .sobre-content p {
     width: 23rem;
     font-size: 1rem;
   }
 
-  .sobre-content .img-equipe{
+  .sobre-content .img-equipe {
     display: flex;
     justify-content: center;
   }
 
-  .sobre-content .img-equipe #fotoEquipe{
+  .sobre-content .img-equipe #fotoEquipe {
     margin-left: 0;
     margin-top: 10%;
     width: 80%;
     height: 70%;
   }
 
-/* Parte dos participantes */
-  #line-2{
+  /* Parte dos participantes */
+  #line-2 {
     width: 61%;
   }
 
-  .participantes{
+  .participantes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
-  .participante-esq, .foto-participante-esq{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;
-  }
-  
-  .participante-dir, .foto-participante-dir{
+
+  .participante-esq,
+  .foto-participante-esq {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,185 +328,202 @@ body {
     margin-left: 0;
   }
 
-  .foto-participante-dir, .foto-participante-esq{
+  .participante-dir,
+  .foto-participante-dir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .foto-participante-dir,
+  .foto-participante-esq {
     margin-left: 0;
     margin-right: 0;
     display: flex;
     justify-content: center;
   }
 
-  .title-info-dir-2, .line-3-evelyn, .title-info-dir, .line-3-zani{
+  .title-info-dir-2,
+  .line-3-evelyn,
+  .title-info-dir,
+  .line-3-zani {
     margin: 0;
   }
 
-  .info-participante-esq{
+  .info-participante-esq {
     margin-right: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .info-participante-dir{
+  .info-participante-dir {
     margin-right: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .title-info-esq{
+  .title-info-esq {
     margin-bottom: 35rem;
   }
-  
-  .info-participante-esq p{
-    width: 20rem;
-    margin-left: 0;
-  }
-  
-  .info-participante-dir p{
+
+  .info-participante-esq p {
     width: 20rem;
     margin-left: 0;
   }
 
-  .title-info-dir, .title-info-esq, .title-info-dir-2{
+  .info-participante-dir p {
+    width: 20rem;
+    margin-left: 0;
+  }
+
+  .title-info-dir,
+  .title-info-esq,
+  .title-info-dir-2 {
     font-size: 1.3rem;
     margin: 0;
     margin-bottom: 11rem;
   }
 
-  .title-laura{
+  .title-laura {
     margin-top: -8rem;
   }
 
-  #line-3-laura{
+  #line-3-laura {
     width: 145%;
     margin-top: 4rem;
   }
 
-  .title-evelyn{
+  .title-evelyn {
     margin-top: 2rem;
     margin-left: -2rem;
     white-space: nowrap;
   }
 
-  #line-3-evelyn{
+  #line-3-evelyn {
     margin: 0;
     margin-top: -10.5rem;
     width: 193%;
     margin-left: -2rem;
   }
 
-  .title-bruna{
+  .title-bruna {
     margin-top: -4rem;
     margin-left: -0.5rem;
   }
 
-  #line-3-bruna{
+  #line-3-bruna {
     margin-top: 4rem;
     width: 173%;
     margin-left: -0.5rem;
   }
 
-  .title-zani{
+  .title-zani {
     margin-top: -5rem;
   }
 
-  #line-3-zani{
+  #line-3-zani {
     margin: 0;
     margin-top: 4rem;
     width: 157%;
   }
 
-  .title-luiz{
+  .title-luiz {
     margin-left: -2rem;
   }
 
-  #line-3-luiz{
+  #line-3-luiz {
     margin-top: 5.5rem;
     width: 193%;
     margin-left: -2rem;
   }
 }
+
 /* FIM DA RESPONSIVIDADE PARA CELULAR */
 
 /* RESPONSIVIDADE PARA TABLET */
-@media screen and (max-width: 1023px)  and (min-width: 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
 
   /* Parte 'sobre-nós' */
-  .sociologia-header{
+  .sociologia-header {
     width: 179.4%;
   }
 
-  .sobre-content{
+  .sobre-content {
     flex-direction: column;
   }
 
-  .sobre-content p{
+  .sobre-content p {
     width: 40rem;
   }
 
-  .img-equipe{
+  .img-equipe {
     margin-right: 21rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
   }
 
-  .img-equipe #fotoEquipe{
+  .img-equipe #fotoEquipe {
     width: 120%;
     height: auto;
   }
 
   /* Parte 'participantes' */
 
-  #line-2{
+  #line-2 {
     width: 32%;
   }
 
-  .participante-esq{
+  .participante-esq {
     margin-left: 0;
   }
 
-  .participante-dir{
+  .participante-dir {
     margin-left: 8rem;
     margin-right: 0;
   }
 
-  .title-evelyn, .title-zani{
+  .title-evelyn,
+  .title-zani {
     margin-left: 0;
   }
 
-  .info-participante-esq{
+  .info-participante-esq {
     margin-top: -4rem;
   }
 
-  .info-participante-dir{
+  .info-participante-dir {
     margin-top: 5rem;
   }
 
-  #line-3-laura{
+  #line-3-laura {
     margin-top: 14rem;
   }
 
-  #line-3-evelyn{
+  #line-3-evelyn {
     margin-left: 0;
     width: 80%;
   }
 
-  #line-3-bruna{
+  #line-3-bruna {
     margin-top: 10rem;
   }
 
-  #line-3-zani{
+  #line-3-zani {
     margin-left: 0;
     margin-top: 11.5rem;
   }
 
-  #line-3-luiz{
+  #line-3-luiz {
     width: 74%;
     margin-top: 9.5rem;
 
   }
 
-  .title-luiz{
+  .title-luiz {
     width: 50%;
     white-space: wrap;
   }

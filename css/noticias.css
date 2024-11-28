@@ -283,26 +283,27 @@ body {
 
 /* Responsividade para celulares */
 @media screen and (max-width: 767px) {
+
   /* Linhas de divisão */
   #line-movimentos {
     height: 0.2rem;
     width: 27%;
     background-color: var(--color-corLinha);
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   #line-sociologos {
     height: 0.2rem;
     width: 31%;
     background-color: var(--color-corLinha);
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   #line-materias {
     height: 0.2rem;
     width: 28%;
     background-color: var(--color-corLinha);
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   /* Títulos */
@@ -311,7 +312,7 @@ body {
   .titulo-intro-3 {
     font-size: 1rem;
     text-align: center;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
   }
 
   /* Containers dos sliders */
@@ -319,9 +320,9 @@ body {
   .slider-container-2,
   .slider-container-3 {
     width: 75%;
-    max-width: 30rem; 
+    max-width: 30rem;
     overflow: hidden;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 2rem;
   }
 
@@ -333,9 +334,9 @@ body {
   }
 
   .card {
-    width: 70%; 
-    max-width: 30rem; 
-    height: auto; 
+    width: 70%;
+    max-width: 30rem;
+    height: auto;
   }
 
   /* Botões */
@@ -357,41 +358,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1.5rem auto; 
+    margin: 1.5rem auto;
   }
 }
 
-  
+
 
 /* Responsividade para telas de computador (largura 1024px) */
 @media screen and (max-width: 1024px) {
+
   /* Ajuste das linhas divisórias */
   #line-movimentos,
   #line-sociologos,
   #line-materias {
     height: 0.2rem;
-    width: 40%; 
+    width: 40%;
     background-color: var(--color-corLinha);
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   /* Títulos */
   .titulo-intro-1,
   .titulo-intro-2,
   .titulo-intro-3 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 1.2rem; 
+    margin-bottom: 1.2rem;
   }
 
   /* Containers dos sliders */
   .slider-container-1,
   .slider-container-2,
   .slider-container-3 {
-    width: 90%; 
+    width: 90%;
     max-width: 60rem;
     overflow: hidden;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-top: 2rem;
   }
 
@@ -402,9 +404,9 @@ body {
   }
 
   .card {
-    width: 20rem; 
-    height: 30rem; 
-    margin: 0 1rem; 
+    width: 20rem;
+    height: 30rem;
+    margin: 0 1rem;
   }
 
   /* Botões */
@@ -421,33 +423,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1.2rem auto; 
+    margin: 1.2rem auto;
 
   }
 
   /* Texto dos botões */
-  .button-noticias-1{
-    font-size: 1.2rem; 
+  .button-noticias-1 {
+    font-size: 1.2rem;
     margin-bottom: 3rem;
     margin-left: 4rem;
   }
-  .button-noticias-3, .button-noticias-2 {
-    font-size: 1.2rem; 
+
+  .button-noticias-3,
+  .button-noticias-2 {
+    font-size: 1.2rem;
     margin-left: 4rem;
     margin-top: 2rem;
-  }  
+  }
 
-  .button-noticias-4 button{
+  .button-noticias-4 button {
     margin-bottom: 3rem;
     margin-left: 4rem;
   }
 
-  .button-noticias-11{
-    font-size: 1.2rem; 
+  .button-noticias-11 {
+    font-size: 1.2rem;
     margin-left: 4rem;
     margin-top: 2rem;
   }
 }
-
-
-
