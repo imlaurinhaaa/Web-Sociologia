@@ -41,7 +41,7 @@ body {
 
 
 /* inicio section conteudo */
-.conteudo-cs{
+.conteudo-cs {
     display: flex;
     flex-direction: column;
 }
@@ -65,7 +65,7 @@ body {
     margin-left: 10rem;
 }
 
-#line3-cs { 
+#line3-cs {
     height: 0.2rem;
     width: 425px;
     background-color: var(--color-corLinha);
@@ -114,7 +114,7 @@ body {
     margin-left: 10rem;
 }
 
-#line10-sb{
+#line10-sb {
     height: 0.2rem;
     width: 540px;
     background-color: var(--color-corLinha);
@@ -319,7 +319,7 @@ body {
     margin-top: -700px;
 }
 
-.conteudo-cs .imagem2-cs{
+.conteudo-cs .imagem2-cs {
     width: 30rem;
     margin-top: -120px;
     margin-bottom: 50px;
@@ -421,7 +421,8 @@ body {
 }
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
+
     /* começo da estilização do cs */
     .conteudo-cs .titulo-cs {
         margin-left: 0;
@@ -436,122 +437,158 @@ body {
         text-align: justify;
         margin-left: 1.2rem;
     }
-    #line2-cs, #line3-cs, #line4-cs, #line5-cs{
+
+    #line2-cs,
+    #line3-cs,
+    #line4-cs,
+    #line5-cs {
         width: 100%;
         margin-left: 0;
     }
-    .conteudo-cs .subtitulo-cs{
+
+    .conteudo-cs .subtitulo-cs {
         width: 100%;
         margin: 0;
         font-size: 1rem;
         text-align: center;
     }
+
     /* ajuste das img e o legend do cs*/
-    .conteudo-cs .imagem1-cs{
+    .conteudo-cs .imagem1-cs {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
     }
-    .conteudo-cs .imagem1-cs img{
-        margin-left: 1.2rem;
-        margin-top: 1rem;
-        width: 90%;
-        border-radius: 1rem;
-    }
-    .conteudo-cs .imagem2-cs{
+
+    .conteudo-cs .imagem1-cs img {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
         border-radius: 1rem;
     }
-    .conteudo-cs .imagem2-cs img{
-        margin-left: 1.2rem;
-        margin-top: 1rem;
-        width: 90%;
-    }
-    .conteudo-cs .imagem3-cs{
+
+    .conteudo-cs .imagem2-cs {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
         border-radius: 1rem;
     }
-    .conteudo-cs .imagem3-cs img{
+
+    .conteudo-cs .imagem2-cs img {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
     }
-    .conteudo-cs legend{
+
+    .conteudo-cs .imagem3-cs {
+        margin-left: 1.2rem;
+        margin-top: 1rem;
+        width: 90%;
+        border-radius: 1rem;
+    }
+
+    .conteudo-cs .imagem3-cs img {
+        margin-left: 1.2rem;
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .conteudo-cs legend {
         margin-left: 1rem;
         margin-top: 0.5rem;
         width: 90%;
         text-align: justify;
     }
+
     /* fim da estilização do cs */
     /* começo da estilização do ec*/
-    .conteudo-cs .imagem4-ec{
+    .conteudo-cs .imagem4-ec {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
 
     }
-    .conteudo-cs .imagem4-ec img{
-        margin-left: 1.2rem;
-        margin-top: 1rem;
-        width: 90%;
-        border-radius: 1rem;
-    }
-    .conteudo-cs .imagem5-ec{
-        margin-left: 1.2rem;
-        margin-top: 1rem;
-        width: 90%;
-    }
-    .conteudo-cs .imagem5-ec img{
+
+    .conteudo-cs .imagem4-ec img {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
         border-radius: 1rem;
     }
 
-    #line6-ec, #line7-ec{
+    .conteudo-cs .imagem5-ec {
+        margin-left: 1.2rem;
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .conteudo-cs .imagem5-ec img {
+        margin-left: 1.2rem;
+        margin-top: 1rem;
+        width: 90%;
+        border-radius: 1rem;
+    }
+
+    #line6-ec,
+    #line7-ec {
         width: 100%;
         margin-left: 0;
     }
+
     /* fim da estilização do es */
     /* começo da estilização do sb */
-    .conteudo-cs .imagem7-sb{
+    .conteudo-cs .imagem7-sb {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
     }
-    .conteudo-cs .imagem7-sb img{
-        margin-left: 1.2rem;
-        margin-top: 1rem;
-        width: 90%;
-        border-radius: 1rem;
-    }
-    .conteudo-cs .imagem8-sb{
-        margin-left: 1.2rem;
-        margin-top: 1rem;
-        width: 90%;
-    }
-    .conteudo-cs .imagem8-sb img{
+
+    .conteudo-cs .imagem7-sb img {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
         border-radius: 1rem;
     }
-    #line8-sb, #line9-sb, #line10-sb, #line11-sb, #line12-sb, #line13-sb, #line14-sb, #line15-sb, #line16-sb, #line17-sb, #line18-sb, #line19-sb, #line20-sb{
+
+    .conteudo-cs .imagem8-sb {
+        margin-left: 1.2rem;
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .conteudo-cs .imagem8-sb img {
+        margin-left: 1.2rem;
+        margin-top: 1rem;
+        width: 90%;
+        border-radius: 1rem;
+    }
+
+    #line8-sb,
+    #line9-sb,
+    #line10-sb,
+    #line11-sb,
+    #line12-sb,
+    #line13-sb,
+    #line14-sb,
+    #line15-sb,
+    #line16-sb,
+    #line17-sb,
+    #line18-sb,
+    #line19-sb,
+    #line20-sb {
         width: 100%;
         margin-left: 0;
     }
+
     /* fim da estilização do sb */
     /* começo da estilização do st */
-    .conteudo-cs .imagem9-st{
+    .conteudo-cs .imagem9-st {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;
     }
-    .conteudo-cs .imagem9-st img{
+
+    .conteudo-cs .imagem9-st img {
         margin-left: 1.2rem;
         margin-top: 1rem;
         width: 90%;

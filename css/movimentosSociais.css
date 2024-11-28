@@ -278,6 +278,7 @@ body {
 
 /* Responsividade */
 @media screen and (max-width: 767px) {
+
   /* Centralizar todos os elementos */
   .intro,
   .intro-rc,
@@ -527,23 +528,23 @@ body {
     overflow-wrap: break-word;
     white-space: normal;
   }
-   
-    /* Ajustar imagens */
-  
-   .intro-img,
-   .intro-img-rc,
-   .intro-img-ind,
-   .intro-img-sm {
-      width: 100%;
-      height: auto;
-      margin: 2rem auto;
-      display: block;
-      margin-top: 5rem;
-      margin-bottom: 2rem;
-      margin-left: 3rem;
-    }
 
-.imgs {
+  /* Ajustar imagens */
+
+  .intro-img,
+  .intro-img-rc,
+  .intro-img-ind,
+  .intro-img-sm {
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+  }
+
+  .imgs {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -552,7 +553,7 @@ body {
     margin-bottom: 0;
   }
 
-    
+
   .img {
     width: 14rem;
     height: 14rem;
@@ -560,21 +561,21 @@ body {
     margin-top: 8rem;
   }
 
-   .legend {
-     width: 14rem;
-     margin-left: 2rem;
-     margin-bottom: 8rem;
-   }
- 
-   .resumo {
-     width: 80%;
-     margin: 0 auto;
-     font-size: 1rem;
-     line-height: 1.6;
-     overflow-wrap: break-word;
-   }
+  .legend {
+    width: 14rem;
+    margin-left: 2rem;
+    margin-bottom: 8rem;
+  }
 
-     /* Ajustar linhas de separação */
+  .resumo {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+  }
+
+  /* Ajustar linhas de separação */
   #line-text-1-ind,
   #line-text-2-ind,
   #line-text-3-ind,

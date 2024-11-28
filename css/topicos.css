@@ -60,14 +60,14 @@ body {
 
 /* Introdução */
 
-.intro{
+.intro {
   display: flex;
   margin: 1.875rem 0;
   width: 100%;
   margin-top: 5rem;
 }
 
-.content-intro{
+.content-intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,14 +75,14 @@ body {
   margin-left: 7rem;
 }
 
-.intro-img{
+.intro-img {
   display: flex;
   justify-content: center;
   margin: 1.875rem 0;
   width: 40%;
 }
 
-.PT-img{
+.PT-img {
   width: 18rem;
   height: 18rem;
   border-radius: 50%;
@@ -92,7 +92,7 @@ body {
 
 /* Conteúdo */
 
-.line-intro{
+.line-intro {
   height: 5px;
   margin: 20px auto;
   width: 85%;
@@ -107,19 +107,19 @@ body {
 .politica,
 .revolucao,
 .sociedade-contemporanea,
-.teoria{
+.teoria {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   width: 90%;
 }
 
-.content{
+.content {
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -290,207 +290,207 @@ body {
   height: 0.2rem;
   width: 34%;
   background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
+  margin-left: 0.1rem;
 }
 
 /* Responsividade: Desktop */
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-.intro{
-  display: flex;
-  flex-direction: row;
-  margin-top: 3rem;
-}
+  .intro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
 
-.content-intro{
-  width: 70%;
-  margin-left: 5rem;
-}
+  .content-intro {
+    width: 70%;
+    margin-left: 5rem;
+  }
 
-.intro-img{
-  width: 40%;
-}
+  .intro-img {
+    width: 40%;
+  }
 
-.PT-img{
-  width: 16rem;
-  height: 16rem;
-}
+  .PT-img {
+    width: 16rem;
+    height: 16rem;
+  }
 
-.container{
-  width: 90%;
-}
+  .container {
+    width: 90%;
+  }
 
-/* Linhas */
+  /* Linhas */
 
-#line-text-1-cul {
-  height: 0.2rem;
-  width: 51%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-1-cul {
+    height: 0.2rem;
+    width: 51%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-2-cul {
-  height: 0.2rem;
-  width: 44%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-2-cul {
+    height: 0.2rem;
+    width: 44%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-3-cul {
-  height: 0.2rem;
-  width: 44%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-3-cul {
+    height: 0.2rem;
+    width: 44%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-4-cul {
-  height: 0.2rem;
-  width: 27%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-4-cul {
+    height: 0.2rem;
+    width: 27%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-1-cid {
-  height: 0.2rem;
-  width: 55%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-1-cid {
+    height: 0.2rem;
+    width: 55%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-2-cid {
-  height: 0.2rem;
-  width: 47%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-2-cid {
+    height: 0.2rem;
+    width: 47%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-3-cid {
-  height: 0.2rem;
-  width: 35%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-3-cid {
+    height: 0.2rem;
+    width: 35%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-4-cid {
-  height: 0.2rem;
-  width: 35%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-4-cid {
+    height: 0.2rem;
+    width: 35%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-1-mov {
-  height: 0.2rem;
-  width: 76%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-1-mov {
+    height: 0.2rem;
+    width: 76%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-2-mov {
-  height: 0.2rem;
-  width: 27%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-2-mov {
+    height: 0.2rem;
+    width: 27%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-3-mov {
-  height: 0.2rem;
-  width: 49%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-3-mov {
+    height: 0.2rem;
+    width: 49%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-1-pol {
-  height: 0.2rem;
-  width: 51%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-1-pol {
+    height: 0.2rem;
+    width: 51%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-2-pol {
-  height: 0.2rem;
-  width: 41%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-2-pol {
+    height: 0.2rem;
+    width: 41%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-3-pol {
-  height: 0.2rem;
-  width: 38%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-3-pol {
+    height: 0.2rem;
+    width: 38%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-1-rev {
-  height: 0.2rem;
-  width: 57%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-1-rev {
+    height: 0.2rem;
+    width: 57%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-2-rev {
-  height: 0.2rem;
-  width: 57%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-2-rev {
+    height: 0.2rem;
+    width: 57%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-3-rev {
-  height: 0.2rem;
-  width: 37%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-3-rev {
+    height: 0.2rem;
+    width: 37%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-1-soc {
-  height: 0.2rem;
-  width: 93%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-1-soc {
+    height: 0.2rem;
+    width: 93%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-2-soc {
-  height: 0.2rem;
-  width: 75%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-2-soc {
+    height: 0.2rem;
+    width: 75%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-1-teo {
-  height: 0.2rem;
-  width: 47%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-  margin-bottom: 2rem;
-}
+  #line-text-1-teo {
+    height: 0.2rem;
+    width: 47%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+  }
 
-#line-text-2-teo {
-  height: 0.2rem;
-  width: 48%;
-  background-color: var(--color-corLinha);
-  margin-left: 0.1rem;
-}
+  #line-text-2-teo {
+    height: 0.2rem;
+    width: 48%;
+    background-color: var(--color-corLinha);
+    margin-left: 0.1rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .intro{
+  .intro {
     display: flex;
     flex-direction: row;
     margin: 2rem 0;
@@ -498,23 +498,23 @@ body {
     width: 100%;
   }
 
-  .content-intro{
+  .content-intro {
     width: 65%;
     margin-left: 4rem;
   }
 
-  .intro-img{
+  .intro-img {
     width: 30%;
     margin: 2rem 0;
     justify-content: center;
   }
 
-  .PT-img{
+  .PT-img {
     width: 15rem;
     height: 15rem;
   }
 
-  .line-intro{
+  .line-intro {
     width: 80%;
   }
 
@@ -524,19 +524,19 @@ body {
   .politica,
   .revolucao,
   .sociedade-contemporanea,
-  .teoria{
+  .teoria {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
   }
 
-  .container{
+  .container {
     width: 95%;
     padding: 0 1rem;
   }
 
-  .content{
+  .content {
     margin-top: 2rem;
     margin-bottom: 3rem;
   }

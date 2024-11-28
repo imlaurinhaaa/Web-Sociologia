@@ -208,6 +208,7 @@ body {
 /* Final do conteúdo principais sociólogos */
 
 @media (max-width: 768px) {
+
   .content,
   .intro,
   .main-content,
@@ -308,14 +309,14 @@ body {
   #line-text-5-bourdieu,
   #line-text-6-bourdieu,
   #line-text-7-bourdieu {
-    width: 70%; 
-    margin: 1rem auto; 
+    width: 70%;
+    margin: 1rem auto;
     border: 1px solid var(--color-corLinha);
   }
 
   /* Linha de introdução */
   .line-intro {
-    width: 70%; 
+    width: 70%;
   }
 }
 
@@ -343,7 +344,7 @@ body {
     margin-right: 5rem;
   }
 
-  .img{
+  .img {
     width: 14rem;
     height: 14rem;
   }
@@ -361,7 +362,7 @@ body {
   }
 
   .citacao {
-    width:70%;
+    width: 70%;
   }
 
   .legend {
@@ -405,5 +406,5 @@ body {
   #line-text-7-bourdieu {
     width: 70%;
   }
-  
+
 }

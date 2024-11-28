@@ -148,6 +148,7 @@ body {
 
 /* RESPONSIVIDADE PARA TABLET */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
+
   /* MAIN */
   .topo,
   .topo2,
@@ -158,38 +159,11 @@ body {
   }
 
   /* FIM DA MAIN */
-
-  /* FOOTER */
-  .enderecos {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .enderecos .senai {
-    width: 40%;
-    margin-left: 8rem
-  }
-
-  .enderecos img {
-    height: 4rem;
-    margin-top: 2rem;
-    margin-left: -3rem;
-  }
-
-  .enderecos .sesi {
-    width: 40%;
-    margin-left: 2rem;
-    margin-top: 1.8rem;
-  }
-
-  /* FIM DE FOOTER */
 }
-
-/* FIM DE RESPONSIVIDADE PARA TABLET */
 
 /* RESPONSIVIDADE PARA CELULAR */
 @media screen and (max-width: 767px) {
-  #line{
+  #line {
     width: 80%;
   }
 
@@ -214,7 +188,7 @@ body {
     text-align: start;
     margin-top: 2%;
   }
-  
+
   .text-card p {
     width: 20rem;
     text-align: justify;
@@ -227,31 +201,4 @@ body {
   }
 
   /* FIM DA MAIN */
-
-  /* FOOTER */
-  .enderecos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .enderecos .senai {
-    width: 85%;
-    margin-left: 2rem;
-    margin-right: 2rem;    
-  }
-
-  .enderecos img {
-    height: 2rem;
-    width: 2rem;
-    transform: rotate(90deg);
-  }
-
-  .enderecos .sesi {
-    width: 85%;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 1.8rem;
-  }
-
-  /* FIM DA FOOTER */
 }

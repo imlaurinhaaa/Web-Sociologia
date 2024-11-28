@@ -92,7 +92,7 @@ body {
 
 /* menu-mobile */
 
-.menu-mobile ul{
+.menu-mobile ul {
   background-color: var(--color-menu);
   backdrop-filter: blur(10px);
   position: absolute;
@@ -221,20 +221,20 @@ body {
   transition: .3s;
 }
 
-#menu-materias ul li:hover > .arrow {
+#menu-materias ul li:hover>.arrow {
   transform: rotate(90deg);
-} 
+}
 
 /* começo submenu */
 
-#menu-materias ul ul{
+#menu-materias ul ul {
   background-color: var(--color-menu);
   display: none;
 }
 
-#menu-materias ul li:hover > ul {
+#menu-materias ul li:hover>ul {
   display: block;
-} 
+}
 
 #menu-materias #art {
   top: 6rem;
@@ -510,7 +510,6 @@ body {
 /* final do footer */
 
 /* Responsividade: Celular */
-
 @media screen and (max-width: 767px) {
   .sociologia-header {
     width: 100%;
@@ -551,6 +550,7 @@ body {
     align-items: center;
     margin-top: 1rem;
   }
+
   .image-banner {
     width: 100%;
     height: auto;
@@ -598,17 +598,16 @@ body {
     padding: 0.625rem;
   }
 
-  
-  /* FOOTER */
-  .enderecos{
+  .enderecos {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .enderecos .senai {
     width: 85%;
     margin-left: 2rem;
-    margin-right: 2rem;    
+    margin-right: 2rem;
   }
 
   .enderecos img {
@@ -623,13 +622,10 @@ body {
     margin-right: 2rem;
     margin-top: 1.8rem;
   }
-
-  /* FIM DA FOOTER */
 }
 
 /* Responsividade: Tablet */
-
-@media screen and (max-width: 768px) and (max-width: 1023px){
+@media screen and (max-width: 768px) and (max-width: 1023px) {
   .sociologia-header {
     width: 100%;
     height: 12.5rem;
@@ -700,7 +696,7 @@ body {
     justify-content: center;
     gap: 0.625rem;
     width: 100%;
-}
+  }
 
   .aba-text {
     width: 100%;
@@ -717,68 +713,68 @@ body {
     padding: 2rem;
   }
 
-  .menu-mobile ul{
+  .menu-mobile ul {
     width: 100%;
     top: 12.5rem;
   }
 
-  #menu-menu-art ul{
+  #menu-menu-art ul {
     top: 19rem;
   }
-  
-  #menu-menu-bio ul{
+
+  #menu-menu-bio ul {
     width: 100%;
     top: 21.5rem;
   }
-  
-  #menu-menu-ef ul{
+
+  #menu-menu-ef ul {
     width: 100%;
     top: 24rem;
   }
-  
-  #menu-menu-filo ul{
+
+  #menu-menu-filo ul {
     width: 100%;
     top: 26.4rem;
   }
-  
-  #menu-menu-fis ul{
+
+  #menu-menu-fis ul {
     width: 100%;
     top: 29rem;
   }
-  
-  #menu-menu-geo ul{
+
+  #menu-menu-geo ul {
     width: 100%;
     top: 31.4rem;
   }
-  
-  #menu-menu-his ul{
+
+  #menu-menu-his ul {
     width: 100%;
     top: 34rem;
   }
-  
-  #menu-menu-ing ul{
+
+  #menu-menu-ing ul {
     width: 100%;
     top: 37rem;
   }
-  
-  #menu-menu-mat ul{
+
+  #menu-menu-mat ul {
     width: 100%;
     top: 39rem;
   }
-  
-  #menu-menu-qui ul{
+
+  #menu-menu-qui ul {
     width: 100%;
     top: 42rem;
   }
-  
-  #menu-menu-soc ul{
+
+  #menu-menu-soc ul {
     width: 100%;
     top: 43.6rem;
   }
 }
 
-
-@media screen and (min-width: 1024px) and (max-width: 1085px){
+/* Responsividade: Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1085px) {
   .vertical-line {
     display: none;
   }

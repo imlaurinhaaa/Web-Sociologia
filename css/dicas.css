@@ -231,6 +231,7 @@ body {
 
 /* final do conteúdo dicas */
 
+/* responsividade para celular */
 @media screen and (max-width: 767px) {
   .PT-img {
     width: 100%;
@@ -272,6 +273,7 @@ body {
   }
 }
 
+/* responsividade para tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .sociologia-header {
     width: 100%;
