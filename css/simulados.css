@@ -162,7 +162,7 @@ body {
 @media only screen and (max-width: 500px) {
   .intro {
     margin-top: 3rem;
-    margin-left: -4rem;
+    margin-left: -2.5rem;
   }
 
   .titulo-intro {
@@ -175,7 +175,7 @@ body {
   }
 
   .intro #line-text-1 {
-    width: 46%;
+    width: 45%;
   }
 
   .simulado {
@@ -201,7 +201,7 @@ body {
   }
 
   .img-simulado {
-    width: 60%;
+    width: 80%;
     height: fit-content;
     object-fit: cover;
     margin-left: 0;
@@ -246,22 +246,47 @@ body {
 
   #line-text-2 {
     width: 72%;
-    margin-left: -28%;
     height: 0.2rem;
   }
 
   #line-text-3 {
     height: 0.2rem;
     width: 74%;
-    margin-left: -25%;
   }
 
   #line-text-4 {
     height: 0.2rem;
     width: 74%;
-    margin-left: -25%;
   }
 }
 
-
 /* final da responsividade */
+
+/* RESPONSIVIDADE PARA DESKTOP */
+@media screen and (max-width: 1440px){
+  .intro{
+    margin-left: -5rem;
+  }
+
+  #line-text-1{
+    width: 13.5%;
+  }
+
+  #line-text-2{
+    width: 70%;
+  }
+
+  #line-text-3{
+    width: 93%;
+  }
+
+  #line-text-4{
+    width: 82%;
+  }
+
+  .simulado-content{
+    width: 90%;
+  }
+
+
+}
