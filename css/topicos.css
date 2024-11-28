@@ -47,7 +47,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 1rem;
   color: #000000;
 }
 
@@ -56,6 +55,7 @@ body {
   font-weight: 400;
   font-size: 1.2rem;
   text-align: justify;
+  margin-top: 0.5rem;
 }
 
 /* Introdução */
@@ -124,6 +124,175 @@ body {
   margin-bottom: 3rem;
 }
 
+/* Linhas */
+
+#line-text-1-cul {
+  height: 0.2rem;
+  width: 36%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-cul {
+  height: 0.2rem;
+  width: 31%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-cul {
+  height: 0.2rem;
+  width: 31%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-4-cul {
+  height: 0.2rem;
+  width: 19%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-cid {
+  height: 0.2rem;
+  width: 39%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-cid {
+  height: 0.2rem;
+  width: 33%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-cid {
+  height: 0.2rem;
+  width: 25%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-4-cid {
+  height: 0.2rem;
+  width: 25%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-mov {
+  height: 0.2rem;
+  width: 55%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-mov {
+  height: 0.2rem;
+  width: 19%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-mov {
+  height: 0.2rem;
+  width: 35%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-pol {
+  height: 0.2rem;
+  width: 36%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-pol {
+  height: 0.2rem;
+  width: 29%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-pol {
+  height: 0.2rem;
+  width: 27%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-rev {
+  height: 0.2rem;
+  width: 41%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-rev {
+  height: 0.2rem;
+  width: 40%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-rev {
+  height: 0.2rem;
+  width: 26%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-soc {
+  height: 0.2rem;
+  width: 67%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-soc {
+  height: 0.2rem;
+  width: 54%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-teo {
+  height: 0.2rem;
+  width: 34%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-teo {
+  height: 0.2rem;
+  width: 34%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
 /* Responsividade: Desktop */
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
 .intro{
@@ -148,6 +317,175 @@ body {
 
 .container{
   width: 90%;
+}
+
+/* Linhas */
+
+#line-text-1-cul {
+  height: 0.2rem;
+  width: 51%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-cul {
+  height: 0.2rem;
+  width: 44%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-cul {
+  height: 0.2rem;
+  width: 44%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-4-cul {
+  height: 0.2rem;
+  width: 27%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-cid {
+  height: 0.2rem;
+  width: 55%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-cid {
+  height: 0.2rem;
+  width: 47%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-cid {
+  height: 0.2rem;
+  width: 35%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-4-cid {
+  height: 0.2rem;
+  width: 35%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-mov {
+  height: 0.2rem;
+  width: 76%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-mov {
+  height: 0.2rem;
+  width: 27%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-mov {
+  height: 0.2rem;
+  width: 49%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-pol {
+  height: 0.2rem;
+  width: 51%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-pol {
+  height: 0.2rem;
+  width: 41%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-pol {
+  height: 0.2rem;
+  width: 38%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-rev {
+  height: 0.2rem;
+  width: 57%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-rev {
+  height: 0.2rem;
+  width: 57%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-3-rev {
+  height: 0.2rem;
+  width: 37%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-soc {
+  height: 0.2rem;
+  width: 93%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-soc {
+  height: 0.2rem;
+  width: 75%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-1-teo {
+  height: 0.2rem;
+  width: 47%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+#line-text-2-teo {
+  height: 0.2rem;
+  width: 48%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
 }
 }
 
