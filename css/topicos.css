@@ -167,8 +167,11 @@ body {
     margin: 2rem 0;
     justify-content: center;
   }
+  
 
   .PT-img {
+    margin-top: 5rem;
+    margin-left: 12.5rem;
     width: 15rem;
     height: 15rem;
   }
