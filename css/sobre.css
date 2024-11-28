@@ -301,15 +301,15 @@ body {
   }
 
   .sobre-content .img-equipe #fotoEquipe {
-    margin-left: 0;
     margin-top: 10%;
     width: 80%;
     height: 70%;
+    margin-right: 8rem;
   }
 
   /* Parte dos participantes */
   #line-2 {
-    width: 61%;
+    width: 59%;
   }
 
   .participantes {
@@ -393,7 +393,7 @@ body {
   }
 
   #line-3-laura {
-    width: 145%;
+    width: 135%;
     margin-top: 4rem;
   }
 
@@ -406,7 +406,7 @@ body {
   #line-3-evelyn {
     margin: 0;
     margin-top: -10.5rem;
-    width: 193%;
+    width: 176%;
     margin-left: -2rem;
   }
 
@@ -417,7 +417,7 @@ body {
 
   #line-3-bruna {
     margin-top: 4rem;
-    width: 173%;
+    width: 159%;
     margin-left: -0.5rem;
   }
 
@@ -428,7 +428,7 @@ body {
   #line-3-zani {
     margin: 0;
     margin-top: 4rem;
-    width: 157%;
+    width: 145%;
   }
 
   .title-luiz {
@@ -436,8 +436,8 @@ body {
   }
 
   #line-3-luiz {
-    margin-top: 5.5rem;
-    width: 193%;
+    margin-top: 4rem;
+    width: 180%;
     margin-left: -2rem;
   }
 }
@@ -461,7 +461,7 @@ body {
   }
 
   .img-equipe {
-    margin-right: 21rem;
+    margin-right: 25rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
   }
@@ -474,7 +474,7 @@ body {
   /* Parte 'participantes' */
 
   #line-2 {
-    width: 32%;
+    width: 29%;
   }
 
   .participante-esq {
@@ -500,26 +500,26 @@ body {
   }
 
   #line-3-laura {
-    margin-top: 14rem;
+    margin-top: 11rem;
   }
 
   #line-3-evelyn {
     margin-left: 0;
-    width: 80%;
+    width: 100%;
   }
 
   #line-3-bruna {
-    margin-top: 10rem;
+    margin-top: 8.5rem;
   }
 
   #line-3-zani {
     margin-left: 0;
-    margin-top: 11.5rem;
+    margin-top: 10rem;
   }
 
   #line-3-luiz {
-    width: 74%;
-    margin-top: 9.5rem;
+    width: 100%;
+    margin-top: 7.5rem;
 
   }
 
@@ -530,3 +530,291 @@ body {
 }
 
 /* FIM RESPONSIVIDADE PARA TABLET */
+
+/* RESPONSIVIDADE PARA DESKTOP */
+@media screen and (max-width: 1440px){
+  .sobre-nos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sobre-nos .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+  }
+  
+  .sobre-content h1 {
+    color: var(--color-fontePreto);
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #line-1 {
+    height: 0.2rem;
+    width: 9.5rem;
+    background-color: var(--color-corLinha);
+  }
+  
+  .sobre-content p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 1.8rem;
+    font-size: large;
+    text-align: justify;
+    width: 45%;
+  }
+  
+  .sobre-content {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .sobre-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sobre-content .img-equipe{
+    margin-right: 10%;
+  }
+  
+  .sobre-content p{
+    margin-left: 10%;
+  }
+  
+  #fotoEquipe {
+    height: 23rem;
+    width: auto;
+    border-radius: 5%;
+  }
+  
+  .participantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .titulo-participantes {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--color-fontePreto);
+    justify-content: center;
+    display: flex;
+    margin-right: 0.12rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  #line-2 {
+    height: 0.2rem;
+    width: 17%;
+    background-color: var(--color-corLinha);
+    margin: 0.9rem auto;
+    margin-top: -2.5rem;
+  }
+  
+  .participante-esq,
+  .participante-dir {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 1.6rem;
+    align-self: flex-start;
+  }
+  
+  .participante-dir {
+    flex-direction: row-reverse;
+  }
+  
+  .info-participante-esq,
+  .info-participante-dir {
+    justify-content: center;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    align-self: center;
+  }
+  
+  .foto-participante-esq,
+  .foto-participante-dir {
+    margin-right: 50px;
+    width: 18rem;
+    height: auto;
+    border-radius: 100%;
+    align-self: flex-start;
+  }
+  
+  .title-info-esq,
+  .title-info-dir {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--color-fontePreto);
+    white-space: nowrap;
+    position: absolute;
+    text-align: left;
+    margin-bottom: 6rem;
+    padding-bottom: 0.5rem;
+    width: 18rem;
+    padding-top: 0rem;
+    align-self: flex-start;
+  }
+  
+  .title-info-dir {
+    margin-left: 34.5rem;
+  }
+  
+  .title-info-dir-2 {
+    margin-left: 28.7rem;
+  }
+  
+  .info-esq,
+  .info-dir {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-top: 4rem;
+    align-self: flex-start;
+    text-align: justify;
+  }
+  
+  .title-align {
+    position: absolute;
+    text-align: center;
+  }
+  
+  #line-3-laura,
+  #line-3-evelyn,
+  #line-3-bruna,
+  #line-3-zani,
+  #line-3-luiz {
+    height: 0.2rem;
+    background-color: var(--color-corLinha);
+  }
+  
+  .title-evelyn{
+    margin-left: -0.1rem;
+  }
+
+  .title-zani{
+    margin-left: -0.1rem;
+  }
+
+  #line-3-laura {
+    width: 5rem;
+    margin-top: 8.5rem;
+  }
+  
+  #line-3-evelyn {
+    width: 29rem;
+    margin-left: -0.1rem;
+  }
+  
+  #line-3-bruna {
+    width: 24.5rem;
+    margin-top: 7rem;
+  }
+  
+  #line-3-zani {
+    width: 22rem;
+    margin-top: 7rem;
+    margin-left: -0.1rem;
+  }
+  
+  #line-3-luiz {
+    width: 27.5rem;
+    margin-top: 4.5rem;
+  }
+  
+  /* Media Queries para Desktop */
+  @media (min-width: 1024px) {
+    .sobre-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .sobre-content p {
+      width: 40%;
+    }
+  
+    #fotoEquipe {
+      margin-left: 5%;
+      height: 25rem;
+    }
+  
+    .participante-esq,
+    .participante-dir {
+      margin-left: 0;
+      margin-right: 0;
+      justify-content: flex-start;
+      align-self: flex-start;
+    }
+  
+    .foto-participante-esq,
+    .foto-participante-dir {
+      width: 15rem;
+    }
+  
+    .info-participante-esq,
+    .info-participante-dir {
+      width: 40%;
+    }
+  
+    .title-info-esq,
+    .title-info-dir {
+      font-size: 1.4rem;
+    }
+  
+    /* Ajustar a largura das linhas para desktop */
+    #line-3-laura,
+    #line-3-evelyn,
+    #line-3-bruna,
+    #line-3-zani,
+    #line-3-luiz {
+      width: 25rem;
+    }
+  }
+  
+  /* Ajustes para telas menores */
+  @media (max-width: 1024px) {
+    .sobre-content {
+      flex-direction: column;
+    }
+  
+    .foto-participante-esq,
+    .foto-participante-dir {
+      width: 12rem;
+    }
+  
+    .title-info-esq,
+    .title-info-dir {
+      font-size: 1.2rem;
+    }
+  
+    #fotoEquipe {
+      width: 80%;
+      margin-left: 0;
+    }
+  
+    .participante-esq,
+    .participante-dir {
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+  }
+}

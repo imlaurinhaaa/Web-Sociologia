@@ -251,7 +251,7 @@ body {
   }
 
   .lista-dicas {
-    width: 100%;
+    width: 80%;
   }
 
   #line-text-3 {
@@ -265,11 +265,11 @@ body {
   }
 
   .img-dica-img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     margin-top: 15%;
-    margin-left: 0;
+    margin-left: 11%;
   }
 }
 
@@ -302,7 +302,7 @@ body {
   }
 
   .lista-dicas {
-    width: 100%;
+    width: 95%;
   }
 
   .topics-header {
@@ -310,5 +310,12 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+  }
+}
+
+/* RESPONSIVIDADE PARA DESKTOP */
+@media screen and (max-width: 1440px){
+  #line-text-3{
+    width: 42%;
   }
 }

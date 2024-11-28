@@ -199,6 +199,15 @@ body {
     margin-top: 20px;
     font-size: large;
   }
-
   /* FIM DA MAIN */
 }
+
+@media screen and (max-width: 1440px) {
+  .topo .text-card .img-card{
+    width: 25rem;
+  }
+  
+  .topo .text-card h2, .topo .text-card p{
+    width: 25rem;
+  }
+  }
