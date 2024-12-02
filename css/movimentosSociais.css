@@ -407,7 +407,7 @@ body {
   .intro-img-ind,
   .intro-img-sm {
     width: 70%;
-    height: auto;
+    height: 12.5rem;
     margin: 2rem auto;
     display: block;
     margin-top: 2rem;
