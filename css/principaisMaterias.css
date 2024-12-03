@@ -60,7 +60,7 @@ body {
 
 #line2-cs {
     height: 0.2rem;
-    width: 470px;
+    width: 37.5rem;
     background-color: var(--color-corLinha);
     margin-left: 10rem;
 }
@@ -438,12 +438,24 @@ body {
         margin-left: 1.2rem;
     }
 
-    #line2-cs,
-    #line3-cs,
-    #line4-cs,
-    #line5-cs {
-        width: 100%;
-        margin-left: 0;
+    #line2-cs{
+        width: 70%;
+        margin-left: 4rem;
+    }
+
+    #line3-cs{
+        width: 59%;
+        margin-left: 5.5rem;
+    }
+
+    #line4-cs{
+        width: 51.2%;
+        margin-left: 6.5rem;
+    }
+
+    #line5-cs{
+        width: 80%;
+        margin-left: 2.7rem;
     }
 
     .conteudo-cs .subtitulo-cs {
@@ -451,6 +463,7 @@ body {
         margin: 0;
         font-size: 1rem;
         text-align: center;
+        margin-top: 1rem;
     }
 
     /* ajuste das img e o legend do cs*/
@@ -529,11 +542,16 @@ body {
         border-radius: 1rem;
     }
 
-    #line6-ec,
-    #line7-ec {
-        width: 100%;
-        margin-left: 0;
+    #line6-ec{
+        width: 93%;
+        margin-left: 1rem;
     }
+
+    #line7-ec {
+        width: 52%;
+        margin-left: 6.5rem;
+    }
+
 
     /* fim da estilização do es */
     /* começo da estilização do sb */
@@ -563,6 +581,56 @@ body {
         border-radius: 1rem;
     }
 
+    #line10-sb{
+        width: 65%;
+        margin-left: 4.8rem;
+    }
+    
+    #line12-sb{
+        width: 93.3%;
+        margin-left: 1rem;
+    }
+    
+    #line13-sb{
+        width: 40%;
+        margin-left: 8rem;
+    }
+    
+    #line14-sb{
+        width: 24%;
+        margin-left: 10.1rem;
+    }
+    
+    #line15-sb{
+        width: 56%;
+        margin-left: 5.9rem;
+    }
+    
+    #line16-sb{
+        width: 11.5%;
+        margin-left: 11.8rem;
+    }
+    
+    #line17-sb{
+        width: 18%;
+        margin-left: 10.89rem;
+    }
+    
+    #line18-sb{
+        width: 30%;
+        margin-left: 9.3rem;
+    }
+    
+    #line19-sb{
+        width: 54%;
+        margin-left: 6.2rem;
+    }
+    
+    #line20-sb{
+        width: 26%;
+        margin-left: 9.9rem;
+    }
+/* 
     #line8-sb,
     #line9-sb,
     #line10-sb,
@@ -578,7 +646,7 @@ body {
     #line20-sb {
         width: 100%;
         margin-left: 0;
-    }
+    } */
 
     /* fim da estilização do sb */
     /* começo da estilização do st */
