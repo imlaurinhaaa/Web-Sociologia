@@ -173,7 +173,7 @@ body {
   .fim1,
   .fim2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
