@@ -222,6 +222,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     width: 100%;
     margin-left: 0;
@@ -230,7 +231,7 @@ body {
   .PS-img {
     width: 12rem;
     height: 12rem;
-    margin-top: 2rem;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,15 +248,10 @@ body {
   }
 
   .titulo-PS {
-    font-size: large;
     text-align: center;
     width: 70%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     overflow-wrap: break-word;
     white-space: normal;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
   }
 
   .text-PS,
@@ -264,14 +260,6 @@ body {
     font-size: medium;
     width: 70%;
     text-align: justify;
-    margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .imgs,
-  .img-side {
-    margin: 2rem auto;
   }
 
   /* Estilização das linhas */
@@ -310,7 +298,6 @@ body {
   #line-text-6-bourdieu,
   #line-text-7-bourdieu {
     width: 70%;
-    margin: 1rem auto;
     border: 1px solid var(--color-corLinha);
   }
 
@@ -318,12 +305,27 @@ body {
   .line-intro {
     width: 70%;
   }
+
+  .imgs{
+    margin: 0;
+  }
+
+  .legend{
+    margin: 0;
+  }
+
+  .img-side{
+    gap: 2rem;
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-@media screen and (max-width: 1024px) {
-  .content {
-    margin-left: 10rem;
-  }
+@media screen and (min-width: 1024px) {
 
   .intro {
     margin-top: 10rem;
@@ -340,9 +342,7 @@ body {
     margin-top: 10rem;
   }
 
-  .imgs {
-    margin-right: 5rem;
-  }
+
 
   .img {
     width: 14rem;
@@ -367,7 +367,6 @@ body {
 
   .legend {
     width: 14rem;
-    margin-right: 3rem;
   }
 
   #line-text-1-comte,
