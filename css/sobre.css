@@ -283,6 +283,8 @@ body {
     justify-content: center;
   }
 
+  
+
   .sobre-content {
     display: flex;
     flex-direction: column;
@@ -291,7 +293,7 @@ body {
   }
 
   .sobre-content p {
-    width: 23rem;
+    width: 100%;
     font-size: 1rem;
   }
 
@@ -304,12 +306,16 @@ body {
     margin-top: 10%;
     width: 80%;
     height: 70%;
-    margin-right: 8rem;
+    margin-left: 2rem;
+  }
+
+  .text-content {
+    margin-right: 2.5rem;
   }
 
   /* Parte dos participantes */
   #line-2 {
-    width: 59%;
+    width: 100%;
   }
 
   .participantes {
@@ -566,7 +572,7 @@ body {
     margin-top: 1.8rem;
     font-size: large;
     text-align: justify;
-    width: 45%;
+    width: 90%;
   }
   
   .sobre-content {
@@ -615,7 +621,7 @@ body {
   
   #line-2 {
     height: 0.2rem;
-    width: 17%;
+    width: 66%;
     background-color: var(--color-corLinha);
     margin: 0.9rem auto;
     margin-top: -2.5rem;
@@ -626,9 +632,9 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     margin-top: 1.6rem;
-    align-self: flex-start;
+    margin-left: 1.5rem;
   }
   
   .participante-dir {
@@ -644,6 +650,7 @@ body {
     flex-direction: column;
     margin-top: 0rem;
     align-self: center;
+    margin-right: 11rem;
   }
   
   .foto-participante-esq,
@@ -709,36 +716,45 @@ body {
   
   .title-evelyn{
     margin-left: -0.1rem;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .title-zani{
     margin-left: -0.1rem;
   }
 
+  .title-luiz{
+    margin-left: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   #line-3-laura {
-    width: 5rem;
+    width: 16.5rem;
     margin-top: 8.5rem;
   }
   
   #line-3-evelyn {
-    width: 29rem;
+    width: 16.5rem;
     margin-left: -0.1rem;
   }
   
   #line-3-bruna {
-    width: 24.5rem;
-    margin-top: 7rem;
+    width: 19.5rem;
+    margin-top: 9rem;
   }
   
   #line-3-zani {
-    width: 22rem;
-    margin-top: 7rem;
+    width: 17.5rem;
+    margin-top: 9rem;
     margin-left: -0.1rem;
   }
   
   #line-3-luiz {
-    width: 27.5rem;
-    margin-top: 4.5rem;
+    width: 14rem;
+    margin-top: 10.5rem;
+    margin-left: 0.5rem;
   }
   
   /* Media Queries para Desktop */
