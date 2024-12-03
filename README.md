@@ -8,10 +8,14 @@ Neste repositório, encontra-se todo o trabalho realizado pela equipe de Sociolo
 
 ![Equipe de Sociologia](./img-readme/equipe-de-sociologia.jpeg)
 
-| 🌟 Laura - Product Owner | ⭐ Evelyn - Scrum Master | 👩‍💻 Bruna - Desenvolvedora  |
+| 🌟 Laura Violla - Product Owner | ⭐ Evelyn Oliveira - Scrum Master | 
 |--------------------------------|-------------------------------|-----------------|
-| ![Foto: Laura Product Owner](./img-readme/Laura.jpeg) | ![Foto: Evelyn Scrum Master](./img-readme/Evelyn.jpeg) | ![Foto: Bruna Desenvolvedora](./img-readme/Bruna.jpeg) |
+| ![Foto: Laura Product Owner](./img-readme/Laura.jpeg) | ![Foto: Evelyn Scrum Master](./img-readme/Evelyn.jpeg) |
 
-| 👨‍💻 Lucas - Desenvolvedor | 👨‍💻 Luiz Henrique - Desenvolvedor  |
+| 👩‍💻 Bruna Savelli - Desenvolvedora  |
+|------------------------------------|
+| ![Foto: Bruna Desenvolvedora](./img-readme/Bruna.jpeg) |
+
+| 👨‍💻 Lucas Zani - Desenvolvedor | 👨‍💻 Luiz Henrique - Desenvolvedor  |
 |-----------------|-------------------|
 | ![Foto: Lucas Desenvolvedor](./img-readme/Lucas.jpeg) | ![Foto: Luiz Desenvolvedor](./img-readme/Luiz.jpeg) |
