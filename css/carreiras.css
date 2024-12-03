@@ -180,13 +180,15 @@ body {
 
   .img-card {
     width: 20rem;
-    height: 13rem;
+    height: 18rem;
+    padding: 2rem 2rem;
   }
 
   .text-card h2 {
     width: 20rem;
     text-align: start;
     margin-top: 2%;
+    padding: 0 2rem;
   }
 
   .text-card p {
@@ -198,8 +200,11 @@ body {
     font-style: normal;
     margin-top: 20px;
     font-size: large;
+    padding: 0 2rem;
   }
   /* FIM DA MAIN */
+
+
 }
 
 @media screen and (max-width: 1440px) {
