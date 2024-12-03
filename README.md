@@ -10,8 +10,8 @@ Neste repositório, encontra-se todo o trabalho realizado pela equipe de Sociolo
 
 | 🌟 Laura Violla - Product Owner | ⭐ Evelyn Oliveira - Scrum Master | 👩‍💻 Bruna Savelli - Desenvolvedora  |
 |--------------------------------|-------------------------------|-----------------|
-| ![Foto: Laura Product Owner](https://avatars.githubusercontent.com/u/158210262?v=4) | ![Foto: Evelyn Scrum Master](https://avatars.githubusercontent.com/u/158210596?v=4) | ![Foto: Bruna Desenvolvedora](https://avatars.githubusercontent.com/u/158209996?v=4) |
+| ![Foto: Laura Product Owner](./img-readme/Laura.jpeg) | ![Foto: Evelyn Scrum Master](./img-readme/Evelyn.jpeg) | ![Foto: Bruna Desenvolvedora](./img-readme/Bruna.jpeg) |
 
 | 👨‍💻 Lucas Zani - Desenvolvedor | 👨‍💻 Luiz Henrique - Desenvolvedor  |
 |-----------------|-------------------|
-| ![Foto: Lucas Desenvolvedor](https://avatars.githubusercontent.com/u/158210617?v=4) | ![Foto: Luiz Desenvolvedor](https://avatars.githubusercontent.com/u/158210063?v=4) |
+| ![Foto: Lucas Desenvolvedor](./img-readme/Lucas.jpeg) | ![Foto: Luiz Desenvolvedor](./img-readme/Luiz.jpeg) |
