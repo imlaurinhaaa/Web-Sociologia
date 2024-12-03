@@ -57,7 +57,154 @@ body {
   font-size: 1.2rem;
   text-align: justify;
 }
+/* Linhas */
 
+#line-text-1-cul {
+  height: 0.2rem;
+  width: 79%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-cul {
+  height: 0.2rem;
+  width: 56%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-cul {
+  height: 0.2rem;
+  width: 55%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-4-cul {
+  height: 0.2rem;
+  width: 3  5%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-cid {
+  height: 0.2rem;
+  width: 87%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-cid {
+  height: 0.2rem;
+  width: 59%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-cid {
+  height: 0.2rem;
+  width: 46%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-4-cid {
+  height: 0.2rem;
+  width: 45%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-mov {
+  height: 0.2rem;
+  width: 86%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-mov {
+  height: 0.2rem;
+  width: 36%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-mov {
+  height: 0.2rem;
+  width: 62%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-pol {
+  height: 0.2rem;
+  width: 79%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-pol {
+  height: 0.2rem;
+  width: 52%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-pol {
+  height: 0.2rem;
+  width: 47%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-rev {
+  height: 0.2rem;
+  width: 90%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-rev {
+  height: 0.2rem;
+  width: 70%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-3-rev {
+  height: 0.2rem;
+  width: 47%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-soc {
+  height: 0.2rem;
+  width: 100%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-soc {
+  height: 0.2rem;
+  width: 96%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-1-teo {
+  height: 0.2rem;
+  width: 30%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
+
+#line-text-2-teo {
+  height: 0.2rem;
+  width: 34%;
+  background-color: var(--color-corLinha);
+  margin-left: 0.1rem;
+}
 
 /* Introdução */
 
@@ -145,7 +292,8 @@ body {
 .container{
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 70%;
+  margin-left: 9.31rem;
 }
 
 .content{
