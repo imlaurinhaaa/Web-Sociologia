@@ -47,7 +47,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   color: #000000;
 }
 
@@ -61,6 +61,7 @@ body {
 /* Linhas */
 
 #line-text-1-cul {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 79%;
   background-color: var(--color-corLinha);
@@ -68,6 +69,7 @@ body {
 }
 
 #line-text-2-cul {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 56%;
   background-color: var(--color-corLinha);
@@ -75,6 +77,7 @@ body {
 }
 
 #line-text-3-cul {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 55%;
   background-color: var(--color-corLinha);
@@ -82,6 +85,7 @@ body {
 }
 
 #line-text-4-cul {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 3  5%;
   background-color: var(--color-corLinha);
@@ -89,6 +93,7 @@ body {
 }
 
 #line-text-1-cid {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 87%;
   background-color: var(--color-corLinha);
@@ -96,6 +101,7 @@ body {
 }
 
 #line-text-2-cid {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 59%;
   background-color: var(--color-corLinha);
@@ -103,6 +109,7 @@ body {
 }
 
 #line-text-3-cid {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 46%;
   background-color: var(--color-corLinha);
@@ -110,6 +117,7 @@ body {
 }
 
 #line-text-4-cid {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 45%;
   background-color: var(--color-corLinha);
@@ -117,6 +125,7 @@ body {
 }
 
 #line-text-1-mov {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 86%;
   background-color: var(--color-corLinha);
@@ -124,6 +133,7 @@ body {
 }
 
 #line-text-2-mov {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 36%;
   background-color: var(--color-corLinha);
@@ -131,6 +141,7 @@ body {
 }
 
 #line-text-3-mov {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 62%;
   background-color: var(--color-corLinha);
@@ -138,6 +149,7 @@ body {
 }
 
 #line-text-1-pol {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 79%;
   background-color: var(--color-corLinha);
@@ -145,6 +157,7 @@ body {
 }
 
 #line-text-2-pol {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 52%;
   background-color: var(--color-corLinha);
@@ -152,6 +165,7 @@ body {
 }
 
 #line-text-3-pol {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 47%;
   background-color: var(--color-corLinha);
@@ -159,6 +173,7 @@ body {
 }
 
 #line-text-1-rev {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 90%;
   background-color: var(--color-corLinha);
@@ -166,6 +181,7 @@ body {
 }
 
 #line-text-2-rev {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 70%;
   background-color: var(--color-corLinha);
@@ -173,6 +189,7 @@ body {
 }
 
 #line-text-3-rev {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 47%;
   background-color: var(--color-corLinha);
@@ -180,6 +197,7 @@ body {
 }
 
 #line-text-1-soc {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 100%;
   background-color: var(--color-corLinha);
@@ -187,6 +205,7 @@ body {
 }
 
 #line-text-2-soc {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 96%;
   background-color: var(--color-corLinha);
@@ -194,6 +213,7 @@ body {
 }
 
 #line-text-1-teo {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 30%;
   background-color: var(--color-corLinha);
@@ -201,6 +221,7 @@ body {
 }
 
 #line-text-2-teo {
+  margin-bottom: 1rem;
   height: 0.2rem;
   width: 34%;
   background-color: var(--color-corLinha);
