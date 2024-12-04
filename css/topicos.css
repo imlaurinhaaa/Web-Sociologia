@@ -331,12 +331,14 @@ body {
     margin-top: 4rem;
     width: 100%;
   }
-
+  .text-PT{
+    width: 100%;
+  }
   .content-intro {
     display: flex;
     flex-direction: column;
-    width: 65%;
-    margin-left: 4rem;
+    width: 85%;
+    margin-left: 2rem;
   }
 
   .intro-img {
@@ -347,8 +349,9 @@ body {
   
 
   .PT-img {
-    margin-top: 5rem;
-    margin-left: 12.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 16rem;
     width: 15rem;
     height: 15rem;
   }
@@ -373,6 +376,7 @@ body {
   .container {
     width: 95%;
     padding: 0 1rem;
+    margin-left: 1rem;
   }
 
   .content {
