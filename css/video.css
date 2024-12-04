@@ -109,7 +109,7 @@ body {
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 10rem;
 }
 
 .iframe {
@@ -121,7 +121,7 @@ body {
   flex-direction: row-reverse;
   align-items: flex-start;
   justify-content: space-around;
-  padding: 3rem;
+  padding: 10rem;
 }
 
 .text-just {
